@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/sam-89/ai-pulse/registry/schema.json",
+  "title": "AI-Pulse Registry Entry",
+  "description": "Schema for a single entry in the AI-Pulse registry",
+  "type": "object",
+  "required": ["id", "name", "category", "description", "url", "tags", "added_date", "stars_approx"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique slug identifier (kebab-case)",
+      "pattern": "^[a-z0-9-]+$",
+      "maxLength": 60
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable display name",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "category": {
+      "type": "string",
+      "description": "Primary category",
+      "enum": ["llm", "agent-framework", "vector-db", "mcp-server", "tool", "dataset", "paper", "course", "project"]
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "Optional finer grouping within a category",
+      "maxLength": 50
+    },
+    "description": {
+      "type": "string",
+      "description": "One clear sentence explaining what this is and who it's for. Max 280 chars.",
+      "minLength": 20,
+      "maxLength": 280
+    },
+    "url": {
+      "type": "string",
+      "description": "Primary URL (homepage or docs)",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "github_url": {
+      "type": "string",
+      "description": "GitHub repository URL",
+      "pattern": "^https://github.com/"
+    },
+    "stars_approx": {
+      "type": "integer",
+      "description": "Approximate GitHub star count (0 for non-OSS entries)",
+      "minimum": 0
+    },
+    "tags": {
+      "type": "array",
+      "description": "Searchable tags (max 10)",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "maxItems": 10,
+      "uniqueItems": true
+    },
+    "license": {
+      "type": "string",
+      "description": "SPDX license identifier or 'proprietary' / 'unknown'",
+      "examples": ["MIT", "Apache-2.0", "GPL-3.0", "proprietary", "unknown"]
+    },
+    "added_date": {
+      "type": "string",
+      "description": "Date added to registry in ISO format",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "last_updated": {
+      "type": "string",
+      "description": "Date last updated in ISO format",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "curator_note": {
+      "type": "string",
+      "description": "One sentence on why this matters — your human insight. Max 140 chars.",
+      "maxLength": 140
+    },
+    "pricing": {
+      "type": "string",
+      "description": "Pricing model",
+      "enum": ["free", "open-source", "freemium", "paid", "enterprise"]
+    },
+    "maturity": {
+      "type": "string",
+      "description": "Maturity / stability level",
+      "enum": ["experimental", "beta", "stable", "production"]
+    }
+  }
+}
