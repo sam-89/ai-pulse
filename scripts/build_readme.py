@@ -144,7 +144,7 @@ def load_registry(registry_dir: Path) -> dict[str, list[dict]]:
     all_entries = defaultdict(list)
 
     for json_file in sorted(registry_dir.glob("*.json")):
-        if json_file.name in ("schema.json",) or json_file.parent.name == "candidates":
+        if json_file.name in ("schema.json", "audit.json", "trending.json") or json_file.parent.name == "candidates":
             continue
         try:
             with open(json_file) as f:

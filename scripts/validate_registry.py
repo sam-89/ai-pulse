@@ -174,7 +174,7 @@ def main():
     else:
         files = [
             f for f in registry_dir.glob("*.json")
-            if f.name not in ("schema.json",)
+            if f.name not in ("schema.json", "audit.json", "trending.json")
         ]
         if args.candidates:
             candidates_dir = registry_dir / "candidates"
