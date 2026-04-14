@@ -26,6 +26,22 @@ from pathlib import Path
 import anthropic
 
 # ---------------------------------------------------------------------------
+# Category → registry filename mapping (shared by promote_entries and audit)
+# ---------------------------------------------------------------------------
+
+CATEGORY_FILES: dict[str, str] = {
+    "llm": "llms.json",
+    "agent-framework": "agent-frameworks.json",
+    "vector-db": "vector-dbs.json",
+    "mcp-server": "mcp-servers.json",
+    "tool": "tools.json",
+    "dataset": "datasets.json",
+    "paper": "papers.json",
+    "course": "courses.json",
+    "project": "projects.json",
+}
+
+# ---------------------------------------------------------------------------
 # System prompt (cached across all scored entries)
 # ---------------------------------------------------------------------------
 
@@ -168,18 +184,6 @@ def write_audit_records(
     registry_dir: Path,
 ) -> None:
     """Append promotion audit records to registry/audit.json."""
-    CATEGORY_FILES = {
-        "llm": "llms.json",
-        "agent-framework": "agent-frameworks.json",
-        "vector-db": "vector-dbs.json",
-        "mcp-server": "mcp-servers.json",
-        "tool": "tools.json",
-        "dataset": "datasets.json",
-        "paper": "papers.json",
-        "course": "courses.json",
-        "project": "projects.json",
-    }
-
     audit_path = registry_dir / "audit.json"
     existing: list[dict] = []
     if audit_path.exists():
@@ -225,18 +229,6 @@ def promote_entries(approved: list[dict], registry_dir: Path) -> None:
         cat = entry.get("category", "tool")
         clean = {k: v for k, v in entry.items() if k not in CANDIDATE_FIELDS}
         by_category.setdefault(cat, []).append(clean)
-
-    CATEGORY_FILES = {
-        "llm": "llms.json",
-        "agent-framework": "agent-frameworks.json",
-        "vector-db": "vector-dbs.json",
-        "mcp-server": "mcp-servers.json",
-        "tool": "tools.json",
-        "dataset": "datasets.json",
-        "paper": "papers.json",
-        "course": "courses.json",
-        "project": "projects.json",
-    }
 
     for cat, entries in by_category.items():
         filename = CATEGORY_FILES.get(cat, f"{cat}.json")
