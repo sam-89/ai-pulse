@@ -95,14 +95,34 @@ def validate_entry(entry: dict, file_path: str, index: int) -> tuple[list[str], 
     if not isinstance(stars, int) or stars < 0:
         errors.append(f"{loc}: 'stars_approx' must be a non-negative integer")
 
+    # Tag normalization: all tags must be lowercase
+    if isinstance(tags, list):
+        for tag in tags:
+            if isinstance(tag, str) and tag != tag.lower():
+                errors.append(f"{loc}: Tag '{tag}' must be lowercase (got '{tag}')")
+
+    # Deprecated entries
+    if entry.get("deprecated") is True:
+        warnings.append(f"{loc}: Entry is marked as deprecated")
+
     # Date format check
-    for date_field in ("added_date", "last_updated"):
+    for date_field in ("added_date", "last_updated", "last_checked"):
         val = entry.get(date_field, "")
         if val:
             try:
                 datetime.date.fromisoformat(val)
             except ValueError:
                 errors.append(f"{loc}: '{date_field}' must be ISO date format YYYY-MM-DD, got '{val}'")
+
+    # last_checked staleness
+    last_checked = entry.get("last_checked", "")
+    if last_checked:
+        try:
+            checked_date = datetime.date.fromisoformat(last_checked)
+            if (datetime.date.today() - checked_date).days > 90:
+                warnings.append(f"{loc}: URL not checked in 90+ days (last_checked: {last_checked})")
+        except ValueError:
+            pass  # already caught above
 
     return errors, warnings
 
@@ -171,6 +191,7 @@ def main():
     all_errors = []
     all_warnings = []
     total_entries = 0
+    all_ids: dict[str, str] = {}  # id -> file path for cross-file duplicate detection
 
     for file_path in sorted(files):
         try:
@@ -193,6 +214,24 @@ def main():
 
         all_errors.extend(errors)
         all_warnings.extend(warnings)
+
+        # Collect IDs for cross-file duplicate detection
+        try:
+            with open(file_path) as f:
+                data = json.load(f)
+            if isinstance(data, list):
+                for entry in data:
+                    entry_id = entry.get("id", "")
+                    if entry_id:
+                        rel = str(file_path.relative_to(root_dir))
+                        if entry_id in all_ids:
+                            all_errors.append(
+                                f"Duplicate ID '{entry_id}' found in both {all_ids[entry_id]} and {rel}"
+                            )
+                        else:
+                            all_ids[entry_id] = rel
+        except Exception:
+            pass
 
     print(f"{'='*50}")
     print(f"Validated {total_entries} entries across {len(files)} files")

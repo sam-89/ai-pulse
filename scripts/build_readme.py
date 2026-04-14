@@ -80,6 +80,8 @@ HEADER = """\
 
 [🗺️ Learning Paths](#learning-paths) · [🧠 LLMs](#llms) · [🤖 Agent Frameworks](#agent-frameworks) · [🔌 MCP Servers](#mcp-servers) · [📄 Papers](#papers) · [🤝 Contribute](CONTRIBUTING.md)
 
+🧠 LLMs: `{llm_count}` · 🤖 Frameworks: `{framework_count}` · 🔌 MCP: `{mcp_count}` · 🛠️ Tools: `{tool_count}`
+
 </div>
 
 ---
@@ -200,6 +202,25 @@ def render_entry(entry: dict) -> str:
     return "\n".join(lines)
 
 
+def render_recently_added(entries_by_category: dict[str, list[dict]], n: int = 5) -> str:
+    """Render the 'Recently Added' section showing the n most recent entries."""
+    all_entries = [e for entries in entries_by_category.values() for e in entries]
+    recent = sorted(all_entries, key=lambda e: e.get("added_date", ""), reverse=True)[:n]
+
+    lines = ["## 🆕 Recently Added", ""]
+    for entry in recent:
+        name = entry.get("name", "Unknown")
+        url = entry.get("url", "")
+        category = entry.get("category", "")
+        desc = entry.get("description", "")
+        desc_short = desc[:100] + "…" if len(desc) > 100 else desc
+        name_link = f"[{name}]({url})" if url else name
+        lines.append(f"- **{name_link}** `{category}` — {desc_short}")
+
+    lines.append("")
+    return "\n".join(lines)
+
+
 def render_category_section(category: str, entries: list[dict]) -> str:
     """Render a full category section with anchor and entries."""
     label = CATEGORY_LABELS.get(category, category.title())
@@ -243,11 +264,26 @@ def main():
     total_entries = sum(len(v) for v in entries_by_category.values())
     today = datetime.date.today().isoformat()
 
+    llm_count = len(entries_by_category.get("llm", []))
+    framework_count = len(entries_by_category.get("agent-framework", []))
+    mcp_count = len(entries_by_category.get("mcp-server", []))
+    tool_count = len(entries_by_category.get("tool", []))
+
     print(f"   Found {total_entries} entries across {len(entries_by_category)} categories")
 
     # Build header
-    header = HEADER.format(today=today, total_entries=total_entries)
+    header = HEADER.format(
+        today=today,
+        total_entries=total_entries,
+        llm_count=llm_count,
+        framework_count=framework_count,
+        mcp_count=mcp_count,
+        tool_count=tool_count,
+    )
     sections = [header]
+
+    # Recently added section
+    sections.append(render_recently_added(entries_by_category))
 
     # Build category sections in defined order
     for category in CATEGORY_ORDER:

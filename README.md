@@ -14,6 +14,8 @@
 
 [🗺️ Learning Paths](#learning-paths) · [🧠 LLMs](#llms) · [🤖 Agent Frameworks](#agent-frameworks) · [🔌 MCP Servers](#mcp-servers) · [📄 Papers](#papers) · [🤝 Contribute](CONTRIBUTING.md)
 
+🧠 LLMs: `5` · 🤖 Frameworks: `4` · 🔌 MCP: `4` · 🛠️ Tools: `5`
+
 </div>
 
 ---
@@ -39,6 +41,14 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 | [AI Product Manager Track](learning-paths/ai-pm.md) *(coming soon)* | AI Product Manager | 6–8 weeks |
 
 ---
+
+## 🆕 Recently Added
+
+- **[AutoGen 0.4](https://microsoft.github.io/autogen/)** `agent-framework` — Microsoft Research's asynchronous, event-driven multi-agent framework. Supports distributed agent ne…
+- **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/)** `agent-framework` — Anthropic's open standard for connecting AI models to external data sources and tools. Becoming the …
+- **[LangGraph](https://www.langchain.com/langgraph)** `agent-framework` — Graph-based orchestration framework from LangChain. Build stateful, multi-actor agent applications w…
+- **[PydanticAI](https://ai.pydantic.dev/)** `agent-framework` — Agent framework built on Pydantic for type-safe, structured LLM interactions. Integrates natively wi…
+- **[DeepLearning.AI Short Courses](https://www.deeplearning.ai/short-courses/)** `course` — Free short courses from Andrew Ng's DeepLearning.AI covering LLM APIs, RAG, agents, fine-tuning, and…
 
 ---
 
