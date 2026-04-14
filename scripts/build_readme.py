@@ -202,6 +202,9 @@ def render_entry(entry: dict) -> str:
     return "\n".join(lines)
 
 
+RECENT_DESC_MAX_LENGTH = 100
+
+
 def render_recently_added(entries_by_category: dict[str, list[dict]], n: int = 5) -> str:
     """Render the 'Recently Added' section showing the n most recent entries."""
     all_entries = [e for entries in entries_by_category.values() for e in entries]
@@ -213,7 +216,7 @@ def render_recently_added(entries_by_category: dict[str, list[dict]], n: int = 5
         url = entry.get("url", "")
         category = entry.get("category", "")
         desc = entry.get("description", "")
-        desc_short = desc[:100] + "…" if len(desc) > 100 else desc
+        desc_short = desc[:RECENT_DESC_MAX_LENGTH] + "…" if len(desc) > RECENT_DESC_MAX_LENGTH else desc
         name_link = f"[{name}]({url})" if url else name
         lines.append(f"- **{name_link}** `{category}` — {desc_short}")
 

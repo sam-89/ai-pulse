@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "📖 Contributing Guide"
+    url: https://github.com/sam-89/ai-pulse/blob/main/CONTRIBUTING.md
+    about: "Read the contributing guide before opening an issue or pull request."
+  - name: "💬 Discussions"
+    url: https://github.com/sam-89/ai-pulse/discussions
+    about: "Have a question or want to discuss something that isn't a bug or feature request? Start a discussion."

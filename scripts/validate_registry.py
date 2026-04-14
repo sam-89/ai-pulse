@@ -99,7 +99,7 @@ def validate_entry(entry: dict, file_path: str, index: int) -> tuple[list[str], 
     if isinstance(tags, list):
         for tag in tags:
             if isinstance(tag, str) and tag != tag.lower():
-                errors.append(f"{loc}: Tag '{tag}' must be lowercase (got '{tag}')")
+                errors.append(f"{loc}: Tag '{tag}' must be lowercase (expected '{tag.lower()}')")
 
     # Deprecated entries
     if entry.get("deprecated") is True:
