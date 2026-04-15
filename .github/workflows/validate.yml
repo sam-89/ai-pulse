@@ -47,6 +47,10 @@ jobs:
               body: body
             });
 
+      - name: Check URL liveness (sample)
+        continue-on-error: true
+        run: python scripts/check_urls.py --fail-threshold 50 --timeout 5
+
       - name: Fail if validation errors
         if: steps.validate.outputs.exit_code != '0'
         run: exit 1

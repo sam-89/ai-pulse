@@ -20,9 +20,26 @@ Requires:
 import json
 import sys
 import argparse
+import datetime
 from pathlib import Path
 
 import anthropic
+
+# ---------------------------------------------------------------------------
+# Category → registry filename mapping (shared by promote_entries and audit)
+# ---------------------------------------------------------------------------
+
+CATEGORY_FILES: dict[str, str] = {
+    "llm": "llms.json",
+    "agent-framework": "agent-frameworks.json",
+    "vector-db": "vector-dbs.json",
+    "mcp-server": "mcp-servers.json",
+    "tool": "tools.json",
+    "dataset": "datasets.json",
+    "paper": "papers.json",
+    "course": "courses.json",
+    "project": "projects.json",
+}
 
 # ---------------------------------------------------------------------------
 # System prompt (cached across all scored entries)
@@ -161,6 +178,45 @@ def review_candidates(
     return approved, flagged, rejected
 
 
+def write_audit_records(
+    approved: list[dict],
+    source_file: Path,
+    registry_dir: Path,
+) -> None:
+    """Append promotion audit records to registry/audit.json."""
+    audit_path = registry_dir / "audit.json"
+    existing: list[dict] = []
+    if audit_path.exists():
+        try:
+            with open(audit_path) as f:
+                existing = json.load(f)
+        except (json.JSONDecodeError, IOError):
+            pass
+
+    root_dir = registry_dir.parent
+    today = datetime.date.today().isoformat()
+
+    for entry in approved:
+        cat = entry.get("category", "tool")
+        filename = CATEGORY_FILES.get(cat, f"{cat}.json")
+        review = entry.get("_review", {})
+        record = {
+            "id": entry.get("id", ""),
+            "action": "promote",
+            "date": today,
+            "score": review.get("score", 0),
+            "reviewer": "review_agent",
+            "source_file": str(source_file.relative_to(root_dir)),
+            "target_file": f"registry/{filename}",
+        }
+        existing.append(record)
+
+    with open(audit_path, "w") as f:
+        json.dump(existing, f, indent=2, ensure_ascii=False)
+
+    print(f"    📝 Wrote {len(approved)} audit record(s) to registry/audit.json")
+
+
 def promote_entries(approved: list[dict], registry_dir: Path) -> None:
     """
     Promote approved entries to the correct registry/*.json files,
@@ -173,18 +229,6 @@ def promote_entries(approved: list[dict], registry_dir: Path) -> None:
         cat = entry.get("category", "tool")
         clean = {k: v for k, v in entry.items() if k not in CANDIDATE_FIELDS}
         by_category.setdefault(cat, []).append(clean)
-
-    CATEGORY_FILES = {
-        "llm": "llms.json",
-        "agent-framework": "agent-frameworks.json",
-        "vector-db": "vector-dbs.json",
-        "mcp-server": "mcp-servers.json",
-        "tool": "tools.json",
-        "dataset": "datasets.json",
-        "paper": "papers.json",
-        "course": "courses.json",
-        "project": "projects.json",
-    }
 
     for cat, entries in by_category.items():
         filename = CATEGORY_FILES.get(cat, f"{cat}.json")
@@ -263,6 +307,7 @@ def main():
         print("🚀 Promoting approved entries to registry/...")
         root_dir = Path(__file__).parent.parent
         promote_entries(approved, root_dir / "registry")
+        write_audit_records(approved, input_path, root_dir / "registry")
         print()
 
     if args.out and not args.dry_run:

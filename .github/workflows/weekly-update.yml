@@ -31,7 +31,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 jsonschema
+          pip install requests beautifulsoup4 jsonschema anthropic
 
       - name: Run scraper
         run: |
@@ -55,6 +55,33 @@ jobs:
             echo "No new candidates found"
           fi
 
+      - name: Run auto-curation
+        if: steps.check_candidates.outputs.has_candidates == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CANDIDATE_FILE: ${{ steps.check_candidates.outputs.candidate_file }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "⏭️  Skipping auto-curation — ANTHROPIC_API_KEY secret not set"
+            exit 0
+          fi
+          echo "🤖 Running Claude curator on $CANDIDATE_FILE..."
+          python agents/curator_agent.py "$CANDIDATE_FILE" --out "$CANDIDATE_FILE"
+
+      - name: Run auto-review
+        if: steps.check_candidates.outputs.has_candidates == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CANDIDATE_FILE: ${{ steps.check_candidates.outputs.candidate_file }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "⏭️  Skipping auto-review — ANTHROPIC_API_KEY secret not set"
+            exit 0
+          fi
+          REVIEWED_FILE="${CANDIDATE_FILE%.json}-reviewed.json"
+          echo "🔬 Running Claude reviewer on $CANDIDATE_FILE → $REVIEWED_FILE..."
+          python agents/review_agent.py "$CANDIDATE_FILE" --threshold 7 --out "$REVIEWED_FILE"
+
       - name: Create candidate review PR
         if: steps.check_candidates.outputs.has_candidates == 'true'
         uses: peter-evans/create-pull-request@v6
@@ -66,6 +93,10 @@ jobs:
             ## Weekly AI-Pulse Update
 
             The automated scraper found **${{ steps.check_candidates.outputs.candidate_count }} new candidates**.
+
+            > 🤖 **Entries have been pre-scored by Claude** (`claude-opus-4-6`) via the curator and review agents.
+            > Check `${{ steps.check_candidates.outputs.candidate_file }}` for curator notes and
+            > the companion `-reviewed.json` file (same path, `.json` → `-reviewed.json`) for scores and verdicts.
 
             ### Review instructions:
             1. Open `${{ steps.check_candidates.outputs.candidate_file }}`

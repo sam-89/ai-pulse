@@ -90,6 +90,22 @@
       "type": "string",
       "description": "Maturity / stability level",
       "enum": ["experimental", "beta", "stable", "production"]
+    },
+    "last_checked": {
+      "type": "string",
+      "description": "Date the URL was last verified to be live (ISO format)",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "language": {
+      "type": "array",
+      "description": "Supported languages or SDK languages (e.g. Python, JavaScript, multilingual)",
+      "items": { "type": "string" },
+      "maxItems": 10
+    },
+    "deprecated": {
+      "type": "boolean",
+      "description": "Set to true to mark an entry as deprecated without deleting it"
     }
   }
 }

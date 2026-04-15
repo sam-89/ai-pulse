@@ -1,0 +1,15 @@
+# CODEOWNERS — https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default: everything is owned by @sam-89
+*                               @sam-89
+
+# Registry files
+registry/llms.json              @sam-89
+registry/agent-frameworks.json  @sam-89
+registry/mcp-servers.json       @sam-89
+registry/vector-dbs.json        @sam-89
+registry/tools.json             @sam-89
+
+# Agent and script directories
+agents/                         @sam-89
+scripts/                        @sam-89

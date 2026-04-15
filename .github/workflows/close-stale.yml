@@ -1,0 +1,53 @@
+name: Close Stale Automated PRs
+
+on:
+  schedule:
+    # Run daily at 00:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  close-stale:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+
+    steps:
+      - name: Close stale automated-update issues and PRs
+        uses: actions/stale@v9
+        with:
+          # Only act on items tagged with the automated-update label.
+          # This prevents the action from touching manually created issues/PRs.
+          only-labels: "automated-update"
+
+          # Mark as stale after 14 days of inactivity, close immediately after.
+          days-before-stale: 14
+          days-before-close: 0
+
+          # Labels to apply when marking stale (set empty to skip adding a label)
+          stale-issue-label: "stale"
+          stale-pr-label: "stale"
+
+          # Comment added when an item is marked stale
+          stale-issue-message: >
+            This automated-update issue has been open for 14 days without activity.
+            It will be closed automatically. If these candidates are still relevant,
+            please re-run the weekly scraper to generate a fresh batch.
+          stale-pr-message: >
+            This automated-update PR has been open for 14 days without activity.
+            It will be closed automatically. If these candidates are still relevant,
+            please re-run the weekly scraper to generate a fresh batch.
+
+          # Comment added when the item is closed
+          close-issue-message: >
+            Closing this automated-update issue due to 14 days of inactivity.
+            Re-run the weekly scraper (`python scripts/fetch_new.py`) to generate
+            fresh candidates and open a new PR.
+          close-pr-message: >
+            Closing this automated-update PR due to 14 days of inactivity.
+            Re-run the weekly scraper (`python scripts/fetch_new.py`) to generate
+            fresh candidates and open a new PR.
+
+          # Safety cap to avoid hitting API rate limits on large repos
+          operations-per-run: 30
