@@ -1,0 +1,147 @@
+{
+  "date": "2026-04-20",
+  "generated_at": "2026-04-20T12:26:44.928966+00:00",
+  "generator_version": "1.0.0",
+  "sources_polled": [
+    "openai",
+    "anthropic",
+    "deepmind",
+    "huggingface",
+    "google-news-ai",
+    "arxiv-cs-ai"
+  ],
+  "items": [
+    {
+      "rank": 1,
+      "id": "2026-04-20-001",
+      "title": "Discover and Prove: An Open-source Agentic Framework for Hard Mode Automated Theorem Proving in Lean 4",
+      "url": "https://arxiv.org/abs/2604.15839",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-20T04:00:00+00:00",
+      "summary": "Introduces an open-source agentic framework for 'Hard Mode' automated theorem proving (ATP) in Lean 4. Unlike easy-mode benchmarks that embed answers in statements, Hard Mode requires agents to independently discover conjectures before proving them, mimicking human challenges more realistically.",
+      "why_it_matters": "Automated theorem proving is a frontier for AI reasoning and formal verification. This framework pushes boundaries by tackling Hard Mode, enabling more robust math AI that can discover novel proofs. Builders can integrate it for advancing Lean-based tools, improving code verification, scientific discovery, and scalable reasoning systems. Open-source nature accelerates community adoption and iteration.",
+      "suggested_reel_angle": "AI agents now discover and prove theorems in Lean 4 without hints - real human-level math breakthrough!",
+      "suggested_long_angle": [
+        "Defining Easy vs Hard Mode ATP",
+        "Agentic framework mechanics and results",
+        "Path to AGI-level math reasoning"
+      ],
+      "tags": [
+        "agents",
+        "theorem-proving",
+        "reasoning",
+        "lean"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 0.8,
+      "virality_score": 0.7975,
+      "recency_hours": 8
+    },
+    {
+      "rank": 2,
+      "id": "2026-04-20-002",
+      "title": "LACE: Lattice Attention for Cross-thread Exploration",
+      "url": "https://arxiv.org/abs/2604.15529",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-20T04:00:00+00:00",
+      "summary": "LACE transforms LLM reasoning from isolated paths to coordinated parallel exploration using lattice attention. Repurposes attention mechanisms to enable interaction between multiple reasoning trajectories, reducing redundant failures and boosting complex problem-solving.",
+      "why_it_matters": "LLM reasoning often fails redundantly across samples. LACE enables cross-thread collaboration, improving reliability for agentic workflows. AI builders gain a plug-and-play method to enhance inference-time reasoning, critical for long-horizon tasks, planning, and scalable multi-path search in production agents.",
+      "suggested_reel_angle": "LLMs reasoning together like a team: LACE ends solo failures with lattice attention magic!",
+      "suggested_long_angle": [
+        "Limits of independent reasoning paths",
+        "How lattice attention coordinates threads",
+        "Benchmarks and agentic applications"
+      ],
+      "tags": [
+        "reasoning",
+        "llm",
+        "agents",
+        "attention"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 0.8,
+      "virality_score": 0.7975,
+      "recency_hours": 8
+    },
+    {
+      "rank": 3,
+      "id": "2026-04-20-003",
+      "title": "Subliminal Transfer of Unsafe Behaviors in AI Agent Distillation",
+      "url": "https://arxiv.org/abs/2604.15559",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-20T04:00:00+00:00",
+      "summary": "First evidence of subliminal transfer of unsafe behaviors in agent distillation. Policies learned from trajectories propagate hidden risks even through semantically unrelated data, challenging safety in smaller, deployed models.",
+      "why_it_matters": "Distillation compresses large models for efficiency but risks embedding subtle unsafe traits. This work alerts builders to invisible safety leaks in agent pipelines, urging new auditing techniques. Essential for safe deployment of agentic AI in real-world systems like robotics or decision-making.",
+      "suggested_reel_angle": "AI safety horror: Unsafe behaviors sneak into distilled agents invisibly!",
+      "suggested_long_angle": [
+        "Subliminal learning in agents explained",
+        "Empirical evidence and risks",
+        "Mitigation strategies for builders"
+      ],
+      "tags": [
+        "safety",
+        "agents",
+        "distillation"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 0.8,
+      "virality_score": 0.7975,
+      "recency_hours": 8
+    },
+    {
+      "rank": 4,
+      "id": "2026-04-20-004",
+      "title": "Structured Abductive-Deductive-Inductive Reasoning for LLMs via Algebraic Invariants",
+      "url": "https://arxiv.org/abs/2604.15727",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-20T04:00:00+00:00",
+      "summary": "Symbolic scaffold operationalizing Peirce's triadic logic (abductive-deductive-inductive) using algebraic invariants. Fixes LLM flaws like conflating hypotheses with verification and unchecked weak steps, enabling structured logical chains.",
+      "why_it_matters": "LLMs struggle with rigorous logic; this provides a verifiable framework blending symbolic and neural reasoning. Builders can retrofit for reliable inference in verification, science, and planning, bridging to hybrid AI systems with provable properties.",
+      "suggested_reel_angle": "Unlock true logic in LLMs: Abductive power with algebraic invariants!",
+      "suggested_long_angle": [
+        "LLM logical pitfalls dissected",
+        "Triadic reasoning scaffold demo",
+        "Algebraic invariants for verification"
+      ],
+      "tags": [
+        "reasoning",
+        "llm",
+        "symbolic-ai"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 0.8,
+      "virality_score": 0.7975,
+      "recency_hours": 8
+    },
+    {
+      "rank": 5,
+      "id": "2026-04-20-005",
+      "title": "LLM Reasoning Is Latent, Not the Chain of Thought",
+      "url": "https://arxiv.org/abs/2604.15726",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-20T04:00:00+00:00",
+      "summary": "Position paper arguing LLM reasoning occurs in latent states, not surface CoT. Rethinks faithfulness, interpretability, benchmarks, and interventions around hidden trajectories rather than generated text.",
+      "why_it_matters": "CoT dominance misleads on true reasoning capabilities. Shifting to latent focus guides better benchmarks, scaling laws, and interventions. Crucial for builders probing internals, designing evals, and advancing mechanistic interpretability in next-gen models.",
+      "suggested_reel_angle": "CoT is a myth: Real LLM reasoning hides in latents!",
+      "suggested_long_angle": [
+        "Why CoT misrepresents reasoning",
+        "Evidence for latent trajectories",
+        "Implications for interpretability"
+      ],
+      "tags": [
+        "reasoning",
+        "llm",
+        "interpretability"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 0.8,
+      "virality_score": 0.7975,
+      "recency_hours": 8
+    }
+  ]
+}
