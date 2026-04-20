@@ -10,7 +10,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 
 *Not just a list — a living, structured database of the AI ecosystem.*
-*Updated weekly. Every entry is curated, not scraped.*
+*Auto-updated every 2 days by AI agents. Every entry is scored, curated, and validated before it lands here.*
 
 [🗺️ Learning Paths](#learning-paths) · [🧠 LLMs](#llms) · [🤖 Agent Frameworks](#agent-frameworks) · [🔌 MCP Servers](#mcp-servers) · [📄 Papers](#papers) · [🤝 Contribute](CONTRIBUTING.md)
 
@@ -25,10 +25,10 @@
 Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 
 - 📋 **JSON schema** — every entry has consistent fields (pricing, maturity, curator note)
-- 🤖 **Weekly auto-updates** — GitHub Actions + AI scraper finds new tools every Monday
+- 🤖 **Agent-updated every 2 days** — autonomous pipeline fetches, scores, and promotes new tools automatically
 - 🗺️ **Role-based learning paths** — not just links, but curated journeys
-- 💬 **Curator notes** — a human insight on *why* each entry matters
-- ✅ **Human reviewed** — all entries pass a quality gate before merging
+- 💬 **Curator notes** — an LLM insight on *why* each entry matters, seeded by community suggestions
+- ✅ **Scored, not scraped** — every entry passes a 0–10 LLM quality gate before reaching the registry
 
 ---
 

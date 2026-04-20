@@ -6,8 +6,24 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for contributing to AI-Pulse! Please fill in the details below.
-        Every entry goes through a curation review before being merged into the registry.
+        ## Suggest an entry for AI-Pulse
+
+        AI-Pulse is maintained by an **agentic pipeline** — once you submit this issue, the agents will:
+        1. Pick up your suggestion in the next pipeline run (every 2 days)
+        2. Score it 0–10 on relevance, quality, and uniqueness using Llama 3.3 70B
+        3. Auto-generate a practitioner-focused curator note
+        4. Promote it to the registry if it scores ≥ 7
+        **If your entry is accepted, your GitHub username is saved in the registry entry and you're listed in [CONTRIBUTORS.md](../CONTRIBUTORS.md).**
+        **Your "Why it matters" answer is the most important field** — the LLM uses it as context when scoring.
+
+  - type: input
+    id: github_username
+    attributes:
+      label: "Your GitHub username"
+      description: "So you can be credited in the registry entry and CONTRIBUTORS.md when your suggestion is accepted."
+      placeholder: "@yourhandle"
+    validations:
+      required: false
 
   - type: input
     id: url
