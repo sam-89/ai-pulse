@@ -38,5 +38,8 @@ ENV/
 *.log
 logs/
 
+# Pipeline-internal side-files (deleted after each run, but gitignore as safety net)
+registry/candidates/_accepted_issues.json
+
 # OS
 Thumbs.db
