@@ -5,6 +5,7 @@ on:
     paths:
       - "registry/**"
       - "scripts/validate_registry.py"
+  workflow_dispatch:
 
 jobs:
   validate:
