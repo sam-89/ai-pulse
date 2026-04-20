@@ -32,6 +32,16 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 
 ---
 
+<!-- NEWS:START -->
+## 📰 Today in AI
+
+> 📡 *Daily digest not yet generated — updates every day at 06:14 UTC.*
+> [View archive →](daily/)
+
+<!-- NEWS:END -->
+
+---
+
 ## Learning Paths
 
 | Path | Target Role | Duration |
