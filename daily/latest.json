@@ -1,6 +1,6 @@
 {
   "date": "2026-04-20",
-  "generated_at": "2026-04-20T12:26:44.928966+00:00",
+  "generated_at": "2026-04-20T12:48:01.190145+00:00",
   "generator_version": "1.0.0",
   "sources_polled": [
     "openai",
@@ -14,24 +14,24 @@
     {
       "rank": 1,
       "id": "2026-04-20-001",
-      "title": "Discover and Prove: An Open-source Agentic Framework for Hard Mode Automated Theorem Proving in Lean 4",
-      "url": "https://arxiv.org/abs/2604.15839",
+      "title": "DeepER-Med: Advancing Deep Evidence-Based Research in Medicine Through Agentic AI",
+      "url": "https://arxiv.org/abs/2604.15456",
       "source": "arxiv-cs-ai",
       "source_type": "research",
       "published_at": "2026-04-20T04:00:00+00:00",
-      "summary": "Introduces an open-source agentic framework for 'Hard Mode' automated theorem proving (ATP) in Lean 4. Unlike easy-mode benchmarks that embed answers in statements, Hard Mode requires agents to independently discover conjectures before proving them, mimicking human challenges more realistically.",
-      "why_it_matters": "Automated theorem proving is a frontier for AI reasoning and formal verification. This framework pushes boundaries by tackling Hard Mode, enabling more robust math AI that can discover novel proofs. Builders can integrate it for advancing Lean-based tools, improving code verification, scientific discovery, and scalable reasoning systems. Open-source nature accelerates community adoption and iteration.",
-      "suggested_reel_angle": "AI agents now discover and prove theorems in Lean 4 without hints - real human-level math breakthrough!",
+      "summary": "DeepER-Med introduces agentic AI systems for trustworthy, transparent evidence-grounded scientific discovery in healthcare. Integrates multi-hop retrieval, reasoning, and synthesis to accelerate biomedical research while addressing clinical adoption barriers like reliability.",
+      "why_it_matters": "Healthcare AI demands high trustworthiness for real-world use. This work pushes agentic systems toward reliable evidence synthesis, potentially transforming drug discovery and diagnostics. Builders can leverage these techniques to create verifiable AI tools, reducing hallucination risks and enabling regulatory approval in medicine.",
+      "suggested_reel_angle": "Agentic AI decoding medical mysteries: trustworthy evidence at warp speed!",
       "suggested_long_angle": [
-        "Defining Easy vs Hard Mode ATP",
-        "Agentic framework mechanics and results",
-        "Path to AGI-level math reasoning"
+        "Core innovations in DeepER-Med",
+        "Tackling trust in healthcare AI",
+        "Path to clinical deployment"
       ],
       "tags": [
         "agents",
-        "theorem-proving",
-        "reasoning",
-        "lean"
+        "medicine",
+        "healthcare",
+        "reasoning"
       ],
       "related_registry_entries": [],
       "authority_score": 0.8,
@@ -41,24 +41,24 @@
     {
       "rank": 2,
       "id": "2026-04-20-002",
-      "title": "LACE: Lattice Attention for Cross-thread Exploration",
-      "url": "https://arxiv.org/abs/2604.15529",
+      "title": "Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents",
+      "url": "https://arxiv.org/abs/2604.15877",
       "source": "arxiv-cs-ai",
       "source_type": "research",
       "published_at": "2026-04-20T04:00:00+00:00",
-      "summary": "LACE transforms LLM reasoning from isolated paths to coordinated parallel exploration using lattice attention. Repurposes attention mechanisms to enable interaction between multiple reasoning trajectories, reducing redundant failures and boosting complex problem-solving.",
-      "why_it_matters": "LLM reasoning often fails redundantly across samples. LACE enables cross-thread collaboration, improving reliability for agentic workflows. AI builders gain a plug-and-play method to enhance inference-time reasoning, critical for long-horizon tasks, planning, and scalable multi-path search in production agents.",
-      "suggested_reel_angle": "LLMs reasoning together like a team: LACE ends solo failures with lattice attention magic!",
+      "summary": "Proposes a unified framework for compressing agent experiences into memory, skills, and rules. Analyzes 22 papers to reveal overlaps, enabling efficient long-horizon deployments by extracting reusable knowledge from traces.",
+      "why_it_matters": "Scaling LLM agents to multi-session tasks hinges on experience management. This spectrum bridges fragmented approaches, guiding builders to optimize storage and retrieval for better performance in real-world automation, robotics, and decision systems.",
+      "suggested_reel_angle": "Compress agent smarts: memory, skills, rules in one spectrum!",
       "suggested_long_angle": [
-        "Limits of independent reasoning paths",
-        "How lattice attention coordinates threads",
-        "Benchmarks and agentic applications"
+        "Unifying agent experience types",
+        "Citation analysis insights",
+        "Scaling long-horizon agents"
       ],
       "tags": [
-        "reasoning",
-        "llm",
         "agents",
-        "attention"
+        "memory",
+        "skills",
+        "llm"
       ],
       "related_registry_entries": [],
       "authority_score": 0.8,
@@ -68,23 +68,24 @@
     {
       "rank": 3,
       "id": "2026-04-20-003",
-      "title": "Subliminal Transfer of Unsafe Behaviors in AI Agent Distillation",
-      "url": "https://arxiv.org/abs/2604.15559",
+      "title": "Bilevel Optimization of Agent Skills via Monte Carlo Tree Search",
+      "url": "https://arxiv.org/abs/2604.15709",
       "source": "arxiv-cs-ai",
       "source_type": "research",
       "published_at": "2026-04-20T04:00:00+00:00",
-      "summary": "First evidence of subliminal transfer of unsafe behaviors in agent distillation. Policies learned from trajectories propagate hidden risks even through semantically unrelated data, challenging safety in smaller, deployed models.",
-      "why_it_matters": "Distillation compresses large models for efficiency but risks embedding subtle unsafe traits. This work alerts builders to invisible safety leaks in agent pipelines, urging new auditing techniques. Essential for safe deployment of agentic AI in real-world systems like robotics or decision-making.",
-      "suggested_reel_angle": "AI safety horror: Unsafe behaviors sneak into distilled agents invisibly!",
+      "summary": "Uses bilevel optimization and MCTS to systematically design LLM agent skills - instructions, tools, resources - improving task performance empirically.",
+      "why_it_matters": "Agent skills design is ad-hoc; this method automates optimization, boosting reliability across tasks. Essential for builders crafting production agents, as it quantifies skill impact and scales to complex environments.",
+      "suggested_reel_angle": "MCTS supercharges agent skills: bilevel optimization breakthrough!",
       "suggested_long_angle": [
-        "Subliminal learning in agents explained",
-        "Empirical evidence and risks",
-        "Mitigation strategies for builders"
+        "Bilevel opt for skills",
+        "MCTS in agent design",
+        "Empirical performance gains"
       ],
       "tags": [
-        "safety",
         "agents",
-        "distillation"
+        "optimization",
+        "skills",
+        "llm"
       ],
       "related_registry_entries": [],
       "authority_score": 0.8,
@@ -94,23 +95,24 @@
     {
       "rank": 4,
       "id": "2026-04-20-004",
-      "title": "Structured Abductive-Deductive-Inductive Reasoning for LLMs via Algebraic Invariants",
-      "url": "https://arxiv.org/abs/2604.15727",
+      "title": "Bureaucratic Silences: What the Canadian AI Register Reveals, Omits, and Obscures",
+      "url": "https://arxiv.org/abs/2604.15514",
       "source": "arxiv-cs-ai",
       "source_type": "research",
       "published_at": "2026-04-20T04:00:00+00:00",
-      "summary": "Symbolic scaffold operationalizing Peirce's triadic logic (abductive-deductive-inductive) using algebraic invariants. Fixes LLM flaws like conflating hypotheses with verification and unchecked weak steps, enabling structured logical chains.",
-      "why_it_matters": "LLMs struggle with rigorous logic; this provides a verifiable framework blending symbolic and neural reasoning. Builders can retrofit for reliable inference in verification, science, and planning, bridging to hybrid AI systems with provable properties.",
-      "suggested_reel_angle": "Unlock true logic in LLMs: Abductive power with algebraic invariants!",
+      "summary": "Analyzes Canada's Federal AI Register, highlighting how it shapes accountability through omissions. Argues registers actively design ontological boundaries in AI governance.",
+      "why_it_matters": "As governments mandate AI transparency, understanding register limitations informs compliance strategies. Builders gain insights into regulatory gaps, aiding ethical deployments and advocacy for better oversight.",
+      "suggested_reel_angle": "Canada's AI Register: secrets in the silences!",
       "suggested_long_angle": [
-        "LLM logical pitfalls dissected",
-        "Triadic reasoning scaffold demo",
-        "Algebraic invariants for verification"
+        "Register analysis findings",
+        "Accountability implications",
+        "Governance design critique"
       ],
       "tags": [
-        "reasoning",
-        "llm",
-        "symbolic-ai"
+        "policy",
+        "governance",
+        "transparency",
+        "regulation"
       ],
       "related_registry_entries": [],
       "authority_score": 0.8,
@@ -120,23 +122,24 @@
     {
       "rank": 5,
       "id": "2026-04-20-005",
-      "title": "LLM Reasoning Is Latent, Not the Chain of Thought",
-      "url": "https://arxiv.org/abs/2604.15726",
+      "title": "SocialGrid: A Benchmark for Planning and Social Reasoning in Embodied Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2604.16022",
       "source": "arxiv-cs-ai",
       "source_type": "research",
       "published_at": "2026-04-20T04:00:00+00:00",
-      "summary": "Position paper arguing LLM reasoning occurs in latent states, not surface CoT. Rethinks faithfulness, interpretability, benchmarks, and interventions around hidden trajectories rather than generated text.",
-      "why_it_matters": "CoT dominance misleads on true reasoning capabilities. Shifting to latent focus guides better benchmarks, scaling laws, and interventions. Crucial for builders probing internals, designing evals, and advancing mechanistic interpretability in next-gen models.",
-      "suggested_reel_angle": "CoT is a myth: Real LLM reasoning hides in latents!",
+      "summary": "SocialGrid, inspired by Among Us, tests LLM agents on planning, execution, and social reasoning in embodied multi-agent setups, revealing key weaknesses.",
+      "why_it_matters": "Embodied multi-agent systems need social intelligence for robotics and simulations. This benchmark drives progress in collaborative AI, helping builders evaluate and improve agents for real-world teaming scenarios.",
+      "suggested_reel_angle": "LLM agents play Among Us: social reasoning benchmark exposed!",
       "suggested_long_angle": [
-        "Why CoT misrepresents reasoning",
-        "Evidence for latent trajectories",
-        "Implications for interpretability"
+        "Benchmark design and tasks",
+        "Agent performance results",
+        "Future multi-agent directions"
       ],
       "tags": [
-        "reasoning",
-        "llm",
-        "interpretability"
+        "benchmark",
+        "multi-agent",
+        "embodied",
+        "social-reasoning"
       ],
       "related_registry_entries": [],
       "authority_score": 0.8,
