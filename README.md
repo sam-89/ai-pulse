@@ -33,10 +33,17 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI
+## 📰 Today in AI · *2026-04-20*
 
-> 📡 *Daily digest not yet generated — updates every day at 06:14 UTC.*
-> [View archive →](daily/)
+| # | Story | Source |
+|---|-------|--------|
+| 1 | [DeepER-Med: Advancing Deep Evidence-Based Research in Medicine Through Agentic AI](https://arxiv.org/abs/2604.15456) | arxiv-cs-ai |
+| 2 | [Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents](https://arxiv.org/abs/2604.15877) | arxiv-cs-ai |
+| 3 | [Bilevel Optimization of Agent Skills via Monte Carlo Tree Search](https://arxiv.org/abs/2604.15709) | arxiv-cs-ai |
+| 4 | [Bureaucratic Silences: What the Canadian AI Register Reveals, Omits, and Obscures](https://arxiv.org/abs/2604.15514) | arxiv-cs-ai |
+| 5 | [SocialGrid: A Benchmark for Planning and Social Reasoning in Embodied Multi-Agent Systems](https://arxiv.org/abs/2604.16022) | arxiv-cs-ai |
+
+*[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
 <!-- NEWS:END -->
 
