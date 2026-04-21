@@ -1,70 +1,72 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-04-20
+### Top 5 AI Stories · 2026-04-21
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-20 12:48 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-21 06:55 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [DeepER-Med: Advancing Deep Evidence-Based Research in Medicine Through Agentic AI](https://arxiv.org/abs/2604.15456)
+## 1. [How to Ground a Korean AI Agent in Real Demographics with Synthetic Personas](https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas)
 
-**Source:** arxiv-cs-ai · ⏱ *8h ago*  
-`agents` `medicine` `healthcare` `reasoning`
+**Source:** huggingface · ⏱ *6h ago*  
+`agents` `synthetic-data` `localization` `huggingface` `nvidia`
 
-DeepER-Med introduces agentic AI systems for trustworthy, transparent evidence-grounded scientific discovery in healthcare. Integrates multi-hop retrieval, reasoning, and synthesis to accelerate biomedical research while addressing clinical adoption barriers like reliability.
+Hugging Face and NVIDIA release guide using Nemotron to generate synthetic personas for culturally grounded Korean AI agents, aligning models with real demographics for authentic interactions.
 
-> 💡 **Why it matters:** Healthcare AI demands high trustworthiness for real-world use. This work pushes agentic systems toward reliable evidence synthesis, potentially transforming drug discovery and diagnostics. Builders can leverage these techniques to create verifiable AI tools, reducing hallucination risks and enabling regulatory approval in medicine.
-
-
----
-
-## 2. [Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents](https://arxiv.org/abs/2604.15877)
-
-**Source:** arxiv-cs-ai · ⏱ *8h ago*  
-`agents` `memory` `skills` `llm`
-
-Proposes a unified framework for compressing agent experiences into memory, skills, and rules. Analyzes 22 papers to reveal overlaps, enabling efficient long-horizon deployments by extracting reusable knowledge from traces.
-
-> 💡 **Why it matters:** Scaling LLM agents to multi-session tasks hinges on experience management. This spectrum bridges fragmented approaches, guiding builders to optimize storage and retrieval for better performance in real-world automation, robotics, and decision systems.
+> 💡 **Why it matters:** Localizing AI agents is key for global apps; synthetic personas offer scalable, ethical data to train culturally aware models without privacy risks. Enables builders to deploy reliable agents in diverse markets like Asia, boosting adoption in customer service, chatbots, and personalized AI.
 
 
 ---
 
-## 3. [Bilevel Optimization of Agent Skills via Monte Carlo Tree Search](https://arxiv.org/abs/2604.15709)
+## 2. [The World Leaks the Future: Harness Evolution for Future Prediction Agents](https://arxiv.org/abs/2604.15719)
 
-**Source:** arxiv-cs-ai · ⏱ *8h ago*  
-`agents` `optimization` `skills` `llm`
+**Source:** arxiv-cs-ai · ⏱ *2h ago*  
+`agents` `prediction` `forecasting` `research`
 
-Uses bilevel optimization and MCTS to systematically design LLM agent skills - instructions, tools, resources - improving task performance empirically.
+Research proposes LLM agents predict unresolved events by tracking public info evolution as weak supervision signals, outperforming baselines on forecasting tasks.
 
-> 💡 **Why it matters:** Agent skills design is ad-hoc; this method automates optimization, boosting reliability across tasks. Essential for builders crafting production agents, as it quantifies skill impact and scales to complex environments.
+> 💡 **Why it matters:** Transforms agentic prediction for finance, policy, betting; uses real-world data dynamics as training signal, no oracle needed. Builders gain robust forecasting tools for long-horizon decisions, advancing autonomous agents.
+  
+**Related registry entries:** `langgraph`, `autogpt`
+
+---
+
+## 3. [Preregistered Belief Revision Contracts](https://arxiv.org/abs/2604.15558)
+
+**Source:** arxiv-cs-ai · ⏱ *2h ago*  
+`multi-agent` `belief-revision` `safety` `research`
+
+New framework for multi-agent systems uses preregistered contracts to update beliefs evidence-based, countering conformity from agreement, confidence, or majority.
+
+> 💡 **Why it matters:** Prevents groupthink in agent swarms critical for collaboration tools, simulations, DAOs. Ensures reliable deliberation; builders can deploy safe multi-agent setups for research, trading, planning without false consensus risks.
+  
+**Related registry entries:** `autogen-04`, `langgraph`
+
+---
+
+## 4. [GIST: Multimodal Knowledge Extraction and Spatial Grounding via Intelligent Semantic Topology](https://arxiv.org/abs/2604.15495)
+
+**Source:** arxiv-cs-ai · ⏱ *2h ago*  
+`multimodal` `embodied-ai` `robotics` `spatial-grounding` `research`
+
+GIST framework extracts multimodal knowledge and builds semantic topologies for spatial grounding in dense environments like stores, warehouses, hospitals.
+
+> 💡 **Why it matters:** Solves embodied AI challenges in cluttered real-world spaces with stale visuals, long-tail objects. Robotics builders get tools for navigation, inventory, healthcare automation, pushing toward generalist agents.
 
 
 ---
 
-## 4. [Bureaucratic Silences: What the Canadian AI Register Reveals, Omits, and Obscures](https://arxiv.org/abs/2604.15514)
+## 5. [OpenAI helps Hyatt advance AI among colleagues](https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise)
 
-**Source:** arxiv-cs-ai · ⏱ *8h ago*  
-`policy` `governance` `transparency` `regulation`
+**Source:** openai · ⏱ *30h ago*  
+`openai` `enterprise` `chatgpt` `adoption` `gpt-5`
 
-Analyzes Canada's Federal AI Register, highlighting how it shapes accountability through omissions. Argues registers actively design ontological boundaries in AI governance.
+Hyatt rolls out ChatGPT Enterprise to global staff, leveraging GPT-5.4 and Codex for productivity, operations, and enhanced guest experiences.
 
-> 💡 **Why it matters:** As governments mandate AI transparency, understanding register limitations informs compliance strategies. Builders gain insights into regulatory gaps, aiding ethical deployments and advocacy for better oversight.
-
-
----
-
-## 5. [SocialGrid: A Benchmark for Planning and Social Reasoning in Embodied Multi-Agent Systems](https://arxiv.org/abs/2604.16022)
-
-**Source:** arxiv-cs-ai · ⏱ *8h ago*  
-`benchmark` `multi-agent` `embodied` `social-reasoning`
-
-SocialGrid, inspired by Among Us, tests LLM agents on planning, execution, and social reasoning in embodied multi-agent setups, revealing key weaknesses.
-
-> 💡 **Why it matters:** Embodied multi-agent systems need social intelligence for robotics and simulations. This benchmark drives progress in collaborative AI, helping builders evaluate and improve agents for real-world teaming scenarios.
+> 💡 **Why it matters:** Real-world proof of frontier models at enterprise scale in hospitality; guides builders on integrating GPT-5.4/Codex for ops automation, personalization. Accelerates AI adoption patterns across service industries.
 
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-04-20 12:48 UTC · [Archive](./)</sub>
+<sub>Generated by ai-pulse-agents · 2026-04-21 06:55 UTC · [Archive](./)</sub>
