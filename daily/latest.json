@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-20",
-  "generated_at": "2026-04-20T12:48:01.190145+00:00",
+  "date": "2026-04-21",
+  "generated_at": "2026-04-21T06:55:00.116754+00:00",
   "generator_version": "1.0.0",
   "sources_polled": [
     "openai",
@@ -13,138 +13,147 @@
   "items": [
     {
       "rank": 1,
-      "id": "2026-04-20-001",
-      "title": "DeepER-Med: Advancing Deep Evidence-Based Research in Medicine Through Agentic AI",
-      "url": "https://arxiv.org/abs/2604.15456",
-      "source": "arxiv-cs-ai",
-      "source_type": "research",
-      "published_at": "2026-04-20T04:00:00+00:00",
-      "summary": "DeepER-Med introduces agentic AI systems for trustworthy, transparent evidence-grounded scientific discovery in healthcare. Integrates multi-hop retrieval, reasoning, and synthesis to accelerate biomedical research while addressing clinical adoption barriers like reliability.",
-      "why_it_matters": "Healthcare AI demands high trustworthiness for real-world use. This work pushes agentic systems toward reliable evidence synthesis, potentially transforming drug discovery and diagnostics. Builders can leverage these techniques to create verifiable AI tools, reducing hallucination risks and enabling regulatory approval in medicine.",
-      "suggested_reel_angle": "Agentic AI decoding medical mysteries: trustworthy evidence at warp speed!",
+      "id": "2026-04-21-001",
+      "title": "How to Ground a Korean AI Agent in Real Demographics with Synthetic Personas",
+      "url": "https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas",
+      "source": "huggingface",
+      "source_type": "official_blog",
+      "published_at": "2026-04-21T00:40:10+00:00",
+      "summary": "Hugging Face and NVIDIA release guide using Nemotron to generate synthetic personas for culturally grounded Korean AI agents, aligning models with real demographics for authentic interactions.",
+      "why_it_matters": "Localizing AI agents is key for global apps; synthetic personas offer scalable, ethical data to train culturally aware models without privacy risks. Enables builders to deploy reliable agents in diverse markets like Asia, boosting adoption in customer service, chatbots, and personalized AI.",
+      "suggested_reel_angle": "Unlock authentic Korean AI agents with synthetic personas! No real data needed. \ud83c\uddf0\ud83c\uddf7\ud83d\ude80",
       "suggested_long_angle": [
-        "Core innovations in DeepER-Med",
-        "Tackling trust in healthcare AI",
-        "Path to clinical deployment"
+        "Nemotron personas for demographic grounding",
+        "Step-by-step agent building tutorial",
+        "Scaling to other cultures and languages"
       ],
       "tags": [
         "agents",
-        "medicine",
-        "healthcare",
-        "reasoning"
+        "synthetic-data",
+        "localization",
+        "huggingface",
+        "nvidia"
       ],
       "related_registry_entries": [],
-      "authority_score": 0.8,
-      "virality_score": 0.7975,
-      "recency_hours": 8
+      "authority_score": 0.9,
+      "virality_score": 0.8764,
+      "recency_hours": 6
     },
     {
       "rank": 2,
-      "id": "2026-04-20-002",
-      "title": "Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents",
-      "url": "https://arxiv.org/abs/2604.15877",
+      "id": "2026-04-21-002",
+      "title": "The World Leaks the Future: Harness Evolution for Future Prediction Agents",
+      "url": "https://arxiv.org/abs/2604.15719",
       "source": "arxiv-cs-ai",
       "source_type": "research",
-      "published_at": "2026-04-20T04:00:00+00:00",
-      "summary": "Proposes a unified framework for compressing agent experiences into memory, skills, and rules. Analyzes 22 papers to reveal overlaps, enabling efficient long-horizon deployments by extracting reusable knowledge from traces.",
-      "why_it_matters": "Scaling LLM agents to multi-session tasks hinges on experience management. This spectrum bridges fragmented approaches, guiding builders to optimize storage and retrieval for better performance in real-world automation, robotics, and decision systems.",
-      "suggested_reel_angle": "Compress agent smarts: memory, skills, rules in one spectrum!",
+      "published_at": "2026-04-21T04:00:00+00:00",
+      "summary": "Research proposes LLM agents predict unresolved events by tracking public info evolution as weak supervision signals, outperforming baselines on forecasting tasks.",
+      "why_it_matters": "Transforms agentic prediction for finance, policy, betting; uses real-world data dynamics as training signal, no oracle needed. Builders gain robust forecasting tools for long-horizon decisions, advancing autonomous agents.",
+      "suggested_reel_angle": "AI predicts future by spying on world changes! Game-changing agent research. \ud83d\udd2e",
       "suggested_long_angle": [
-        "Unifying agent experience types",
-        "Citation analysis insights",
-        "Scaling long-horizon agents"
+        "World leaks as prediction signals",
+        "Training agents on evolving evidence",
+        "Benchmarks vs traditional forecasting"
       ],
       "tags": [
         "agents",
-        "memory",
-        "skills",
-        "llm"
+        "prediction",
+        "forecasting",
+        "research"
       ],
-      "related_registry_entries": [],
+      "related_registry_entries": [
+        "langgraph",
+        "autogpt"
+      ],
       "authority_score": 0.8,
-      "virality_score": 0.7975,
-      "recency_hours": 8
+      "virality_score": 0.8575,
+      "recency_hours": 2
     },
     {
       "rank": 3,
-      "id": "2026-04-20-003",
-      "title": "Bilevel Optimization of Agent Skills via Monte Carlo Tree Search",
-      "url": "https://arxiv.org/abs/2604.15709",
+      "id": "2026-04-21-003",
+      "title": "Preregistered Belief Revision Contracts",
+      "url": "https://arxiv.org/abs/2604.15558",
       "source": "arxiv-cs-ai",
       "source_type": "research",
-      "published_at": "2026-04-20T04:00:00+00:00",
-      "summary": "Uses bilevel optimization and MCTS to systematically design LLM agent skills - instructions, tools, resources - improving task performance empirically.",
-      "why_it_matters": "Agent skills design is ad-hoc; this method automates optimization, boosting reliability across tasks. Essential for builders crafting production agents, as it quantifies skill impact and scales to complex environments.",
-      "suggested_reel_angle": "MCTS supercharges agent skills: bilevel optimization breakthrough!",
+      "published_at": "2026-04-21T04:00:00+00:00",
+      "summary": "New framework for multi-agent systems uses preregistered contracts to update beliefs evidence-based, countering conformity from agreement, confidence, or majority.",
+      "why_it_matters": "Prevents groupthink in agent swarms critical for collaboration tools, simulations, DAOs. Ensures reliable deliberation; builders can deploy safe multi-agent setups for research, trading, planning without false consensus risks.",
+      "suggested_reel_angle": "AI agents no more herd mentality! Belief contracts fix multi-agent pitfalls. \ud83e\udde0",
       "suggested_long_angle": [
-        "Bilevel opt for skills",
-        "MCTS in agent design",
-        "Empirical performance gains"
+        "Conformity risks in deliberative agents",
+        "Preregistration mechanics",
+        "Empirical results on convergence"
       ],
       "tags": [
-        "agents",
-        "optimization",
-        "skills",
-        "llm"
+        "multi-agent",
+        "belief-revision",
+        "safety",
+        "research"
       ],
-      "related_registry_entries": [],
+      "related_registry_entries": [
+        "autogen-04",
+        "langgraph"
+      ],
       "authority_score": 0.8,
-      "virality_score": 0.7975,
-      "recency_hours": 8
+      "virality_score": 0.8575,
+      "recency_hours": 2
     },
     {
       "rank": 4,
-      "id": "2026-04-20-004",
-      "title": "Bureaucratic Silences: What the Canadian AI Register Reveals, Omits, and Obscures",
-      "url": "https://arxiv.org/abs/2604.15514",
+      "id": "2026-04-21-004",
+      "title": "GIST: Multimodal Knowledge Extraction and Spatial Grounding via Intelligent Semantic Topology",
+      "url": "https://arxiv.org/abs/2604.15495",
       "source": "arxiv-cs-ai",
       "source_type": "research",
-      "published_at": "2026-04-20T04:00:00+00:00",
-      "summary": "Analyzes Canada's Federal AI Register, highlighting how it shapes accountability through omissions. Argues registers actively design ontological boundaries in AI governance.",
-      "why_it_matters": "As governments mandate AI transparency, understanding register limitations informs compliance strategies. Builders gain insights into regulatory gaps, aiding ethical deployments and advocacy for better oversight.",
-      "suggested_reel_angle": "Canada's AI Register: secrets in the silences!",
+      "published_at": "2026-04-21T04:00:00+00:00",
+      "summary": "GIST framework extracts multimodal knowledge and builds semantic topologies for spatial grounding in dense environments like stores, warehouses, hospitals.",
+      "why_it_matters": "Solves embodied AI challenges in cluttered real-world spaces with stale visuals, long-tail objects. Robotics builders get tools for navigation, inventory, healthcare automation, pushing toward generalist agents.",
+      "suggested_reel_angle": "AI masters messy stores with GIST spatial smarts! Embodied breakthrough. \ud83c\udfea\ud83e\udd16",
       "suggested_long_angle": [
-        "Register analysis findings",
-        "Accountability implications",
-        "Governance design critique"
+        "Spatial challenges in dense envs",
+        "Multimodal extraction pipeline",
+        "Semantic topology advantages"
       ],
       "tags": [
-        "policy",
-        "governance",
-        "transparency",
-        "regulation"
+        "multimodal",
+        "embodied-ai",
+        "robotics",
+        "spatial-grounding",
+        "research"
       ],
       "related_registry_entries": [],
       "authority_score": 0.8,
-      "virality_score": 0.7975,
-      "recency_hours": 8
+      "virality_score": 0.8575,
+      "recency_hours": 2
     },
     {
       "rank": 5,
-      "id": "2026-04-20-005",
-      "title": "SocialGrid: A Benchmark for Planning and Social Reasoning in Embodied Multi-Agent Systems",
-      "url": "https://arxiv.org/abs/2604.16022",
-      "source": "arxiv-cs-ai",
-      "source_type": "research",
-      "published_at": "2026-04-20T04:00:00+00:00",
-      "summary": "SocialGrid, inspired by Among Us, tests LLM agents on planning, execution, and social reasoning in embodied multi-agent setups, revealing key weaknesses.",
-      "why_it_matters": "Embodied multi-agent systems need social intelligence for robotics and simulations. This benchmark drives progress in collaborative AI, helping builders evaluate and improve agents for real-world teaming scenarios.",
-      "suggested_reel_angle": "LLM agents play Among Us: social reasoning benchmark exposed!",
+      "id": "2026-04-21-005",
+      "title": "OpenAI helps Hyatt advance AI among colleagues",
+      "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-20T00:00:00+00:00",
+      "summary": "Hyatt rolls out ChatGPT Enterprise to global staff, leveraging GPT-5.4 and Codex for productivity, operations, and enhanced guest experiences.",
+      "why_it_matters": "Real-world proof of frontier models at enterprise scale in hospitality; guides builders on integrating GPT-5.4/Codex for ops automation, personalization. Accelerates AI adoption patterns across service industries.",
+      "suggested_reel_angle": "Hyatt supercharges 100k+ staff with GPT-5.4! Enterprise AI wins. \ud83c\udfe8\u26a1",
       "suggested_long_angle": [
-        "Benchmark design and tasks",
-        "Agent performance results",
-        "Future multi-agent directions"
+        "Deployment across global workforce",
+        "GPT-5.4 and Codex applications",
+        "Measured ROI in productivity"
       ],
       "tags": [
-        "benchmark",
-        "multi-agent",
-        "embodied",
-        "social-reasoning"
+        "openai",
+        "enterprise",
+        "chatgpt",
+        "adoption",
+        "gpt-5"
       ],
       "related_registry_entries": [],
-      "authority_score": 0.8,
-      "virality_score": 0.7975,
-      "recency_hours": 8
+      "authority_score": 1.0,
+      "virality_score": 0.7682,
+      "recency_hours": 30
     }
   ]
 }
