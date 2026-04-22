@@ -1,72 +1,73 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-04-21
+### Top 5 AI Stories · 2026-04-22
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-21 06:55 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-22 06:54 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [How to Ground a Korean AI Agent in Real Demographics with Synthetic Personas](https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas)
-
-**Source:** huggingface · ⏱ *6h ago*  
-`agents` `synthetic-data` `localization` `huggingface` `nvidia`
-
-Hugging Face and NVIDIA release guide using Nemotron to generate synthetic personas for culturally grounded Korean AI agents, aligning models with real demographics for authentic interactions.
-
-> 💡 **Why it matters:** Localizing AI agents is key for global apps; synthetic personas offer scalable, ethical data to train culturally aware models without privacy risks. Enables builders to deploy reliable agents in diverse markets like Asia, boosting adoption in customer service, chatbots, and personalized AI.
-
-
----
-
-## 2. [The World Leaks the Future: Harness Evolution for Future Prediction Agents](https://arxiv.org/abs/2604.15719)
-
-**Source:** arxiv-cs-ai · ⏱ *2h ago*  
-`agents` `prediction` `forecasting` `research`
-
-Research proposes LLM agents predict unresolved events by tracking public info evolution as weak supervision signals, outperforming baselines on forecasting tasks.
-
-> 💡 **Why it matters:** Transforms agentic prediction for finance, policy, betting; uses real-world data dynamics as training signal, no oracle needed. Builders gain robust forecasting tools for long-horizon decisions, advancing autonomous agents.
-  
-**Related registry entries:** `langgraph`, `autogpt`
-
----
-
-## 3. [Preregistered Belief Revision Contracts](https://arxiv.org/abs/2604.15558)
-
-**Source:** arxiv-cs-ai · ⏱ *2h ago*  
-`multi-agent` `belief-revision` `safety` `research`
-
-New framework for multi-agent systems uses preregistered contracts to update beliefs evidence-based, countering conformity from agreement, confidence, or majority.
-
-> 💡 **Why it matters:** Prevents groupthink in agent swarms critical for collaboration tools, simulations, DAOs. Ensures reliable deliberation; builders can deploy safe multi-agent setups for research, trading, planning without false consensus risks.
-  
-**Related registry entries:** `autogen-04`, `langgraph`
-
----
-
-## 4. [GIST: Multimodal Knowledge Extraction and Spatial Grounding via Intelligent Semantic Topology](https://arxiv.org/abs/2604.15495)
-
-**Source:** arxiv-cs-ai · ⏱ *2h ago*  
-`multimodal` `embodied-ai` `robotics` `spatial-grounding` `research`
-
-GIST framework extracts multimodal knowledge and builds semantic topologies for spatial grounding in dense environments like stores, warehouses, hospitals.
-
-> 💡 **Why it matters:** Solves embodied AI challenges in cluttered real-world spaces with stale visuals, long-tail objects. Robotics builders get tools for navigation, inventory, healthcare automation, pushing toward generalist agents.
-
-
----
-
-## 5. [OpenAI helps Hyatt advance AI among colleagues](https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise)
+## 1. [Scaling Codex to enterprises worldwide](https://openai.com/index/scaling-codex-to-enterprises-worldwide)
 
 **Source:** openai · ⏱ *30h ago*  
-`openai` `enterprise` `chatgpt` `adoption` `gpt-5`
+`openai` `codex` `enterprise` `coding` `scaling`
 
-Hyatt rolls out ChatGPT Enterprise to global staff, leveraging GPT-5.4 and Codex for productivity, operations, and enhanced guest experiences.
+OpenAI launches Codex Labs and partners with Accenture, PwC, Infosys and others to deploy Codex across software development lifecycles. Codex now has 4M weekly active users, enabling scalable AI-assisted coding in enterprises.
 
-> 💡 **Why it matters:** Real-world proof of frontier models at enterprise scale in hospitality; guides builders on integrating GPT-5.4/Codex for ops automation, personalization. Accelerates AI adoption patterns across service industries.
+> 💡 **Why it matters:** This marks massive enterprise adoption of AI coding tools, providing builders with production-ready integrations, best practices for scaling, and proven workflows. Partnerships with top consultancies accelerate custom deployments, reducing barriers for Fortune 500 dev teams to integrate Codex into CI/CD, code review, and refactoring. Hitting 4M WAU signals maturity and reliability, shifting AI from experiment to core infrastructure for software engineering.
+  
+**Related registry entries:** `humanEval`, `cursor`, `aider`
+
+---
+
+## 2. [Introducing GPT-Rosalind for life sciences research](https://openai.com/index/introducing-gpt-rosalind)
+
+**Source:** openai · ⏱ *6d ago*  
+`openai` `gpt-rosalind` `life-sciences` `reasoning` `biotech`
+
+OpenAI releases GPT-Rosalind, a frontier reasoning model optimized for drug discovery, genomics analysis, protein structure prediction, and scientific workflows in biology.
+
+> 💡 **Why it matters:** AI builders in biotech gain a specialized model excelling at complex reasoning over molecular data, accelerating hypothesis generation, simulation, and analysis. It lowers the barrier for non-experts to tackle hard problems like protein folding or genomic variant effects, integrating seamlessly into lab pipelines. As a frontier model, it sets new benchmarks for domain-specific AI, enabling faster iteration in high-stakes research.
 
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-04-21 06:55 UTC · [Archive](./)</sub>
+## 3. [ARES: Adaptive Red-Teaming and End-to-End Repair of Policy-Reward System](https://arxiv.org/abs/2604.18789)
+
+**Source:** arxiv-cs-ai · ⏱ *2h ago*  
+`rlhf` `safety` `red-teaming` `alignment` `llm`
+
+ARES introduces adaptive red-teaming targeting reward model flaws in RLHF, with automated end-to-end repairs to fix unsafe behaviors in LLMs without relying on brittle policy-only methods.
+
+> 💡 **Why it matters:** RLHF practitioners get a robust framework to harden reward models, the weak link in alignment. By red-teaming RMs directly and auto-repairing, it prevents jailbreaks and unsafe outputs at scale. Ideal for production LLM teams building safer agents, reducing manual feedback loops and single points of failure in alignment pipelines.
+  
+**Related registry entries:** `constitutional-ai`, `lmsys-chatbot-arena`
+
+---
+
+## 4. [QIMMA قمّة ⛀: A Quality-First Arabic LLM Leaderboard](https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard)
+
+**Source:** huggingface · ⏱ *20h ago*  
+`huggingface` `leaderboard` `arabic` `multilingual` `evaluation`
+
+Hugging Face and TII launch QIMMA, the first quality-focused leaderboard evaluating Arabic LLMs on reasoning, instruction-following, and cultural nuance beyond basic benchmarks.
+
+> 💡 **Why it matters:** Arabic AI builders now have a dedicated eval suite prioritizing high-quality, context-aware performance. It drives better multilingual models by exposing gaps in non-English reasoning, aiding fine-tuning and agent dev for 400M+ speakers. Fosters open competition, accelerating Arabic NLP tools, RAG, and localization.
+  
+**Related registry entries:** `mmlu`, `huggingface-nlp-course`
+
+---
+
+## 5. [Gemini 3.1 Flash TTS: the next generation of expressive AI speech](https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/)
+
+**Source:** deepmind · ⏱ *6d ago*  
+`deepmind` `gemini` `tts` `speech` `multimodal`
+
+DeepMind's Gemini 3.1 Flash TTS adds granular audio tags for precise control over prosody, emotion, and style in AI-generated speech.
+
+> 💡 **Why it matters:** Builders creating voice agents, audiobooks, or virtual assistants gain fine-grained TTS control, enabling natural, expressive output without post-processing. Tags simplify prompting for varied intonations, boosting accessibility apps, games, and multilingual voice AI. Pushes state-of-the-art in controllable speech synthesis.
+
+
+---
+
+<sub>Generated by ai-pulse-agents · 2026-04-22 06:54 UTC · [Archive](./)</sub>
