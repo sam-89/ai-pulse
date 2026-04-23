@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-22",
-  "generated_at": "2026-04-22T06:54:44.985325+00:00",
+  "date": "2026-04-23",
+  "generated_at": "2026-04-23T06:55:37.315115+00:00",
   "generator_version": "1.0.0",
   "sources_polled": [
     "openai",
@@ -13,153 +13,154 @@
   "items": [
     {
       "rank": 1,
-      "id": "2026-04-22-001",
-      "title": "Scaling Codex to enterprises worldwide",
-      "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+      "id": "2026-04-23-001",
+      "title": "Making ChatGPT better for clinicians",
+      "url": "https://openai.com/index/making-chatgpt-better-for-clinicians",
       "source": "openai",
       "source_type": "official_blog",
-      "published_at": "2026-04-21T00:00:00+00:00",
-      "summary": "OpenAI launches Codex Labs and partners with Accenture, PwC, Infosys and others to deploy Codex across software development lifecycles. Codex now has 4M weekly active users, enabling scalable AI-assisted coding in enterprises.",
-      "why_it_matters": "This marks massive enterprise adoption of AI coding tools, providing builders with production-ready integrations, best practices for scaling, and proven workflows. Partnerships with top consultancies accelerate custom deployments, reducing barriers for Fortune 500 dev teams to integrate Codex into CI/CD, code review, and refactoring. Hitting 4M WAU signals maturity and reliability, shifting AI from experiment to core infrastructure for software engineering.",
-      "suggested_reel_angle": "OpenAI Codex explodes to 4M users, teams up with Big 4 giants to conquer enterprise coding!",
+      "published_at": "2026-04-22T15:00:00+00:00",
+      "summary": "OpenAI launches a specialized ChatGPT version free for verified US physicians, nurse practitioners, and pharmacists. It supports clinical care, documentation, and research tasks, enabling faster adoption in healthcare settings.",
+      "why_it_matters": "This move democratizes advanced AI for medical professionals, addressing real-world needs in diagnostics, admin, and research. Builders gain insights into fine-tuned models for high-stakes domains, potential for domain-specific prompting, and feedback loops to improve safety/accuracy in healthcare AI. Accelerates enterprise adoption and sets precedent for regulated industries.",
+      "suggested_reel_angle": "OpenAI just gave FREE ChatGPT to US doctors: healthcare AI revolution starts now!",
       "suggested_long_angle": [
-        "Codex Labs launch and enterprise toolkit",
-        "Major partnerships and deployment wins",
-        "Future of AI in dev lifecycles"
+        "Unlocking free access for clinicians",
+        "Key features for clinical workflows",
+        "Impact on medicine and AI safety"
       ],
       "tags": [
         "openai",
-        "codex",
-        "enterprise",
-        "coding",
-        "scaling"
-      ],
-      "related_registry_entries": [
-        "humanEval",
-        "cursor",
-        "aider"
-      ],
-      "authority_score": 1.0,
-      "virality_score": 0.7682,
-      "recency_hours": 30
-    },
-    {
-      "rank": 2,
-      "id": "2026-04-22-002",
-      "title": "Introducing GPT-Rosalind for life sciences research",
-      "url": "https://openai.com/index/introducing-gpt-rosalind",
-      "source": "openai",
-      "source_type": "official_blog",
-      "published_at": "2026-04-16T01:00:00+00:00",
-      "summary": "OpenAI releases GPT-Rosalind, a frontier reasoning model optimized for drug discovery, genomics analysis, protein structure prediction, and scientific workflows in biology.",
-      "why_it_matters": "AI builders in biotech gain a specialized model excelling at complex reasoning over molecular data, accelerating hypothesis generation, simulation, and analysis. It lowers the barrier for non-experts to tackle hard problems like protein folding or genomic variant effects, integrating seamlessly into lab pipelines. As a frontier model, it sets new benchmarks for domain-specific AI, enabling faster iteration in high-stakes research.",
-      "suggested_reel_angle": "OpenAI's GPT-Rosalind: Frontier AI cracking drug discovery and genomics wide open!",
-      "suggested_long_angle": [
-        "GPT-Rosalind capabilities in life sciences",
-        "Benchmark wins and use cases",
-        "Integration for research workflows"
-      ],
-      "tags": [
-        "openai",
-        "gpt-rosalind",
-        "life-sciences",
-        "reasoning",
-        "biotech"
+        "chatgpt",
+        "healthcare",
+        "enterprise"
       ],
       "related_registry_entries": [],
       "authority_score": 1.0,
-      "virality_score": 0.6054,
-      "recency_hours": 149
+      "virality_score": 0.8594,
+      "recency_hours": 15
+    },
+    {
+      "rank": 2,
+      "id": "2026-04-23-002",
+      "title": "Introducing workspace agents in ChatGPT",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-22T10:00:00+00:00",
+      "summary": "OpenAI releases Codex-powered workspace agents in ChatGPT. These cloud-based agents automate complex workflows, integrate securely with tools, and scale team productivity across applications.",
+      "why_it_matters": "Empowers AI builders to deploy production-grade agents for multi-tool orchestration without local infra. Advances agentic systems with secure cloud execution, reducing dev overhead. Signals shift to team-scale AI, inspiring frameworks like LangGraph/AutoGen integrations and standardized agent APIs.",
+      "suggested_reel_angle": "ChatGPT's new workspace agents: Automate your team's chaos in the cloud!",
+      "suggested_long_angle": [
+        "What are workspace agents?",
+        "Building and deploying workflows",
+        "Security and scaling benefits"
+      ],
+      "tags": [
+        "openai",
+        "agents",
+        "chatgpt",
+        "workflows",
+        "cloud"
+      ],
+      "related_registry_entries": [
+        "langgraph",
+        "autogen-04",
+        "react-reasoning-acting"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.8245,
+      "recency_hours": 20
     },
     {
       "rank": 3,
-      "id": "2026-04-22-003",
-      "title": "ARES: Adaptive Red-Teaming and End-to-End Repair of Policy-Reward System",
-      "url": "https://arxiv.org/abs/2604.18789",
-      "source": "arxiv-cs-ai",
-      "source_type": "research",
-      "published_at": "2026-04-22T04:00:00+00:00",
-      "summary": "ARES introduces adaptive red-teaming targeting reward model flaws in RLHF, with automated end-to-end repairs to fix unsafe behaviors in LLMs without relying on brittle policy-only methods.",
-      "why_it_matters": "RLHF practitioners get a robust framework to harden reward models, the weak link in alignment. By red-teaming RMs directly and auto-repairing, it prevents jailbreaks and unsafe outputs at scale. Ideal for production LLM teams building safer agents, reducing manual feedback loops and single points of failure in alignment pipelines.",
-      "suggested_reel_angle": "Break RLHF for good: ARES auto-finds and fixes reward model holes in LLMs!",
+      "id": "2026-04-23-003",
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-22T10:00:00+00:00",
+      "summary": "OpenAI introduces WebSockets and connection-scoped caching in Responses API, slashing overhead in agent loops like Codex. Dramatically reduces latency for real-time agentic apps.",
+      "why_it_matters": "Critical for builders crafting responsive agents: WebSockets enable persistent connections, cutting API roundtrips by orders of magnitude. Pairs with caching for stateful workflows, boosting throughput in production. Pushes standards for low-latency AI APIs, influencing agent frameworks and edge deployments.",
+      "suggested_reel_angle": "OpenAI's WebSockets hack: Agent workflows 10x faster overnight!",
       "suggested_long_angle": [
-        "RLHF vulnerabilities exposed",
-        "Adaptive red-teaming mechanics",
-        "End-to-end repair in action"
+        "Deep dive into WebSockets API",
+        "Benchmarking latency gains",
+        "Tips for agent loop optimization"
       ],
       "tags": [
-        "rlhf",
-        "safety",
-        "red-teaming",
-        "alignment",
-        "llm"
+        "openai",
+        "agents",
+        "api",
+        "performance",
+        "websockets"
       ],
       "related_registry_entries": [
-        "constitutional-ai",
-        "lmsys-chatbot-arena"
+        "langgraph",
+        "autogen-04"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.8245,
+      "recency_hours": 20
+    },
+    {
+      "rank": 4,
+      "id": "2026-04-23-004",
+      "title": "Gemma 4 VLA Demo on Jetson Orin Nano Super",
+      "url": "https://huggingface.co/blog/nvidia/gemma4",
+      "source": "huggingface",
+      "source_type": "official_blog",
+      "published_at": "2026-04-22T15:40:50+00:00",
+      "summary": "Hugging Face demos Gemma 4 Vision-Language-Action model running efficiently on Nvidia Jetson Orin Nano Super, showcasing edge deployment for real-time vision tasks.",
+      "why_it_matters": "Demonstrates feasible frontier open models on compact hardware, enabling robotics/IoT builders to run VLAs locally without clouds. Highlights optimization trends, inspiring quantized inference and edge agentics. Boosts open-source hardware-software ecosystem for accessible embodied AI.",
+      "suggested_reel_angle": "Gemma 4 crushes it on tiny Jetson Nano: Edge AI just got real!",
+      "suggested_long_angle": [
+        "Gemma 4 VLA capabilities",
+        "Jetson deployment walkthrough",
+        "Future of edge robotics"
+      ],
+      "tags": [
+        "huggingface",
+        "gemma",
+        "edge-ai",
+        "vision-language-action",
+        "nvidia"
+      ],
+      "related_registry_entries": [
+        "gemini-2-5-pro"
+      ],
+      "authority_score": 0.9,
+      "virality_score": 0.7994,
+      "recency_hours": 15
+    },
+    {
+      "rank": 5,
+      "id": "2026-04-23-005",
+      "title": "The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?",
+      "url": "https://arxiv.org/abs/2604.19749",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-23T04:00:00+00:00",
+      "summary": "New arXiv paper uncovers pervasive tool overuse in LLMs: models unnecessarily call external tools despite sufficient internal knowledge. Experiments reveal mechanisms and propose mitigations.",
+      "why_it_matters": "Exposes flaw in tool-augmented agents, guiding builders to smarter prompting/function-calling. Impacts RAG/agent design by quantifying when/why tools fail. Enables hybrid reasoning systems, improving efficiency/cost in production deployments.",
+      "suggested_reel_angle": "LLMs wasting tools on easy tasks? New research fixes the illusion!",
+      "suggested_long_angle": [
+        "Evidence of tool overuse",
+        "Underlying mechanisms explained",
+        "Practical fixes for agents"
+      ],
+      "tags": [
+        "llm",
+        "tools",
+        "reasoning",
+        "agents",
+        "research"
+      ],
+      "related_registry_entries": [
+        "toolformer",
+        "react-reasoning-acting"
       ],
       "authority_score": 0.8,
       "virality_score": 0.8575,
       "recency_hours": 2
-    },
-    {
-      "rank": 4,
-      "id": "2026-04-22-004",
-      "title": "QIMMA \u0642\u0645\u0651\u0629 \u26c0: A Quality-First Arabic LLM Leaderboard",
-      "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
-      "source": "huggingface",
-      "source_type": "official_blog",
-      "published_at": "2026-04-21T10:09:58+00:00",
-      "summary": "Hugging Face and TII launch QIMMA, the first quality-focused leaderboard evaluating Arabic LLMs on reasoning, instruction-following, and cultural nuance beyond basic benchmarks.",
-      "why_it_matters": "Arabic AI builders now have a dedicated eval suite prioritizing high-quality, context-aware performance. It drives better multilingual models by exposing gaps in non-English reasoning, aiding fine-tuning and agent dev for 400M+ speakers. Fosters open competition, accelerating Arabic NLP tools, RAG, and localization.",
-      "suggested_reel_angle": "QIMMA: New Arabic LLM leaderboard that actually tests quality, not just tokens!",
-      "suggested_long_angle": [
-        "Why Arabic evals lag and QIMMA fixes it",
-        "Top models ranked",
-        "Building better Arabic AI"
-      ],
-      "tags": [
-        "huggingface",
-        "leaderboard",
-        "arabic",
-        "multilingual",
-        "evaluation"
-      ],
-      "related_registry_entries": [
-        "mmlu",
-        "huggingface-nlp-course"
-      ],
-      "authority_score": 0.9,
-      "virality_score": 0.7645,
-      "recency_hours": 20
-    },
-    {
-      "rank": 5,
-      "id": "2026-04-22-005",
-      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
-      "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
-      "source": "deepmind",
-      "source_type": "official_blog",
-      "published_at": "2026-04-15T16:03:19+00:00",
-      "summary": "DeepMind's Gemini 3.1 Flash TTS adds granular audio tags for precise control over prosody, emotion, and style in AI-generated speech.",
-      "why_it_matters": "Builders creating voice agents, audiobooks, or virtual assistants gain fine-grained TTS control, enabling natural, expressive output without post-processing. Tags simplify prompting for varied intonations, boosting accessibility apps, games, and multilingual voice AI. Pushes state-of-the-art in controllable speech synthesis.",
-      "suggested_reel_angle": "Gemini TTS 3.1: Tag your way to hyper-expressive AI voices!",
-      "suggested_long_angle": [
-        "Granular audio tags demo",
-        "Expressive control breakthroughs",
-        "Apps for voice AI builders"
-      ],
-      "tags": [
-        "deepmind",
-        "gemini",
-        "tts",
-        "speech",
-        "multimodal"
-      ],
-      "related_registry_entries": [],
-      "authority_score": 1.0,
-      "virality_score": 0.6042,
-      "recency_hours": 158
     }
   ]
 }
