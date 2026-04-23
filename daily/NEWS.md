@@ -1,73 +1,74 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-04-22
+### Top 5 AI Stories · 2026-04-23
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-22 06:54 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-23 06:55 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [Scaling Codex to enterprises worldwide](https://openai.com/index/scaling-codex-to-enterprises-worldwide)
+## 1. [Making ChatGPT better for clinicians](https://openai.com/index/making-chatgpt-better-for-clinicians)
 
-**Source:** openai · ⏱ *30h ago*  
-`openai` `codex` `enterprise` `coding` `scaling`
+**Source:** openai · ⏱ *15h ago*  
+`openai` `chatgpt` `healthcare` `enterprise`
 
-OpenAI launches Codex Labs and partners with Accenture, PwC, Infosys and others to deploy Codex across software development lifecycles. Codex now has 4M weekly active users, enabling scalable AI-assisted coding in enterprises.
+OpenAI launches a specialized ChatGPT version free for verified US physicians, nurse practitioners, and pharmacists. It supports clinical care, documentation, and research tasks, enabling faster adoption in healthcare settings.
 
-> 💡 **Why it matters:** This marks massive enterprise adoption of AI coding tools, providing builders with production-ready integrations, best practices for scaling, and proven workflows. Partnerships with top consultancies accelerate custom deployments, reducing barriers for Fortune 500 dev teams to integrate Codex into CI/CD, code review, and refactoring. Hitting 4M WAU signals maturity and reliability, shifting AI from experiment to core infrastructure for software engineering.
+> 💡 **Why it matters:** This move democratizes advanced AI for medical professionals, addressing real-world needs in diagnostics, admin, and research. Builders gain insights into fine-tuned models for high-stakes domains, potential for domain-specific prompting, and feedback loops to improve safety/accuracy in healthcare AI. Accelerates enterprise adoption and sets precedent for regulated industries.
+
+
+---
+
+## 2. [Introducing workspace agents in ChatGPT](https://openai.com/index/introducing-workspace-agents-in-chatgpt)
+
+**Source:** openai · ⏱ *20h ago*  
+`openai` `agents` `chatgpt` `workflows` `cloud`
+
+OpenAI releases Codex-powered workspace agents in ChatGPT. These cloud-based agents automate complex workflows, integrate securely with tools, and scale team productivity across applications.
+
+> 💡 **Why it matters:** Empowers AI builders to deploy production-grade agents for multi-tool orchestration without local infra. Advances agentic systems with secure cloud execution, reducing dev overhead. Signals shift to team-scale AI, inspiring frameworks like LangGraph/AutoGen integrations and standardized agent APIs.
   
-**Related registry entries:** `humanEval`, `cursor`, `aider`
+**Related registry entries:** `langgraph`, `autogen-04`, `react-reasoning-acting`
 
 ---
 
-## 2. [Introducing GPT-Rosalind for life sciences research](https://openai.com/index/introducing-gpt-rosalind)
+## 3. [Speeding up agentic workflows with WebSockets in the Responses API](https://openai.com/index/speeding-up-agentic-workflows-with-websockets)
 
-**Source:** openai · ⏱ *6d ago*  
-`openai` `gpt-rosalind` `life-sciences` `reasoning` `biotech`
+**Source:** openai · ⏱ *20h ago*  
+`openai` `agents` `api` `performance` `websockets`
 
-OpenAI releases GPT-Rosalind, a frontier reasoning model optimized for drug discovery, genomics analysis, protein structure prediction, and scientific workflows in biology.
+OpenAI introduces WebSockets and connection-scoped caching in Responses API, slashing overhead in agent loops like Codex. Dramatically reduces latency for real-time agentic apps.
 
-> 💡 **Why it matters:** AI builders in biotech gain a specialized model excelling at complex reasoning over molecular data, accelerating hypothesis generation, simulation, and analysis. It lowers the barrier for non-experts to tackle hard problems like protein folding or genomic variant effects, integrating seamlessly into lab pipelines. As a frontier model, it sets new benchmarks for domain-specific AI, enabling faster iteration in high-stakes research.
-
+> 💡 **Why it matters:** Critical for builders crafting responsive agents: WebSockets enable persistent connections, cutting API roundtrips by orders of magnitude. Pairs with caching for stateful workflows, boosting throughput in production. Pushes standards for low-latency AI APIs, influencing agent frameworks and edge deployments.
+  
+**Related registry entries:** `langgraph`, `autogen-04`
 
 ---
 
-## 3. [ARES: Adaptive Red-Teaming and End-to-End Repair of Policy-Reward System](https://arxiv.org/abs/2604.18789)
+## 4. [Gemma 4 VLA Demo on Jetson Orin Nano Super](https://huggingface.co/blog/nvidia/gemma4)
+
+**Source:** huggingface · ⏱ *15h ago*  
+`huggingface` `gemma` `edge-ai` `vision-language-action` `nvidia`
+
+Hugging Face demos Gemma 4 Vision-Language-Action model running efficiently on Nvidia Jetson Orin Nano Super, showcasing edge deployment for real-time vision tasks.
+
+> 💡 **Why it matters:** Demonstrates feasible frontier open models on compact hardware, enabling robotics/IoT builders to run VLAs locally without clouds. Highlights optimization trends, inspiring quantized inference and edge agentics. Boosts open-source hardware-software ecosystem for accessible embodied AI.
+  
+**Related registry entries:** `gemini-2-5-pro`
+
+---
+
+## 5. [The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?](https://arxiv.org/abs/2604.19749)
 
 **Source:** arxiv-cs-ai · ⏱ *2h ago*  
-`rlhf` `safety` `red-teaming` `alignment` `llm`
+`llm` `tools` `reasoning` `agents` `research`
 
-ARES introduces adaptive red-teaming targeting reward model flaws in RLHF, with automated end-to-end repairs to fix unsafe behaviors in LLMs without relying on brittle policy-only methods.
+New arXiv paper uncovers pervasive tool overuse in LLMs: models unnecessarily call external tools despite sufficient internal knowledge. Experiments reveal mechanisms and propose mitigations.
 
-> 💡 **Why it matters:** RLHF practitioners get a robust framework to harden reward models, the weak link in alignment. By red-teaming RMs directly and auto-repairing, it prevents jailbreaks and unsafe outputs at scale. Ideal for production LLM teams building safer agents, reducing manual feedback loops and single points of failure in alignment pipelines.
+> 💡 **Why it matters:** Exposes flaw in tool-augmented agents, guiding builders to smarter prompting/function-calling. Impacts RAG/agent design by quantifying when/why tools fail. Enables hybrid reasoning systems, improving efficiency/cost in production deployments.
   
-**Related registry entries:** `constitutional-ai`, `lmsys-chatbot-arena`
+**Related registry entries:** `toolformer`, `react-reasoning-acting`
 
 ---
 
-## 4. [QIMMA قمّة ⛀: A Quality-First Arabic LLM Leaderboard](https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard)
-
-**Source:** huggingface · ⏱ *20h ago*  
-`huggingface` `leaderboard` `arabic` `multilingual` `evaluation`
-
-Hugging Face and TII launch QIMMA, the first quality-focused leaderboard evaluating Arabic LLMs on reasoning, instruction-following, and cultural nuance beyond basic benchmarks.
-
-> 💡 **Why it matters:** Arabic AI builders now have a dedicated eval suite prioritizing high-quality, context-aware performance. It drives better multilingual models by exposing gaps in non-English reasoning, aiding fine-tuning and agent dev for 400M+ speakers. Fosters open competition, accelerating Arabic NLP tools, RAG, and localization.
-  
-**Related registry entries:** `mmlu`, `huggingface-nlp-course`
-
----
-
-## 5. [Gemini 3.1 Flash TTS: the next generation of expressive AI speech](https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/)
-
-**Source:** deepmind · ⏱ *6d ago*  
-`deepmind` `gemini` `tts` `speech` `multimodal`
-
-DeepMind's Gemini 3.1 Flash TTS adds granular audio tags for precise control over prosody, emotion, and style in AI-generated speech.
-
-> 💡 **Why it matters:** Builders creating voice agents, audiobooks, or virtual assistants gain fine-grained TTS control, enabling natural, expressive output without post-processing. Tags simplify prompting for varied intonations, boosting accessibility apps, games, and multilingual voice AI. Pushes state-of-the-art in controllable speech synthesis.
-
-
----
-
-<sub>Generated by ai-pulse-agents · 2026-04-22 06:54 UTC · [Archive](./)</sub>
+<sub>Generated by ai-pulse-agents · 2026-04-23 06:55 UTC · [Archive](./)</sub>
