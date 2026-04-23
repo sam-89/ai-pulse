@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-04-22*
+## 📰 Today in AI · *2026-04-23*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [Scaling Codex to enterprises worldwide](https://openai.com/index/scaling-codex-to-enterprises-worldwide) | openai |
-| 2 | [Introducing GPT-Rosalind for life sciences research](https://openai.com/index/introducing-gpt-rosalind) | openai |
-| 3 | [ARES: Adaptive Red-Teaming and End-to-End Repair of Policy-Reward System](https://arxiv.org/abs/2604.18789) | arxiv-cs-ai |
-| 4 | [QIMMA قمّة ⛀: A Quality-First Arabic LLM Leaderboard](https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard) | huggingface |
-| 5 | [Gemini 3.1 Flash TTS: the next generation of expressive AI speech](https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/) | deepmind |
+| 1 | [Making ChatGPT better for clinicians](https://openai.com/index/making-chatgpt-better-for-clinicians) | openai |
+| 2 | [Introducing workspace agents in ChatGPT](https://openai.com/index/introducing-workspace-agents-in-chatgpt) | openai |
+| 3 | [Speeding up agentic workflows with WebSockets in the Responses API](https://openai.com/index/speeding-up-agentic-workflows-with-websockets) | openai |
+| 4 | [Gemma 4 VLA Demo on Jetson Orin Nano Super](https://huggingface.co/blog/nvidia/gemma4) | huggingface |
+| 5 | [The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?](https://arxiv.org/abs/2604.19749) | arxiv-cs-ai |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
