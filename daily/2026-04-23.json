@@ -1,0 +1,166 @@
+{
+  "date": "2026-04-23",
+  "generated_at": "2026-04-23T06:55:37.315115+00:00",
+  "generator_version": "1.0.0",
+  "sources_polled": [
+    "openai",
+    "anthropic",
+    "deepmind",
+    "huggingface",
+    "google-news-ai",
+    "arxiv-cs-ai"
+  ],
+  "items": [
+    {
+      "rank": 1,
+      "id": "2026-04-23-001",
+      "title": "Making ChatGPT better for clinicians",
+      "url": "https://openai.com/index/making-chatgpt-better-for-clinicians",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-22T15:00:00+00:00",
+      "summary": "OpenAI launches a specialized ChatGPT version free for verified US physicians, nurse practitioners, and pharmacists. It supports clinical care, documentation, and research tasks, enabling faster adoption in healthcare settings.",
+      "why_it_matters": "This move democratizes advanced AI for medical professionals, addressing real-world needs in diagnostics, admin, and research. Builders gain insights into fine-tuned models for high-stakes domains, potential for domain-specific prompting, and feedback loops to improve safety/accuracy in healthcare AI. Accelerates enterprise adoption and sets precedent for regulated industries.",
+      "suggested_reel_angle": "OpenAI just gave FREE ChatGPT to US doctors: healthcare AI revolution starts now!",
+      "suggested_long_angle": [
+        "Unlocking free access for clinicians",
+        "Key features for clinical workflows",
+        "Impact on medicine and AI safety"
+      ],
+      "tags": [
+        "openai",
+        "chatgpt",
+        "healthcare",
+        "enterprise"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 1.0,
+      "virality_score": 0.8594,
+      "recency_hours": 15
+    },
+    {
+      "rank": 2,
+      "id": "2026-04-23-002",
+      "title": "Introducing workspace agents in ChatGPT",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-22T10:00:00+00:00",
+      "summary": "OpenAI releases Codex-powered workspace agents in ChatGPT. These cloud-based agents automate complex workflows, integrate securely with tools, and scale team productivity across applications.",
+      "why_it_matters": "Empowers AI builders to deploy production-grade agents for multi-tool orchestration without local infra. Advances agentic systems with secure cloud execution, reducing dev overhead. Signals shift to team-scale AI, inspiring frameworks like LangGraph/AutoGen integrations and standardized agent APIs.",
+      "suggested_reel_angle": "ChatGPT's new workspace agents: Automate your team's chaos in the cloud!",
+      "suggested_long_angle": [
+        "What are workspace agents?",
+        "Building and deploying workflows",
+        "Security and scaling benefits"
+      ],
+      "tags": [
+        "openai",
+        "agents",
+        "chatgpt",
+        "workflows",
+        "cloud"
+      ],
+      "related_registry_entries": [
+        "langgraph",
+        "autogen-04",
+        "react-reasoning-acting"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.8245,
+      "recency_hours": 20
+    },
+    {
+      "rank": 3,
+      "id": "2026-04-23-003",
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-22T10:00:00+00:00",
+      "summary": "OpenAI introduces WebSockets and connection-scoped caching in Responses API, slashing overhead in agent loops like Codex. Dramatically reduces latency for real-time agentic apps.",
+      "why_it_matters": "Critical for builders crafting responsive agents: WebSockets enable persistent connections, cutting API roundtrips by orders of magnitude. Pairs with caching for stateful workflows, boosting throughput in production. Pushes standards for low-latency AI APIs, influencing agent frameworks and edge deployments.",
+      "suggested_reel_angle": "OpenAI's WebSockets hack: Agent workflows 10x faster overnight!",
+      "suggested_long_angle": [
+        "Deep dive into WebSockets API",
+        "Benchmarking latency gains",
+        "Tips for agent loop optimization"
+      ],
+      "tags": [
+        "openai",
+        "agents",
+        "api",
+        "performance",
+        "websockets"
+      ],
+      "related_registry_entries": [
+        "langgraph",
+        "autogen-04"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.8245,
+      "recency_hours": 20
+    },
+    {
+      "rank": 4,
+      "id": "2026-04-23-004",
+      "title": "Gemma 4 VLA Demo on Jetson Orin Nano Super",
+      "url": "https://huggingface.co/blog/nvidia/gemma4",
+      "source": "huggingface",
+      "source_type": "official_blog",
+      "published_at": "2026-04-22T15:40:50+00:00",
+      "summary": "Hugging Face demos Gemma 4 Vision-Language-Action model running efficiently on Nvidia Jetson Orin Nano Super, showcasing edge deployment for real-time vision tasks.",
+      "why_it_matters": "Demonstrates feasible frontier open models on compact hardware, enabling robotics/IoT builders to run VLAs locally without clouds. Highlights optimization trends, inspiring quantized inference and edge agentics. Boosts open-source hardware-software ecosystem for accessible embodied AI.",
+      "suggested_reel_angle": "Gemma 4 crushes it on tiny Jetson Nano: Edge AI just got real!",
+      "suggested_long_angle": [
+        "Gemma 4 VLA capabilities",
+        "Jetson deployment walkthrough",
+        "Future of edge robotics"
+      ],
+      "tags": [
+        "huggingface",
+        "gemma",
+        "edge-ai",
+        "vision-language-action",
+        "nvidia"
+      ],
+      "related_registry_entries": [
+        "gemini-2-5-pro"
+      ],
+      "authority_score": 0.9,
+      "virality_score": 0.7994,
+      "recency_hours": 15
+    },
+    {
+      "rank": 5,
+      "id": "2026-04-23-005",
+      "title": "The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?",
+      "url": "https://arxiv.org/abs/2604.19749",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-23T04:00:00+00:00",
+      "summary": "New arXiv paper uncovers pervasive tool overuse in LLMs: models unnecessarily call external tools despite sufficient internal knowledge. Experiments reveal mechanisms and propose mitigations.",
+      "why_it_matters": "Exposes flaw in tool-augmented agents, guiding builders to smarter prompting/function-calling. Impacts RAG/agent design by quantifying when/why tools fail. Enables hybrid reasoning systems, improving efficiency/cost in production deployments.",
+      "suggested_reel_angle": "LLMs wasting tools on easy tasks? New research fixes the illusion!",
+      "suggested_long_angle": [
+        "Evidence of tool overuse",
+        "Underlying mechanisms explained",
+        "Practical fixes for agents"
+      ],
+      "tags": [
+        "llm",
+        "tools",
+        "reasoning",
+        "agents",
+        "research"
+      ],
+      "related_registry_entries": [
+        "toolformer",
+        "react-reasoning-acting"
+      ],
+      "authority_score": 0.8,
+      "virality_score": 0.8575,
+      "recency_hours": 2
+    }
+  ]
+}
