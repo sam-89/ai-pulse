@@ -1,0 +1,171 @@
+{
+  "date": "2026-04-24",
+  "generated_at": "2026-04-24T06:56:22.245703+00:00",
+  "generator_version": "1.0.0",
+  "sources_polled": [
+    "openai",
+    "anthropic",
+    "deepmind",
+    "huggingface",
+    "google-news-ai",
+    "arxiv-cs-ai"
+  ],
+  "items": [
+    {
+      "rank": 1,
+      "id": "2026-04-24-001",
+      "title": "Introducing GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-23T11:00:00+00:00",
+      "summary": "OpenAI unveils GPT-5.5, their most advanced model to date. It is faster, more capable, and optimized for complex tasks like coding, research, data analysis, and integration with multiple tools, empowering developers to tackle sophisticated workflows.",
+      "why_it_matters": "As OpenAI's flagship release, GPT-5.5 pushes the boundaries of LLM performance, offering superior reasoning, speed, and tool-handling for AI builders. It sets new standards in coding assistance, analytical pipelines, and agentic systems, influencing model selection across industries and accelerating innovation in production apps.",
+      "suggested_reel_angle": "GPT-5.5 is here! OpenAI's smartest AI yet crushes coding, research, and tools. See why devs are buzzing.",
+      "suggested_long_angle": [
+        "Key new capabilities and benchmarks",
+        "Integration with tools and workflows",
+        "Impact on developer productivity"
+      ],
+      "tags": [
+        "openai",
+        "gpt",
+        "model-release",
+        "coding",
+        "tools"
+      ],
+      "related_registry_entries": [
+        "mmlu",
+        "humaneval",
+        "lmsys-chatbot-arena"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.8311,
+      "recency_hours": 19
+    },
+    {
+      "rank": 2,
+      "id": "2026-04-24-002",
+      "title": "GPT-5.5 System Card",
+      "url": "https://openai.com/index/gpt-5-5-system-card",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-23T11:00:00+00:00",
+      "summary": "OpenAI publishes the GPT-5.5 System Card, providing comprehensive details on model safety evaluations, identified risks, mitigations, and deployment guidelines for responsible use.",
+      "why_it_matters": "Essential for AI practitioners deploying frontier models, the System Card offers transparency on safety benchmarks, failure modes, and safeguards. It guides ethical integration into apps, helps comply with regulations, and informs risk assessments in high-stakes applications like automation and decision systems.",
+      "suggested_reel_angle": "Inside GPT-5.5's safety: OpenAI's System Card reveals risks and fixes you need to know before building.",
+      "suggested_long_angle": [
+        "Safety evaluation methodology",
+        "Key risks and mitigations",
+        "Best practices for deployment"
+      ],
+      "tags": [
+        "openai",
+        "gpt",
+        "safety",
+        "system-card",
+        "alignment"
+      ],
+      "related_registry_entries": [
+        "constitutional-ai"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.8311,
+      "recency_hours": 19
+    },
+    {
+      "rank": 3,
+      "id": "2026-04-24-003",
+      "title": "Architecture of an AI-Based Automated Course of Action Generation System for Military Operations",
+      "url": "https://arxiv.org/abs/2604.20862",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-24T04:00:00+00:00",
+      "summary": "arXiv paper outlines an AI system for automating Course of Action (CoA) planning in modern warfare, addressing challenges from expanded operational areas, faster maneuvers, and longer ranges.",
+      "why_it_matters": "This architecture advances autonomous strategic planning for defense AI builders, enabling real-time CoA generation under uncertainty. It paves the way for scalable military agents, influencing hybrid human-AI command systems and setting precedents for high-stakes decision automation beyond defense.",
+      "suggested_reel_angle": "AI takes over military planning: New paper on automated CoA systems for future wars.",
+      "suggested_long_angle": [
+        "System architecture breakdown",
+        "Challenges in warfare automation",
+        "Implications for agentic AI"
+      ],
+      "tags": [
+        "military-ai",
+        "planning",
+        "agents",
+        "defense",
+        "autonomous"
+      ],
+      "related_registry_entries": [
+        "langgraph",
+        "react-reasoning-acting"
+      ],
+      "authority_score": 0.8,
+      "virality_score": 0.8575,
+      "recency_hours": 2
+    },
+    {
+      "rank": 4,
+      "id": "2026-04-24-004",
+      "title": "Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks",
+      "url": "https://arxiv.org/abs/2604.20987",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-24T04:00:00+00:00",
+      "summary": "arXiv introduces co-evolving LLM agents with decision modules and skill banks, excelling in long-horizon environments like games that require multi-step reasoning, skill chaining, and handling delayed rewards.",
+      "why_it_matters": "Breakthrough for agent builders tackling complex, extended tasks. Combines decision-making with modular skills for robust performance in partially observable settings, boosting applications in robotics, gaming, and enterprise automation where traditional LLMs falter.",
+      "suggested_reel_angle": "LLM agents that master long games: Co-evolving decisions and skills change everything.",
+      "suggested_long_angle": [
+        "Agent architecture and co-evolution",
+        "Performance in long-horizon benchmarks",
+        "Building your own skill-bank agents"
+      ],
+      "tags": [
+        "agents",
+        "llm",
+        "long-horizon",
+        "multi-agent",
+        "games"
+      ],
+      "related_registry_entries": [
+        "langgraph",
+        "autogpt",
+        "swe-agent"
+      ],
+      "authority_score": 0.8,
+      "virality_score": 0.8575,
+      "recency_hours": 2
+    },
+    {
+      "rank": 5,
+      "id": "2026-04-24-005",
+      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+      "url": "https://deepmind.google/blog/decoupled-diloco/",
+      "source": "deepmind",
+      "source_type": "official_blog",
+      "published_at": "2026-04-22T10:20:03+00:00",
+      "summary": "DeepMind presents Decoupled DiLoCo, a method enhancing distributed AI training resilience by decoupling communication, improving fault tolerance and efficiency at massive scales.",
+      "why_it_matters": "Critical for ML engineers scaling training to frontier models. Offers higher throughput and reliability against failures, reducing costs and enabling larger clusters. Accelerates open and proprietary model development in resource-constrained environments.",
+      "suggested_reel_angle": "DeepMind's DiLoCo: Train AI at scale without crashes. The future of distributed ML.",
+      "suggested_long_angle": [
+        "How Decoupled DiLoCo works",
+        "Resilience gains over prior methods",
+        "Implementation for your training pipeline"
+      ],
+      "tags": [
+        "deepmind",
+        "distributed-training",
+        "scaling",
+        "mlops",
+        "resilient"
+      ],
+      "related_registry_entries": [
+        "vllm",
+        "weights-and-biases"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.7122,
+      "recency_hours": 44
+    }
+  ]
+}
