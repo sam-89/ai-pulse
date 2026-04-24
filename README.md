@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-04-23*
+## 📰 Today in AI · *2026-04-24*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [Making ChatGPT better for clinicians](https://openai.com/index/making-chatgpt-better-for-clinicians) | openai |
-| 2 | [Introducing workspace agents in ChatGPT](https://openai.com/index/introducing-workspace-agents-in-chatgpt) | openai |
-| 3 | [Speeding up agentic workflows with WebSockets in the Responses API](https://openai.com/index/speeding-up-agentic-workflows-with-websockets) | openai |
-| 4 | [Gemma 4 VLA Demo on Jetson Orin Nano Super](https://huggingface.co/blog/nvidia/gemma4) | huggingface |
-| 5 | [The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?](https://arxiv.org/abs/2604.19749) | arxiv-cs-ai |
+| 1 | [Introducing GPT-5.5](https://openai.com/index/introducing-gpt-5-5) | openai |
+| 2 | [GPT-5.5 System Card](https://openai.com/index/gpt-5-5-system-card) | openai |
+| 3 | [Architecture of an AI-Based Automated Course of Action Generation System for Military Operations](https://arxiv.org/abs/2604.20862) | arxiv-cs-ai |
+| 4 | [Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks](https://arxiv.org/abs/2604.20987) | arxiv-cs-ai |
+| 5 | [Decoupled DiLoCo: A new frontier for resilient, distributed AI training](https://deepmind.google/blog/decoupled-diloco/) | deepmind |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
