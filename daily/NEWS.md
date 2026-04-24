@@ -1,74 +1,75 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-04-23
+### Top 5 AI Stories · 2026-04-24
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-23 06:55 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-24 06:56 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [Making ChatGPT better for clinicians](https://openai.com/index/making-chatgpt-better-for-clinicians)
+## 1. [Introducing GPT-5.5](https://openai.com/index/introducing-gpt-5-5)
 
-**Source:** openai · ⏱ *15h ago*  
-`openai` `chatgpt` `healthcare` `enterprise`
+**Source:** openai · ⏱ *19h ago*  
+`openai` `gpt` `model-release` `coding` `tools`
 
-OpenAI launches a specialized ChatGPT version free for verified US physicians, nurse practitioners, and pharmacists. It supports clinical care, documentation, and research tasks, enabling faster adoption in healthcare settings.
+OpenAI unveils GPT-5.5, their most advanced model to date. It is faster, more capable, and optimized for complex tasks like coding, research, data analysis, and integration with multiple tools, empowering developers to tackle sophisticated workflows.
 
-> 💡 **Why it matters:** This move democratizes advanced AI for medical professionals, addressing real-world needs in diagnostics, admin, and research. Builders gain insights into fine-tuned models for high-stakes domains, potential for domain-specific prompting, and feedback loops to improve safety/accuracy in healthcare AI. Accelerates enterprise adoption and sets precedent for regulated industries.
-
-
----
-
-## 2. [Introducing workspace agents in ChatGPT](https://openai.com/index/introducing-workspace-agents-in-chatgpt)
-
-**Source:** openai · ⏱ *20h ago*  
-`openai` `agents` `chatgpt` `workflows` `cloud`
-
-OpenAI releases Codex-powered workspace agents in ChatGPT. These cloud-based agents automate complex workflows, integrate securely with tools, and scale team productivity across applications.
-
-> 💡 **Why it matters:** Empowers AI builders to deploy production-grade agents for multi-tool orchestration without local infra. Advances agentic systems with secure cloud execution, reducing dev overhead. Signals shift to team-scale AI, inspiring frameworks like LangGraph/AutoGen integrations and standardized agent APIs.
+> 💡 **Why it matters:** As OpenAI's flagship release, GPT-5.5 pushes the boundaries of LLM performance, offering superior reasoning, speed, and tool-handling for AI builders. It sets new standards in coding assistance, analytical pipelines, and agentic systems, influencing model selection across industries and accelerating innovation in production apps.
   
-**Related registry entries:** `langgraph`, `autogen-04`, `react-reasoning-acting`
+**Related registry entries:** `mmlu`, `humaneval`, `lmsys-chatbot-arena`
 
 ---
 
-## 3. [Speeding up agentic workflows with WebSockets in the Responses API](https://openai.com/index/speeding-up-agentic-workflows-with-websockets)
+## 2. [GPT-5.5 System Card](https://openai.com/index/gpt-5-5-system-card)
 
-**Source:** openai · ⏱ *20h ago*  
-`openai` `agents` `api` `performance` `websockets`
+**Source:** openai · ⏱ *19h ago*  
+`openai` `gpt` `safety` `system-card` `alignment`
 
-OpenAI introduces WebSockets and connection-scoped caching in Responses API, slashing overhead in agent loops like Codex. Dramatically reduces latency for real-time agentic apps.
+OpenAI publishes the GPT-5.5 System Card, providing comprehensive details on model safety evaluations, identified risks, mitigations, and deployment guidelines for responsible use.
 
-> 💡 **Why it matters:** Critical for builders crafting responsive agents: WebSockets enable persistent connections, cutting API roundtrips by orders of magnitude. Pairs with caching for stateful workflows, boosting throughput in production. Pushes standards for low-latency AI APIs, influencing agent frameworks and edge deployments.
+> 💡 **Why it matters:** Essential for AI practitioners deploying frontier models, the System Card offers transparency on safety benchmarks, failure modes, and safeguards. It guides ethical integration into apps, helps comply with regulations, and informs risk assessments in high-stakes applications like automation and decision systems.
   
-**Related registry entries:** `langgraph`, `autogen-04`
+**Related registry entries:** `constitutional-ai`
 
 ---
 
-## 4. [Gemma 4 VLA Demo on Jetson Orin Nano Super](https://huggingface.co/blog/nvidia/gemma4)
-
-**Source:** huggingface · ⏱ *15h ago*  
-`huggingface` `gemma` `edge-ai` `vision-language-action` `nvidia`
-
-Hugging Face demos Gemma 4 Vision-Language-Action model running efficiently on Nvidia Jetson Orin Nano Super, showcasing edge deployment for real-time vision tasks.
-
-> 💡 **Why it matters:** Demonstrates feasible frontier open models on compact hardware, enabling robotics/IoT builders to run VLAs locally without clouds. Highlights optimization trends, inspiring quantized inference and edge agentics. Boosts open-source hardware-software ecosystem for accessible embodied AI.
-  
-**Related registry entries:** `gemini-2-5-pro`
-
----
-
-## 5. [The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?](https://arxiv.org/abs/2604.19749)
+## 3. [Architecture of an AI-Based Automated Course of Action Generation System for Military Operations](https://arxiv.org/abs/2604.20862)
 
 **Source:** arxiv-cs-ai · ⏱ *2h ago*  
-`llm` `tools` `reasoning` `agents` `research`
+`military-ai` `planning` `agents` `defense` `autonomous`
 
-New arXiv paper uncovers pervasive tool overuse in LLMs: models unnecessarily call external tools despite sufficient internal knowledge. Experiments reveal mechanisms and propose mitigations.
+arXiv paper outlines an AI system for automating Course of Action (CoA) planning in modern warfare, addressing challenges from expanded operational areas, faster maneuvers, and longer ranges.
 
-> 💡 **Why it matters:** Exposes flaw in tool-augmented agents, guiding builders to smarter prompting/function-calling. Impacts RAG/agent design by quantifying when/why tools fail. Enables hybrid reasoning systems, improving efficiency/cost in production deployments.
+> 💡 **Why it matters:** This architecture advances autonomous strategic planning for defense AI builders, enabling real-time CoA generation under uncertainty. It paves the way for scalable military agents, influencing hybrid human-AI command systems and setting precedents for high-stakes decision automation beyond defense.
   
-**Related registry entries:** `toolformer`, `react-reasoning-acting`
+**Related registry entries:** `langgraph`, `react-reasoning-acting`
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-04-23 06:55 UTC · [Archive](./)</sub>
+## 4. [Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks](https://arxiv.org/abs/2604.20987)
+
+**Source:** arxiv-cs-ai · ⏱ *2h ago*  
+`agents` `llm` `long-horizon` `multi-agent` `games`
+
+arXiv introduces co-evolving LLM agents with decision modules and skill banks, excelling in long-horizon environments like games that require multi-step reasoning, skill chaining, and handling delayed rewards.
+
+> 💡 **Why it matters:** Breakthrough for agent builders tackling complex, extended tasks. Combines decision-making with modular skills for robust performance in partially observable settings, boosting applications in robotics, gaming, and enterprise automation where traditional LLMs falter.
+  
+**Related registry entries:** `langgraph`, `autogpt`, `swe-agent`
+
+---
+
+## 5. [Decoupled DiLoCo: A new frontier for resilient, distributed AI training](https://deepmind.google/blog/decoupled-diloco/)
+
+**Source:** deepmind · ⏱ *44h ago*  
+`deepmind` `distributed-training` `scaling` `mlops` `resilient`
+
+DeepMind presents Decoupled DiLoCo, a method enhancing distributed AI training resilience by decoupling communication, improving fault tolerance and efficiency at massive scales.
+
+> 💡 **Why it matters:** Critical for ML engineers scaling training to frontier models. Offers higher throughput and reliability against failures, reducing costs and enabling larger clusters. Accelerates open and proprietary model development in resource-constrained environments.
+  
+**Related registry entries:** `vllm`, `weights-and-biases`
+
+---
+
+<sub>Generated by ai-pulse-agents · 2026-04-24 06:56 UTC · [Archive](./)</sub>
