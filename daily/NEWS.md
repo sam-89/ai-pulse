@@ -1,75 +1,74 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-04-24
+### Top 5 AI Stories · 2026-04-25
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-24 06:56 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-25 06:46 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [Introducing GPT-5.5](https://openai.com/index/introducing-gpt-5-5)
+## 1. [DeepSeek-V4: a million-token context that agents can actually use](https://huggingface.co/blog/deepseekv4)
 
-**Source:** openai · ⏱ *19h ago*  
-`openai` `gpt` `model-release` `coding` `tools`
+**Source:** huggingface · ⏱ *30h ago*  
+`model-release` `long-context` `agents` `deepseek`
 
-OpenAI unveils GPT-5.5, their most advanced model to date. It is faster, more capable, and optimized for complex tasks like coding, research, data analysis, and integration with multiple tools, empowering developers to tackle sophisticated workflows.
+DeepSeek releases V4 model with a 1 million token context window optimized for agentic workflows. It delivers stable performance on long sequences, enabling agents to process massive inputs like full codebases or documents without degradation.
 
-> 💡 **Why it matters:** As OpenAI's flagship release, GPT-5.5 pushes the boundaries of LLM performance, offering superior reasoning, speed, and tool-handling for AI builders. It sets new standards in coding assistance, analytical pipelines, and agentic systems, influencing model selection across industries and accelerating innovation in production apps.
+> 💡 **Why it matters:** This breakthrough allows AI builders to create more capable agents handling complex, long-horizon tasks. No more context truncation issues in RAG, coding, or planning. Boosts reliability for production agents, reduces engineering for summarization chains, and opens doors to novel applications in software dev, legal analysis, and research. Competitive edge over shorter-context rivals.
   
-**Related registry entries:** `mmlu`, `humaneval`, `lmsys-chatbot-arena`
+**Related registry entries:** `deepseek-r2`
 
 ---
 
-## 2. [GPT-5.5 System Card](https://openai.com/index/gpt-5-5-system-card)
+## 2. [Codex Automations: Schedules and Triggers for Recurring AI Workflows](https://openai.com/academy/codex-automations)
 
-**Source:** openai · ⏱ *19h ago*  
-`openai` `gpt` `safety` `system-card` `alignment`
+**Source:** openai · ⏱ *44h ago*  
+`openai` `codex` `automation` `workflows` `agents`
 
-OpenAI publishes the GPT-5.5 System Card, providing comprehensive details on model safety evaluations, identified risks, mitigations, and deployment guidelines for responsible use.
+OpenAI Codex introduces automations using schedules and triggers to generate reports, summaries, and workflows automatically from real inputs across tools and files, eliminating manual runs.
 
-> 💡 **Why it matters:** Essential for AI practitioners deploying frontier models, the System Card offers transparency on safety benchmarks, failure modes, and safeguards. It guides ethical integration into apps, helps comply with regulations, and informs risk assessments in high-stakes applications like automation and decision systems.
+> 💡 **Why it matters:** Builders can now deploy persistent, event-driven AI pipelines easily. Perfect for productionizing prototypes into scheduled jobs like daily analytics or data processing. Integrates natively with OpenAI ecosystem, lowering dev time for agentic apps and boosting scalability without custom infra.
+  
+**Related registry entries:** `langgraph`, `autogen-04`
+
+---
+
+## 3. [Why AI CEOs Are Building Bunkers: Tristan Harris Transcript](https://news.google.com/rss/articles/CBMiigFBVV95cUxQRU1WcnZueXF0N3d4SU0yeEt5bjlNTThRLTFNZy1IUG1ES0RZS1ZNTTBIUklJQWl5UDVHbkNnN0Z1TnZtVloxZTVKbE9YV19SRml6NjVxWm5ETUl0Umw4Sjd0RHJMNFN5b1Bsd2NQdUl2aHFaQmFlLUFjRUNscmlNU01NVkt4VXZZVkE?oc=5)
+
+**Source:** google-news-ai · ⏱ *0h ago*  
+`ai-safety` `existential-risk` `leadership`
+
+Tristan Harris details in transcript why leading AI executives are constructing bunkers, citing accelerating risks from superintelligent systems and societal upheaval.
+
+> 💡 **Why it matters:** Signals elite consensus on severe AI downside risks, urging builders to prioritize alignment, safety layers, and scalable oversight. Influences VC priorities, policy, and hiring. Practitioners gain context for embedding safeguards in models and agents, avoiding future retrofits amid regulatory scrutiny.
   
 **Related registry entries:** `constitutional-ai`
 
 ---
 
-## 3. [Architecture of an AI-Based Automated Course of Action Generation System for Military Operations](https://arxiv.org/abs/2604.20862)
+## 4. [Nvidia’s Bond with Gamers Fracturing over AI Shift](https://news.google.com/rss/articles/CBMinwFBVV95cUxNSjJpcnZ3UVFvc003SFFNY0t5Y29zUFc1dUU5M2Z5Skd6N2JoRkZPSnRMT0pyTDNrekFWZHpnUkk3M01Od1cySE5sNERZSm9ZWGlPNzE0VTlGUk9ROHR4Rl9DTTBERXp4MnhraGpJT3FLejJnZGxudWxzNzR4dUt4dDFxMnRZc0pYRF9TUFk5X2EzNE1CZVROSFBWYnRnaFk?oc=5)
 
-**Source:** arxiv-cs-ai · ⏱ *2h ago*  
-`military-ai` `planning` `agents` `defense` `autonomous`
+**Source:** google-news-ai · ⏱ *0h ago*  
+`nvidia` `hardware` `ai-business`
 
-arXiv paper outlines an AI system for automating Course of Action (CoA) planning in modern warfare, addressing challenges from expanded operational areas, faster maneuvers, and longer ranges.
+Nvidia's heavy AI focus is eroding loyalty from gamers, as high-end GPUs prioritize data centers over consumer gaming, sparking backlash and market shifts.
 
-> 💡 **Why it matters:** This architecture advances autonomous strategic planning for defense AI builders, enabling real-time CoA generation under uncertainty. It paves the way for scalable military agents, influencing hybrid human-AI command systems and setting precedents for high-stakes decision automation beyond defense.
+> 💡 **Why it matters:** Critical for builders using consumer GPUs for local inference and fine-tuning. Potential shortages or price surges affect accessibility of tools like Ollama. Highlights Nvidia's AI dominance but pushes innovation in efficient inference engines and alternatives like AMD or custom silicon.
   
-**Related registry entries:** `langgraph`, `react-reasoning-acting`
+**Related registry entries:** `vllm`, `ollama`
 
 ---
 
-## 4. [Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks](https://arxiv.org/abs/2604.20987)
+## 5. [DeepMind Partners with Industry Leaders to Accelerate AI Transformation](https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/)
 
-**Source:** arxiv-cs-ai · ⏱ *2h ago*  
-`agents` `llm` `long-horizon` `multi-agent` `games`
+**Source:** deepmind · ⏱ *3d ago*  
+`deepmind` `partnerships` `enterprise-ai` `adoption`
 
-arXiv introduces co-evolving LLM agents with decision modules and skill banks, excelling in long-horizon environments like games that require multi-step reasoning, skill chaining, and handling delayed rewards.
+Google DeepMind collaborates with top global consultancies to integrate frontier AI into enterprises, providing customized solutions for organizational AI adoption.
 
-> 💡 **Why it matters:** Breakthrough for agent builders tackling complex, extended tasks. Combines decision-making with modular skills for robust performance in partially observable settings, boosting applications in robotics, gaming, and enterprise automation where traditional LLMs falter.
-  
-**Related registry entries:** `langgraph`, `autogpt`, `swe-agent`
+> 💡 **Why it matters:** Eases deployment of models like Gemma for builders via consultancy expertise. Creates ecosystems for fine-tuning, integration, and scaling in sectors like finance and healthcare. Opportunities for partnerships, new datasets, and real-world benchmarks driving model improvements.
 
----
-
-## 5. [Decoupled DiLoCo: A new frontier for resilient, distributed AI training](https://deepmind.google/blog/decoupled-diloco/)
-
-**Source:** deepmind · ⏱ *44h ago*  
-`deepmind` `distributed-training` `scaling` `mlops` `resilient`
-
-DeepMind presents Decoupled DiLoCo, a method enhancing distributed AI training resilience by decoupling communication, improving fault tolerance and efficiency at massive scales.
-
-> 💡 **Why it matters:** Critical for ML engineers scaling training to frontier models. Offers higher throughput and reliability against failures, reducing costs and enabling larger clusters. Accelerates open and proprietary model development in resource-constrained environments.
-  
-**Related registry entries:** `vllm`, `weights-and-biases`
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-04-24 06:56 UTC · [Archive](./)</sub>
+<sub>Generated by ai-pulse-agents · 2026-04-25 06:46 UTC · [Archive](./)</sub>
