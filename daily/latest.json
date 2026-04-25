@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-24",
-  "generated_at": "2026-04-24T06:56:22.245703+00:00",
+  "date": "2026-04-25",
+  "generated_at": "2026-04-25T06:46:00.233150+00:00",
   "generator_version": "1.0.0",
   "sources_polled": [
     "openai",
@@ -13,159 +13,147 @@
   "items": [
     {
       "rank": 1,
-      "id": "2026-04-24-001",
-      "title": "Introducing GPT-5.5",
-      "url": "https://openai.com/index/introducing-gpt-5-5",
-      "source": "openai",
+      "id": "2026-04-25-001",
+      "title": "DeepSeek-V4: a million-token context that agents can actually use",
+      "url": "https://huggingface.co/blog/deepseekv4",
+      "source": "huggingface",
       "source_type": "official_blog",
-      "published_at": "2026-04-23T11:00:00+00:00",
-      "summary": "OpenAI unveils GPT-5.5, their most advanced model to date. It is faster, more capable, and optimized for complex tasks like coding, research, data analysis, and integration with multiple tools, empowering developers to tackle sophisticated workflows.",
-      "why_it_matters": "As OpenAI's flagship release, GPT-5.5 pushes the boundaries of LLM performance, offering superior reasoning, speed, and tool-handling for AI builders. It sets new standards in coding assistance, analytical pipelines, and agentic systems, influencing model selection across industries and accelerating innovation in production apps.",
-      "suggested_reel_angle": "GPT-5.5 is here! OpenAI's smartest AI yet crushes coding, research, and tools. See why devs are buzzing.",
+      "published_at": "2026-04-24T00:00:00+00:00",
+      "summary": "DeepSeek releases V4 model with a 1 million token context window optimized for agentic workflows. It delivers stable performance on long sequences, enabling agents to process massive inputs like full codebases or documents without degradation.",
+      "why_it_matters": "This breakthrough allows AI builders to create more capable agents handling complex, long-horizon tasks. No more context truncation issues in RAG, coding, or planning. Boosts reliability for production agents, reduces engineering for summarization chains, and opens doors to novel applications in software dev, legal analysis, and research. Competitive edge over shorter-context rivals.",
+      "suggested_reel_angle": "1M token context usable by agents? DeepSeek-V4 just dropped the mic!",
       "suggested_long_angle": [
-        "Key new capabilities and benchmarks",
-        "Integration with tools and workflows",
-        "Impact on developer productivity"
+        "New architecture for ultra-long contexts",
+        "Agent benchmarks and real-world tests",
+        "Quickstart integration with frameworks"
       ],
       "tags": [
-        "openai",
-        "gpt",
         "model-release",
-        "coding",
-        "tools"
+        "long-context",
+        "agents",
+        "deepseek"
       ],
       "related_registry_entries": [
-        "mmlu",
-        "humaneval",
-        "lmsys-chatbot-arena"
+        "deepseek-r2"
       ],
-      "authority_score": 1.0,
-      "virality_score": 0.8311,
-      "recency_hours": 19
+      "authority_score": 0.9,
+      "virality_score": 0.7082,
+      "recency_hours": 30
     },
     {
       "rank": 2,
-      "id": "2026-04-24-002",
-      "title": "GPT-5.5 System Card",
-      "url": "https://openai.com/index/gpt-5-5-system-card",
+      "id": "2026-04-25-002",
+      "title": "Codex Automations: Schedules and Triggers for Recurring AI Workflows",
+      "url": "https://openai.com/academy/codex-automations",
       "source": "openai",
       "source_type": "official_blog",
-      "published_at": "2026-04-23T11:00:00+00:00",
-      "summary": "OpenAI publishes the GPT-5.5 System Card, providing comprehensive details on model safety evaluations, identified risks, mitigations, and deployment guidelines for responsible use.",
-      "why_it_matters": "Essential for AI practitioners deploying frontier models, the System Card offers transparency on safety benchmarks, failure modes, and safeguards. It guides ethical integration into apps, helps comply with regulations, and informs risk assessments in high-stakes applications like automation and decision systems.",
-      "suggested_reel_angle": "Inside GPT-5.5's safety: OpenAI's System Card reveals risks and fixes you need to know before building.",
+      "published_at": "2026-04-23T10:00:00+00:00",
+      "summary": "OpenAI Codex introduces automations using schedules and triggers to generate reports, summaries, and workflows automatically from real inputs across tools and files, eliminating manual runs.",
+      "why_it_matters": "Builders can now deploy persistent, event-driven AI pipelines easily. Perfect for productionizing prototypes into scheduled jobs like daily analytics or data processing. Integrates natively with OpenAI ecosystem, lowering dev time for agentic apps and boosting scalability without custom infra.",
+      "suggested_reel_angle": "Automate your AI life with OpenAI Codex triggers - zero effort workflows!",
       "suggested_long_angle": [
-        "Safety evaluation methodology",
-        "Key risks and mitigations",
-        "Best practices for deployment"
+        "Setting up schedules and triggers",
+        "Example automations for reports",
+        "Scaling to enterprise workflows"
       ],
       "tags": [
         "openai",
-        "gpt",
-        "safety",
-        "system-card",
-        "alignment"
-      ],
-      "related_registry_entries": [
-        "constitutional-ai"
-      ],
-      "authority_score": 1.0,
-      "virality_score": 0.8311,
-      "recency_hours": 19
-    },
-    {
-      "rank": 3,
-      "id": "2026-04-24-003",
-      "title": "Architecture of an AI-Based Automated Course of Action Generation System for Military Operations",
-      "url": "https://arxiv.org/abs/2604.20862",
-      "source": "arxiv-cs-ai",
-      "source_type": "research",
-      "published_at": "2026-04-24T04:00:00+00:00",
-      "summary": "arXiv paper outlines an AI system for automating Course of Action (CoA) planning in modern warfare, addressing challenges from expanded operational areas, faster maneuvers, and longer ranges.",
-      "why_it_matters": "This architecture advances autonomous strategic planning for defense AI builders, enabling real-time CoA generation under uncertainty. It paves the way for scalable military agents, influencing hybrid human-AI command systems and setting precedents for high-stakes decision automation beyond defense.",
-      "suggested_reel_angle": "AI takes over military planning: New paper on automated CoA systems for future wars.",
-      "suggested_long_angle": [
-        "System architecture breakdown",
-        "Challenges in warfare automation",
-        "Implications for agentic AI"
-      ],
-      "tags": [
-        "military-ai",
-        "planning",
-        "agents",
-        "defense",
-        "autonomous"
+        "codex",
+        "automation",
+        "workflows",
+        "agents"
       ],
       "related_registry_entries": [
         "langgraph",
-        "react-reasoning-acting"
-      ],
-      "authority_score": 0.8,
-      "virality_score": 0.8575,
-      "recency_hours": 2
-    },
-    {
-      "rank": 4,
-      "id": "2026-04-24-004",
-      "title": "Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks",
-      "url": "https://arxiv.org/abs/2604.20987",
-      "source": "arxiv-cs-ai",
-      "source_type": "research",
-      "published_at": "2026-04-24T04:00:00+00:00",
-      "summary": "arXiv introduces co-evolving LLM agents with decision modules and skill banks, excelling in long-horizon environments like games that require multi-step reasoning, skill chaining, and handling delayed rewards.",
-      "why_it_matters": "Breakthrough for agent builders tackling complex, extended tasks. Combines decision-making with modular skills for robust performance in partially observable settings, boosting applications in robotics, gaming, and enterprise automation where traditional LLMs falter.",
-      "suggested_reel_angle": "LLM agents that master long games: Co-evolving decisions and skills change everything.",
-      "suggested_long_angle": [
-        "Agent architecture and co-evolution",
-        "Performance in long-horizon benchmarks",
-        "Building your own skill-bank agents"
-      ],
-      "tags": [
-        "agents",
-        "llm",
-        "long-horizon",
-        "multi-agent",
-        "games"
-      ],
-      "related_registry_entries": [
-        "langgraph",
-        "autogpt",
-        "swe-agent"
-      ],
-      "authority_score": 0.8,
-      "virality_score": 0.8575,
-      "recency_hours": 2
-    },
-    {
-      "rank": 5,
-      "id": "2026-04-24-005",
-      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
-      "url": "https://deepmind.google/blog/decoupled-diloco/",
-      "source": "deepmind",
-      "source_type": "official_blog",
-      "published_at": "2026-04-22T10:20:03+00:00",
-      "summary": "DeepMind presents Decoupled DiLoCo, a method enhancing distributed AI training resilience by decoupling communication, improving fault tolerance and efficiency at massive scales.",
-      "why_it_matters": "Critical for ML engineers scaling training to frontier models. Offers higher throughput and reliability against failures, reducing costs and enabling larger clusters. Accelerates open and proprietary model development in resource-constrained environments.",
-      "suggested_reel_angle": "DeepMind's DiLoCo: Train AI at scale without crashes. The future of distributed ML.",
-      "suggested_long_angle": [
-        "How Decoupled DiLoCo works",
-        "Resilience gains over prior methods",
-        "Implementation for your training pipeline"
-      ],
-      "tags": [
-        "deepmind",
-        "distributed-training",
-        "scaling",
-        "mlops",
-        "resilient"
-      ],
-      "related_registry_entries": [
-        "vllm",
-        "weights-and-biases"
+        "autogen-04"
       ],
       "authority_score": 1.0,
       "virality_score": 0.7122,
       "recency_hours": 44
+    },
+    {
+      "rank": 3,
+      "id": "2026-04-25-003",
+      "title": "Why AI CEOs Are Building Bunkers: Tristan Harris Transcript",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRU1WcnZueXF0N3d4SU0yeEt5bjlNTThRLTFNZy1IUG1ES0RZS1ZNTTBIUklJQWl5UDVHbkNnN0Z1TnZtVloxZTVKbE9YV19SRml6NjVxWm5ETUl0Umw4Sjd0RHJMNFN5b1Bsd2NQdUl2aHFaQmFlLUFjRUNscmlNU01NVkt4VXZZVkE?oc=5",
+      "source": "google-news-ai",
+      "source_type": "news_aggregator",
+      "published_at": "2026-04-25T06:02:08+00:00",
+      "summary": "Tristan Harris details in transcript why leading AI executives are constructing bunkers, citing accelerating risks from superintelligent systems and societal upheaval.",
+      "why_it_matters": "Signals elite consensus on severe AI downside risks, urging builders to prioritize alignment, safety layers, and scalable oversight. Influences VC priorities, policy, and hiring. Practitioners gain context for embedding safeguards in models and agents, avoiding future retrofits amid regulatory scrutiny.",
+      "suggested_reel_angle": "AI CEOs bunkering up - Tristan Harris spills the real reasons!",
+      "suggested_long_angle": [
+        "Core risk scenarios outlined",
+        "CEO preparations and motivations",
+        "Actionable safety steps for devs"
+      ],
+      "tags": [
+        "ai-safety",
+        "existential-risk",
+        "leadership"
+      ],
+      "related_registry_entries": [
+        "constitutional-ai"
+      ],
+      "authority_score": 0.6,
+      "virality_score": 0.76,
+      "recency_hours": 0
+    },
+    {
+      "rank": 4,
+      "id": "2026-04-25-004",
+      "title": "Nvidia\u2019s Bond with Gamers Fracturing over AI Shift",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSjJpcnZ3UVFvc003SFFNY0t5Y29zUFc1dUU5M2Z5Skd6N2JoRkZPSnRMT0pyTDNrekFWZHpnUkk3M01Od1cySE5sNERZSm9ZWGlPNzE0VTlGUk9ROHR4Rl9DTTBERXp4MnhraGpJT3FLejJnZGxudWxzNzR4dUt4dDFxMnRZc0pYRF9TUFk5X2EzNE1CZVROSFBWYnRnaFk?oc=5",
+      "source": "google-news-ai",
+      "source_type": "news_aggregator",
+      "published_at": "2026-04-25T05:56:00+00:00",
+      "summary": "Nvidia's heavy AI focus is eroding loyalty from gamers, as high-end GPUs prioritize data centers over consumer gaming, sparking backlash and market shifts.",
+      "why_it_matters": "Critical for builders using consumer GPUs for local inference and fine-tuning. Potential shortages or price surges affect accessibility of tools like Ollama. Highlights Nvidia's AI dominance but pushes innovation in efficient inference engines and alternatives like AMD or custom silicon.",
+      "suggested_reel_angle": "Nvidia picks AI over gamers - chaos for your local LLMs?",
+      "suggested_long_angle": [
+        "Nvidia's AI revenue boom",
+        "Gamer backlash and sales data",
+        "Implications for AI hardware access"
+      ],
+      "tags": [
+        "nvidia",
+        "hardware",
+        "ai-business"
+      ],
+      "related_registry_entries": [
+        "vllm",
+        "ollama"
+      ],
+      "authority_score": 0.6,
+      "virality_score": 0.76,
+      "recency_hours": 0
+    },
+    {
+      "rank": 5,
+      "id": "2026-04-25-005",
+      "title": "DeepMind Partners with Industry Leaders to Accelerate AI Transformation",
+      "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+      "source": "deepmind",
+      "source_type": "official_blog",
+      "published_at": "2026-04-21T14:54:15+00:00",
+      "summary": "Google DeepMind collaborates with top global consultancies to integrate frontier AI into enterprises, providing customized solutions for organizational AI adoption.",
+      "why_it_matters": "Eases deployment of models like Gemma for builders via consultancy expertise. Creates ecosystems for fine-tuning, integration, and scaling in sectors like finance and healthcare. Opportunities for partnerships, new datasets, and real-world benchmarks driving model improvements.",
+      "suggested_reel_angle": "DeepMind + consultancies = Enterprise AI revolution incoming!",
+      "suggested_long_angle": [
+        "Key partners and their roles",
+        "Target use cases across industries",
+        "How builders can engage"
+      ],
+      "tags": [
+        "deepmind",
+        "partnerships",
+        "enterprise-ai",
+        "adoption"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 1.0,
+      "virality_score": 0.6324,
+      "recency_hours": 87
     }
   ]
 }
