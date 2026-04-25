@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-04-24*
+## 📰 Today in AI · *2026-04-25*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [Introducing GPT-5.5](https://openai.com/index/introducing-gpt-5-5) | openai |
-| 2 | [GPT-5.5 System Card](https://openai.com/index/gpt-5-5-system-card) | openai |
-| 3 | [Architecture of an AI-Based Automated Course of Action Generation System for Military Operations](https://arxiv.org/abs/2604.20862) | arxiv-cs-ai |
-| 4 | [Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks](https://arxiv.org/abs/2604.20987) | arxiv-cs-ai |
-| 5 | [Decoupled DiLoCo: A new frontier for resilient, distributed AI training](https://deepmind.google/blog/decoupled-diloco/) | deepmind |
+| 1 | [DeepSeek-V4: a million-token context that agents can actually use](https://huggingface.co/blog/deepseekv4) | huggingface |
+| 2 | [Codex Automations: Schedules and Triggers for Recurring AI Workflows](https://openai.com/academy/codex-automations) | openai |
+| 3 | [Why AI CEOs Are Building Bunkers: Tristan Harris Transcript](https://news.google.com/rss/articles/CBMiigFBVV95cUxQRU1WcnZueXF0N3d4SU0yeEt5bjlNTThRLTFNZy1IUG1ES0RZS1ZNTTBIUklJQWl5UDVHbkNnN0Z1TnZtVloxZTVKbE9YV19SRml6NjVxWm5ETUl0Umw4Sjd0RHJMNFN5b1Bsd2NQdUl2aHFaQmFlLUFjRUNscmlNU01NVkt4VXZZVkE?oc=5) | google-news-ai |
+| 4 | [Nvidia’s Bond with Gamers Fracturing over AI Shift](https://news.google.com/rss/articles/CBMinwFBVV95cUxNSjJpcnZ3UVFvc003SFFNY0t5Y29zUFc1dUU5M2Z5Skd6N2JoRkZPSnRMT0pyTDNrekFWZHpnUkk3M01Od1cySE5sNERZSm9ZWGlPNzE0VTlGUk9ROHR4Rl9DTTBERXp4MnhraGpJT3FLejJnZGxudWxzNzR4dUt4dDFxMnRZc0pYRF9TUFk5X2EzNE1CZVROSFBWYnRnaFk?oc=5) | google-news-ai |
+| 5 | [DeepMind Partners with Industry Leaders to Accelerate AI Transformation](https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/) | deepmind |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
