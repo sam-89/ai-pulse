@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-25",
-  "generated_at": "2026-04-25T06:46:00.233150+00:00",
+  "date": "2026-04-26",
+  "generated_at": "2026-04-26T06:55:18.726011+00:00",
   "generator_version": "1.0.0",
   "sources_polled": [
     "openai",
@@ -13,147 +13,152 @@
   "items": [
     {
       "rank": 1,
-      "id": "2026-04-25-001",
-      "title": "DeepSeek-V4: a million-token context that agents can actually use",
-      "url": "https://huggingface.co/blog/deepseekv4",
-      "source": "huggingface",
+      "id": "2026-04-26-001",
+      "title": "Gemma 4: Byte for byte, the most capable open models",
+      "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
+      "source": "deepmind",
       "source_type": "official_blog",
-      "published_at": "2026-04-24T00:00:00+00:00",
-      "summary": "DeepSeek releases V4 model with a 1 million token context window optimized for agentic workflows. It delivers stable performance on long sequences, enabling agents to process massive inputs like full codebases or documents without degradation.",
-      "why_it_matters": "This breakthrough allows AI builders to create more capable agents handling complex, long-horizon tasks. No more context truncation issues in RAG, coding, or planning. Boosts reliability for production agents, reduces engineering for summarization chains, and opens doors to novel applications in software dev, legal analysis, and research. Competitive edge over shorter-context rivals.",
-      "suggested_reel_angle": "1M token context usable by agents? DeepSeek-V4 just dropped the mic!",
+      "published_at": "2026-04-02T16:00:49+00:00",
+      "summary": "DeepMind releases Gemma 4, the most intelligent open models yet, purpose-built for advanced reasoning and agentic workflows with unmatched parameter efficiency.",
+      "why_it_matters": "Open-weight models like Gemma 4 democratize access to frontier AI capabilities. Builders benefit from top-tier reasoning for agents, planning, and complex tasks, runnable locally or on edge devices. Enables fine-tuning, distillation, and custom apps without API costs, fueling open-source innovation and reducing reliance on closed systems.",
+      "suggested_reel_angle": "Gemma 4: DeepMind's byte-for-byte smartest open AI models drop!",
       "suggested_long_angle": [
-        "New architecture for ultra-long contexts",
-        "Agent benchmarks and real-world tests",
-        "Quickstart integration with frameworks"
+        "Breakdown of reasoning upgrades",
+        "Benchmark dominance explained",
+        "Developer quickstart guide"
       ],
       "tags": [
-        "model-release",
-        "long-context",
-        "agents",
-        "deepseek"
+        "deepmind",
+        "open-models",
+        "reasoning",
+        "agentic"
       ],
-      "related_registry_entries": [
-        "deepseek-r2"
-      ],
-      "authority_score": 0.9,
-      "virality_score": 0.7082,
-      "recency_hours": 30
+      "related_registry_entries": [],
+      "authority_score": 1.0,
+      "virality_score": 0.6,
+      "recency_hours": 566
     },
     {
       "rank": 2,
-      "id": "2026-04-25-002",
-      "title": "Codex Automations: Schedules and Triggers for Recurring AI Workflows",
-      "url": "https://openai.com/academy/codex-automations",
+      "id": "2026-04-26-002",
+      "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+      "source": "deepmind",
+      "source_type": "official_blog",
+      "published_at": "2026-04-13T15:52:13+00:00",
+      "summary": "DeepMind unveils Gemini Robotics-ER 1.6, boosting spatial reasoning and multi-view understanding to enable reliable autonomous robotics in physical environments.",
+      "why_it_matters": "Advances embodied intelligence critical for robotics deployment. Improved perception and decision-making in dynamic settings accelerates development of practical robots for industry, logistics, and daily life, bridging simulation-to-real gaps for AI builders targeting hardware integration.",
+      "suggested_reel_angle": "Gemini 1.6 makes robots think and see like never before!",
+      "suggested_long_angle": [
+        "Enhanced spatial reasoning details",
+        "Multi-view task demos",
+        "Path to production robotics"
+      ],
+      "tags": [
+        "deepmind",
+        "robotics",
+        "embodied-ai",
+        "multimodal"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 1.0,
+      "virality_score": 0.6001,
+      "recency_hours": 303
+    },
+    {
+      "rank": 3,
+      "id": "2026-04-26-003",
+      "title": "Top 10 uses for Codex at work",
+      "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
       "source": "openai",
       "source_type": "official_blog",
       "published_at": "2026-04-23T10:00:00+00:00",
-      "summary": "OpenAI Codex introduces automations using schedules and triggers to generate reports, summaries, and workflows automatically from real inputs across tools and files, eliminating manual runs.",
-      "why_it_matters": "Builders can now deploy persistent, event-driven AI pipelines easily. Perfect for productionizing prototypes into scheduled jobs like daily analytics or data processing. Integrates natively with OpenAI ecosystem, lowering dev time for agentic apps and boosting scalability without custom infra.",
-      "suggested_reel_angle": "Automate your AI life with OpenAI Codex triggers - zero effort workflows!",
+      "summary": "OpenAI details 10 practical Codex applications to automate tasks, generate deliverables, and process inputs across tools, files, and workflows.",
+      "why_it_matters": "Reveals Codex's transformative potential for workplace AI. Builders gain blueprints for coding, analysis, design, and ops automation, driving adoption in enterprises and boosting productivity through real-world examples of input-to-output pipelines.",
+      "suggested_reel_angle": "10 Codex hacks to crush your workday!",
       "suggested_long_angle": [
-        "Setting up schedules and triggers",
-        "Example automations for reports",
-        "Scaling to enterprise workflows"
+        "Everyday use cases 1-5",
+        "Pro workflows 6-10",
+        "Customization strategies"
       ],
       "tags": [
         "openai",
         "codex",
-        "automation",
-        "workflows",
-        "agents"
+        "productivity",
+        "automation"
       ],
       "related_registry_entries": [
-        "langgraph",
-        "autogen-04"
+        "cursor",
+        "aider",
+        "gpt-engineer",
+        "swe-agent",
+        "humaneval"
       ],
       "authority_score": 1.0,
-      "virality_score": 0.7122,
-      "recency_hours": 44
-    },
-    {
-      "rank": 3,
-      "id": "2026-04-25-003",
-      "title": "Why AI CEOs Are Building Bunkers: Tristan Harris Transcript",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRU1WcnZueXF0N3d4SU0yeEt5bjlNTThRLTFNZy1IUG1ES0RZS1ZNTTBIUklJQWl5UDVHbkNnN0Z1TnZtVloxZTVKbE9YV19SRml6NjVxWm5ETUl0Umw4Sjd0RHJMNFN5b1Bsd2NQdUl2aHFaQmFlLUFjRUNscmlNU01NVkt4VXZZVkE?oc=5",
-      "source": "google-news-ai",
-      "source_type": "news_aggregator",
-      "published_at": "2026-04-25T06:02:08+00:00",
-      "summary": "Tristan Harris details in transcript why leading AI executives are constructing bunkers, citing accelerating risks from superintelligent systems and societal upheaval.",
-      "why_it_matters": "Signals elite consensus on severe AI downside risks, urging builders to prioritize alignment, safety layers, and scalable oversight. Influences VC priorities, policy, and hiring. Practitioners gain context for embedding safeguards in models and agents, avoiding future retrofits amid regulatory scrutiny.",
-      "suggested_reel_angle": "AI CEOs bunkering up - Tristan Harris spills the real reasons!",
-      "suggested_long_angle": [
-        "Core risk scenarios outlined",
-        "CEO preparations and motivations",
-        "Actionable safety steps for devs"
-      ],
-      "tags": [
-        "ai-safety",
-        "existential-risk",
-        "leadership"
-      ],
-      "related_registry_entries": [
-        "constitutional-ai"
-      ],
-      "authority_score": 0.6,
-      "virality_score": 0.76,
-      "recency_hours": 0
+      "virality_score": 0.6561,
+      "recency_hours": 68
     },
     {
       "rank": 4,
-      "id": "2026-04-25-004",
-      "title": "Nvidia\u2019s Bond with Gamers Fracturing over AI Shift",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSjJpcnZ3UVFvc003SFFNY0t5Y29zUFc1dUU5M2Z5Skd6N2JoRkZPSnRMT0pyTDNrekFWZHpnUkk3M01Od1cySE5sNERZSm9ZWGlPNzE0VTlGUk9ROHR4Rl9DTTBERXp4MnhraGpJT3FLejJnZGxudWxzNzR4dUt4dDFxMnRZc0pYRF9TUFk5X2EzNE1CZVROSFBWYnRnaFk?oc=5",
-      "source": "google-news-ai",
-      "source_type": "news_aggregator",
-      "published_at": "2026-04-25T05:56:00+00:00",
-      "summary": "Nvidia's heavy AI focus is eroding loyalty from gamers, as high-end GPUs prioritize data centers over consumer gaming, sparking backlash and market shifts.",
-      "why_it_matters": "Critical for builders using consumer GPUs for local inference and fine-tuning. Potential shortages or price surges affect accessibility of tools like Ollama. Highlights Nvidia's AI dominance but pushes innovation in efficient inference engines and alternatives like AMD or custom silicon.",
-      "suggested_reel_angle": "Nvidia picks AI over gamers - chaos for your local LLMs?",
+      "id": "2026-04-26-004",
+      "title": "Working with Codex",
+      "url": "https://openai.com/academy/working-with-codex",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-23T10:00:00+00:00",
+      "summary": "OpenAI tutorial on Codex setup: workspaces, threads, projects, file handling, and step-by-step task execution for AI-powered work.",
+      "why_it_matters": "Onboards builders to Codex's full potential. Structured environments simplify multi-step AI interactions, enabling scalable projects, collaboration, and reliable outputs for complex professional tasks.",
+      "suggested_reel_angle": "Set up OpenAI Codex and start winning at work now!",
       "suggested_long_angle": [
-        "Nvidia's AI revenue boom",
-        "Gamer backlash and sales data",
-        "Implications for AI hardware access"
+        "Workspace creation basics",
+        "Projects and threads guide",
+        "File ops and task flows"
       ],
       "tags": [
-        "nvidia",
-        "hardware",
-        "ai-business"
+        "openai",
+        "codex",
+        "tutorial",
+        "workspace"
       ],
       "related_registry_entries": [
-        "vllm",
-        "ollama"
+        "langgraph",
+        "langsmith",
+        "autogen-04"
       ],
-      "authority_score": 0.6,
-      "virality_score": 0.76,
-      "recency_hours": 0
+      "authority_score": 1.0,
+      "virality_score": 0.6561,
+      "recency_hours": 68
     },
     {
       "rank": 5,
-      "id": "2026-04-25-005",
-      "title": "DeepMind Partners with Industry Leaders to Accelerate AI Transformation",
-      "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
-      "source": "deepmind",
+      "id": "2026-04-26-005",
+      "title": "Plugins and skills",
+      "url": "https://openai.com/academy/codex-plugins-and-skills",
+      "source": "openai",
       "source_type": "official_blog",
-      "published_at": "2026-04-21T14:54:15+00:00",
-      "summary": "Google DeepMind collaborates with top global consultancies to integrate frontier AI into enterprises, providing customized solutions for organizational AI adoption.",
-      "why_it_matters": "Eases deployment of models like Gemma for builders via consultancy expertise. Creates ecosystems for fine-tuning, integration, and scaling in sectors like finance and healthcare. Opportunities for partnerships, new datasets, and real-world benchmarks driving model improvements.",
-      "suggested_reel_angle": "DeepMind + consultancies = Enterprise AI revolution incoming!",
+      "published_at": "2026-04-23T10:00:00+00:00",
+      "summary": "OpenAI explains Codex plugins and skills for tool connections, data access, and repeatable workflows to enhance automation.",
+      "why_it_matters": "Unlocks extensibility in Codex for bespoke agents. Integrate APIs, DBs, and services to build robust, context-aware systems, essential for production-grade AI orchestration and custom enterprise solutions.",
+      "suggested_reel_angle": "Codex plugins: Turn AI into your ultimate toolkit!",
       "suggested_long_angle": [
-        "Key partners and their roles",
-        "Target use cases across industries",
-        "How builders can engage"
+        "Plugin basics and setup",
+        "Key skills for workflows",
+        "Advanced integrations"
       ],
       "tags": [
-        "deepmind",
-        "partnerships",
-        "enterprise-ai",
-        "adoption"
+        "openai",
+        "codex",
+        "plugins",
+        "tools"
       ],
-      "related_registry_entries": [],
+      "related_registry_entries": [
+        "react-reasoning-acting",
+        "toolformer",
+        "model-context-protocol"
+      ],
       "authority_score": 1.0,
-      "virality_score": 0.6324,
-      "recency_hours": 87
+      "virality_score": 0.6561,
+      "recency_hours": 68
     }
   ]
 }
