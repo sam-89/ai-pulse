@@ -1,74 +1,73 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-04-25
+### Top 5 AI Stories · 2026-04-26
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-25 06:46 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-26 06:55 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [DeepSeek-V4: a million-token context that agents can actually use](https://huggingface.co/blog/deepseekv4)
+## 1. [Gemma 4: Byte for byte, the most capable open models](https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/)
 
-**Source:** huggingface · ⏱ *30h ago*  
-`model-release` `long-context` `agents` `deepseek`
+**Source:** deepmind · ⏱ *23d ago*  
+`deepmind` `open-models` `reasoning` `agentic`
 
-DeepSeek releases V4 model with a 1 million token context window optimized for agentic workflows. It delivers stable performance on long sequences, enabling agents to process massive inputs like full codebases or documents without degradation.
+DeepMind releases Gemma 4, the most intelligent open models yet, purpose-built for advanced reasoning and agentic workflows with unmatched parameter efficiency.
 
-> 💡 **Why it matters:** This breakthrough allows AI builders to create more capable agents handling complex, long-horizon tasks. No more context truncation issues in RAG, coding, or planning. Boosts reliability for production agents, reduces engineering for summarization chains, and opens doors to novel applications in software dev, legal analysis, and research. Competitive edge over shorter-context rivals.
+> 💡 **Why it matters:** Open-weight models like Gemma 4 democratize access to frontier AI capabilities. Builders benefit from top-tier reasoning for agents, planning, and complex tasks, runnable locally or on edge devices. Enables fine-tuning, distillation, and custom apps without API costs, fueling open-source innovation and reducing reliance on closed systems.
+
+
+---
+
+## 2. [Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning](https://deepmind.google/blog/gemini-robotics-er-1-6/)
+
+**Source:** deepmind · ⏱ *12d ago*  
+`deepmind` `robotics` `embodied-ai` `multimodal`
+
+DeepMind unveils Gemini Robotics-ER 1.6, boosting spatial reasoning and multi-view understanding to enable reliable autonomous robotics in physical environments.
+
+> 💡 **Why it matters:** Advances embodied intelligence critical for robotics deployment. Improved perception and decision-making in dynamic settings accelerates development of practical robots for industry, logistics, and daily life, bridging simulation-to-real gaps for AI builders targeting hardware integration.
+
+
+---
+
+## 3. [Top 10 uses for Codex at work](https://openai.com/academy/top-10-use-cases-codex-for-work)
+
+**Source:** openai · ⏱ *2d ago*  
+`openai` `codex` `productivity` `automation`
+
+OpenAI details 10 practical Codex applications to automate tasks, generate deliverables, and process inputs across tools, files, and workflows.
+
+> 💡 **Why it matters:** Reveals Codex's transformative potential for workplace AI. Builders gain blueprints for coding, analysis, design, and ops automation, driving adoption in enterprises and boosting productivity through real-world examples of input-to-output pipelines.
   
-**Related registry entries:** `deepseek-r2`
+**Related registry entries:** `cursor`, `aider`, `gpt-engineer`, `swe-agent`, `humaneval`
 
 ---
 
-## 2. [Codex Automations: Schedules and Triggers for Recurring AI Workflows](https://openai.com/academy/codex-automations)
+## 4. [Working with Codex](https://openai.com/academy/working-with-codex)
 
-**Source:** openai · ⏱ *44h ago*  
-`openai` `codex` `automation` `workflows` `agents`
+**Source:** openai · ⏱ *2d ago*  
+`openai` `codex` `tutorial` `workspace`
 
-OpenAI Codex introduces automations using schedules and triggers to generate reports, summaries, and workflows automatically from real inputs across tools and files, eliminating manual runs.
+OpenAI tutorial on Codex setup: workspaces, threads, projects, file handling, and step-by-step task execution for AI-powered work.
 
-> 💡 **Why it matters:** Builders can now deploy persistent, event-driven AI pipelines easily. Perfect for productionizing prototypes into scheduled jobs like daily analytics or data processing. Integrates natively with OpenAI ecosystem, lowering dev time for agentic apps and boosting scalability without custom infra.
+> 💡 **Why it matters:** Onboards builders to Codex's full potential. Structured environments simplify multi-step AI interactions, enabling scalable projects, collaboration, and reliable outputs for complex professional tasks.
   
-**Related registry entries:** `langgraph`, `autogen-04`
+**Related registry entries:** `langgraph`, `langsmith`, `autogen-04`
 
 ---
 
-## 3. [Why AI CEOs Are Building Bunkers: Tristan Harris Transcript](https://news.google.com/rss/articles/CBMiigFBVV95cUxQRU1WcnZueXF0N3d4SU0yeEt5bjlNTThRLTFNZy1IUG1ES0RZS1ZNTTBIUklJQWl5UDVHbkNnN0Z1TnZtVloxZTVKbE9YV19SRml6NjVxWm5ETUl0Umw4Sjd0RHJMNFN5b1Bsd2NQdUl2aHFaQmFlLUFjRUNscmlNU01NVkt4VXZZVkE?oc=5)
+## 5. [Plugins and skills](https://openai.com/academy/codex-plugins-and-skills)
 
-**Source:** google-news-ai · ⏱ *0h ago*  
-`ai-safety` `existential-risk` `leadership`
+**Source:** openai · ⏱ *2d ago*  
+`openai` `codex` `plugins` `tools`
 
-Tristan Harris details in transcript why leading AI executives are constructing bunkers, citing accelerating risks from superintelligent systems and societal upheaval.
+OpenAI explains Codex plugins and skills for tool connections, data access, and repeatable workflows to enhance automation.
 
-> 💡 **Why it matters:** Signals elite consensus on severe AI downside risks, urging builders to prioritize alignment, safety layers, and scalable oversight. Influences VC priorities, policy, and hiring. Practitioners gain context for embedding safeguards in models and agents, avoiding future retrofits amid regulatory scrutiny.
+> 💡 **Why it matters:** Unlocks extensibility in Codex for bespoke agents. Integrate APIs, DBs, and services to build robust, context-aware systems, essential for production-grade AI orchestration and custom enterprise solutions.
   
-**Related registry entries:** `constitutional-ai`
+**Related registry entries:** `react-reasoning-acting`, `toolformer`, `model-context-protocol`
 
 ---
 
-## 4. [Nvidia’s Bond with Gamers Fracturing over AI Shift](https://news.google.com/rss/articles/CBMinwFBVV95cUxNSjJpcnZ3UVFvc003SFFNY0t5Y29zUFc1dUU5M2Z5Skd6N2JoRkZPSnRMT0pyTDNrekFWZHpnUkk3M01Od1cySE5sNERZSm9ZWGlPNzE0VTlGUk9ROHR4Rl9DTTBERXp4MnhraGpJT3FLejJnZGxudWxzNzR4dUt4dDFxMnRZc0pYRF9TUFk5X2EzNE1CZVROSFBWYnRnaFk?oc=5)
-
-**Source:** google-news-ai · ⏱ *0h ago*  
-`nvidia` `hardware` `ai-business`
-
-Nvidia's heavy AI focus is eroding loyalty from gamers, as high-end GPUs prioritize data centers over consumer gaming, sparking backlash and market shifts.
-
-> 💡 **Why it matters:** Critical for builders using consumer GPUs for local inference and fine-tuning. Potential shortages or price surges affect accessibility of tools like Ollama. Highlights Nvidia's AI dominance but pushes innovation in efficient inference engines and alternatives like AMD or custom silicon.
-  
-**Related registry entries:** `vllm`, `ollama`
-
----
-
-## 5. [DeepMind Partners with Industry Leaders to Accelerate AI Transformation](https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/)
-
-**Source:** deepmind · ⏱ *3d ago*  
-`deepmind` `partnerships` `enterprise-ai` `adoption`
-
-Google DeepMind collaborates with top global consultancies to integrate frontier AI into enterprises, providing customized solutions for organizational AI adoption.
-
-> 💡 **Why it matters:** Eases deployment of models like Gemma for builders via consultancy expertise. Creates ecosystems for fine-tuning, integration, and scaling in sectors like finance and healthcare. Opportunities for partnerships, new datasets, and real-world benchmarks driving model improvements.
-
-
----
-
-<sub>Generated by ai-pulse-agents · 2026-04-25 06:46 UTC · [Archive](./)</sub>
+<sub>Generated by ai-pulse-agents · 2026-04-26 06:55 UTC · [Archive](./)</sub>
