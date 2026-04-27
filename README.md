@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-04-26*
+## 📰 Today in AI · *2026-04-27*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [Gemma 4: Byte for byte, the most capable open models](https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/) | deepmind |
-| 2 | [Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning](https://deepmind.google/blog/gemini-robotics-er-1-6/) | deepmind |
-| 3 | [Top 10 uses for Codex at work](https://openai.com/academy/top-10-use-cases-codex-for-work) | openai |
-| 4 | [Working with Codex](https://openai.com/academy/working-with-codex) | openai |
-| 5 | [Plugins and skills](https://openai.com/academy/codex-plugins-and-skills) | openai |
+| 1 | [Announcing our partnership with the Republic of Korea](https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/) | deepmind |
+| 2 | [MolClaw: An Autonomous Agent with Hierarchical Skills for Drug Molecule Evaluation, Screening, and Optimization](https://arxiv.org/abs/2604.21937) | arxiv-cs-ai |
+| 3 | [Math Takes Two: A test for emergent mathematical reasoning in communication](https://arxiv.org/abs/2604.21935) | arxiv-cs-ai |
+| 4 | [An Artifact-based Agent Framework for Adaptive and Reproducible Medical Image Processing](https://arxiv.org/abs/2604.21936) | arxiv-cs-ai |
+| 5 | [Elon Musk and OpenAI CEO Sam Altman head to court in high-stakes showdown over AI](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdzlBa1IxYm1sSThkcm9rSnJoc25KdGFHd2FON3VVUG5yQWZ5QzRsZ0NFMjhFdGdwbVFFMWZKU3VvcUZXdkh3dU5uYTd6QmVrTHpzOGRMUi14UGI3LVNVcFpPLWwxdFFSRGxBM2U1ZHF2SWNoU0RDVWRod3pfOEV4ZXpzWUR4bElPRnZqcnpoWEprU1pPLVNEMWtPWHd4aUxQdjQ0X0lVTm5qRzktamZjekhyc09vd2FD?oc=5) | google-news-ai |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
