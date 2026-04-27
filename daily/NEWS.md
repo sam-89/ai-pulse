@@ -1,73 +1,73 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-04-26
+### Top 5 AI Stories · 2026-04-27
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-26 06:55 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-27 07:11 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [Gemma 4: Byte for byte, the most capable open models](https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/)
+## 1. [Announcing our partnership with the Republic of Korea](https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/)
 
-**Source:** deepmind · ⏱ *23d ago*  
-`deepmind` `open-models` `reasoning` `agentic`
+**Source:** deepmind · ⏱ *0h ago*  
+`partnership` `government` `deepmind` `science` `frontier-models`
 
-DeepMind releases Gemma 4, the most intelligent open models yet, purpose-built for advanced reasoning and agentic workflows with unmatched parameter efficiency.
+Google DeepMind partners with the Republic of Korea to leverage frontier AI models for accelerating scientific breakthroughs across key research areas.
 
-> 💡 **Why it matters:** Open-weight models like Gemma 4 democratize access to frontier AI capabilities. Builders benefit from top-tier reasoning for agents, planning, and complex tasks, runnable locally or on edge devices. Enables fine-tuning, distillation, and custom apps without API costs, fueling open-source innovation and reducing reliance on closed systems.
-
-
----
-
-## 2. [Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning](https://deepmind.google/blog/gemini-robotics-er-1-6/)
-
-**Source:** deepmind · ⏱ *12d ago*  
-`deepmind` `robotics` `embodied-ai` `multimodal`
-
-DeepMind unveils Gemini Robotics-ER 1.6, boosting spatial reasoning and multi-view understanding to enable reliable autonomous robotics in physical environments.
-
-> 💡 **Why it matters:** Advances embodied intelligence critical for robotics deployment. Improved perception and decision-making in dynamic settings accelerates development of practical robots for industry, logistics, and daily life, bridging simulation-to-real gaps for AI builders targeting hardware integration.
+> 💡 **Why it matters:** This high-level government collaboration validates AI's role in national science agendas, potentially unlocking funding, data access, and compute resources for builders working on AI-driven discovery in fields like materials science and biology. It sets a model for global AI-science partnerships.
 
 
 ---
 
-## 3. [Top 10 uses for Codex at work](https://openai.com/academy/top-10-use-cases-codex-for-work)
+## 2. [MolClaw: An Autonomous Agent with Hierarchical Skills for Drug Molecule Evaluation, Screening, and Optimization](https://arxiv.org/abs/2604.21937)
 
-**Source:** openai · ⏱ *2d ago*  
-`openai` `codex` `productivity` `automation`
+**Source:** arxiv-cs-ai · ⏱ *3h ago*  
+`agents` `autonomous` `drug-discovery` `chemistry` `multi-tool`
 
-OpenAI details 10 practical Codex applications to automate tasks, generate deliverables, and process inputs across tools, files, and workflows.
+MolClaw introduces an autonomous AI agent excelling in complex drug discovery workflows, orchestrating dozens of tools for molecule evaluation, screening, and optimization with hierarchical skills and robust performance.
 
-> 💡 **Why it matters:** Reveals Codex's transformative potential for workplace AI. Builders gain blueprints for coding, analysis, design, and ops automation, driving adoption in enterprises and boosting productivity through real-world examples of input-to-output pipelines.
+> 💡 **Why it matters:** Demonstrates scalable agentic AI for high-stakes scientific pipelines like drug discovery, where current agents fail. Builders can adapt its hierarchical approach for multi-tool orchestration in chemistry, biology, and beyond, advancing autonomous research systems.
   
-**Related registry entries:** `cursor`, `aider`, `gpt-engineer`, `swe-agent`, `humaneval`
+**Related registry entries:** `autogpt`, `gpt-engineer`, `swe-agent`
 
 ---
 
-## 4. [Working with Codex](https://openai.com/academy/working-with-codex)
+## 3. [Math Takes Two: A test for emergent mathematical reasoning in communication](https://arxiv.org/abs/2604.21935)
 
-**Source:** openai · ⏱ *2d ago*  
-`openai` `codex` `tutorial` `workspace`
+**Source:** arxiv-cs-ai · ⏱ *3h ago*  
+`reasoning` `math` `benchmark` `evaluation` `emergent-abilities`
 
-OpenAI tutorial on Codex setup: workspaces, threads, projects, file handling, and step-by-step task execution for AI-powered work.
+New benchmark probes true mathematical reasoning in language models via communication-grounded problems, distinguishing genuine understanding from pattern matching on symbolic tasks.
 
-> 💡 **Why it matters:** Onboards builders to Codex's full potential. Structured environments simplify multi-step AI interactions, enabling scalable projects, collaboration, and reliable outputs for complex professional tasks.
+> 💡 **Why it matters:** Exposes limitations in current LM math capabilities, urging builders to develop evals beyond formal syntax. Essential for advancing reliable reasoning in agents, tools, and scientific applications requiring novel problem-solving.
   
-**Related registry entries:** `langgraph`, `langsmith`, `autogen-04`
+**Related registry entries:** `mmlu`, `chain-of-thought-prompting`
 
 ---
 
-## 5. [Plugins and skills](https://openai.com/academy/codex-plugins-and-skills)
+## 4. [An Artifact-based Agent Framework for Adaptive and Reproducible Medical Image Processing](https://arxiv.org/abs/2604.21936)
 
-**Source:** openai · ⏱ *2d ago*  
-`openai` `codex` `plugins` `tools`
+**Source:** arxiv-cs-ai · ⏱ *3h ago*  
+`agents` `medical-imaging` `reproducibility` `healthcare` `workflows`
 
-OpenAI explains Codex plugins and skills for tool connections, data access, and repeatable workflows to enhance automation.
+Artifact-based framework enables AI agents for medical imaging with adaptability to datasets, workflow configuration, and full provenance tracking for clinical deployment.
 
-> 💡 **Why it matters:** Unlocks extensibility in Codex for bespoke agents. Integrate APIs, DBs, and services to build robust, context-aware systems, essential for production-grade AI orchestration and custom enterprise solutions.
+> 💡 **Why it matters:** Bridges research-to-clinic gap by prioritizing reproducibility and adaptability in agent workflows. Practitioners gain a blueprint for production-grade medical AI, enhancing trust and scalability in healthcare applications.
   
-**Related registry entries:** `react-reasoning-acting`, `toolformer`, `model-context-protocol`
+**Related registry entries:** `langgraph`
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-04-26 06:55 UTC · [Archive](./)</sub>
+## 5. [Elon Musk and OpenAI CEO Sam Altman head to court in high-stakes showdown over AI](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdzlBa1IxYm1sSThkcm9rSnJoc25KdGFHd2FON3VVUG5yQWZ5QzRsZ0NFMjhFdGdwbVFFMWZKU3VvcUZXdkh3dU5uYTd6QmVrTHpzOGRMUi14UGI3LVNVcFpPLWwxdFFSRGxBM2U1ZHF2SWNoU0RDVWRod3pfOEV4ZXpzWUR4bElPRnZqcnpoWEprU1pPLVNEMWtPWHd4aUxQdjQ0X0lVTm5qRzktamZjekhyc09vd2FD?oc=5)
+
+**Source:** google-news-ai · ⏱ *0h ago*  
+`legal` `openai` `xai` `governance` `agi`
+
+Elon Musk sues OpenAI and Sam Altman, challenging the company's shift to for-profit and deviation from original nonprofit mission to benefit humanity.
+
+> 💡 **Why it matters:** Legal clash could reshape OpenAI's governance, IP, and AGI trajectory, influencing industry standards for safety, openness, and commercialization. Builders watch for precedents on AI ethics and funding models.
+
+
+---
+
+<sub>Generated by ai-pulse-agents · 2026-04-27 07:11 UTC · [Archive](./)</sub>
