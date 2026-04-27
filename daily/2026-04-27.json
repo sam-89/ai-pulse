@@ -1,0 +1,164 @@
+{
+  "date": "2026-04-27",
+  "generated_at": "2026-04-27T07:11:29.335453+00:00",
+  "generator_version": "1.0.0",
+  "sources_polled": [
+    "openai",
+    "anthropic",
+    "deepmind",
+    "huggingface",
+    "google-news-ai",
+    "arxiv-cs-ai"
+  ],
+  "items": [
+    {
+      "rank": 1,
+      "id": "2026-04-27-001",
+      "title": "Announcing our partnership with the Republic of Korea",
+      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+      "source": "deepmind",
+      "source_type": "official_blog",
+      "published_at": "2026-04-27T07:00:06+00:00",
+      "summary": "Google DeepMind partners with the Republic of Korea to leverage frontier AI models for accelerating scientific breakthroughs across key research areas.",
+      "why_it_matters": "This high-level government collaboration validates AI's role in national science agendas, potentially unlocking funding, data access, and compute resources for builders working on AI-driven discovery in fields like materials science and biology. It sets a model for global AI-science partnerships.",
+      "suggested_reel_angle": "DeepMind + Korea: Unlocking AI for massive scientific leaps!",
+      "suggested_long_angle": [
+        "Partnership details and goals",
+        "Targeted scientific domains",
+        "Opportunities for AI practitioners"
+      ],
+      "tags": [
+        "partnership",
+        "government",
+        "deepmind",
+        "science",
+        "frontier-models"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 1.0,
+      "virality_score": 1.0,
+      "recency_hours": 0
+    },
+    {
+      "rank": 2,
+      "id": "2026-04-27-002",
+      "title": "MolClaw: An Autonomous Agent with Hierarchical Skills for Drug Molecule Evaluation, Screening, and Optimization",
+      "url": "https://arxiv.org/abs/2604.21937",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-27T04:00:00+00:00",
+      "summary": "MolClaw introduces an autonomous AI agent excelling in complex drug discovery workflows, orchestrating dozens of tools for molecule evaluation, screening, and optimization with hierarchical skills and robust performance.",
+      "why_it_matters": "Demonstrates scalable agentic AI for high-stakes scientific pipelines like drug discovery, where current agents fail. Builders can adapt its hierarchical approach for multi-tool orchestration in chemistry, biology, and beyond, advancing autonomous research systems.",
+      "suggested_reel_angle": "MolClaw: AI agent mastering drug discovery workflows!",
+      "suggested_long_angle": [
+        "MolClaw architecture and skills",
+        "Benchmark results vs baselines",
+        "Implications for autonomous science"
+      ],
+      "tags": [
+        "agents",
+        "autonomous",
+        "drug-discovery",
+        "chemistry",
+        "multi-tool"
+      ],
+      "related_registry_entries": [
+        "autogpt",
+        "gpt-engineer",
+        "swe-agent"
+      ],
+      "authority_score": 0.8,
+      "virality_score": 0.8468,
+      "recency_hours": 3
+    },
+    {
+      "rank": 3,
+      "id": "2026-04-27-003",
+      "title": "Math Takes Two: A test for emergent mathematical reasoning in communication",
+      "url": "https://arxiv.org/abs/2604.21935",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-27T04:00:00+00:00",
+      "summary": "New benchmark probes true mathematical reasoning in language models via communication-grounded problems, distinguishing genuine understanding from pattern matching on symbolic tasks.",
+      "why_it_matters": "Exposes limitations in current LM math capabilities, urging builders to develop evals beyond formal syntax. Essential for advancing reliable reasoning in agents, tools, and scientific applications requiring novel problem-solving.",
+      "suggested_reel_angle": "Does AI really do math? New test reveals the truth!",
+      "suggested_long_angle": [
+        "Benchmark design and motivation",
+        "Key findings on LMs",
+        "Paths to true reasoning"
+      ],
+      "tags": [
+        "reasoning",
+        "math",
+        "benchmark",
+        "evaluation",
+        "emergent-abilities"
+      ],
+      "related_registry_entries": [
+        "mmlu",
+        "chain-of-thought-prompting"
+      ],
+      "authority_score": 0.8,
+      "virality_score": 0.8468,
+      "recency_hours": 3
+    },
+    {
+      "rank": 4,
+      "id": "2026-04-27-004",
+      "title": "An Artifact-based Agent Framework for Adaptive and Reproducible Medical Image Processing",
+      "url": "https://arxiv.org/abs/2604.21936",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-27T04:00:00+00:00",
+      "summary": "Artifact-based framework enables AI agents for medical imaging with adaptability to datasets, workflow configuration, and full provenance tracking for clinical deployment.",
+      "why_it_matters": "Bridges research-to-clinic gap by prioritizing reproducibility and adaptability in agent workflows. Practitioners gain a blueprint for production-grade medical AI, enhancing trust and scalability in healthcare applications.",
+      "suggested_reel_angle": "Reproducible AI agents for medical imaging revolution!",
+      "suggested_long_angle": [
+        "Framework components",
+        "Adaptability features",
+        "Clinical deployment benefits"
+      ],
+      "tags": [
+        "agents",
+        "medical-imaging",
+        "reproducibility",
+        "healthcare",
+        "workflows"
+      ],
+      "related_registry_entries": [
+        "langgraph"
+      ],
+      "authority_score": 0.8,
+      "virality_score": 0.8468,
+      "recency_hours": 3
+    },
+    {
+      "rank": 5,
+      "id": "2026-04-27-005",
+      "title": "Elon Musk and OpenAI CEO Sam Altman head to court in high-stakes showdown over AI",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdzlBa1IxYm1sSThkcm9rSnJoc25KdGFHd2FON3VVUG5yQWZ5QzRsZ0NFMjhFdGdwbVFFMWZKU3VvcUZXdkh3dU5uYTd6QmVrTHpzOGRMUi14UGI3LVNVcFpPLWwxdFFSRGxBM2U1ZHF2SWNoU0RDVWRod3pfOEV4ZXpzWUR4bElPRnZqcnpoWEprU1pPLVNEMWtPWHd4aUxQdjQ0X0lVTm5qRzktamZjekhyc09vd2FD?oc=5",
+      "source": "google-news-ai",
+      "source_type": "news_aggregator",
+      "published_at": "2026-04-27T07:06:11+00:00",
+      "summary": "Elon Musk sues OpenAI and Sam Altman, challenging the company's shift to for-profit and deviation from original nonprofit mission to benefit humanity.",
+      "why_it_matters": "Legal clash could reshape OpenAI's governance, IP, and AGI trajectory, influencing industry standards for safety, openness, and commercialization. Builders watch for precedents on AI ethics and funding models.",
+      "suggested_reel_angle": "Musk vs Altman: Epic AI courtroom battle begins!",
+      "suggested_long_angle": [
+        "Case background and claims",
+        "Potential industry impacts",
+        "What it means for AGI race"
+      ],
+      "tags": [
+        "legal",
+        "openai",
+        "xai",
+        "governance",
+        "agi"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 0.6,
+      "virality_score": 0.76,
+      "recency_hours": 0
+    }
+  ]
+}
