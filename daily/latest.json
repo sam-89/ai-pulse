@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-26",
-  "generated_at": "2026-04-26T06:55:18.726011+00:00",
+  "date": "2026-04-27",
+  "generated_at": "2026-04-27T07:11:29.335453+00:00",
   "generator_version": "1.0.0",
   "sources_polled": [
     "openai",
@@ -13,152 +13,152 @@
   "items": [
     {
       "rank": 1,
-      "id": "2026-04-26-001",
-      "title": "Gemma 4: Byte for byte, the most capable open models",
-      "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
+      "id": "2026-04-27-001",
+      "title": "Announcing our partnership with the Republic of Korea",
+      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
       "source": "deepmind",
       "source_type": "official_blog",
-      "published_at": "2026-04-02T16:00:49+00:00",
-      "summary": "DeepMind releases Gemma 4, the most intelligent open models yet, purpose-built for advanced reasoning and agentic workflows with unmatched parameter efficiency.",
-      "why_it_matters": "Open-weight models like Gemma 4 democratize access to frontier AI capabilities. Builders benefit from top-tier reasoning for agents, planning, and complex tasks, runnable locally or on edge devices. Enables fine-tuning, distillation, and custom apps without API costs, fueling open-source innovation and reducing reliance on closed systems.",
-      "suggested_reel_angle": "Gemma 4: DeepMind's byte-for-byte smartest open AI models drop!",
+      "published_at": "2026-04-27T07:00:06+00:00",
+      "summary": "Google DeepMind partners with the Republic of Korea to leverage frontier AI models for accelerating scientific breakthroughs across key research areas.",
+      "why_it_matters": "This high-level government collaboration validates AI's role in national science agendas, potentially unlocking funding, data access, and compute resources for builders working on AI-driven discovery in fields like materials science and biology. It sets a model for global AI-science partnerships.",
+      "suggested_reel_angle": "DeepMind + Korea: Unlocking AI for massive scientific leaps!",
       "suggested_long_angle": [
-        "Breakdown of reasoning upgrades",
-        "Benchmark dominance explained",
-        "Developer quickstart guide"
+        "Partnership details and goals",
+        "Targeted scientific domains",
+        "Opportunities for AI practitioners"
       ],
       "tags": [
+        "partnership",
+        "government",
         "deepmind",
-        "open-models",
-        "reasoning",
-        "agentic"
+        "science",
+        "frontier-models"
       ],
       "related_registry_entries": [],
       "authority_score": 1.0,
-      "virality_score": 0.6,
-      "recency_hours": 566
+      "virality_score": 1.0,
+      "recency_hours": 0
     },
     {
       "rank": 2,
-      "id": "2026-04-26-002",
-      "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
-      "source": "deepmind",
-      "source_type": "official_blog",
-      "published_at": "2026-04-13T15:52:13+00:00",
-      "summary": "DeepMind unveils Gemini Robotics-ER 1.6, boosting spatial reasoning and multi-view understanding to enable reliable autonomous robotics in physical environments.",
-      "why_it_matters": "Advances embodied intelligence critical for robotics deployment. Improved perception and decision-making in dynamic settings accelerates development of practical robots for industry, logistics, and daily life, bridging simulation-to-real gaps for AI builders targeting hardware integration.",
-      "suggested_reel_angle": "Gemini 1.6 makes robots think and see like never before!",
+      "id": "2026-04-27-002",
+      "title": "MolClaw: An Autonomous Agent with Hierarchical Skills for Drug Molecule Evaluation, Screening, and Optimization",
+      "url": "https://arxiv.org/abs/2604.21937",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-27T04:00:00+00:00",
+      "summary": "MolClaw introduces an autonomous AI agent excelling in complex drug discovery workflows, orchestrating dozens of tools for molecule evaluation, screening, and optimization with hierarchical skills and robust performance.",
+      "why_it_matters": "Demonstrates scalable agentic AI for high-stakes scientific pipelines like drug discovery, where current agents fail. Builders can adapt its hierarchical approach for multi-tool orchestration in chemistry, biology, and beyond, advancing autonomous research systems.",
+      "suggested_reel_angle": "MolClaw: AI agent mastering drug discovery workflows!",
       "suggested_long_angle": [
-        "Enhanced spatial reasoning details",
-        "Multi-view task demos",
-        "Path to production robotics"
+        "MolClaw architecture and skills",
+        "Benchmark results vs baselines",
+        "Implications for autonomous science"
       ],
       "tags": [
-        "deepmind",
-        "robotics",
-        "embodied-ai",
-        "multimodal"
+        "agents",
+        "autonomous",
+        "drug-discovery",
+        "chemistry",
+        "multi-tool"
       ],
-      "related_registry_entries": [],
-      "authority_score": 1.0,
-      "virality_score": 0.6001,
-      "recency_hours": 303
+      "related_registry_entries": [
+        "autogpt",
+        "gpt-engineer",
+        "swe-agent"
+      ],
+      "authority_score": 0.8,
+      "virality_score": 0.8468,
+      "recency_hours": 3
     },
     {
       "rank": 3,
-      "id": "2026-04-26-003",
-      "title": "Top 10 uses for Codex at work",
-      "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
-      "source": "openai",
-      "source_type": "official_blog",
-      "published_at": "2026-04-23T10:00:00+00:00",
-      "summary": "OpenAI details 10 practical Codex applications to automate tasks, generate deliverables, and process inputs across tools, files, and workflows.",
-      "why_it_matters": "Reveals Codex's transformative potential for workplace AI. Builders gain blueprints for coding, analysis, design, and ops automation, driving adoption in enterprises and boosting productivity through real-world examples of input-to-output pipelines.",
-      "suggested_reel_angle": "10 Codex hacks to crush your workday!",
+      "id": "2026-04-27-003",
+      "title": "Math Takes Two: A test for emergent mathematical reasoning in communication",
+      "url": "https://arxiv.org/abs/2604.21935",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-27T04:00:00+00:00",
+      "summary": "New benchmark probes true mathematical reasoning in language models via communication-grounded problems, distinguishing genuine understanding from pattern matching on symbolic tasks.",
+      "why_it_matters": "Exposes limitations in current LM math capabilities, urging builders to develop evals beyond formal syntax. Essential for advancing reliable reasoning in agents, tools, and scientific applications requiring novel problem-solving.",
+      "suggested_reel_angle": "Does AI really do math? New test reveals the truth!",
       "suggested_long_angle": [
-        "Everyday use cases 1-5",
-        "Pro workflows 6-10",
-        "Customization strategies"
+        "Benchmark design and motivation",
+        "Key findings on LMs",
+        "Paths to true reasoning"
       ],
       "tags": [
-        "openai",
-        "codex",
-        "productivity",
-        "automation"
+        "reasoning",
+        "math",
+        "benchmark",
+        "evaluation",
+        "emergent-abilities"
       ],
       "related_registry_entries": [
-        "cursor",
-        "aider",
-        "gpt-engineer",
-        "swe-agent",
-        "humaneval"
+        "mmlu",
+        "chain-of-thought-prompting"
       ],
-      "authority_score": 1.0,
-      "virality_score": 0.6561,
-      "recency_hours": 68
+      "authority_score": 0.8,
+      "virality_score": 0.8468,
+      "recency_hours": 3
     },
     {
       "rank": 4,
-      "id": "2026-04-26-004",
-      "title": "Working with Codex",
-      "url": "https://openai.com/academy/working-with-codex",
-      "source": "openai",
-      "source_type": "official_blog",
-      "published_at": "2026-04-23T10:00:00+00:00",
-      "summary": "OpenAI tutorial on Codex setup: workspaces, threads, projects, file handling, and step-by-step task execution for AI-powered work.",
-      "why_it_matters": "Onboards builders to Codex's full potential. Structured environments simplify multi-step AI interactions, enabling scalable projects, collaboration, and reliable outputs for complex professional tasks.",
-      "suggested_reel_angle": "Set up OpenAI Codex and start winning at work now!",
+      "id": "2026-04-27-004",
+      "title": "An Artifact-based Agent Framework for Adaptive and Reproducible Medical Image Processing",
+      "url": "https://arxiv.org/abs/2604.21936",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-27T04:00:00+00:00",
+      "summary": "Artifact-based framework enables AI agents for medical imaging with adaptability to datasets, workflow configuration, and full provenance tracking for clinical deployment.",
+      "why_it_matters": "Bridges research-to-clinic gap by prioritizing reproducibility and adaptability in agent workflows. Practitioners gain a blueprint for production-grade medical AI, enhancing trust and scalability in healthcare applications.",
+      "suggested_reel_angle": "Reproducible AI agents for medical imaging revolution!",
       "suggested_long_angle": [
-        "Workspace creation basics",
-        "Projects and threads guide",
-        "File ops and task flows"
+        "Framework components",
+        "Adaptability features",
+        "Clinical deployment benefits"
       ],
       "tags": [
-        "openai",
-        "codex",
-        "tutorial",
-        "workspace"
+        "agents",
+        "medical-imaging",
+        "reproducibility",
+        "healthcare",
+        "workflows"
       ],
       "related_registry_entries": [
-        "langgraph",
-        "langsmith",
-        "autogen-04"
+        "langgraph"
       ],
-      "authority_score": 1.0,
-      "virality_score": 0.6561,
-      "recency_hours": 68
+      "authority_score": 0.8,
+      "virality_score": 0.8468,
+      "recency_hours": 3
     },
     {
       "rank": 5,
-      "id": "2026-04-26-005",
-      "title": "Plugins and skills",
-      "url": "https://openai.com/academy/codex-plugins-and-skills",
-      "source": "openai",
-      "source_type": "official_blog",
-      "published_at": "2026-04-23T10:00:00+00:00",
-      "summary": "OpenAI explains Codex plugins and skills for tool connections, data access, and repeatable workflows to enhance automation.",
-      "why_it_matters": "Unlocks extensibility in Codex for bespoke agents. Integrate APIs, DBs, and services to build robust, context-aware systems, essential for production-grade AI orchestration and custom enterprise solutions.",
-      "suggested_reel_angle": "Codex plugins: Turn AI into your ultimate toolkit!",
+      "id": "2026-04-27-005",
+      "title": "Elon Musk and OpenAI CEO Sam Altman head to court in high-stakes showdown over AI",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdzlBa1IxYm1sSThkcm9rSnJoc25KdGFHd2FON3VVUG5yQWZ5QzRsZ0NFMjhFdGdwbVFFMWZKU3VvcUZXdkh3dU5uYTd6QmVrTHpzOGRMUi14UGI3LVNVcFpPLWwxdFFSRGxBM2U1ZHF2SWNoU0RDVWRod3pfOEV4ZXpzWUR4bElPRnZqcnpoWEprU1pPLVNEMWtPWHd4aUxQdjQ0X0lVTm5qRzktamZjekhyc09vd2FD?oc=5",
+      "source": "google-news-ai",
+      "source_type": "news_aggregator",
+      "published_at": "2026-04-27T07:06:11+00:00",
+      "summary": "Elon Musk sues OpenAI and Sam Altman, challenging the company's shift to for-profit and deviation from original nonprofit mission to benefit humanity.",
+      "why_it_matters": "Legal clash could reshape OpenAI's governance, IP, and AGI trajectory, influencing industry standards for safety, openness, and commercialization. Builders watch for precedents on AI ethics and funding models.",
+      "suggested_reel_angle": "Musk vs Altman: Epic AI courtroom battle begins!",
       "suggested_long_angle": [
-        "Plugin basics and setup",
-        "Key skills for workflows",
-        "Advanced integrations"
+        "Case background and claims",
+        "Potential industry impacts",
+        "What it means for AGI race"
       ],
       "tags": [
+        "legal",
         "openai",
-        "codex",
-        "plugins",
-        "tools"
+        "xai",
+        "governance",
+        "agi"
       ],
-      "related_registry_entries": [
-        "react-reasoning-acting",
-        "toolformer",
-        "model-context-protocol"
-      ],
-      "authority_score": 1.0,
-      "virality_score": 0.6561,
-      "recency_hours": 68
+      "related_registry_entries": [],
+      "authority_score": 0.6,
+      "virality_score": 0.76,
+      "recency_hours": 0
     }
   ]
 }
