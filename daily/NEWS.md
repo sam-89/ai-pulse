@@ -1,73 +1,72 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-04-27
+### Top 5 AI Stories · 2026-04-28
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-27 07:11 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-28 07:11 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [Announcing our partnership with the Republic of Korea](https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/)
+## 1. [The next phase of the Microsoft OpenAI partnership](https://openai.com/index/next-phase-of-microsoft-partnership)
 
-**Source:** deepmind · ⏱ *0h ago*  
-`partnership` `government` `deepmind` `science` `frontier-models`
+**Source:** openai · ⏱ *25h ago*  
+`partnership` `microsoft` `openai` `enterprise` `infrastructure`
 
-Google DeepMind partners with the Republic of Korea to leverage frontier AI models for accelerating scientific breakthroughs across key research areas.
+OpenAI and Microsoft announce an amended agreement simplifying their partnership, providing long-term clarity and enabling scaled AI innovation through enhanced collaboration on infrastructure and models.
 
-> 💡 **Why it matters:** This high-level government collaboration validates AI's role in national science agendas, potentially unlocking funding, data access, and compute resources for builders working on AI-driven discovery in fields like materials science and biology. It sets a model for global AI-science partnerships.
+> 💡 **Why it matters:** This update stabilizes one of AI's most critical partnerships, ensuring reliable access to frontier models via Azure for builders. It reduces uncertainty around compute allocation, API pricing, and exclusivity, allowing developers to plan large-scale deployments confidently. Impacts enterprise adoption, multi-cloud strategies, and the pace of model releases.
 
 
 ---
 
-## 2. [MolClaw: An Autonomous Agent with Hierarchical Skills for Drug Molecule Evaluation, Screening, and Optimization](https://arxiv.org/abs/2604.21937)
+## 2. [OpenAI available at FedRAMP Moderate](https://openai.com/index/openai-available-at-fedramp-moderate)
+
+**Source:** openai · ⏱ *17h ago*  
+`fedramp` `government` `compliance` `enterprise` `openai`
+
+OpenAI achieves FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, allowing secure deployment in U.S. federal agencies with compliance for sensitive data handling.
+
+> 💡 **Why it matters:** Unlocks government contracts for AI builders integrating OpenAI models. FedRAMP Moderate covers moderate-impact systems, enabling apps in defense, healthcare, and admin. Reduces compliance hurdles, accelerates public sector AI, and sets precedent for other providers to follow suit.
+
+
+---
+
+## 3. [An open-source spec for orchestration: Symphony](https://openai.com/index/open-source-codex-orchestration-symphony)
+
+**Source:** openai · ⏱ *31h ago*  
+`open-source` `orchestration` `agents` `openai` `devtools`
+
+Symphony is an open-source specification from OpenAI for Codex orchestration, transforming issue trackers into always-on agent systems to boost engineering productivity and minimize context switching.
+
+> 💡 **Why it matters:** Provides a standardized way to orchestrate AI agents for dev workflows, integrating with tools like GitHub Issues. Builders can create autonomous systems for code review, bug triage, and deployment, reducing manual overhead. Promotes interoperability in agent ecosystems.
+  
+**Related registry entries:** `langgraph`, `autogen-04`
+
+---
+
+## 4. [Adaptive Ultrasound Imaging with Physics-Informed NV-Raw2Insights-US AI](https://huggingface.co/blog/nvidia/raw2insights-adaptive-ultrasound-imaging)
+
+**Source:** huggingface · ⏱ *6h ago*  
+`nvidia` `healthcare` `medical-imaging` `physics-informed` `huggingface`
+
+NVIDIA's Raw2Insights-US leverages physics-informed AI for adaptive ultrasound imaging, enhancing real-time diagnostics with Hugging Face integration for accessible medical AI deployment.
+
+> 💡 **Why it matters:** Physics-informed models improve ultrasound accuracy and speed, critical for healthcare AI. Builders can fine-tune for domain-specific imaging, deploy edge devices via NVIDIA hardware. Accelerates medtech innovation with open tools.
+
+
+---
+
+## 5. [The Power of Power Law: Asymmetry Enables Compositional Reasoning](https://arxiv.org/abs/2604.22951)
 
 **Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`agents` `autonomous` `drug-discovery` `chemistry` `multi-tool`
+`research` `reasoning` `training-data` `power-law` `compositional`
 
-MolClaw introduces an autonomous AI agent excelling in complex drug discovery workflows, orchestrating dozens of tools for molecule evaluation, screening, and optimization with hierarchical skills and robust performance.
+New research shows power-law data distributions outperform uniform reweighting for compositional reasoning tasks, challenging data curation assumptions across benchmarks.
 
-> 💡 **Why it matters:** Demonstrates scalable agentic AI for high-stakes scientific pipelines like drug discovery, where current agents fail. Builders can adapt its hierarchical approach for multi-tool orchestration in chemistry, biology, and beyond, advancing autonomous research systems.
+> 💡 **Why it matters:** Reveals that natural long-tail data drives better reasoning emergence. AI trainers can prioritize raw web-scale data over expensive curation, optimizing pretraining for math, logic, and multi-step tasks. Influences dataset strategies for next-gen models.
   
-**Related registry entries:** `autogpt`, `gpt-engineer`, `swe-agent`
+**Related registry entries:** `chain-of-thought-prompting`
 
 ---
 
-## 3. [Math Takes Two: A test for emergent mathematical reasoning in communication](https://arxiv.org/abs/2604.21935)
-
-**Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`reasoning` `math` `benchmark` `evaluation` `emergent-abilities`
-
-New benchmark probes true mathematical reasoning in language models via communication-grounded problems, distinguishing genuine understanding from pattern matching on symbolic tasks.
-
-> 💡 **Why it matters:** Exposes limitations in current LM math capabilities, urging builders to develop evals beyond formal syntax. Essential for advancing reliable reasoning in agents, tools, and scientific applications requiring novel problem-solving.
-  
-**Related registry entries:** `mmlu`, `chain-of-thought-prompting`
-
----
-
-## 4. [An Artifact-based Agent Framework for Adaptive and Reproducible Medical Image Processing](https://arxiv.org/abs/2604.21936)
-
-**Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`agents` `medical-imaging` `reproducibility` `healthcare` `workflows`
-
-Artifact-based framework enables AI agents for medical imaging with adaptability to datasets, workflow configuration, and full provenance tracking for clinical deployment.
-
-> 💡 **Why it matters:** Bridges research-to-clinic gap by prioritizing reproducibility and adaptability in agent workflows. Practitioners gain a blueprint for production-grade medical AI, enhancing trust and scalability in healthcare applications.
-  
-**Related registry entries:** `langgraph`
-
----
-
-## 5. [Elon Musk and OpenAI CEO Sam Altman head to court in high-stakes showdown over AI](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdzlBa1IxYm1sSThkcm9rSnJoc25KdGFHd2FON3VVUG5yQWZ5QzRsZ0NFMjhFdGdwbVFFMWZKU3VvcUZXdkh3dU5uYTd6QmVrTHpzOGRMUi14UGI3LVNVcFpPLWwxdFFSRGxBM2U1ZHF2SWNoU0RDVWRod3pfOEV4ZXpzWUR4bElPRnZqcnpoWEprU1pPLVNEMWtPWHd4aUxQdjQ0X0lVTm5qRzktamZjekhyc09vd2FD?oc=5)
-
-**Source:** google-news-ai · ⏱ *0h ago*  
-`legal` `openai` `xai` `governance` `agi`
-
-Elon Musk sues OpenAI and Sam Altman, challenging the company's shift to for-profit and deviation from original nonprofit mission to benefit humanity.
-
-> 💡 **Why it matters:** Legal clash could reshape OpenAI's governance, IP, and AGI trajectory, influencing industry standards for safety, openness, and commercialization. Builders watch for precedents on AI ethics and funding models.
-
-
----
-
-<sub>Generated by ai-pulse-agents · 2026-04-27 07:11 UTC · [Archive](./)</sub>
+<sub>Generated by ai-pulse-agents · 2026-04-28 07:11 UTC · [Archive](./)</sub>
