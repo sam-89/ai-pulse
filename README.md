@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-04-27*
+## 📰 Today in AI · *2026-04-28*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [Announcing our partnership with the Republic of Korea](https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/) | deepmind |
-| 2 | [MolClaw: An Autonomous Agent with Hierarchical Skills for Drug Molecule Evaluation, Screening, and Optimization](https://arxiv.org/abs/2604.21937) | arxiv-cs-ai |
-| 3 | [Math Takes Two: A test for emergent mathematical reasoning in communication](https://arxiv.org/abs/2604.21935) | arxiv-cs-ai |
-| 4 | [An Artifact-based Agent Framework for Adaptive and Reproducible Medical Image Processing](https://arxiv.org/abs/2604.21936) | arxiv-cs-ai |
-| 5 | [Elon Musk and OpenAI CEO Sam Altman head to court in high-stakes showdown over AI](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdzlBa1IxYm1sSThkcm9rSnJoc25KdGFHd2FON3VVUG5yQWZ5QzRsZ0NFMjhFdGdwbVFFMWZKU3VvcUZXdkh3dU5uYTd6QmVrTHpzOGRMUi14UGI3LVNVcFpPLWwxdFFSRGxBM2U1ZHF2SWNoU0RDVWRod3pfOEV4ZXpzWUR4bElPRnZqcnpoWEprU1pPLVNEMWtPWHd4aUxQdjQ0X0lVTm5qRzktamZjekhyc09vd2FD?oc=5) | google-news-ai |
+| 1 | [The next phase of the Microsoft OpenAI partnership](https://openai.com/index/next-phase-of-microsoft-partnership) | openai |
+| 2 | [OpenAI available at FedRAMP Moderate](https://openai.com/index/openai-available-at-fedramp-moderate) | openai |
+| 3 | [An open-source spec for orchestration: Symphony](https://openai.com/index/open-source-codex-orchestration-symphony) | openai |
+| 4 | [Adaptive Ultrasound Imaging with Physics-Informed NV-Raw2Insights-US AI](https://huggingface.co/blog/nvidia/raw2insights-adaptive-ultrasound-imaging) | huggingface |
+| 5 | [The Power of Power Law: Asymmetry Enables Compositional Reasoning](https://arxiv.org/abs/2604.22951) | arxiv-cs-ai |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
