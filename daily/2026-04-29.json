@@ -1,0 +1,162 @@
+{
+  "date": "2026-04-29",
+  "generated_at": "2026-04-29T07:06:15.487978+00:00",
+  "generator_version": "1.0.0",
+  "sources_polled": [
+    "openai",
+    "anthropic",
+    "deepmind",
+    "huggingface",
+    "google-news-ai",
+    "arxiv-cs-ai"
+  ],
+  "items": [
+    {
+      "rank": 1,
+      "id": "2026-04-29-001",
+      "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+      "source": "huggingface",
+      "source_type": "official_blog",
+      "published_at": "2026-04-28T15:58:57+00:00",
+      "summary": "NVIDIA releases Nemotron 3 Nano Omni, a compact multimodal model excelling in long-context understanding across documents, audio, and video. Designed for agentic applications, it enables efficient processing of diverse inputs for real-time decision-making in edge and cloud environments.",
+      "why_it_matters": "AI builders gain a lightweight, high-performance multimodal foundation model optimized for agents. Its long-context capabilities reduce token limits in complex workflows, while support for docs, audio, and video unlocks new use cases like multimedia analysis agents, surveillance, content moderation, and interactive assistants. Deployable on NVIDIA hardware, it accelerates prototyping and production of multimodal systems without massive compute.",
+      "suggested_reel_angle": "NVIDIA's tiny Nemotron 3 Nano Omni crushes multimodal agents: docs, audio, video in one model!",
+      "suggested_long_angle": [
+        "Breakdown of Nemotron 3 Nano Omni features",
+        "Benchmarks vs competitors in long-context tasks",
+        "Building your first multimodal agent"
+      ],
+      "tags": [
+        "nvidia",
+        "multimodal",
+        "agents",
+        "long-context",
+        "nano-model"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 0.9,
+      "virality_score": 0.7994,
+      "recency_hours": 15
+    },
+    {
+      "rank": 2,
+      "id": "2026-04-29-002",
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "url": "https://openai.com/index/openai-on-aws",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-28T00:00:00+00:00",
+      "summary": "OpenAI announces availability of GPT models, Codex, and Managed Agents on AWS. Enterprises can now build secure, scalable AI applications within AWS environments, leveraging familiar infrastructure for compliance and integration.",
+      "why_it_matters": "This expands OpenAI access beyond Azure, enabling AWS-centric teams to deploy frontier models without vendor lock-in. Builders benefit from seamless integration with AWS services like SageMaker, Lambda, and EC2 for production-grade apps. Managed Agents simplify agentic workflows, boosting enterprise adoption and reducing setup friction for custom AI solutions.",
+      "suggested_reel_angle": "OpenAI lands on AWS: GPT, Codex, Agents now enterprise-ready!",
+      "suggested_long_angle": [
+        "OpenAI models now on AWS: whats new",
+        "Integration guide for AWS builders",
+        "Impact on enterprise AI deployment"
+      ],
+      "tags": [
+        "openai",
+        "aws",
+        "enterprise",
+        "deployment",
+        "agents"
+      ],
+      "related_registry_entries": [
+        "vllm"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.7634,
+      "recency_hours": 31
+    },
+    {
+      "rank": 3,
+      "id": "2026-04-29-003",
+      "title": "PExA: Parallel Exploration Agent for Complex Text-to-SQL",
+      "url": "https://arxiv.org/abs/2604.22934",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-29T04:00:00+00:00",
+      "summary": "PExA reframes text-to-SQL as software test coverage, using parallel execution of atomic SQL tests to boost LLM agent accuracy and reduce latency. Ideal for complex database queries where single-shot methods fail.",
+      "why_it_matters": "Text-to-SQL is core for agentic RAG and enterprise data apps. PExA addresses LLM pain points like error propagation and slow iteration via parallel exploration, improving reliability on real-world schemas. Builders can implement this framework to create robust DB agents, enhancing tools like LangChain or custom pipelines for analytics and automation.",
+      "suggested_reel_angle": "PExA: Supercharge LLM text-to-SQL with parallel agents!",
+      "suggested_long_angle": [
+        "How PExA uses test coverage for SQL",
+        "Performance gains on complex queries",
+        "Implementation in your agent stack"
+      ],
+      "tags": [
+        "agents",
+        "text-to-sql",
+        "llm-agents",
+        "parallel-compute",
+        "databases"
+      ],
+      "related_registry_entries": [
+        "langgraph",
+        "mcp-postgresql"
+      ],
+      "authority_score": 0.8,
+      "virality_score": 0.8468,
+      "recency_hours": 3
+    },
+    {
+      "rank": 4,
+      "id": "2026-04-29-004",
+      "title": "An Intelligent Fault Diagnosis Method for General Aviation Aircraft Based on Multi-Fidelity Digital Twin and FMEA Knowledge Enhancement",
+      "url": "https://arxiv.org/abs/2604.22777",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-29T04:00:00+00:00",
+      "summary": "New framework combines multi-fidelity digital twins, FMEA fault injection, and AI for diagnosing aircraft faults amid scarce data. Modules include flight sim, fault sim, data fusion, and diagnosis model.",
+      "why_it_matters": "Aviation safety demands reliable fault detection; this bridges sim-to-real gap with digital twins, enabling predictive maintenance where real faults are rare. AI builders in industrial IoT, robotics, or sim2real can adapt the multi-fidelity approach for domain-specific diagnostics, integrating with tools like PyTorch for scalable, knowledge-enhanced models.",
+      "suggested_reel_angle": "AI digital twins diagnose aircraft faults before they crash!",
+      "suggested_long_angle": [
+        "Multi-fidelity digital twin explained",
+        "FMEA integration for fault injection",
+        "Real-world aviation impact"
+      ],
+      "tags": [
+        "digital-twin",
+        "fault-diagnosis",
+        "aviation",
+        "sim2real",
+        "fmea"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 0.8,
+      "virality_score": 0.8468,
+      "recency_hours": 3
+    },
+    {
+      "rank": 5,
+      "id": "2026-04-29-005",
+      "title": "Our commitment to community safety",
+      "url": "https://openai.com/index/our-commitment-to-community-safety",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-28T00:00:00+00:00",
+      "summary": "OpenAI details ChatGPT safety measures: model safeguards, misuse detection, policy enforcement, and expert collaborations to protect users from harm.",
+      "why_it_matters": "As AI scales, safety is paramount for builders deploying public-facing apps. OpenAIs layered approach provides blueprints for red-teaming, content filters, and monitoring. Practitioners can apply similar strategies to align custom models, ensuring compliance and trust in production systems amid rising scrutiny.",
+      "suggested_reel_angle": "OpenAI's full safety playbook for ChatGPT revealed!",
+      "suggested_long_angle": [
+        "Core safety layers in ChatGPT",
+        "Misuse detection techniques",
+        "Builder tips for safe AI"
+      ],
+      "tags": [
+        "openai",
+        "safety",
+        "alignment",
+        "chatgpt",
+        "policy"
+      ],
+      "related_registry_entries": [
+        "constitutional-ai"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.7634,
+      "recency_hours": 31
+    }
+  ]
+}
