@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-04-28*
+## 📰 Today in AI · *2026-04-29*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [The next phase of the Microsoft OpenAI partnership](https://openai.com/index/next-phase-of-microsoft-partnership) | openai |
-| 2 | [OpenAI available at FedRAMP Moderate](https://openai.com/index/openai-available-at-fedramp-moderate) | openai |
-| 3 | [An open-source spec for orchestration: Symphony](https://openai.com/index/open-source-codex-orchestration-symphony) | openai |
-| 4 | [Adaptive Ultrasound Imaging with Physics-Informed NV-Raw2Insights-US AI](https://huggingface.co/blog/nvidia/raw2insights-adaptive-ultrasound-imaging) | huggingface |
-| 5 | [The Power of Power Law: Asymmetry Enables Compositional Reasoning](https://arxiv.org/abs/2604.22951) | arxiv-cs-ai |
+| 1 | [Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents](https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence) | huggingface |
+| 2 | [OpenAI models, Codex, and Managed Agents come to AWS](https://openai.com/index/openai-on-aws) | openai |
+| 3 | [PExA: Parallel Exploration Agent for Complex Text-to-SQL](https://arxiv.org/abs/2604.22934) | arxiv-cs-ai |
+| 4 | [An Intelligent Fault Diagnosis Method for General Aviation Aircraft Based on Multi-Fidelity Digital Twin and FMEA Knowledge Enhancement](https://arxiv.org/abs/2604.22777) | arxiv-cs-ai |
+| 5 | [Our commitment to community safety](https://openai.com/index/our-commitment-to-community-safety) | openai |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
