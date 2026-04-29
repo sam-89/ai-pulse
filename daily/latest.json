@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-28",
-  "generated_at": "2026-04-28T07:11:19.847824+00:00",
+  "date": "2026-04-29",
+  "generated_at": "2026-04-29T07:06:15.487978+00:00",
   "generator_version": "1.0.0",
   "sources_polled": [
     "openai",
@@ -13,148 +13,150 @@
   "items": [
     {
       "rank": 1,
-      "id": "2026-04-28-001",
-      "title": "The next phase of the Microsoft OpenAI partnership",
-      "url": "https://openai.com/index/next-phase-of-microsoft-partnership",
-      "source": "openai",
+      "id": "2026-04-29-001",
+      "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+      "source": "huggingface",
       "source_type": "official_blog",
-      "published_at": "2026-04-27T06:00:00+00:00",
-      "summary": "OpenAI and Microsoft announce an amended agreement simplifying their partnership, providing long-term clarity and enabling scaled AI innovation through enhanced collaboration on infrastructure and models.",
-      "why_it_matters": "This update stabilizes one of AI's most critical partnerships, ensuring reliable access to frontier models via Azure for builders. It reduces uncertainty around compute allocation, API pricing, and exclusivity, allowing developers to plan large-scale deployments confidently. Impacts enterprise adoption, multi-cloud strategies, and the pace of model releases.",
-      "suggested_reel_angle": "Microsoft x OpenAI just leveled up their epic partnership - heres what it means for your AI builds!",
+      "published_at": "2026-04-28T15:58:57+00:00",
+      "summary": "NVIDIA releases Nemotron 3 Nano Omni, a compact multimodal model excelling in long-context understanding across documents, audio, and video. Designed for agentic applications, it enables efficient processing of diverse inputs for real-time decision-making in edge and cloud environments.",
+      "why_it_matters": "AI builders gain a lightweight, high-performance multimodal foundation model optimized for agents. Its long-context capabilities reduce token limits in complex workflows, while support for docs, audio, and video unlocks new use cases like multimedia analysis agents, surveillance, content moderation, and interactive assistants. Deployable on NVIDIA hardware, it accelerates prototyping and production of multimodal systems without massive compute.",
+      "suggested_reel_angle": "NVIDIA's tiny Nemotron 3 Nano Omni crushes multimodal agents: docs, audio, video in one model!",
       "suggested_long_angle": [
-        "Evolution of the partnership",
-        "Key changes and benefits",
-        "Future implications for developers"
+        "Breakdown of Nemotron 3 Nano Omni features",
+        "Benchmarks vs competitors in long-context tasks",
+        "Building your first multimodal agent"
       ],
       "tags": [
-        "partnership",
-        "microsoft",
-        "openai",
-        "enterprise",
-        "infrastructure"
+        "nvidia",
+        "multimodal",
+        "agents",
+        "long-context",
+        "nano-model"
       ],
       "related_registry_entries": [],
-      "authority_score": 1.0,
-      "virality_score": 0.7943,
-      "recency_hours": 25
+      "authority_score": 0.9,
+      "virality_score": 0.7994,
+      "recency_hours": 15
     },
     {
       "rank": 2,
-      "id": "2026-04-28-002",
-      "title": "OpenAI available at FedRAMP Moderate",
-      "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
+      "id": "2026-04-29-002",
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "url": "https://openai.com/index/openai-on-aws",
       "source": "openai",
       "source_type": "official_blog",
-      "published_at": "2026-04-27T14:00:00+00:00",
-      "summary": "OpenAI achieves FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, allowing secure deployment in U.S. federal agencies with compliance for sensitive data handling.",
-      "why_it_matters": "Unlocks government contracts for AI builders integrating OpenAI models. FedRAMP Moderate covers moderate-impact systems, enabling apps in defense, healthcare, and admin. Reduces compliance hurdles, accelerates public sector AI, and sets precedent for other providers to follow suit.",
-      "suggested_reel_angle": "OpenAI just got FedRAMP approved - federal AI just got real!",
+      "published_at": "2026-04-28T00:00:00+00:00",
+      "summary": "OpenAI announces availability of GPT models, Codex, and Managed Agents on AWS. Enterprises can now build secure, scalable AI applications within AWS environments, leveraging familiar infrastructure for compliance and integration.",
+      "why_it_matters": "This expands OpenAI access beyond Azure, enabling AWS-centric teams to deploy frontier models without vendor lock-in. Builders benefit from seamless integration with AWS services like SageMaker, Lambda, and EC2 for production-grade apps. Managed Agents simplify agentic workflows, boosting enterprise adoption and reducing setup friction for custom AI solutions.",
+      "suggested_reel_angle": "OpenAI lands on AWS: GPT, Codex, Agents now enterprise-ready!",
       "suggested_long_angle": [
-        "What is FedRAMP and why it matters",
-        "OpenAI's compliance achievements",
-        "Opportunities for gov-focused devs"
+        "OpenAI models now on AWS: whats new",
+        "Integration guide for AWS builders",
+        "Impact on enterprise AI deployment"
       ],
       "tags": [
-        "fedramp",
-        "government",
-        "compliance",
-        "enterprise",
-        "openai"
-      ],
-      "related_registry_entries": [],
-      "authority_score": 1.0,
-      "virality_score": 0.8448,
-      "recency_hours": 17
-    },
-    {
-      "rank": 3,
-      "id": "2026-04-28-003",
-      "title": "An open-source spec for orchestration: Symphony",
-      "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
-      "source": "openai",
-      "source_type": "official_blog",
-      "published_at": "2026-04-27T00:00:00+00:00",
-      "summary": "Symphony is an open-source specification from OpenAI for Codex orchestration, transforming issue trackers into always-on agent systems to boost engineering productivity and minimize context switching.",
-      "why_it_matters": "Provides a standardized way to orchestrate AI agents for dev workflows, integrating with tools like GitHub Issues. Builders can create autonomous systems for code review, bug triage, and deployment, reducing manual overhead. Promotes interoperability in agent ecosystems.",
-      "suggested_reel_angle": "Turn GitHub into an AI agent army with OpenAI's Symphony spec!",
-      "suggested_long_angle": [
-        "Intro to Symphony spec",
-        "How it powers agent systems",
-        "Dev productivity gains"
-      ],
-      "tags": [
-        "open-source",
-        "orchestration",
-        "agents",
         "openai",
-        "devtools"
+        "aws",
+        "enterprise",
+        "deployment",
+        "agents"
       ],
       "related_registry_entries": [
-        "langgraph",
-        "autogen-04"
+        "vllm"
       ],
       "authority_score": 1.0,
       "virality_score": 0.7634,
       "recency_hours": 31
     },
     {
-      "rank": 4,
-      "id": "2026-04-28-004",
-      "title": "Adaptive Ultrasound Imaging with Physics-Informed NV-Raw2Insights-US AI",
-      "url": "https://huggingface.co/blog/nvidia/raw2insights-adaptive-ultrasound-imaging",
-      "source": "huggingface",
-      "source_type": "official_blog",
-      "published_at": "2026-04-28T00:28:13+00:00",
-      "summary": "NVIDIA's Raw2Insights-US leverages physics-informed AI for adaptive ultrasound imaging, enhancing real-time diagnostics with Hugging Face integration for accessible medical AI deployment.",
-      "why_it_matters": "Physics-informed models improve ultrasound accuracy and speed, critical for healthcare AI. Builders can fine-tune for domain-specific imaging, deploy edge devices via NVIDIA hardware. Accelerates medtech innovation with open tools.",
-      "suggested_reel_angle": "NVIDIA's AI revolutionizes ultrasound - physics meets deep learning!",
-      "suggested_long_angle": [
-        "Physics-informed AI basics",
-        "Raw2Insights-US features",
-        "Impact on medical imaging"
-      ],
-      "tags": [
-        "nvidia",
-        "healthcare",
-        "medical-imaging",
-        "physics-informed",
-        "huggingface"
-      ],
-      "related_registry_entries": [],
-      "authority_score": 0.9,
-      "virality_score": 0.8764,
-      "recency_hours": 6
-    },
-    {
-      "rank": 5,
-      "id": "2026-04-28-005",
-      "title": "The Power of Power Law: Asymmetry Enables Compositional Reasoning",
-      "url": "https://arxiv.org/abs/2604.22951",
+      "rank": 3,
+      "id": "2026-04-29-003",
+      "title": "PExA: Parallel Exploration Agent for Complex Text-to-SQL",
+      "url": "https://arxiv.org/abs/2604.22934",
       "source": "arxiv-cs-ai",
       "source_type": "research",
-      "published_at": "2026-04-28T04:00:00+00:00",
-      "summary": "New research shows power-law data distributions outperform uniform reweighting for compositional reasoning tasks, challenging data curation assumptions across benchmarks.",
-      "why_it_matters": "Reveals that natural long-tail data drives better reasoning emergence. AI trainers can prioritize raw web-scale data over expensive curation, optimizing pretraining for math, logic, and multi-step tasks. Influences dataset strategies for next-gen models.",
-      "suggested_reel_angle": "Power laws beat balanced data for AI reasoning - mind blown!",
+      "published_at": "2026-04-29T04:00:00+00:00",
+      "summary": "PExA reframes text-to-SQL as software test coverage, using parallel execution of atomic SQL tests to boost LLM agent accuracy and reduce latency. Ideal for complex database queries where single-shot methods fail.",
+      "why_it_matters": "Text-to-SQL is core for agentic RAG and enterprise data apps. PExA addresses LLM pain points like error propagation and slow iteration via parallel exploration, improving reliability on real-world schemas. Builders can implement this framework to create robust DB agents, enhancing tools like LangChain or custom pipelines for analytics and automation.",
+      "suggested_reel_angle": "PExA: Supercharge LLM text-to-SQL with parallel agents!",
       "suggested_long_angle": [
-        "Power-law vs uniform data",
-        "Experiments and results",
-        "Training implications"
+        "How PExA uses test coverage for SQL",
+        "Performance gains on complex queries",
+        "Implementation in your agent stack"
       ],
       "tags": [
-        "research",
-        "reasoning",
-        "training-data",
-        "power-law",
-        "compositional"
+        "agents",
+        "text-to-sql",
+        "llm-agents",
+        "parallel-compute",
+        "databases"
       ],
       "related_registry_entries": [
-        "chain-of-thought-prompting"
+        "langgraph",
+        "mcp-postgresql"
       ],
       "authority_score": 0.8,
       "virality_score": 0.8468,
       "recency_hours": 3
+    },
+    {
+      "rank": 4,
+      "id": "2026-04-29-004",
+      "title": "An Intelligent Fault Diagnosis Method for General Aviation Aircraft Based on Multi-Fidelity Digital Twin and FMEA Knowledge Enhancement",
+      "url": "https://arxiv.org/abs/2604.22777",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-29T04:00:00+00:00",
+      "summary": "New framework combines multi-fidelity digital twins, FMEA fault injection, and AI for diagnosing aircraft faults amid scarce data. Modules include flight sim, fault sim, data fusion, and diagnosis model.",
+      "why_it_matters": "Aviation safety demands reliable fault detection; this bridges sim-to-real gap with digital twins, enabling predictive maintenance where real faults are rare. AI builders in industrial IoT, robotics, or sim2real can adapt the multi-fidelity approach for domain-specific diagnostics, integrating with tools like PyTorch for scalable, knowledge-enhanced models.",
+      "suggested_reel_angle": "AI digital twins diagnose aircraft faults before they crash!",
+      "suggested_long_angle": [
+        "Multi-fidelity digital twin explained",
+        "FMEA integration for fault injection",
+        "Real-world aviation impact"
+      ],
+      "tags": [
+        "digital-twin",
+        "fault-diagnosis",
+        "aviation",
+        "sim2real",
+        "fmea"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 0.8,
+      "virality_score": 0.8468,
+      "recency_hours": 3
+    },
+    {
+      "rank": 5,
+      "id": "2026-04-29-005",
+      "title": "Our commitment to community safety",
+      "url": "https://openai.com/index/our-commitment-to-community-safety",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-28T00:00:00+00:00",
+      "summary": "OpenAI details ChatGPT safety measures: model safeguards, misuse detection, policy enforcement, and expert collaborations to protect users from harm.",
+      "why_it_matters": "As AI scales, safety is paramount for builders deploying public-facing apps. OpenAIs layered approach provides blueprints for red-teaming, content filters, and monitoring. Practitioners can apply similar strategies to align custom models, ensuring compliance and trust in production systems amid rising scrutiny.",
+      "suggested_reel_angle": "OpenAI's full safety playbook for ChatGPT revealed!",
+      "suggested_long_angle": [
+        "Core safety layers in ChatGPT",
+        "Misuse detection techniques",
+        "Builder tips for safe AI"
+      ],
+      "tags": [
+        "openai",
+        "safety",
+        "alignment",
+        "chatgpt",
+        "policy"
+      ],
+      "related_registry_entries": [
+        "constitutional-ai"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.7634,
+      "recency_hours": 31
     }
   ]
 }
