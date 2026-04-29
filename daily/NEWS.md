@@ -1,72 +1,73 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-04-28
+### Top 5 AI Stories · 2026-04-29
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-28 07:11 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-29 07:06 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [The next phase of the Microsoft OpenAI partnership](https://openai.com/index/next-phase-of-microsoft-partnership)
+## 1. [Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents](https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence)
 
-**Source:** openai · ⏱ *25h ago*  
-`partnership` `microsoft` `openai` `enterprise` `infrastructure`
+**Source:** huggingface · ⏱ *15h ago*  
+`nvidia` `multimodal` `agents` `long-context` `nano-model`
 
-OpenAI and Microsoft announce an amended agreement simplifying their partnership, providing long-term clarity and enabling scaled AI innovation through enhanced collaboration on infrastructure and models.
+NVIDIA releases Nemotron 3 Nano Omni, a compact multimodal model excelling in long-context understanding across documents, audio, and video. Designed for agentic applications, it enables efficient processing of diverse inputs for real-time decision-making in edge and cloud environments.
 
-> 💡 **Why it matters:** This update stabilizes one of AI's most critical partnerships, ensuring reliable access to frontier models via Azure for builders. It reduces uncertainty around compute allocation, API pricing, and exclusivity, allowing developers to plan large-scale deployments confidently. Impacts enterprise adoption, multi-cloud strategies, and the pace of model releases.
-
-
----
-
-## 2. [OpenAI available at FedRAMP Moderate](https://openai.com/index/openai-available-at-fedramp-moderate)
-
-**Source:** openai · ⏱ *17h ago*  
-`fedramp` `government` `compliance` `enterprise` `openai`
-
-OpenAI achieves FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, allowing secure deployment in U.S. federal agencies with compliance for sensitive data handling.
-
-> 💡 **Why it matters:** Unlocks government contracts for AI builders integrating OpenAI models. FedRAMP Moderate covers moderate-impact systems, enabling apps in defense, healthcare, and admin. Reduces compliance hurdles, accelerates public sector AI, and sets precedent for other providers to follow suit.
+> 💡 **Why it matters:** AI builders gain a lightweight, high-performance multimodal foundation model optimized for agents. Its long-context capabilities reduce token limits in complex workflows, while support for docs, audio, and video unlocks new use cases like multimedia analysis agents, surveillance, content moderation, and interactive assistants. Deployable on NVIDIA hardware, it accelerates prototyping and production of multimodal systems without massive compute.
 
 
 ---
 
-## 3. [An open-source spec for orchestration: Symphony](https://openai.com/index/open-source-codex-orchestration-symphony)
+## 2. [OpenAI models, Codex, and Managed Agents come to AWS](https://openai.com/index/openai-on-aws)
 
 **Source:** openai · ⏱ *31h ago*  
-`open-source` `orchestration` `agents` `openai` `devtools`
+`openai` `aws` `enterprise` `deployment` `agents`
 
-Symphony is an open-source specification from OpenAI for Codex orchestration, transforming issue trackers into always-on agent systems to boost engineering productivity and minimize context switching.
+OpenAI announces availability of GPT models, Codex, and Managed Agents on AWS. Enterprises can now build secure, scalable AI applications within AWS environments, leveraging familiar infrastructure for compliance and integration.
 
-> 💡 **Why it matters:** Provides a standardized way to orchestrate AI agents for dev workflows, integrating with tools like GitHub Issues. Builders can create autonomous systems for code review, bug triage, and deployment, reducing manual overhead. Promotes interoperability in agent ecosystems.
+> 💡 **Why it matters:** This expands OpenAI access beyond Azure, enabling AWS-centric teams to deploy frontier models without vendor lock-in. Builders benefit from seamless integration with AWS services like SageMaker, Lambda, and EC2 for production-grade apps. Managed Agents simplify agentic workflows, boosting enterprise adoption and reducing setup friction for custom AI solutions.
   
-**Related registry entries:** `langgraph`, `autogen-04`
+**Related registry entries:** `vllm`
 
 ---
 
-## 4. [Adaptive Ultrasound Imaging with Physics-Informed NV-Raw2Insights-US AI](https://huggingface.co/blog/nvidia/raw2insights-adaptive-ultrasound-imaging)
-
-**Source:** huggingface · ⏱ *6h ago*  
-`nvidia` `healthcare` `medical-imaging` `physics-informed` `huggingface`
-
-NVIDIA's Raw2Insights-US leverages physics-informed AI for adaptive ultrasound imaging, enhancing real-time diagnostics with Hugging Face integration for accessible medical AI deployment.
-
-> 💡 **Why it matters:** Physics-informed models improve ultrasound accuracy and speed, critical for healthcare AI. Builders can fine-tune for domain-specific imaging, deploy edge devices via NVIDIA hardware. Accelerates medtech innovation with open tools.
-
-
----
-
-## 5. [The Power of Power Law: Asymmetry Enables Compositional Reasoning](https://arxiv.org/abs/2604.22951)
+## 3. [PExA: Parallel Exploration Agent for Complex Text-to-SQL](https://arxiv.org/abs/2604.22934)
 
 **Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`research` `reasoning` `training-data` `power-law` `compositional`
+`agents` `text-to-sql` `llm-agents` `parallel-compute` `databases`
 
-New research shows power-law data distributions outperform uniform reweighting for compositional reasoning tasks, challenging data curation assumptions across benchmarks.
+PExA reframes text-to-SQL as software test coverage, using parallel execution of atomic SQL tests to boost LLM agent accuracy and reduce latency. Ideal for complex database queries where single-shot methods fail.
 
-> 💡 **Why it matters:** Reveals that natural long-tail data drives better reasoning emergence. AI trainers can prioritize raw web-scale data over expensive curation, optimizing pretraining for math, logic, and multi-step tasks. Influences dataset strategies for next-gen models.
+> 💡 **Why it matters:** Text-to-SQL is core for agentic RAG and enterprise data apps. PExA addresses LLM pain points like error propagation and slow iteration via parallel exploration, improving reliability on real-world schemas. Builders can implement this framework to create robust DB agents, enhancing tools like LangChain or custom pipelines for analytics and automation.
   
-**Related registry entries:** `chain-of-thought-prompting`
+**Related registry entries:** `langgraph`, `mcp-postgresql`
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-04-28 07:11 UTC · [Archive](./)</sub>
+## 4. [An Intelligent Fault Diagnosis Method for General Aviation Aircraft Based on Multi-Fidelity Digital Twin and FMEA Knowledge Enhancement](https://arxiv.org/abs/2604.22777)
+
+**Source:** arxiv-cs-ai · ⏱ *3h ago*  
+`digital-twin` `fault-diagnosis` `aviation` `sim2real` `fmea`
+
+New framework combines multi-fidelity digital twins, FMEA fault injection, and AI for diagnosing aircraft faults amid scarce data. Modules include flight sim, fault sim, data fusion, and diagnosis model.
+
+> 💡 **Why it matters:** Aviation safety demands reliable fault detection; this bridges sim-to-real gap with digital twins, enabling predictive maintenance where real faults are rare. AI builders in industrial IoT, robotics, or sim2real can adapt the multi-fidelity approach for domain-specific diagnostics, integrating with tools like PyTorch for scalable, knowledge-enhanced models.
+
+
+---
+
+## 5. [Our commitment to community safety](https://openai.com/index/our-commitment-to-community-safety)
+
+**Source:** openai · ⏱ *31h ago*  
+`openai` `safety` `alignment` `chatgpt` `policy`
+
+OpenAI details ChatGPT safety measures: model safeguards, misuse detection, policy enforcement, and expert collaborations to protect users from harm.
+
+> 💡 **Why it matters:** As AI scales, safety is paramount for builders deploying public-facing apps. OpenAIs layered approach provides blueprints for red-teaming, content filters, and monitoring. Practitioners can apply similar strategies to align custom models, ensuring compliance and trust in production systems amid rising scrutiny.
+  
+**Related registry entries:** `constitutional-ai`
+
+---
+
+<sub>Generated by ai-pulse-agents · 2026-04-29 07:06 UTC · [Archive](./)</sub>
