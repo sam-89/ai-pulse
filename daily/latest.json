@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-29",
-  "generated_at": "2026-04-29T07:06:15.487978+00:00",
+  "date": "2026-04-30",
+  "generated_at": "2026-04-30T07:09:22.556095+00:00",
   "generator_version": "1.0.0",
   "sources_polled": [
     "openai",
@@ -13,88 +13,86 @@
   "items": [
     {
       "rank": 1,
-      "id": "2026-04-29-001",
-      "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
-      "source": "huggingface",
-      "source_type": "official_blog",
-      "published_at": "2026-04-28T15:58:57+00:00",
-      "summary": "NVIDIA releases Nemotron 3 Nano Omni, a compact multimodal model excelling in long-context understanding across documents, audio, and video. Designed for agentic applications, it enables efficient processing of diverse inputs for real-time decision-making in edge and cloud environments.",
-      "why_it_matters": "AI builders gain a lightweight, high-performance multimodal foundation model optimized for agents. Its long-context capabilities reduce token limits in complex workflows, while support for docs, audio, and video unlocks new use cases like multimedia analysis agents, surveillance, content moderation, and interactive assistants. Deployable on NVIDIA hardware, it accelerates prototyping and production of multimodal systems without massive compute.",
-      "suggested_reel_angle": "NVIDIA's tiny Nemotron 3 Nano Omni crushes multimodal agents: docs, audio, video in one model!",
-      "suggested_long_angle": [
-        "Breakdown of Nemotron 3 Nano Omni features",
-        "Benchmarks vs competitors in long-context tasks",
-        "Building your first multimodal agent"
-      ],
-      "tags": [
-        "nvidia",
-        "multimodal",
-        "agents",
-        "long-context",
-        "nano-model"
-      ],
-      "related_registry_entries": [],
-      "authority_score": 0.9,
-      "virality_score": 0.7994,
-      "recency_hours": 15
-    },
-    {
-      "rank": 2,
-      "id": "2026-04-29-002",
-      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
-      "url": "https://openai.com/index/openai-on-aws",
+      "id": "2026-04-30-001",
+      "title": "Where the goblins came from",
+      "url": "https://openai.com/index/where-the-goblins-came-from",
       "source": "openai",
       "source_type": "official_blog",
-      "published_at": "2026-04-28T00:00:00+00:00",
-      "summary": "OpenAI announces availability of GPT models, Codex, and Managed Agents on AWS. Enterprises can now build secure, scalable AI applications within AWS environments, leveraging familiar infrastructure for compliance and integration.",
-      "why_it_matters": "This expands OpenAI access beyond Azure, enabling AWS-centric teams to deploy frontier models without vendor lock-in. Builders benefit from seamless integration with AWS services like SageMaker, Lambda, and EC2 for production-grade apps. Managed Agents simplify agentic workflows, boosting enterprise adoption and reducing setup friction for custom AI solutions.",
-      "suggested_reel_angle": "OpenAI lands on AWS: GPT, Codex, Agents now enterprise-ready!",
+      "published_at": "2026-04-29T20:00:00+00:00",
+      "summary": "OpenAI explains the timeline, root cause, and fixes for goblin outputs in GPT-5. These personality-driven quirks emerged from training instabilities, spreading across model behaviors, now resolved for more reliable outputs.",
+      "why_it_matters": "Frontier models like GPT-5 exhibit emergent quirks during training at scale. This post reveals how subtle data contamination and optimization issues led to goblin-like behaviors, with fixes including better data curation and monitoring. AI builders gain actionable insights to debug similar issues in custom training runs, improving model stability for production agents and apps.",
+      "suggested_reel_angle": "GPT-5 had goblins? OpenAI uncovers the wild bug behind quirky AI personalities and how they fixed it!",
       "suggested_long_angle": [
-        "OpenAI models now on AWS: whats new",
-        "Integration guide for AWS builders",
-        "Impact on enterprise AI deployment"
+        "Timeline of goblin emergence in training",
+        "Root causes from data and optimization",
+        "Fixes and prevention strategies for builders"
       ],
       "tags": [
         "openai",
-        "aws",
-        "enterprise",
-        "deployment",
-        "agents"
+        "gpt-5",
+        "training",
+        "debugging",
+        "reliability"
       ],
-      "related_registry_entries": [
-        "vllm"
-      ],
+      "related_registry_entries": [],
       "authority_score": 1.0,
-      "virality_score": 0.7634,
-      "recency_hours": 31
+      "virality_score": 0.8911,
+      "recency_hours": 11
+    },
+    {
+      "rank": 2,
+      "id": "2026-04-30-002",
+      "title": "Building the compute infrastructure for the Intelligence Age",
+      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-29T15:00:00+00:00",
+      "summary": "OpenAI scales Stargate supercluster, adding massive data center capacity to fuel AGI development and meet exploding AI compute demands.",
+      "why_it_matters": "Compute is the new frontier bottleneck for AGI. OpenAI's Stargate expansion signals hyperscale infrastructure strategies, with details on power, cooling, and chip procurement. Builders should note implications for distributed training costs, cloud pricing, and custom cluster designs as inference scales globally.",
+      "suggested_reel_angle": "OpenAI's Stargate goes massive: compute to power AGI revealed!",
+      "suggested_long_angle": [
+        "Stargate architecture and scaling plans",
+        "Challenges in power and data centers",
+        "Impact on AI training and inference costs"
+      ],
+      "tags": [
+        "openai",
+        "compute",
+        "infrastructure",
+        "agi",
+        "stargate"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 1.0,
+      "virality_score": 0.852,
+      "recency_hours": 16
     },
     {
       "rank": 3,
-      "id": "2026-04-29-003",
-      "title": "PExA: Parallel Exploration Agent for Complex Text-to-SQL",
-      "url": "https://arxiv.org/abs/2604.22934",
+      "id": "2026-04-30-003",
+      "title": "Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital",
+      "url": "https://arxiv.org/abs/2604.26091",
       "source": "arxiv-cs-ai",
       "source_type": "research",
-      "published_at": "2026-04-29T04:00:00+00:00",
-      "summary": "PExA reframes text-to-SQL as software test coverage, using parallel execution of atomic SQL tests to boost LLM agent accuracy and reduce latency. Ideal for complex database queries where single-shot methods fail.",
-      "why_it_matters": "Text-to-SQL is core for agentic RAG and enterprise data apps. PExA addresses LLM pain points like error propagation and slow iteration via parallel exploration, improving reliability on real-world schemas. Builders can implement this framework to create robust DB agents, enhancing tools like LangChain or custom pipelines for analytics and automation.",
-      "suggested_reel_angle": "PExA: Supercharge LLM text-to-SQL with parallel agents!",
+      "published_at": "2026-04-30T04:00:00+00:00",
+      "summary": "New arXiv paper analyzes reliability of LM agents trading real ETH in DX Terminal Pro deployment. 3,505 user-funded agents used structured controls and natural language strategies in bounded onchain markets.",
+      "why_it_matters": "First large-scale study of autonomous agents handling real capital onchain. Reveals control mechanisms for tool actions, risk management, and validation under live stakes. Essential for building production DeFi agents, with benchmarks for reliability in high-stakes environments.",
+      "suggested_reel_angle": "AI agents trading real ETH: new research on controls and reliability!",
       "suggested_long_angle": [
-        "How PExA uses test coverage for SQL",
-        "Performance gains on complex queries",
-        "Implementation in your agent stack"
+        "Deployment setup in DX Terminal Pro",
+        "Agent controls for real capital",
+        "Key findings on reliability and failures"
       ],
       "tags": [
         "agents",
-        "text-to-sql",
-        "llm-agents",
-        "parallel-compute",
-        "databases"
+        "onchain",
+        "trading",
+        "reliability",
+        "defi"
       ],
       "related_registry_entries": [
-        "langgraph",
-        "mcp-postgresql"
+        "autogen-04",
+        "langgraph"
       ],
       "authority_score": 0.8,
       "virality_score": 0.8468,
@@ -102,61 +100,62 @@
     },
     {
       "rank": 4,
-      "id": "2026-04-29-004",
-      "title": "An Intelligent Fault Diagnosis Method for General Aviation Aircraft Based on Multi-Fidelity Digital Twin and FMEA Knowledge Enhancement",
-      "url": "https://arxiv.org/abs/2604.22777",
-      "source": "arxiv-cs-ai",
-      "source_type": "research",
-      "published_at": "2026-04-29T04:00:00+00:00",
-      "summary": "New framework combines multi-fidelity digital twins, FMEA fault injection, and AI for diagnosing aircraft faults amid scarce data. Modules include flight sim, fault sim, data fusion, and diagnosis model.",
-      "why_it_matters": "Aviation safety demands reliable fault detection; this bridges sim-to-real gap with digital twins, enabling predictive maintenance where real faults are rare. AI builders in industrial IoT, robotics, or sim2real can adapt the multi-fidelity approach for domain-specific diagnostics, integrating with tools like PyTorch for scalable, knowledge-enhanced models.",
-      "suggested_reel_angle": "AI digital twins diagnose aircraft faults before they crash!",
-      "suggested_long_angle": [
-        "Multi-fidelity digital twin explained",
-        "FMEA integration for fault injection",
-        "Real-world aviation impact"
-      ],
-      "tags": [
-        "digital-twin",
-        "fault-diagnosis",
-        "aviation",
-        "sim2real",
-        "fmea"
-      ],
-      "related_registry_entries": [],
-      "authority_score": 0.8,
-      "virality_score": 0.8468,
-      "recency_hours": 3
-    },
-    {
-      "rank": 5,
-      "id": "2026-04-29-005",
-      "title": "Our commitment to community safety",
-      "url": "https://openai.com/index/our-commitment-to-community-safety",
+      "id": "2026-04-30-004",
+      "title": "Cybersecurity in the Intelligence Age",
+      "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
       "source": "openai",
       "source_type": "official_blog",
-      "published_at": "2026-04-28T00:00:00+00:00",
-      "summary": "OpenAI details ChatGPT safety measures: model safeguards, misuse detection, policy enforcement, and expert collaborations to protect users from harm.",
-      "why_it_matters": "As AI scales, safety is paramount for builders deploying public-facing apps. OpenAIs layered approach provides blueprints for red-teaming, content filters, and monitoring. Practitioners can apply similar strategies to align custom models, ensuring compliance and trust in production systems amid rising scrutiny.",
-      "suggested_reel_angle": "OpenAI's full safety playbook for ChatGPT revealed!",
+      "published_at": "2026-04-29T04:00:00+00:00",
+      "summary": "OpenAI's five-part plan to bolster cybersecurity: democratize AI-powered defenses, protect critical systems, and counter Intelligence Age threats.",
+      "why_it_matters": "As AI integrates everywhere, cyber risks explode. OpenAI outlines practical steps like AI red-teaming, shared threat intel, and policy for securing AI infra. Builders must adopt these to harden agent fleets, APIs, and pipelines against advanced attacks.",
+      "suggested_reel_angle": "OpenAI's blueprint to secure AI in the Intelligence Age!",
       "suggested_long_angle": [
-        "Core safety layers in ChatGPT",
-        "Misuse detection techniques",
-        "Builder tips for safe AI"
+        "Threat landscape overview",
+        "Five-part action plan details",
+        "Tools for AI-powered cyber defense"
       ],
       "tags": [
         "openai",
+        "cybersecurity",
         "safety",
-        "alignment",
-        "chatgpt",
-        "policy"
+        "agents",
+        "defense"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 1.0,
+      "virality_score": 0.7834,
+      "recency_hours": 27
+    },
+    {
+      "rank": 5,
+      "id": "2026-04-30-005",
+      "title": "AI evals are becoming the new compute bottleneck",
+      "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+      "source": "huggingface",
+      "source_type": "official_blog",
+      "published_at": "2026-04-29T16:45:09+00:00",
+      "summary": "Hugging Face highlights how evaluation costs now rival training compute as models advance, urging optimized evals for scaling.",
+      "why_it_matters": "Evals limit iteration speed in LLM development. Post discusses cost breakdowns, efficient benchmarks, and tools to streamline. Critical for practitioners fine-tuning or deploying, as evals eat budgets and slow progress toward better models.",
+      "suggested_reel_angle": "AI evals now cost more than training? HF breaks down the bottleneck!",
+      "suggested_long_angle": [
+        "Why evals are exploding in cost",
+        "Optimization strategies and tools",
+        "Future of scalable evaluation"
+      ],
+      "tags": [
+        "evals",
+        "huggingface",
+        "scaling",
+        "benchmarks",
+        "cost"
       ],
       "related_registry_entries": [
-        "constitutional-ai"
+        "lmsys-chatbot-arena",
+        "mmlu"
       ],
-      "authority_score": 1.0,
-      "virality_score": 0.7634,
-      "recency_hours": 31
+      "authority_score": 0.9,
+      "virality_score": 0.807,
+      "recency_hours": 14
     }
   ]
 }
