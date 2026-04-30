@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-04-29*
+## 📰 Today in AI · *2026-04-30*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents](https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence) | huggingface |
-| 2 | [OpenAI models, Codex, and Managed Agents come to AWS](https://openai.com/index/openai-on-aws) | openai |
-| 3 | [PExA: Parallel Exploration Agent for Complex Text-to-SQL](https://arxiv.org/abs/2604.22934) | arxiv-cs-ai |
-| 4 | [An Intelligent Fault Diagnosis Method for General Aviation Aircraft Based on Multi-Fidelity Digital Twin and FMEA Knowledge Enhancement](https://arxiv.org/abs/2604.22777) | arxiv-cs-ai |
-| 5 | [Our commitment to community safety](https://openai.com/index/our-commitment-to-community-safety) | openai |
+| 1 | [Where the goblins came from](https://openai.com/index/where-the-goblins-came-from) | openai |
+| 2 | [Building the compute infrastructure for the Intelligence Age](https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age) | openai |
+| 3 | [Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital](https://arxiv.org/abs/2604.26091) | arxiv-cs-ai |
+| 4 | [Cybersecurity in the Intelligence Age](https://openai.com/index/cybersecurity-in-the-intelligence-age) | openai |
+| 5 | [AI evals are becoming the new compute bottleneck](https://huggingface.co/blog/evaleval/eval-costs-bottleneck) | huggingface |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
