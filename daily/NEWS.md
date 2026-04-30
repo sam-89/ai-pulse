@@ -1,73 +1,72 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-04-29
+### Top 5 AI Stories · 2026-04-30
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-29 07:06 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-30 07:09 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents](https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence)
+## 1. [Where the goblins came from](https://openai.com/index/where-the-goblins-came-from)
 
-**Source:** huggingface · ⏱ *15h ago*  
-`nvidia` `multimodal` `agents` `long-context` `nano-model`
+**Source:** openai · ⏱ *11h ago*  
+`openai` `gpt-5` `training` `debugging` `reliability`
 
-NVIDIA releases Nemotron 3 Nano Omni, a compact multimodal model excelling in long-context understanding across documents, audio, and video. Designed for agentic applications, it enables efficient processing of diverse inputs for real-time decision-making in edge and cloud environments.
+OpenAI explains the timeline, root cause, and fixes for goblin outputs in GPT-5. These personality-driven quirks emerged from training instabilities, spreading across model behaviors, now resolved for more reliable outputs.
 
-> 💡 **Why it matters:** AI builders gain a lightweight, high-performance multimodal foundation model optimized for agents. Its long-context capabilities reduce token limits in complex workflows, while support for docs, audio, and video unlocks new use cases like multimedia analysis agents, surveillance, content moderation, and interactive assistants. Deployable on NVIDIA hardware, it accelerates prototyping and production of multimodal systems without massive compute.
+> 💡 **Why it matters:** Frontier models like GPT-5 exhibit emergent quirks during training at scale. This post reveals how subtle data contamination and optimization issues led to goblin-like behaviors, with fixes including better data curation and monitoring. AI builders gain actionable insights to debug similar issues in custom training runs, improving model stability for production agents and apps.
+
+
+---
+
+## 2. [Building the compute infrastructure for the Intelligence Age](https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age)
+
+**Source:** openai · ⏱ *16h ago*  
+`openai` `compute` `infrastructure` `agi` `stargate`
+
+OpenAI scales Stargate supercluster, adding massive data center capacity to fuel AGI development and meet exploding AI compute demands.
+
+> 💡 **Why it matters:** Compute is the new frontier bottleneck for AGI. OpenAI's Stargate expansion signals hyperscale infrastructure strategies, with details on power, cooling, and chip procurement. Builders should note implications for distributed training costs, cloud pricing, and custom cluster designs as inference scales globally.
 
 
 ---
 
-## 2. [OpenAI models, Codex, and Managed Agents come to AWS](https://openai.com/index/openai-on-aws)
-
-**Source:** openai · ⏱ *31h ago*  
-`openai` `aws` `enterprise` `deployment` `agents`
-
-OpenAI announces availability of GPT models, Codex, and Managed Agents on AWS. Enterprises can now build secure, scalable AI applications within AWS environments, leveraging familiar infrastructure for compliance and integration.
-
-> 💡 **Why it matters:** This expands OpenAI access beyond Azure, enabling AWS-centric teams to deploy frontier models without vendor lock-in. Builders benefit from seamless integration with AWS services like SageMaker, Lambda, and EC2 for production-grade apps. Managed Agents simplify agentic workflows, boosting enterprise adoption and reducing setup friction for custom AI solutions.
-  
-**Related registry entries:** `vllm`
-
----
-
-## 3. [PExA: Parallel Exploration Agent for Complex Text-to-SQL](https://arxiv.org/abs/2604.22934)
+## 3. [Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital](https://arxiv.org/abs/2604.26091)
 
 **Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`agents` `text-to-sql` `llm-agents` `parallel-compute` `databases`
+`agents` `onchain` `trading` `reliability` `defi`
 
-PExA reframes text-to-SQL as software test coverage, using parallel execution of atomic SQL tests to boost LLM agent accuracy and reduce latency. Ideal for complex database queries where single-shot methods fail.
+New arXiv paper analyzes reliability of LM agents trading real ETH in DX Terminal Pro deployment. 3,505 user-funded agents used structured controls and natural language strategies in bounded onchain markets.
 
-> 💡 **Why it matters:** Text-to-SQL is core for agentic RAG and enterprise data apps. PExA addresses LLM pain points like error propagation and slow iteration via parallel exploration, improving reliability on real-world schemas. Builders can implement this framework to create robust DB agents, enhancing tools like LangChain or custom pipelines for analytics and automation.
+> 💡 **Why it matters:** First large-scale study of autonomous agents handling real capital onchain. Reveals control mechanisms for tool actions, risk management, and validation under live stakes. Essential for building production DeFi agents, with benchmarks for reliability in high-stakes environments.
   
-**Related registry entries:** `langgraph`, `mcp-postgresql`
+**Related registry entries:** `autogen-04`, `langgraph`
 
 ---
 
-## 4. [An Intelligent Fault Diagnosis Method for General Aviation Aircraft Based on Multi-Fidelity Digital Twin and FMEA Knowledge Enhancement](https://arxiv.org/abs/2604.22777)
+## 4. [Cybersecurity in the Intelligence Age](https://openai.com/index/cybersecurity-in-the-intelligence-age)
 
-**Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`digital-twin` `fault-diagnosis` `aviation` `sim2real` `fmea`
+**Source:** openai · ⏱ *27h ago*  
+`openai` `cybersecurity` `safety` `agents` `defense`
 
-New framework combines multi-fidelity digital twins, FMEA fault injection, and AI for diagnosing aircraft faults amid scarce data. Modules include flight sim, fault sim, data fusion, and diagnosis model.
+OpenAI's five-part plan to bolster cybersecurity: democratize AI-powered defenses, protect critical systems, and counter Intelligence Age threats.
 
-> 💡 **Why it matters:** Aviation safety demands reliable fault detection; this bridges sim-to-real gap with digital twins, enabling predictive maintenance where real faults are rare. AI builders in industrial IoT, robotics, or sim2real can adapt the multi-fidelity approach for domain-specific diagnostics, integrating with tools like PyTorch for scalable, knowledge-enhanced models.
+> 💡 **Why it matters:** As AI integrates everywhere, cyber risks explode. OpenAI outlines practical steps like AI red-teaming, shared threat intel, and policy for securing AI infra. Builders must adopt these to harden agent fleets, APIs, and pipelines against advanced attacks.
 
 
 ---
 
-## 5. [Our commitment to community safety](https://openai.com/index/our-commitment-to-community-safety)
+## 5. [AI evals are becoming the new compute bottleneck](https://huggingface.co/blog/evaleval/eval-costs-bottleneck)
 
-**Source:** openai · ⏱ *31h ago*  
-`openai` `safety` `alignment` `chatgpt` `policy`
+**Source:** huggingface · ⏱ *14h ago*  
+`evals` `huggingface` `scaling` `benchmarks` `cost`
 
-OpenAI details ChatGPT safety measures: model safeguards, misuse detection, policy enforcement, and expert collaborations to protect users from harm.
+Hugging Face highlights how evaluation costs now rival training compute as models advance, urging optimized evals for scaling.
 
-> 💡 **Why it matters:** As AI scales, safety is paramount for builders deploying public-facing apps. OpenAIs layered approach provides blueprints for red-teaming, content filters, and monitoring. Practitioners can apply similar strategies to align custom models, ensuring compliance and trust in production systems amid rising scrutiny.
+> 💡 **Why it matters:** Evals limit iteration speed in LLM development. Post discusses cost breakdowns, efficient benchmarks, and tools to streamline. Critical for practitioners fine-tuning or deploying, as evals eat budgets and slow progress toward better models.
   
-**Related registry entries:** `constitutional-ai`
+**Related registry entries:** `lmsys-chatbot-arena`, `mmlu`
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-04-29 07:06 UTC · [Archive](./)</sub>
+<sub>Generated by ai-pulse-agents · 2026-04-30 07:09 UTC · [Archive](./)</sub>
