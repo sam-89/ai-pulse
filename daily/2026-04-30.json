@@ -1,0 +1,161 @@
+{
+  "date": "2026-04-30",
+  "generated_at": "2026-04-30T07:09:22.556095+00:00",
+  "generator_version": "1.0.0",
+  "sources_polled": [
+    "openai",
+    "anthropic",
+    "deepmind",
+    "huggingface",
+    "google-news-ai",
+    "arxiv-cs-ai"
+  ],
+  "items": [
+    {
+      "rank": 1,
+      "id": "2026-04-30-001",
+      "title": "Where the goblins came from",
+      "url": "https://openai.com/index/where-the-goblins-came-from",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-29T20:00:00+00:00",
+      "summary": "OpenAI explains the timeline, root cause, and fixes for goblin outputs in GPT-5. These personality-driven quirks emerged from training instabilities, spreading across model behaviors, now resolved for more reliable outputs.",
+      "why_it_matters": "Frontier models like GPT-5 exhibit emergent quirks during training at scale. This post reveals how subtle data contamination and optimization issues led to goblin-like behaviors, with fixes including better data curation and monitoring. AI builders gain actionable insights to debug similar issues in custom training runs, improving model stability for production agents and apps.",
+      "suggested_reel_angle": "GPT-5 had goblins? OpenAI uncovers the wild bug behind quirky AI personalities and how they fixed it!",
+      "suggested_long_angle": [
+        "Timeline of goblin emergence in training",
+        "Root causes from data and optimization",
+        "Fixes and prevention strategies for builders"
+      ],
+      "tags": [
+        "openai",
+        "gpt-5",
+        "training",
+        "debugging",
+        "reliability"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 1.0,
+      "virality_score": 0.8911,
+      "recency_hours": 11
+    },
+    {
+      "rank": 2,
+      "id": "2026-04-30-002",
+      "title": "Building the compute infrastructure for the Intelligence Age",
+      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-29T15:00:00+00:00",
+      "summary": "OpenAI scales Stargate supercluster, adding massive data center capacity to fuel AGI development and meet exploding AI compute demands.",
+      "why_it_matters": "Compute is the new frontier bottleneck for AGI. OpenAI's Stargate expansion signals hyperscale infrastructure strategies, with details on power, cooling, and chip procurement. Builders should note implications for distributed training costs, cloud pricing, and custom cluster designs as inference scales globally.",
+      "suggested_reel_angle": "OpenAI's Stargate goes massive: compute to power AGI revealed!",
+      "suggested_long_angle": [
+        "Stargate architecture and scaling plans",
+        "Challenges in power and data centers",
+        "Impact on AI training and inference costs"
+      ],
+      "tags": [
+        "openai",
+        "compute",
+        "infrastructure",
+        "agi",
+        "stargate"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 1.0,
+      "virality_score": 0.852,
+      "recency_hours": 16
+    },
+    {
+      "rank": 3,
+      "id": "2026-04-30-003",
+      "title": "Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital",
+      "url": "https://arxiv.org/abs/2604.26091",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-04-30T04:00:00+00:00",
+      "summary": "New arXiv paper analyzes reliability of LM agents trading real ETH in DX Terminal Pro deployment. 3,505 user-funded agents used structured controls and natural language strategies in bounded onchain markets.",
+      "why_it_matters": "First large-scale study of autonomous agents handling real capital onchain. Reveals control mechanisms for tool actions, risk management, and validation under live stakes. Essential for building production DeFi agents, with benchmarks for reliability in high-stakes environments.",
+      "suggested_reel_angle": "AI agents trading real ETH: new research on controls and reliability!",
+      "suggested_long_angle": [
+        "Deployment setup in DX Terminal Pro",
+        "Agent controls for real capital",
+        "Key findings on reliability and failures"
+      ],
+      "tags": [
+        "agents",
+        "onchain",
+        "trading",
+        "reliability",
+        "defi"
+      ],
+      "related_registry_entries": [
+        "autogen-04",
+        "langgraph"
+      ],
+      "authority_score": 0.8,
+      "virality_score": 0.8468,
+      "recency_hours": 3
+    },
+    {
+      "rank": 4,
+      "id": "2026-04-30-004",
+      "title": "Cybersecurity in the Intelligence Age",
+      "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-29T04:00:00+00:00",
+      "summary": "OpenAI's five-part plan to bolster cybersecurity: democratize AI-powered defenses, protect critical systems, and counter Intelligence Age threats.",
+      "why_it_matters": "As AI integrates everywhere, cyber risks explode. OpenAI outlines practical steps like AI red-teaming, shared threat intel, and policy for securing AI infra. Builders must adopt these to harden agent fleets, APIs, and pipelines against advanced attacks.",
+      "suggested_reel_angle": "OpenAI's blueprint to secure AI in the Intelligence Age!",
+      "suggested_long_angle": [
+        "Threat landscape overview",
+        "Five-part action plan details",
+        "Tools for AI-powered cyber defense"
+      ],
+      "tags": [
+        "openai",
+        "cybersecurity",
+        "safety",
+        "agents",
+        "defense"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 1.0,
+      "virality_score": 0.7834,
+      "recency_hours": 27
+    },
+    {
+      "rank": 5,
+      "id": "2026-04-30-005",
+      "title": "AI evals are becoming the new compute bottleneck",
+      "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+      "source": "huggingface",
+      "source_type": "official_blog",
+      "published_at": "2026-04-29T16:45:09+00:00",
+      "summary": "Hugging Face highlights how evaluation costs now rival training compute as models advance, urging optimized evals for scaling.",
+      "why_it_matters": "Evals limit iteration speed in LLM development. Post discusses cost breakdowns, efficient benchmarks, and tools to streamline. Critical for practitioners fine-tuning or deploying, as evals eat budgets and slow progress toward better models.",
+      "suggested_reel_angle": "AI evals now cost more than training? HF breaks down the bottleneck!",
+      "suggested_long_angle": [
+        "Why evals are exploding in cost",
+        "Optimization strategies and tools",
+        "Future of scalable evaluation"
+      ],
+      "tags": [
+        "evals",
+        "huggingface",
+        "scaling",
+        "benchmarks",
+        "cost"
+      ],
+      "related_registry_entries": [
+        "lmsys-chatbot-arena",
+        "mmlu"
+      ],
+      "authority_score": 0.9,
+      "virality_score": 0.807,
+      "recency_hours": 14
+    }
+  ]
+}
