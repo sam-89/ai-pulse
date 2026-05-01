@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-30",
-  "generated_at": "2026-04-30T07:09:22.556095+00:00",
+  "date": "2026-05-01",
+  "generated_at": "2026-05-01T07:10:48.773642+00:00",
   "generator_version": "1.0.0",
   "sources_polled": [
     "openai",
@@ -13,149 +13,146 @@
   "items": [
     {
       "rank": 1,
-      "id": "2026-04-30-001",
-      "title": "Where the goblins came from",
-      "url": "https://openai.com/index/where-the-goblins-came-from",
-      "source": "openai",
+      "id": "2026-05-01-001",
+      "title": "Enabling a new model for healthcare with AI co-clinician",
+      "url": "https://deepmind.google/blog/ai-co-clinician/",
+      "source": "deepmind",
       "source_type": "official_blog",
-      "published_at": "2026-04-29T20:00:00+00:00",
-      "summary": "OpenAI explains the timeline, root cause, and fixes for goblin outputs in GPT-5. These personality-driven quirks emerged from training instabilities, spreading across model behaviors, now resolved for more reliable outputs.",
-      "why_it_matters": "Frontier models like GPT-5 exhibit emergent quirks during training at scale. This post reveals how subtle data contamination and optimization issues led to goblin-like behaviors, with fixes including better data curation and monitoring. AI builders gain actionable insights to debug similar issues in custom training runs, improving model stability for production agents and apps.",
-      "suggested_reel_angle": "GPT-5 had goblins? OpenAI uncovers the wild bug behind quirky AI personalities and how they fixed it!",
+      "published_at": "2026-04-30T12:14:15+00:00",
+      "summary": "DeepMind advances AI-augmented care by developing an AI co-clinician to assist healthcare professionals, paving the way for integrated AI in clinical workflows.",
+      "why_it_matters": "This initiative from DeepMind could transform healthcare delivery by providing clinicians with reliable AI support for diagnostics, treatment, and decision-making. For AI builders, it underscores the need for specialized models fine-tuned on medical data, rigorous safety testing in regulated environments, and hybrid human-AI systems. Success here accelerates AI adoption in high-stakes domains, offering blueprints for domain adaptation, interpretability, and ethical deployment.",
+      "suggested_reel_angle": "DeepMind's AI co-clinician: Doctors' new superpower in healthcare!",
       "suggested_long_angle": [
-        "Timeline of goblin emergence in training",
-        "Root causes from data and optimization",
-        "Fixes and prevention strategies for builders"
+        "Vision for AI-human collaboration in medicine",
+        "Technical development of the co-clinician",
+        "Path to real-world clinical impact"
       ],
       "tags": [
-        "openai",
-        "gpt-5",
-        "training",
-        "debugging",
-        "reliability"
+        "deepmind",
+        "healthcare",
+        "ai-assistant",
+        "medical-ai"
       ],
       "related_registry_entries": [],
       "authority_score": 1.0,
-      "virality_score": 0.8911,
-      "recency_hours": 11
+      "virality_score": 0.8378,
+      "recency_hours": 18
     },
     {
       "rank": 2,
-      "id": "2026-04-30-002",
-      "title": "Building the compute infrastructure for the Intelligence Age",
-      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
-      "source": "openai",
-      "source_type": "official_blog",
-      "published_at": "2026-04-29T15:00:00+00:00",
-      "summary": "OpenAI scales Stargate supercluster, adding massive data center capacity to fuel AGI development and meet exploding AI compute demands.",
-      "why_it_matters": "Compute is the new frontier bottleneck for AGI. OpenAI's Stargate expansion signals hyperscale infrastructure strategies, with details on power, cooling, and chip procurement. Builders should note implications for distributed training costs, cloud pricing, and custom cluster designs as inference scales globally.",
-      "suggested_reel_angle": "OpenAI's Stargate goes massive: compute to power AGI revealed!",
-      "suggested_long_angle": [
-        "Stargate architecture and scaling plans",
-        "Challenges in power and data centers",
-        "Impact on AI training and inference costs"
-      ],
-      "tags": [
-        "openai",
-        "compute",
-        "infrastructure",
-        "agi",
-        "stargate"
-      ],
-      "related_registry_entries": [],
-      "authority_score": 1.0,
-      "virality_score": 0.852,
-      "recency_hours": 16
-    },
-    {
-      "rank": 3,
-      "id": "2026-04-30-003",
-      "title": "Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital",
-      "url": "https://arxiv.org/abs/2604.26091",
+      "id": "2026-05-01-002",
+      "title": "When Your LLM Reaches End-of-Life: A Framework for Confident Model Migration in Production Systems",
+      "url": "https://arxiv.org/abs/2604.27082",
       "source": "arxiv-cs-ai",
       "source_type": "research",
-      "published_at": "2026-04-30T04:00:00+00:00",
-      "summary": "New arXiv paper analyzes reliability of LM agents trading real ETH in DX Terminal Pro deployment. 3,505 user-funded agents used structured controls and natural language strategies in bounded onchain markets.",
-      "why_it_matters": "First large-scale study of autonomous agents handling real capital onchain. Reveals control mechanisms for tool actions, risk management, and validation under live stakes. Essential for building production DeFi agents, with benchmarks for reliability in high-stakes environments.",
-      "suggested_reel_angle": "AI agents trading real ETH: new research on controls and reliability!",
+      "published_at": "2026-05-01T04:00:00+00:00",
+      "summary": "New Bayesian framework enables safe migration of production LLM systems at end-of-life by calibrating automated eval metrics against human judgments, even with sparse data.",
+      "why_it_matters": "LLM deprecations disrupt services; this tool empowers MLOps teams to compare models reliably, minimizing downtime and costs. Builders gain a statistical method for evals, bridging automated and human assessments, essential for scaling AI infrastructure amid rapid model evolution.",
+      "suggested_reel_angle": "End-of-life LLM panic? This framework saves your prod systems!",
       "suggested_long_angle": [
-        "Deployment setup in DX Terminal Pro",
-        "Agent controls for real capital",
-        "Key findings on reliability and failures"
+        "Pain points of LLM lifecycle management",
+        "Bayesian calibration for evals",
+        "Applying in production migrations"
       ],
       "tags": [
-        "agents",
-        "onchain",
-        "trading",
-        "reliability",
-        "defi"
+        "llm",
+        "mlops",
+        "production",
+        "evaluation",
+        "model-migration"
       ],
       "related_registry_entries": [
-        "autogen-04",
-        "langgraph"
+        "langsmith"
       ],
       "authority_score": 0.8,
       "virality_score": 0.8468,
       "recency_hours": 3
     },
     {
-      "rank": 4,
-      "id": "2026-04-30-004",
-      "title": "Cybersecurity in the Intelligence Age",
-      "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
+      "rank": 3,
+      "id": "2026-05-01-003",
+      "title": "Introducing Advanced Account Security",
+      "url": "https://openai.com/index/advanced-account-security",
       "source": "openai",
       "source_type": "official_blog",
-      "published_at": "2026-04-29T04:00:00+00:00",
-      "summary": "OpenAI's five-part plan to bolster cybersecurity: democratize AI-powered defenses, protect critical systems, and counter Intelligence Age threats.",
-      "why_it_matters": "As AI integrates everywhere, cyber risks explode. OpenAI outlines practical steps like AI red-teaming, shared threat intel, and policy for securing AI infra. Builders must adopt these to harden agent fleets, APIs, and pipelines against advanced attacks.",
-      "suggested_reel_angle": "OpenAI's blueprint to secure AI in the Intelligence Age!",
+      "published_at": "2026-04-30T00:00:00+00:00",
+      "summary": "OpenAI rolls out phishing-resistant logins, improved recovery options, and bolstered protections to secure accounts and prevent takeovers of sensitive AI data.",
+      "why_it_matters": "With AI handling proprietary data, account security is critical. This upgrade protects developers and enterprises using OpenAI APIs, reducing risks from phishing and breaches. It sets industry standards for auth in AI platforms, aiding secure app building.",
+      "suggested_reel_angle": "OpenAI locks down accounts: Phishing-proof your AI access now!",
       "suggested_long_angle": [
-        "Threat landscape overview",
-        "Five-part action plan details",
-        "Tools for AI-powered cyber defense"
+        "Evolving threats to AI accounts",
+        "Breakdown of new security features",
+        "Implementation for developers"
       ],
       "tags": [
         "openai",
-        "cybersecurity",
-        "safety",
-        "agents",
-        "defense"
+        "security",
+        "authentication",
+        "privacy"
       ],
       "related_registry_entries": [],
       "authority_score": 1.0,
-      "virality_score": 0.7834,
-      "recency_hours": 27
+      "virality_score": 0.7634,
+      "recency_hours": 31
+    },
+    {
+      "rank": 4,
+      "id": "2026-05-01-004",
+      "title": "Granite 4.1 LLMs: How They\u2019re Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "source": "huggingface",
+      "source_type": "official_blog",
+      "published_at": "2026-04-29T15:01:48+00:00",
+      "summary": "IBM shares the architecture and training process behind Granite 4.1 LLMs, available via Hugging Face for enterprise and code generation tasks.",
+      "why_it_matters": "Detailed build insights into performant open-weight LLMs help practitioners replicate, fine-tune, or extend them. Granite excels in code and business apps, democratizing access to efficient models and advancing open-source AI for production use.",
+      "suggested_reel_angle": "Inside IBM's Granite 4.1: Build your own powerhouse LLMs!",
+      "suggested_long_angle": [
+        "Granite 4.1 architecture overview",
+        "Training and optimization techniques",
+        "Deployment on Hugging Face"
+      ],
+      "tags": [
+        "ibm",
+        "granite",
+        "llm",
+        "model-training",
+        "open-weights"
+      ],
+      "related_registry_entries": [
+        "huggingface-nlp-course"
+      ],
+      "authority_score": 0.9,
+      "virality_score": 0.666,
+      "recency_hours": 40
     },
     {
       "rank": 5,
-      "id": "2026-04-30-005",
-      "title": "AI evals are becoming the new compute bottleneck",
-      "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
-      "source": "huggingface",
+      "id": "2026-05-01-005",
+      "title": "Choco automates food distribution with AI agents",
+      "url": "https://openai.com/index/choco",
+      "source": "openai",
       "source_type": "official_blog",
-      "published_at": "2026-04-29T16:45:09+00:00",
-      "summary": "Hugging Face highlights how evaluation costs now rival training compute as models advance, urging optimized evals for scaling.",
-      "why_it_matters": "Evals limit iteration speed in LLM development. Post discusses cost breakdowns, efficient benchmarks, and tools to streamline. Critical for practitioners fine-tuning or deploying, as evals eat budgets and slow progress toward better models.",
-      "suggested_reel_angle": "AI evals now cost more than training? HF breaks down the bottleneck!",
+      "published_at": "2026-04-27T00:00:00+00:00",
+      "summary": "Choco uses OpenAI APIs to deploy AI agents streamlining food supply chains, enhancing productivity, and driving business growth.",
+      "why_it_matters": "Proves AI agents' value in real-world logistics, automating complex workflows. Builders learn agent orchestration, API integration, and scaling for enterprise automation, inspiring similar applications in supply chain and operations.",
+      "suggested_reel_angle": "AI agents supercharge food distribution: Choco's OpenAI win!",
       "suggested_long_angle": [
-        "Why evals are exploding in cost",
-        "Optimization strategies and tools",
-        "Future of scalable evaluation"
+        "Choco's supply chain hurdles",
+        "Building AI agents with OpenAI",
+        "Productivity gains and future scale"
       ],
       "tags": [
-        "evals",
-        "huggingface",
-        "scaling",
-        "benchmarks",
-        "cost"
+        "openai",
+        "ai-agents",
+        "automation",
+        "supply-chain"
       ],
       "related_registry_entries": [
-        "lmsys-chatbot-arena",
-        "mmlu"
+        "langgraph"
       ],
-      "authority_score": 0.9,
-      "virality_score": 0.807,
-      "recency_hours": 14
+      "authority_score": 1.0,
+      "virality_score": 0.6204,
+      "recency_hours": 103
     }
   ]
 }
