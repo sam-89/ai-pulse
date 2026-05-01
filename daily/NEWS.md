@@ -1,72 +1,73 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-04-30
+### Top 5 AI Stories · 2026-05-01
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-04-30 07:09 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-01 07:10 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [Where the goblins came from](https://openai.com/index/where-the-goblins-came-from)
+## 1. [Enabling a new model for healthcare with AI co-clinician](https://deepmind.google/blog/ai-co-clinician/)
 
-**Source:** openai · ⏱ *11h ago*  
-`openai` `gpt-5` `training` `debugging` `reliability`
+**Source:** deepmind · ⏱ *18h ago*  
+`deepmind` `healthcare` `ai-assistant` `medical-ai`
 
-OpenAI explains the timeline, root cause, and fixes for goblin outputs in GPT-5. These personality-driven quirks emerged from training instabilities, spreading across model behaviors, now resolved for more reliable outputs.
+DeepMind advances AI-augmented care by developing an AI co-clinician to assist healthcare professionals, paving the way for integrated AI in clinical workflows.
 
-> 💡 **Why it matters:** Frontier models like GPT-5 exhibit emergent quirks during training at scale. This post reveals how subtle data contamination and optimization issues led to goblin-like behaviors, with fixes including better data curation and monitoring. AI builders gain actionable insights to debug similar issues in custom training runs, improving model stability for production agents and apps.
-
-
----
-
-## 2. [Building the compute infrastructure for the Intelligence Age](https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age)
-
-**Source:** openai · ⏱ *16h ago*  
-`openai` `compute` `infrastructure` `agi` `stargate`
-
-OpenAI scales Stargate supercluster, adding massive data center capacity to fuel AGI development and meet exploding AI compute demands.
-
-> 💡 **Why it matters:** Compute is the new frontier bottleneck for AGI. OpenAI's Stargate expansion signals hyperscale infrastructure strategies, with details on power, cooling, and chip procurement. Builders should note implications for distributed training costs, cloud pricing, and custom cluster designs as inference scales globally.
+> 💡 **Why it matters:** This initiative from DeepMind could transform healthcare delivery by providing clinicians with reliable AI support for diagnostics, treatment, and decision-making. For AI builders, it underscores the need for specialized models fine-tuned on medical data, rigorous safety testing in regulated environments, and hybrid human-AI systems. Success here accelerates AI adoption in high-stakes domains, offering blueprints for domain adaptation, interpretability, and ethical deployment.
 
 
 ---
 
-## 3. [Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital](https://arxiv.org/abs/2604.26091)
+## 2. [When Your LLM Reaches End-of-Life: A Framework for Confident Model Migration in Production Systems](https://arxiv.org/abs/2604.27082)
 
 **Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`agents` `onchain` `trading` `reliability` `defi`
+`llm` `mlops` `production` `evaluation` `model-migration`
 
-New arXiv paper analyzes reliability of LM agents trading real ETH in DX Terminal Pro deployment. 3,505 user-funded agents used structured controls and natural language strategies in bounded onchain markets.
+New Bayesian framework enables safe migration of production LLM systems at end-of-life by calibrating automated eval metrics against human judgments, even with sparse data.
 
-> 💡 **Why it matters:** First large-scale study of autonomous agents handling real capital onchain. Reveals control mechanisms for tool actions, risk management, and validation under live stakes. Essential for building production DeFi agents, with benchmarks for reliability in high-stakes environments.
+> 💡 **Why it matters:** LLM deprecations disrupt services; this tool empowers MLOps teams to compare models reliably, minimizing downtime and costs. Builders gain a statistical method for evals, bridging automated and human assessments, essential for scaling AI infrastructure amid rapid model evolution.
   
-**Related registry entries:** `autogen-04`, `langgraph`
+**Related registry entries:** `langsmith`
 
 ---
 
-## 4. [Cybersecurity in the Intelligence Age](https://openai.com/index/cybersecurity-in-the-intelligence-age)
+## 3. [Introducing Advanced Account Security](https://openai.com/index/advanced-account-security)
 
-**Source:** openai · ⏱ *27h ago*  
-`openai` `cybersecurity` `safety` `agents` `defense`
+**Source:** openai · ⏱ *31h ago*  
+`openai` `security` `authentication` `privacy`
 
-OpenAI's five-part plan to bolster cybersecurity: democratize AI-powered defenses, protect critical systems, and counter Intelligence Age threats.
+OpenAI rolls out phishing-resistant logins, improved recovery options, and bolstered protections to secure accounts and prevent takeovers of sensitive AI data.
 
-> 💡 **Why it matters:** As AI integrates everywhere, cyber risks explode. OpenAI outlines practical steps like AI red-teaming, shared threat intel, and policy for securing AI infra. Builders must adopt these to harden agent fleets, APIs, and pipelines against advanced attacks.
+> 💡 **Why it matters:** With AI handling proprietary data, account security is critical. This upgrade protects developers and enterprises using OpenAI APIs, reducing risks from phishing and breaches. It sets industry standards for auth in AI platforms, aiding secure app building.
 
 
 ---
 
-## 5. [AI evals are becoming the new compute bottleneck](https://huggingface.co/blog/evaleval/eval-costs-bottleneck)
+## 4. [Granite 4.1 LLMs: How They’re Built](https://huggingface.co/blog/ibm-granite/granite-4-1)
 
-**Source:** huggingface · ⏱ *14h ago*  
-`evals` `huggingface` `scaling` `benchmarks` `cost`
+**Source:** huggingface · ⏱ *40h ago*  
+`ibm` `granite` `llm` `model-training` `open-weights`
 
-Hugging Face highlights how evaluation costs now rival training compute as models advance, urging optimized evals for scaling.
+IBM shares the architecture and training process behind Granite 4.1 LLMs, available via Hugging Face for enterprise and code generation tasks.
 
-> 💡 **Why it matters:** Evals limit iteration speed in LLM development. Post discusses cost breakdowns, efficient benchmarks, and tools to streamline. Critical for practitioners fine-tuning or deploying, as evals eat budgets and slow progress toward better models.
+> 💡 **Why it matters:** Detailed build insights into performant open-weight LLMs help practitioners replicate, fine-tune, or extend them. Granite excels in code and business apps, democratizing access to efficient models and advancing open-source AI for production use.
   
-**Related registry entries:** `lmsys-chatbot-arena`, `mmlu`
+**Related registry entries:** `huggingface-nlp-course`
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-04-30 07:09 UTC · [Archive](./)</sub>
+## 5. [Choco automates food distribution with AI agents](https://openai.com/index/choco)
+
+**Source:** openai · ⏱ *4d ago*  
+`openai` `ai-agents` `automation` `supply-chain`
+
+Choco uses OpenAI APIs to deploy AI agents streamlining food supply chains, enhancing productivity, and driving business growth.
+
+> 💡 **Why it matters:** Proves AI agents' value in real-world logistics, automating complex workflows. Builders learn agent orchestration, API integration, and scaling for enterprise automation, inspiring similar applications in supply chain and operations.
+  
+**Related registry entries:** `langgraph`
+
+---
+
+<sub>Generated by ai-pulse-agents · 2026-05-01 07:10 UTC · [Archive](./)</sub>
