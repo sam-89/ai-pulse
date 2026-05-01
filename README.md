@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-04-30*
+## 📰 Today in AI · *2026-05-01*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [Where the goblins came from](https://openai.com/index/where-the-goblins-came-from) | openai |
-| 2 | [Building the compute infrastructure for the Intelligence Age](https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age) | openai |
-| 3 | [Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital](https://arxiv.org/abs/2604.26091) | arxiv-cs-ai |
-| 4 | [Cybersecurity in the Intelligence Age](https://openai.com/index/cybersecurity-in-the-intelligence-age) | openai |
-| 5 | [AI evals are becoming the new compute bottleneck](https://huggingface.co/blog/evaleval/eval-costs-bottleneck) | huggingface |
+| 1 | [Enabling a new model for healthcare with AI co-clinician](https://deepmind.google/blog/ai-co-clinician/) | deepmind |
+| 2 | [When Your LLM Reaches End-of-Life: A Framework for Confident Model Migration in Production Systems](https://arxiv.org/abs/2604.27082) | arxiv-cs-ai |
+| 3 | [Introducing Advanced Account Security](https://openai.com/index/advanced-account-security) | openai |
+| 4 | [Granite 4.1 LLMs: How They’re Built](https://huggingface.co/blog/ibm-granite/granite-4-1) | huggingface |
+| 5 | [Choco automates food distribution with AI agents](https://openai.com/index/choco) | openai |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
