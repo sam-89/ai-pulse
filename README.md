@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-05-01*
+## 📰 Today in AI · *2026-05-02*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [Enabling a new model for healthcare with AI co-clinician](https://deepmind.google/blog/ai-co-clinician/) | deepmind |
-| 2 | [When Your LLM Reaches End-of-Life: A Framework for Confident Model Migration in Production Systems](https://arxiv.org/abs/2604.27082) | arxiv-cs-ai |
-| 3 | [Introducing Advanced Account Security](https://openai.com/index/advanced-account-security) | openai |
-| 4 | [Granite 4.1 LLMs: How They’re Built](https://huggingface.co/blog/ibm-granite/granite-4-1) | huggingface |
-| 5 | [Choco automates food distribution with AI agents](https://openai.com/index/choco) | openai |
+| 1 | [AI-Created Actors Ineligible for Oscars in Academy Crackdown](https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcFVMcjItbUgyR3Z3UnJRVmx6akRjN2JHVk1tLUg2T21TTk9ZR2ZBb3dKc2JOLTZGdTI2NnhZZnFFaWRpQU1zeWFMUVA1amNFLVF0cjRpVzNPaHFHOGJVcWFmQUZmR0Z1dEt4RTRwcm1IVzU5WWZlQW5JSWlQcC1ReU92aWZCaTJEdlhTVV9jNk52REtyZ0hxdmxxRU1UOTRSMGVUeHJPcjM0RkF3TElNR1ZaM3JnSGJ1YWdvdXRRbDJ4dVJielJMR3UxYnRXSHJBYmJwUEhPRQ?oc=5) | google-news-ai |
+| 2 | [OpenAI Codex: Automating Tasks Beyond Chat](https://openai.com/academy/what-is-codex) | openai |
+| 3 | [OpenAI's Principles for Beneficial AGI](https://openai.com/index/our-principles) | openai |
+| 4 | [DeepInfra Now on Hugging Face Inference Providers](https://huggingface.co/blog/inference-providers-deepinfra) | huggingface |
+| 5 | [What is Agentic AI?](https://news.google.com/rss/articles/CBMizwFBVV95cUxPUEE4SXJSRE1MaC1kb1dtSzFxMnlXc1NZTHpyTE1ERUlSejFnN1ExZFRuWGFJLWFESkM5VnQwYlZaaDVXMGRSc1lsOE13MWlEYkVSM3IyQWdYZzFTcGVSTG5Vc1Uzd1N5bjU5LVZoS1gwODZlbWpneFQyMWJjNmcxN2ZtNnRkWVg4dXV2cFBlS0MxcVFqWEp2SnFodkdYenY4cHYtZTJJUWQ3Y191Y1FDdW9SOVV5OWQxTXBTZS0yX2NPamphUXBZYklWVk1FLWc?oc=5) | google-news-ai |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
