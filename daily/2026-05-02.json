@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-02",
+  "generated_at": "2026-05-02T06:55:39.559837+00:00",
+  "generator_version": "1.0.0",
+  "sources_polled": [
+    "openai",
+    "anthropic",
+    "deepmind",
+    "huggingface",
+    "google-news-ai",
+    "arxiv-cs-ai"
+  ],
+  "items": [
+    {
+      "rank": 1,
+      "id": "2026-05-02-001",
+      "title": "AI-Created Actors Ineligible for Oscars in Academy Crackdown",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcFVMcjItbUgyR3Z3UnJRVmx6akRjN2JHVk1tLUg2T21TTk9ZR2ZBb3dKc2JOLTZGdTI2NnhZZnFFaWRpQU1zeWFMUVA1amNFLVF0cjRpVzNPaHFHOGJVcWFmQUZmR0Z1dEt4RTRwcm1IVzU5WWZlQW5JSWlQcC1ReU92aWZCaTJEdlhTVV9jNk52REtyZ0hxdmxxRU1UOTRSMGVUeHJPcjM0RkF3TElNR1ZaM3JnSGJ1YWdvdXRRbDJ4dVJielJMR3UxYnRXSHJBYmJwUEhPRQ?oc=5",
+      "source": "google-news-ai",
+      "source_type": "news_aggregator",
+      "published_at": "2026-05-02T06:40:10+00:00",
+      "summary": "The Academy of Motion Picture Arts and Sciences bans AI-generated actors from Oscar eligibility, enforcing stricter rules on AI use in films. This targets synthetic performers amid rising deepfake concerns.",
+      "why_it_matters": "This policy signals regulatory hurdles for AI in creative industries, pushing builders to integrate provenance tracking, human-AI hybrid workflows, and compliance tools. Impacts generative video models, affecting development of actor synthesis, VFX AI, and content authentication standards essential for commercial viability.",
+      "suggested_reel_angle": "Oscars ban AI actors! Hollywood's war on deepfakes starts now. What it means for AI gen.",
+      "suggested_long_angle": [
+        "Academy's AI rules breakdown",
+        "Effects on AI media tools",
+        "Strategies for compliant AI video"
+      ],
+      "tags": [
+        "regulation",
+        "generative-ai",
+        "entertainment",
+        "ethics",
+        "deepfakes"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 0.6,
+      "virality_score": 0.76,
+      "recency_hours": 0
+    },
+    {
+      "rank": 2,
+      "id": "2026-05-02-002",
+      "title": "OpenAI Codex: Automating Tasks Beyond Chat",
+      "url": "https://openai.com/academy/what-is-codex",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-23T10:00:00+00:00",
+      "summary": "OpenAI's Codex enables task automation, tool connections, and output generation like docs and dashboards, shifting from conversational AI to actionable workflows for developers.",
+      "why_it_matters": "Codex equips builders with agentic capabilities for real-world execution, reducing custom coding for integrations and outputs. Accelerates building production agents, streamlines dev pipelines, and sets standard for tool-augmented LLMs in apps.",
+      "suggested_reel_angle": "OpenAI Codex turns AI into doers: docs, dashboards, automation magic!",
+      "suggested_long_angle": [
+        "Codex core features",
+        "Tool integration examples",
+        "First project walkthrough"
+      ],
+      "tags": [
+        "openai",
+        "agents",
+        "automation",
+        "tools",
+        "codex"
+      ],
+      "related_registry_entries": [
+        "autogen-04",
+        "langgraph",
+        "toolformer"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.6009,
+      "recency_hours": 212
+    },
+    {
+      "rank": 3,
+      "id": "2026-05-02-003",
+      "title": "OpenAI's Principles for Beneficial AGI",
+      "url": "https://openai.com/index/our-principles",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-26T16:00:00+00:00",
+      "summary": "Sam Altman shares five principles guiding OpenAI's AGI mission to benefit humanity, emphasizing safety, broad access, and responsible development.",
+      "why_it_matters": "Provides blueprint for alignment and ethics in AGI projects. Builders can adopt these for robust safety measures, scalable deployment, and policy alignment, mitigating risks while advancing frontier models.",
+      "suggested_reel_angle": "Sam Altman's 5 AGI principles every builder needs to know!",
+      "suggested_long_angle": [
+        "The five principles unpacked",
+        "OpenAI's application",
+        "Builder adoption guide"
+      ],
+      "tags": [
+        "openai",
+        "agi",
+        "alignment",
+        "ethics",
+        "safety"
+      ],
+      "related_registry_entries": [
+        "constitutional-ai"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.6083,
+      "recency_hours": 134
+    },
+    {
+      "rank": 4,
+      "id": "2026-05-02-004",
+      "title": "DeepInfra Now on Hugging Face Inference Providers",
+      "url": "https://huggingface.co/blog/inference-providers-deepinfra",
+      "source": "huggingface",
+      "source_type": "official_blog",
+      "published_at": "2026-04-29T00:00:00+00:00",
+      "summary": "Hugging Face adds DeepInfra as inference provider, offering optimized, scalable serving for open models directly in HF ecosystem.",
+      "why_it_matters": "Simplifies high-throughput inference for builders, cutting costs and setup time. Enables seamless deployment of LLMs at scale, boosting experimentation and production apps without infra headaches.",
+      "suggested_reel_angle": "DeepInfra hits HF: Inference supercharged for your models!",
+      "suggested_long_angle": [
+        "DeepInfra overview",
+        "HF integration steps",
+        "Benchmark comparisons"
+      ],
+      "tags": [
+        "huggingface",
+        "inference",
+        "deployment",
+        "scalability",
+        "open-source"
+      ],
+      "related_registry_entries": [
+        "vllm",
+        "ollama"
+      ],
+      "authority_score": 0.9,
+      "virality_score": 0.582,
+      "recency_hours": 78
+    },
+    {
+      "rank": 5,
+      "id": "2026-05-02-005",
+      "title": "What is Agentic AI?",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUEE4SXJSRE1MaC1kb1dtSzFxMnlXc1NZTHpyTE1ERUlSejFnN1ExZFRuWGFJLWFESkM5VnQwYlZaaDVXMGRSc1lsOE13MWlEYkVSM3IyQWdYZzFTcGVSTG5Vc1Uzd1N5bjU5LVZoS1gwODZlbWpneFQyMWJjNmcxN2ZtNnRkWVg4dXV2cFBlS0MxcVFqWEp2SnFodkdYenY4cHYtZTJJUWQ3Y191Y1FDdW9SOVV5OWQxTXBTZS0yX2NPamphUXBZYklWVk1FLWc?oc=5",
+      "source": "google-news-ai",
+      "source_type": "news_aggregator",
+      "published_at": "2026-05-02T05:28:15+00:00",
+      "summary": "Agentic AI describes autonomous agents that reason, plan, use tools, and execute multi-step tasks, evolving beyond simple chat responses.",
+      "why_it_matters": "Powers next-gen apps with proactive AI. Builders gain frameworks for reliable agents via orchestration, error handling, and toolchains, unlocking automation in devops, research, and enterprise workflows.",
+      "suggested_reel_angle": "Agentic AI: From talking bots to action heroes!",
+      "suggested_long_angle": [
+        "Agentic AI fundamentals",
+        "Architecture and tools",
+        "Implementation roadmap"
+      ],
+      "tags": [
+        "agentic-ai",
+        "agents",
+        "reasoning",
+        "tool-use",
+        "autonomous"
+      ],
+      "related_registry_entries": [
+        "autogen-04",
+        "langgraph",
+        "react-reasoning-acting"
+      ],
+      "authority_score": 0.6,
+      "virality_score": 0.7486,
+      "recency_hours": 1
+    }
+  ]
+}
