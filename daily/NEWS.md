@@ -1,73 +1,74 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-05-01
+### Top 5 AI Stories · 2026-05-02
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-01 07:10 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-02 06:55 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [Enabling a new model for healthcare with AI co-clinician](https://deepmind.google/blog/ai-co-clinician/)
+## 1. [AI-Created Actors Ineligible for Oscars in Academy Crackdown](https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcFVMcjItbUgyR3Z3UnJRVmx6akRjN2JHVk1tLUg2T21TTk9ZR2ZBb3dKc2JOLTZGdTI2NnhZZnFFaWRpQU1zeWFMUVA1amNFLVF0cjRpVzNPaHFHOGJVcWFmQUZmR0Z1dEt4RTRwcm1IVzU5WWZlQW5JSWlQcC1ReU92aWZCaTJEdlhTVV9jNk52REtyZ0hxdmxxRU1UOTRSMGVUeHJPcjM0RkF3TElNR1ZaM3JnSGJ1YWdvdXRRbDJ4dVJielJMR3UxYnRXSHJBYmJwUEhPRQ?oc=5)
 
-**Source:** deepmind · ⏱ *18h ago*  
-`deepmind` `healthcare` `ai-assistant` `medical-ai`
+**Source:** google-news-ai · ⏱ *0h ago*  
+`regulation` `generative-ai` `entertainment` `ethics` `deepfakes`
 
-DeepMind advances AI-augmented care by developing an AI co-clinician to assist healthcare professionals, paving the way for integrated AI in clinical workflows.
+The Academy of Motion Picture Arts and Sciences bans AI-generated actors from Oscar eligibility, enforcing stricter rules on AI use in films. This targets synthetic performers amid rising deepfake concerns.
 
-> 💡 **Why it matters:** This initiative from DeepMind could transform healthcare delivery by providing clinicians with reliable AI support for diagnostics, treatment, and decision-making. For AI builders, it underscores the need for specialized models fine-tuned on medical data, rigorous safety testing in regulated environments, and hybrid human-AI systems. Success here accelerates AI adoption in high-stakes domains, offering blueprints for domain adaptation, interpretability, and ethical deployment.
+> 💡 **Why it matters:** This policy signals regulatory hurdles for AI in creative industries, pushing builders to integrate provenance tracking, human-AI hybrid workflows, and compliance tools. Impacts generative video models, affecting development of actor synthesis, VFX AI, and content authentication standards essential for commercial viability.
 
 
 ---
 
-## 2. [When Your LLM Reaches End-of-Life: A Framework for Confident Model Migration in Production Systems](https://arxiv.org/abs/2604.27082)
+## 2. [OpenAI Codex: Automating Tasks Beyond Chat](https://openai.com/academy/what-is-codex)
 
-**Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`llm` `mlops` `production` `evaluation` `model-migration`
+**Source:** openai · ⏱ *8d ago*  
+`openai` `agents` `automation` `tools` `codex`
 
-New Bayesian framework enables safe migration of production LLM systems at end-of-life by calibrating automated eval metrics against human judgments, even with sparse data.
+OpenAI's Codex enables task automation, tool connections, and output generation like docs and dashboards, shifting from conversational AI to actionable workflows for developers.
 
-> 💡 **Why it matters:** LLM deprecations disrupt services; this tool empowers MLOps teams to compare models reliably, minimizing downtime and costs. Builders gain a statistical method for evals, bridging automated and human assessments, essential for scaling AI infrastructure amid rapid model evolution.
+> 💡 **Why it matters:** Codex equips builders with agentic capabilities for real-world execution, reducing custom coding for integrations and outputs. Accelerates building production agents, streamlines dev pipelines, and sets standard for tool-augmented LLMs in apps.
   
-**Related registry entries:** `langsmith`
+**Related registry entries:** `autogen-04`, `langgraph`, `toolformer`
 
 ---
 
-## 3. [Introducing Advanced Account Security](https://openai.com/index/advanced-account-security)
+## 3. [OpenAI's Principles for Beneficial AGI](https://openai.com/index/our-principles)
 
-**Source:** openai · ⏱ *31h ago*  
-`openai` `security` `authentication` `privacy`
+**Source:** openai · ⏱ *5d ago*  
+`openai` `agi` `alignment` `ethics` `safety`
 
-OpenAI rolls out phishing-resistant logins, improved recovery options, and bolstered protections to secure accounts and prevent takeovers of sensitive AI data.
+Sam Altman shares five principles guiding OpenAI's AGI mission to benefit humanity, emphasizing safety, broad access, and responsible development.
 
-> 💡 **Why it matters:** With AI handling proprietary data, account security is critical. This upgrade protects developers and enterprises using OpenAI APIs, reducing risks from phishing and breaches. It sets industry standards for auth in AI platforms, aiding secure app building.
-
-
----
-
-## 4. [Granite 4.1 LLMs: How They’re Built](https://huggingface.co/blog/ibm-granite/granite-4-1)
-
-**Source:** huggingface · ⏱ *40h ago*  
-`ibm` `granite` `llm` `model-training` `open-weights`
-
-IBM shares the architecture and training process behind Granite 4.1 LLMs, available via Hugging Face for enterprise and code generation tasks.
-
-> 💡 **Why it matters:** Detailed build insights into performant open-weight LLMs help practitioners replicate, fine-tune, or extend them. Granite excels in code and business apps, democratizing access to efficient models and advancing open-source AI for production use.
+> 💡 **Why it matters:** Provides blueprint for alignment and ethics in AGI projects. Builders can adopt these for robust safety measures, scalable deployment, and policy alignment, mitigating risks while advancing frontier models.
   
-**Related registry entries:** `huggingface-nlp-course`
+**Related registry entries:** `constitutional-ai`
 
 ---
 
-## 5. [Choco automates food distribution with AI agents](https://openai.com/index/choco)
+## 4. [DeepInfra Now on Hugging Face Inference Providers](https://huggingface.co/blog/inference-providers-deepinfra)
 
-**Source:** openai · ⏱ *4d ago*  
-`openai` `ai-agents` `automation` `supply-chain`
+**Source:** huggingface · ⏱ *3d ago*  
+`huggingface` `inference` `deployment` `scalability` `open-source`
 
-Choco uses OpenAI APIs to deploy AI agents streamlining food supply chains, enhancing productivity, and driving business growth.
+Hugging Face adds DeepInfra as inference provider, offering optimized, scalable serving for open models directly in HF ecosystem.
 
-> 💡 **Why it matters:** Proves AI agents' value in real-world logistics, automating complex workflows. Builders learn agent orchestration, API integration, and scaling for enterprise automation, inspiring similar applications in supply chain and operations.
+> 💡 **Why it matters:** Simplifies high-throughput inference for builders, cutting costs and setup time. Enables seamless deployment of LLMs at scale, boosting experimentation and production apps without infra headaches.
   
-**Related registry entries:** `langgraph`
+**Related registry entries:** `vllm`, `ollama`
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-05-01 07:10 UTC · [Archive](./)</sub>
+## 5. [What is Agentic AI?](https://news.google.com/rss/articles/CBMizwFBVV95cUxPUEE4SXJSRE1MaC1kb1dtSzFxMnlXc1NZTHpyTE1ERUlSejFnN1ExZFRuWGFJLWFESkM5VnQwYlZaaDVXMGRSc1lsOE13MWlEYkVSM3IyQWdYZzFTcGVSTG5Vc1Uzd1N5bjU5LVZoS1gwODZlbWpneFQyMWJjNmcxN2ZtNnRkWVg4dXV2cFBlS0MxcVFqWEp2SnFodkdYenY4cHYtZTJJUWQ3Y191Y1FDdW9SOVV5OWQxTXBTZS0yX2NPamphUXBZYklWVk1FLWc?oc=5)
+
+**Source:** google-news-ai · ⏱ *1h ago*  
+`agentic-ai` `agents` `reasoning` `tool-use` `autonomous`
+
+Agentic AI describes autonomous agents that reason, plan, use tools, and execute multi-step tasks, evolving beyond simple chat responses.
+
+> 💡 **Why it matters:** Powers next-gen apps with proactive AI. Builders gain frameworks for reliable agents via orchestration, error handling, and toolchains, unlocking automation in devops, research, and enterprise workflows.
+  
+**Related registry entries:** `autogen-04`, `langgraph`, `react-reasoning-acting`
+
+---
+
+<sub>Generated by ai-pulse-agents · 2026-05-02 06:55 UTC · [Archive](./)</sub>
