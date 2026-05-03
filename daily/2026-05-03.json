@@ -1,0 +1,162 @@
+{
+  "date": "2026-05-03",
+  "generated_at": "2026-05-03T07:06:40.937381+00:00",
+  "generator_version": "1.0.0",
+  "sources_polled": [
+    "openai",
+    "anthropic",
+    "deepmind",
+    "huggingface",
+    "google-news-ai",
+    "arxiv-cs-ai"
+  ],
+  "items": [
+    {
+      "rank": 1,
+      "id": "2026-05-03-001",
+      "title": "Alphabet Is Dropping $190 Billion on AI Infrastructure: 3 Semiconductor Stocks Set to Win Big",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVzRhTXh1dXBvM1VqUXVEYmxEdmVSTk5Mc3JwY1RraU5hbmhlTGdfclVnS0pXOUJqLXExVWJBSFJEZm9fRlJkQldyY0psdkczZXRhcGZkY1pzTS1OTE5OTjNvUHJSOFVzTWJ2SGpmdFIzR3B5VmZCLS1NWEwyOVItWWpEV3hqZWhFRnBCWlRldlhzX1JzUk9oZg?oc=5",
+      "source": "google-news-ai",
+      "source_type": "news_aggregator",
+      "published_at": "2026-05-03T06:29:23+00:00",
+      "summary": "Alphabet commits $190 billion to AI infrastructure, fueling demand for advanced semiconductors and cloud compute. This capex surge will expand GPU availability and accelerate AI training/inference capabilities for developers.",
+      "why_it_matters": "Massive investments like this solidify AI as a trillion-dollar infrastructure shift, similar to cloud in the 2010s. Builders gain from abundant compute resources on Google Cloud, lower costs over time, faster model scaling, and opportunities in the booming AI hardware ecosystem. It validates long-term bets on AI hardware and software.",
+      "suggested_reel_angle": "$190B Alphabet AI blitz: Compute explosion incoming for devs!",
+      "suggested_long_angle": [
+        "Unpacking the $190B AI capex plan",
+        "Semiconductor winners and supply chain ripple",
+        "What it means for AI builders and tooling"
+      ],
+      "tags": [
+        "investment",
+        "infrastructure",
+        "capex",
+        "semiconductors",
+        "cloud"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 0.6,
+      "virality_score": 0.76,
+      "recency_hours": 0
+    },
+    {
+      "rank": 2,
+      "id": "2026-05-03-002",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-23T00:00:00+00:00",
+      "summary": "OpenAI launches a red-teaming challenge for GPT-5.5, targeting universal jailbreaks in bio safety scenarios with rewards up to $25,000 to enhance model robustness against high-risk exploits.",
+      "why_it_matters": "As frontier models like GPT-5.5 push boundaries, bio risks (e.g., pathogen design) demand rigorous safety testing. This bounty empowers the community to probe vulnerabilities, refine alignment techniques, and shape safer AI for sensitive domains. Builders can contribute, learn red-teaming, and influence OpenAI's safety roadmap.",
+      "suggested_reel_angle": "$25K bounty to jailbreak GPT-5.5 on bio risks - hackers wanted!",
+      "suggested_long_angle": [
+        "Details on GPT-5.5 bio vulnerabilities",
+        "Red-teaming methods and rewards",
+        "Impact on AI safety standards"
+      ],
+      "tags": [
+        "openai",
+        "gpt-5.5",
+        "safety",
+        "bug-bounty",
+        "red-teaming",
+        "biosecurity"
+      ],
+      "related_registry_entries": [
+        "constitutional-ai"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.6003,
+      "recency_hours": 247
+    },
+    {
+      "rank": 3,
+      "id": "2026-05-03-003",
+      "title": "How to Get Started with Codex",
+      "url": "https://openai.com/academy/codex-how-to-start",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-04-23T10:00:00+00:00",
+      "summary": "OpenAI provides step-by-step guidance on Codex: set up projects, create threads, and complete initial tasks to integrate this new AI workflow tool into development pipelines.",
+      "why_it_matters": "Codex introduces structured project/thread-based AI task management, streamlining complex workflows for builders. Ideal for agentic apps, multi-step reasoning, and collaborative AI projects. Early adoption unlocks productivity gains in coding, automation, and prototyping with OpenAI's latest capabilities.",
+      "suggested_reel_angle": "Codex unlocked: OpenAI's new project AI in 60s!",
+      "suggested_long_angle": [
+        "Codex basics: Projects and threads",
+        "First task walkthrough",
+        "Real-world builder use cases"
+      ],
+      "tags": [
+        "openai",
+        "codex",
+        "workflow",
+        "agents",
+        "tutorial"
+      ],
+      "related_registry_entries": [
+        "langgraph"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.6004,
+      "recency_hours": 237
+    },
+    {
+      "rank": 4,
+      "id": "2026-05-03-004",
+      "title": "Gemini 3.1 Flash Live: Making Audio AI More Natural and Reliable",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
+      "source": "deepmind",
+      "source_type": "official_blog",
+      "published_at": "2026-03-26T15:23:35+00:00",
+      "summary": "DeepMind releases Gemini 3.1 Flash Live, a voice model with enhanced precision, reduced latency, and natural interactions for real-time audio applications.",
+      "why_it_matters": "Low-latency voice AI is key for voice agents, virtual assistants, and live transcription. Improvements enable seamless multimodal experiences, better edge deployment, and competitive edge in telephony/gaming. Builders can leverage for production-grade audio pipelines with Google's ecosystem.",
+      "suggested_reel_angle": "Gemini 3.1 voice: Latency crushed, convos human-like!",
+      "suggested_long_angle": [
+        "Gemini 3.1 Flash upgrades",
+        "Latency and precision benchmarks",
+        "Building voice AI apps"
+      ],
+      "tags": [
+        "deepmind",
+        "gemini",
+        "audio",
+        "voice",
+        "multimodal",
+        "low-latency"
+      ],
+      "related_registry_entries": [
+        "gemini-2-5-pro"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.6,
+      "recency_hours": 903
+    },
+    {
+      "rank": 5,
+      "id": "2026-05-03-005",
+      "title": "Goldman Sachs Says the AI Software Sell-Off Was Overdone: Best Growth Stocks to Buy Now",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOa21jaXVPaDJELWFBWkFfYVVVa1J1UkgwRnFaVEp2UVVHQTNhMTNDcEF2Q2NmLXZfZkxsMXlyQ3dCM05KZm5Ia2YzZXJYNDZqdHd6RjhIaGxGTlFNR3NHM3NCYVpuY1lpLThsTXlsd0NxbkZIVnBMSE1RcGJIa3VEVGxfU2ZoRjlNanY0ZnlaVXdCZUQySFUw?oc=5",
+      "source": "google-news-ai",
+      "source_type": "news_aggregator",
+      "published_at": "2026-05-03T06:57:42+00:00",
+      "summary": "Goldman Sachs deems the recent AI software sector sell-off excessive, highlighting top growth stocks poised for recovery amid sustained AI demand.",
+      "why_it_matters": "Analyst optimism counters market volatility, signaling resilience in AI software (e.g., tools for MLOps, inference). For builders, it means stable funding for platforms like LangChain/Hugging Face, easier hiring, and growth in devtools ecosystem as valuations stabilize.",
+      "suggested_reel_angle": "GS calls AI software dip a BUY - rebound alert!",
+      "suggested_long_angle": [
+        "Why the sell-off was overdone",
+        "Goldman Sachs stock picks",
+        "AI software market outlook"
+      ],
+      "tags": [
+        "finance",
+        "stocks",
+        "ai-software",
+        "market-analysis"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 0.6,
+      "virality_score": 0.76,
+      "recency_hours": 0
+    }
+  ]
+}
