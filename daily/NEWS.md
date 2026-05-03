@@ -1,74 +1,73 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-05-02
+### Top 5 AI Stories · 2026-05-03
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-02 06:55 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-03 07:06 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [AI-Created Actors Ineligible for Oscars in Academy Crackdown](https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcFVMcjItbUgyR3Z3UnJRVmx6akRjN2JHVk1tLUg2T21TTk9ZR2ZBb3dKc2JOLTZGdTI2NnhZZnFFaWRpQU1zeWFMUVA1amNFLVF0cjRpVzNPaHFHOGJVcWFmQUZmR0Z1dEt4RTRwcm1IVzU5WWZlQW5JSWlQcC1ReU92aWZCaTJEdlhTVV9jNk52REtyZ0hxdmxxRU1UOTRSMGVUeHJPcjM0RkF3TElNR1ZaM3JnSGJ1YWdvdXRRbDJ4dVJielJMR3UxYnRXSHJBYmJwUEhPRQ?oc=5)
+## 1. [Alphabet Is Dropping $190 Billion on AI Infrastructure: 3 Semiconductor Stocks Set to Win Big](https://news.google.com/rss/articles/CBMimAFBVV95cUxNVzRhTXh1dXBvM1VqUXVEYmxEdmVSTk5Mc3JwY1RraU5hbmhlTGdfclVnS0pXOUJqLXExVWJBSFJEZm9fRlJkQldyY0psdkczZXRhcGZkY1pzTS1OTE5OTjNvUHJSOFVzTWJ2SGpmdFIzR3B5VmZCLS1NWEwyOVItWWpEV3hqZWhFRnBCWlRldlhzX1JzUk9oZg?oc=5)
 
 **Source:** google-news-ai · ⏱ *0h ago*  
-`regulation` `generative-ai` `entertainment` `ethics` `deepfakes`
+`investment` `infrastructure` `capex` `semiconductors` `cloud`
 
-The Academy of Motion Picture Arts and Sciences bans AI-generated actors from Oscar eligibility, enforcing stricter rules on AI use in films. This targets synthetic performers amid rising deepfake concerns.
+Alphabet commits $190 billion to AI infrastructure, fueling demand for advanced semiconductors and cloud compute. This capex surge will expand GPU availability and accelerate AI training/inference capabilities for developers.
 
-> 💡 **Why it matters:** This policy signals regulatory hurdles for AI in creative industries, pushing builders to integrate provenance tracking, human-AI hybrid workflows, and compliance tools. Impacts generative video models, affecting development of actor synthesis, VFX AI, and content authentication standards essential for commercial viability.
+> 💡 **Why it matters:** Massive investments like this solidify AI as a trillion-dollar infrastructure shift, similar to cloud in the 2010s. Builders gain from abundant compute resources on Google Cloud, lower costs over time, faster model scaling, and opportunities in the booming AI hardware ecosystem. It validates long-term bets on AI hardware and software.
 
-
----
-
-## 2. [OpenAI Codex: Automating Tasks Beyond Chat](https://openai.com/academy/what-is-codex)
-
-**Source:** openai · ⏱ *8d ago*  
-`openai` `agents` `automation` `tools` `codex`
-
-OpenAI's Codex enables task automation, tool connections, and output generation like docs and dashboards, shifting from conversational AI to actionable workflows for developers.
-
-> 💡 **Why it matters:** Codex equips builders with agentic capabilities for real-world execution, reducing custom coding for integrations and outputs. Accelerates building production agents, streamlines dev pipelines, and sets standard for tool-augmented LLMs in apps.
-  
-**Related registry entries:** `autogen-04`, `langgraph`, `toolformer`
 
 ---
 
-## 3. [OpenAI's Principles for Beneficial AGI](https://openai.com/index/our-principles)
+## 2. [GPT-5.5 Bio Bug Bounty](https://openai.com/index/gpt-5-5-bio-bug-bounty)
 
-**Source:** openai · ⏱ *5d ago*  
-`openai` `agi` `alignment` `ethics` `safety`
+**Source:** openai · ⏱ *10d ago*  
+`openai` `gpt-5.5` `safety` `bug-bounty` `red-teaming` `biosecurity`
 
-Sam Altman shares five principles guiding OpenAI's AGI mission to benefit humanity, emphasizing safety, broad access, and responsible development.
+OpenAI launches a red-teaming challenge for GPT-5.5, targeting universal jailbreaks in bio safety scenarios with rewards up to $25,000 to enhance model robustness against high-risk exploits.
 
-> 💡 **Why it matters:** Provides blueprint for alignment and ethics in AGI projects. Builders can adopt these for robust safety measures, scalable deployment, and policy alignment, mitigating risks while advancing frontier models.
+> 💡 **Why it matters:** As frontier models like GPT-5.5 push boundaries, bio risks (e.g., pathogen design) demand rigorous safety testing. This bounty empowers the community to probe vulnerabilities, refine alignment techniques, and shape safer AI for sensitive domains. Builders can contribute, learn red-teaming, and influence OpenAI's safety roadmap.
   
 **Related registry entries:** `constitutional-ai`
 
 ---
 
-## 4. [DeepInfra Now on Hugging Face Inference Providers](https://huggingface.co/blog/inference-providers-deepinfra)
+## 3. [How to Get Started with Codex](https://openai.com/academy/codex-how-to-start)
 
-**Source:** huggingface · ⏱ *3d ago*  
-`huggingface` `inference` `deployment` `scalability` `open-source`
+**Source:** openai · ⏱ *9d ago*  
+`openai` `codex` `workflow` `agents` `tutorial`
 
-Hugging Face adds DeepInfra as inference provider, offering optimized, scalable serving for open models directly in HF ecosystem.
+OpenAI provides step-by-step guidance on Codex: set up projects, create threads, and complete initial tasks to integrate this new AI workflow tool into development pipelines.
 
-> 💡 **Why it matters:** Simplifies high-throughput inference for builders, cutting costs and setup time. Enables seamless deployment of LLMs at scale, boosting experimentation and production apps without infra headaches.
+> 💡 **Why it matters:** Codex introduces structured project/thread-based AI task management, streamlining complex workflows for builders. Ideal for agentic apps, multi-step reasoning, and collaborative AI projects. Early adoption unlocks productivity gains in coding, automation, and prototyping with OpenAI's latest capabilities.
   
-**Related registry entries:** `vllm`, `ollama`
+**Related registry entries:** `langgraph`
 
 ---
 
-## 5. [What is Agentic AI?](https://news.google.com/rss/articles/CBMizwFBVV95cUxPUEE4SXJSRE1MaC1kb1dtSzFxMnlXc1NZTHpyTE1ERUlSejFnN1ExZFRuWGFJLWFESkM5VnQwYlZaaDVXMGRSc1lsOE13MWlEYkVSM3IyQWdYZzFTcGVSTG5Vc1Uzd1N5bjU5LVZoS1gwODZlbWpneFQyMWJjNmcxN2ZtNnRkWVg4dXV2cFBlS0MxcVFqWEp2SnFodkdYenY4cHYtZTJJUWQ3Y191Y1FDdW9SOVV5OWQxTXBTZS0yX2NPamphUXBZYklWVk1FLWc?oc=5)
+## 4. [Gemini 3.1 Flash Live: Making Audio AI More Natural and Reliable](https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/)
 
-**Source:** google-news-ai · ⏱ *1h ago*  
-`agentic-ai` `agents` `reasoning` `tool-use` `autonomous`
+**Source:** deepmind · ⏱ *37d ago*  
+`deepmind` `gemini` `audio` `voice` `multimodal` `low-latency`
 
-Agentic AI describes autonomous agents that reason, plan, use tools, and execute multi-step tasks, evolving beyond simple chat responses.
+DeepMind releases Gemini 3.1 Flash Live, a voice model with enhanced precision, reduced latency, and natural interactions for real-time audio applications.
 
-> 💡 **Why it matters:** Powers next-gen apps with proactive AI. Builders gain frameworks for reliable agents via orchestration, error handling, and toolchains, unlocking automation in devops, research, and enterprise workflows.
+> 💡 **Why it matters:** Low-latency voice AI is key for voice agents, virtual assistants, and live transcription. Improvements enable seamless multimodal experiences, better edge deployment, and competitive edge in telephony/gaming. Builders can leverage for production-grade audio pipelines with Google's ecosystem.
   
-**Related registry entries:** `autogen-04`, `langgraph`, `react-reasoning-acting`
+**Related registry entries:** `gemini-2-5-pro`
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-05-02 06:55 UTC · [Archive](./)</sub>
+## 5. [Goldman Sachs Says the AI Software Sell-Off Was Overdone: Best Growth Stocks to Buy Now](https://news.google.com/rss/articles/CBMilwFBVV95cUxOa21jaXVPaDJELWFBWkFfYVVVa1J1UkgwRnFaVEp2UVVHQTNhMTNDcEF2Q2NmLXZfZkxsMXlyQ3dCM05KZm5Ia2YzZXJYNDZqdHd6RjhIaGxGTlFNR3NHM3NCYVpuY1lpLThsTXlsd0NxbkZIVnBMSE1RcGJIa3VEVGxfU2ZoRjlNanY0ZnlaVXdCZUQySFUw?oc=5)
+
+**Source:** google-news-ai · ⏱ *0h ago*  
+`finance` `stocks` `ai-software` `market-analysis`
+
+Goldman Sachs deems the recent AI software sector sell-off excessive, highlighting top growth stocks poised for recovery amid sustained AI demand.
+
+> 💡 **Why it matters:** Analyst optimism counters market volatility, signaling resilience in AI software (e.g., tools for MLOps, inference). For builders, it means stable funding for platforms like LangChain/Hugging Face, easier hiring, and growth in devtools ecosystem as valuations stabilize.
+
+
+---
+
+<sub>Generated by ai-pulse-agents · 2026-05-03 07:06 UTC · [Archive](./)</sub>
