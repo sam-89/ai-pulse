@@ -1,73 +1,74 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-05-03
+### Top 5 AI Stories · 2026-05-04
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-03 07:06 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-04 07:20 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [Alphabet Is Dropping $190 Billion on AI Infrastructure: 3 Semiconductor Stocks Set to Win Big](https://news.google.com/rss/articles/CBMimAFBVV95cUxNVzRhTXh1dXBvM1VqUXVEYmxEdmVSTk5Mc3JwY1RraU5hbmhlTGdfclVnS0pXOUJqLXExVWJBSFJEZm9fRlJkQldyY0psdkczZXRhcGZkY1pzTS1OTE5OTjNvUHJSOFVzTWJ2SGpmdFIzR3B5VmZCLS1NWEwyOVItWWpEV3hqZWhFRnBCWlRldlhzX1JzUk9oZg?oc=5)
+## 1. [SK Group Joins Corporate Korea's Move to Reorganize Work Around AI Agents](https://news.google.com/rss/articles/CBMif0FVX3lxTFA5RlFaakdnUUVZY0hHcUl5MDFpWTFGZjZxcnlsckhkTlViVTNlaHhfQ3N5SHdpZGQwOWYxdVpBQWFmTWdzdVBXT2c4R3MtbmlKOVhOZmdNekM5VlI2dWp5eUFkNklmNnoxbUdJX0FLUUpmMzdVeWVKVzkwV1N6Y1E?oc=5)
 
 **Source:** google-news-ai · ⏱ *0h ago*  
-`investment` `infrastructure` `capex` `semiconductors` `cloud`
+`ai-agents` `enterprise-adoption` `workflow-reorganization`
 
-Alphabet commits $190 billion to AI infrastructure, fueling demand for advanced semiconductors and cloud compute. This capex surge will expand GPU availability and accelerate AI training/inference capabilities for developers.
+SK Group, a leading South Korean conglomerate, is restructuring its operations to integrate AI agents at the core of workflows, joining other major Korean firms in this shift toward agent-driven productivity.
 
-> 💡 **Why it matters:** Massive investments like this solidify AI as a trillion-dollar infrastructure shift, similar to cloud in the 2010s. Builders gain from abundant compute resources on Google Cloud, lower costs over time, faster model scaling, and opportunities in the booming AI hardware ecosystem. It validates long-term bets on AI hardware and software.
-
+> 💡 **Why it matters:** This signals a massive enterprise pivot to AI agents, validating builder efforts in multi-agent systems. Expect surging demand for reliable, scalable agent orchestration tools that handle complex tasks, integrate with enterprise software, and deliver ROI at chaebol scale. Builders should prioritize stateful agents, error recovery, and tool integrations to capture this market.
+  
+**Related registry entries:** `autogen-04`, `langgraph`
 
 ---
 
-## 2. [GPT-5.5 Bio Bug Bounty](https://openai.com/index/gpt-5-5-bio-bug-bounty)
+## 2. [Workspace Agents: Build, Use, and Scale in ChatGPT](https://openai.com/academy/workspace-agents)
 
-**Source:** openai · ⏱ *10d ago*  
-`openai` `gpt-5.5` `safety` `bug-bounty` `red-teaming` `biosecurity`
+**Source:** openai · ⏱ *11d ago*  
+`openai` `ai-agents` `chatgpt` `automation`
 
-OpenAI launches a red-teaming challenge for GPT-5.5, targeting universal jailbreaks in bio safety scenarios with rewards up to $25,000 to enhance model robustness against high-risk exploits.
+OpenAI's guide on creating workspace agents in ChatGPT to automate repeatable workflows, connect external tools, and optimize team collaboration.
 
-> 💡 **Why it matters:** As frontier models like GPT-5.5 push boundaries, bio risks (e.g., pathogen design) demand rigorous safety testing. This bounty empowers the community to probe vulnerabilities, refine alignment techniques, and shape safer AI for sensitive domains. Builders can contribute, learn red-teaming, and influence OpenAI's safety roadmap.
+> 💡 **Why it matters:** Empowers builders to deploy production-grade agents within ChatGPT ecosystem, bridging prototyping to scaling. Key for developing team-scale automations with tool-calling, state management, and multi-agent coordination, accelerating adoption in dev teams and businesses.
+  
+**Related registry entries:** `langgraph`, `autogen-04`, `model-context-protocol`
+
+---
+
+## 3. [Introducing OpenAI Privacy Filter](https://openai.com/index/introducing-openai-privacy-filter)
+
+**Source:** openai · ⏱ *12d ago*  
+`openai` `privacy` `pii-redaction` `open-weight`
+
+OpenAI launches Privacy Filter, an open-weight model achieving state-of-the-art accuracy in detecting and redacting personally identifiable information (PII) from text.
+
+> 💡 **Why it matters:** Critical for compliant AI apps handling user data. Builders gain a high-performance, self-hostable PII filter, reducing reliance on external services, enabling on-device privacy, and simplifying GDPR/CCPA adherence in RAG pipelines, chatbots, and data processing tools.
   
 **Related registry entries:** `constitutional-ai`
 
 ---
 
-## 3. [How to Get Started with Codex](https://openai.com/academy/codex-how-to-start)
-
-**Source:** openai · ⏱ *9d ago*  
-`openai` `codex` `workflow` `agents` `tutorial`
-
-OpenAI provides step-by-step guidance on Codex: set up projects, create threads, and complete initial tasks to integrate this new AI workflow tool into development pipelines.
-
-> 💡 **Why it matters:** Codex introduces structured project/thread-based AI task management, streamlining complex workflows for builders. Ideal for agentic apps, multi-step reasoning, and collaborative AI projects. Early adoption unlocks productivity gains in coding, automation, and prototyping with OpenAI's latest capabilities.
-  
-**Related registry entries:** `langgraph`
-
----
-
-## 4. [Gemini 3.1 Flash Live: Making Audio AI More Natural and Reliable](https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/)
-
-**Source:** deepmind · ⏱ *37d ago*  
-`deepmind` `gemini` `audio` `voice` `multimodal` `low-latency`
-
-DeepMind releases Gemini 3.1 Flash Live, a voice model with enhanced precision, reduced latency, and natural interactions for real-time audio applications.
-
-> 💡 **Why it matters:** Low-latency voice AI is key for voice agents, virtual assistants, and live transcription. Improvements enable seamless multimodal experiences, better edge deployment, and competitive edge in telephony/gaming. Builders can leverage for production-grade audio pipelines with Google's ecosystem.
-  
-**Related registry entries:** `gemini-2-5-pro`
-
----
-
-## 5. [Goldman Sachs Says the AI Software Sell-Off Was Overdone: Best Growth Stocks to Buy Now](https://news.google.com/rss/articles/CBMilwFBVV95cUxOa21jaXVPaDJELWFBWkFfYVVVa1J1UkgwRnFaVEp2UVVHQTNhMTNDcEF2Q2NmLXZfZkxsMXlyQ3dCM05KZm5Ia2YzZXJYNDZqdHd6RjhIaGxGTlFNR3NHM3NCYVpuY1lpLThsTXlsd0NxbkZIVnBMSE1RcGJIa3VEVGxfU2ZoRjlNanY0ZnlaVXdCZUQySFUw?oc=5)
+## 4. [SUNY Establishes Systemwide AI Policy](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNHNWaG43dHl3WEVXV0FJWjN0MlpRRWsxQzlsTW1IYUlMLUtXZzcyQU03VjZ0WUNvLWotRjZ1aFZTRUM1MldpNnM0ZlBMT1RnVEZ2eGNlVER1UzA3UEczaUhIdXdiZWJBaUxzaVRyMVQ2aUVHSDZ2RTF1RzIxZU5laTdlQ2RLbVNidTlTWnJqbEFMa2IzVTRKUHNvcy1fcnhXaXk0bjBvQS1NdG8?oc=5)
 
 **Source:** google-news-ai · ⏱ *0h ago*  
-`finance` `stocks` `ai-software` `market-analysis`
+`ai-policy` `education` `higher-ed` `ethics`
 
-Goldman Sachs deems the recent AI software sector sell-off excessive, highlighting top growth stocks poised for recovery amid sustained AI demand.
+State University of New York (SUNY), spanning 64 campuses, implements a unified AI policy addressing usage in teaching, research, and administration.
 
-> 💡 **Why it matters:** Analyst optimism counters market volatility, signaling resilience in AI software (e.g., tools for MLOps, inference). For builders, it means stable funding for platforms like LangChain/Hugging Face, easier hiring, and growth in devtools ecosystem as valuations stabilize.
+> 💡 **Why it matters:** Sets precedent for large-scale institutional AI governance. Builders can design compliant edtech tools, research platforms, and agentic tutors aligned with academic standards, opening opportunities in higher ed AI integration and ethical deployment frameworks.
 
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-05-03 07:06 UTC · [Archive](./)</sub>
+## 5. [Codex Settings: Configuration Guide](https://openai.com/academy/codex-settings)
+
+**Source:** openai · ⏱ *10d ago*  
+`openai` `codex` `code-generation` `configuration`
+
+OpenAI explains Codex configuration options for personalization, detail levels, permissions, and workflow optimization in code generation tasks.
+
+> 💡 **Why it matters:** Unlocks fine-tuned control over Codex for superior code outputs. Essential for builders crafting IDE plugins, code assistants, and automation scripts, improving accuracy, security, and customization in AI-driven development pipelines.
+  
+**Related registry entries:** `humaneval`, `cursor`
+
+---
+
+<sub>Generated by ai-pulse-agents · 2026-05-04 07:20 UTC · [Archive](./)</sub>
