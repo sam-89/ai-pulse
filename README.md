@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-05-03*
+## 📰 Today in AI · *2026-05-04*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [Alphabet Is Dropping $190 Billion on AI Infrastructure: 3 Semiconductor Stocks Set to Win Big](https://news.google.com/rss/articles/CBMimAFBVV95cUxNVzRhTXh1dXBvM1VqUXVEYmxEdmVSTk5Mc3JwY1RraU5hbmhlTGdfclVnS0pXOUJqLXExVWJBSFJEZm9fRlJkQldyY0psdkczZXRhcGZkY1pzTS1OTE5OTjNvUHJSOFVzTWJ2SGpmdFIzR3B5VmZCLS1NWEwyOVItWWpEV3hqZWhFRnBCWlRldlhzX1JzUk9oZg?oc=5) | google-news-ai |
-| 2 | [GPT-5.5 Bio Bug Bounty](https://openai.com/index/gpt-5-5-bio-bug-bounty) | openai |
-| 3 | [How to Get Started with Codex](https://openai.com/academy/codex-how-to-start) | openai |
-| 4 | [Gemini 3.1 Flash Live: Making Audio AI More Natural and Reliable](https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/) | deepmind |
-| 5 | [Goldman Sachs Says the AI Software Sell-Off Was Overdone: Best Growth Stocks to Buy Now](https://news.google.com/rss/articles/CBMilwFBVV95cUxOa21jaXVPaDJELWFBWkFfYVVVa1J1UkgwRnFaVEp2UVVHQTNhMTNDcEF2Q2NmLXZfZkxsMXlyQ3dCM05KZm5Ia2YzZXJYNDZqdHd6RjhIaGxGTlFNR3NHM3NCYVpuY1lpLThsTXlsd0NxbkZIVnBMSE1RcGJIa3VEVGxfU2ZoRjlNanY0ZnlaVXdCZUQySFUw?oc=5) | google-news-ai |
+| 1 | [SK Group Joins Corporate Korea's Move to Reorganize Work Around AI Agents](https://news.google.com/rss/articles/CBMif0FVX3lxTFA5RlFaakdnUUVZY0hHcUl5MDFpWTFGZjZxcnlsckhkTlViVTNlaHhfQ3N5SHdpZGQwOWYxdVpBQWFmTWdzdVBXT2c4R3MtbmlKOVhOZmdNekM5VlI2dWp5eUFkNklmNnoxbUdJX0FLUUpmMzdVeWVKVzkwV1N6Y1E?oc=5) | google-news-ai |
+| 2 | [Workspace Agents: Build, Use, and Scale in ChatGPT](https://openai.com/academy/workspace-agents) | openai |
+| 3 | [Introducing OpenAI Privacy Filter](https://openai.com/index/introducing-openai-privacy-filter) | openai |
+| 4 | [SUNY Establishes Systemwide AI Policy](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNHNWaG43dHl3WEVXV0FJWjN0MlpRRWsxQzlsTW1IYUlMLUtXZzcyQU03VjZ0WUNvLWotRjZ1aFZTRUM1MldpNnM0ZlBMT1RnVEZ2eGNlVER1UzA3UEczaUhIdXdiZWJBaUxzaVRyMVQ2aUVHSDZ2RTF1RzIxZU5laTdlQ2RLbVNidTlTWnJqbEFMa2IzVTRKUHNvcy1fcnhXaXk0bjBvQS1NdG8?oc=5) | google-news-ai |
+| 5 | [Codex Settings: Configuration Guide](https://openai.com/academy/codex-settings) | openai |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
