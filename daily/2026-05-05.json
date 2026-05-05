@@ -1,0 +1,160 @@
+{
+  "date": "2026-05-05",
+  "generated_at": "2026-05-05T07:03:17.768483+00:00",
+  "generator_version": "1.0.0",
+  "sources_polled": [
+    "openai",
+    "anthropic",
+    "deepmind",
+    "huggingface",
+    "google-news-ai",
+    "arxiv-cs-ai"
+  ],
+  "items": [
+    {
+      "rank": 1,
+      "id": "2026-05-05-001",
+      "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+      "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-05-04T21:00:00+00:00",
+      "summary": "OpenAI and PwC partner to deploy AI agents that automate enterprise finance workflows, boost forecasting accuracy, strengthen internal controls, and transform the CFO role with agentic AI.",
+      "why_it_matters": "This high-profile partnership accelerates agentic AI adoption in finance, a high-stakes domain requiring precision and compliance. AI builders gain validated patterns for production-grade agents handling complex workflows, new APIs or tools from OpenAI tailored for enterprises, and proof of ROI that will drive investment in similar systems across industries.",
+      "suggested_reel_angle": "OpenAI + PwC: AI agents automating CFO jobs? Finance workflows revolutionized!",
+      "suggested_long_angle": [
+        "Partnership overview and goals",
+        "AI agents in finance workflows",
+        "Impact on enterprise AI adoption"
+      ],
+      "tags": [
+        "agents",
+        "enterprise",
+        "finance",
+        "openai"
+      ],
+      "related_registry_entries": [
+        "autogen-04"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.8997,
+      "recency_hours": 10
+    },
+    {
+      "rank": 2,
+      "id": "2026-05-05-002",
+      "title": "AgentReputation: A Decentralized Agentic AI Reputation Framework",
+      "url": "https://arxiv.org/abs/2605.00073",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-05-05T04:00:00+00:00",
+      "summary": "Introduces AgentReputation, a decentralized framework for evaluating agentic AI in marketplaces, tackling issues like strategic optimization, collusion, and metric gaming in tasks such as debugging and auditing.",
+      "why_it_matters": "With agentic AI marketplaces proliferating for software engineering, robust decentralized reputation is key to trust and scalability. Builders get mechanisms to deploy reliable agent selection, prevent manipulation, and scale multi-agent systems without central authorities, foundational for open AI economies.",
+      "suggested_reel_angle": "Trust in AI agent marketplaces? New decentralized reputation framework solves it!",
+      "suggested_long_angle": [
+        "Challenges in agent reputation",
+        "Core AgentReputation mechanisms",
+        "Use cases in dev tasks"
+      ],
+      "tags": [
+        "agents",
+        "decentralized",
+        "reputation",
+        "marketplaces"
+      ],
+      "related_registry_entries": [
+        "swe-agent",
+        "autogpt"
+      ],
+      "authority_score": 0.8,
+      "virality_score": 0.8468,
+      "recency_hours": 3
+    },
+    {
+      "rank": 3,
+      "id": "2026-05-05-003",
+      "title": "TADI: Tool-Augmented Drilling Intelligence via Agentic LLM Orchestration over Heterogeneous Wellsite Data",
+      "url": "https://arxiv.org/abs/2605.00060",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-05-05T04:00:00+00:00",
+      "summary": "TADI is an agentic AI system orchestrating LLMs with tools over diverse drilling data (reports, WITSML, production), delivering evidence-based insights on the Equinor Volve Field dataset.",
+      "why_it_matters": "Shows agentic LLMs excelling with heterogeneous real-world data in energy ops. Builders learn scalable orchestration patterns for tool-augmented agents in industrial settings, advancing domain-specific AI for high-value sectors like oil and gas.",
+      "suggested_reel_angle": "AI agents drilling smarter? TADI masters messy wellsit data!",
+      "suggested_long_angle": [
+        "TADI system architecture",
+        "Data integration and tools",
+        "Results on Volve dataset"
+      ],
+      "tags": [
+        "agents",
+        "tools",
+        "energy",
+        "orchestration"
+      ],
+      "related_registry_entries": [
+        "langgraph",
+        "react-reasoning-acting"
+      ],
+      "authority_score": 0.8,
+      "virality_score": 0.8468,
+      "recency_hours": 3
+    },
+    {
+      "rank": 4,
+      "id": "2026-05-05-004",
+      "title": "Minimal, Local, Causal Explanations for Jailbreak Success in Large Language Models",
+      "url": "https://arxiv.org/abs/2605.00123",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-05-05T04:00:00+00:00",
+      "summary": "Presents causal analysis of jailbreak prompts in safety-trained LLMs, offering minimal local explanations to understand and mitigate vulnerabilities for safer autonomous models.",
+      "why_it_matters": "Jailbreaks threaten agentic and high-stakes AI deployment. This causal framework equips builders with interpretable insights into failure modes, enabling targeted hardening, better alignment techniques, and safer frontier models.",
+      "suggested_reel_angle": "Why do LLMs fall for jailbreaks? Causal explanations revealed!",
+      "suggested_long_angle": [
+        "Jailbreak mechanics unpacked",
+        "Causal explanation method",
+        "Mitigation strategies"
+      ],
+      "tags": [
+        "safety",
+        "jailbreak",
+        "alignment",
+        "llm"
+      ],
+      "related_registry_entries": [
+        "constitutional-ai"
+      ],
+      "authority_score": 0.8,
+      "virality_score": 0.8468,
+      "recency_hours": 3
+    },
+    {
+      "rank": 5,
+      "id": "2026-05-05-005",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-05-04T00:00:00+00:00",
+      "summary": "OpenAI rebuilt its WebRTC stack for real-time voice AI, achieving low latency, global scalability, and seamless turn-taking in conversational applications.",
+      "why_it_matters": "Real-time voice is pivotal for natural agent interactions. Builders access battle-tested infra for low-latency multimodal AI, enabling scalable voice agents in customer service, assistants, and beyond.",
+      "suggested_reel_angle": "OpenAI's secret to instant voice AI: Rebuilt WebRTC at massive scale!",
+      "suggested_long_angle": [
+        "WebRTC rebuild details",
+        "Latency and scale optimizations",
+        "Conversational AI implications"
+      ],
+      "tags": [
+        "voice",
+        "real-time",
+        "infrastructure",
+        "openai"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 1.0,
+      "virality_score": 0.7634,
+      "recency_hours": 31
+    }
+  ]
+}
