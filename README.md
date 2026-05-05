@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-05-04*
+## 📰 Today in AI · *2026-05-05*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [SK Group Joins Corporate Korea's Move to Reorganize Work Around AI Agents](https://news.google.com/rss/articles/CBMif0FVX3lxTFA5RlFaakdnUUVZY0hHcUl5MDFpWTFGZjZxcnlsckhkTlViVTNlaHhfQ3N5SHdpZGQwOWYxdVpBQWFmTWdzdVBXT2c4R3MtbmlKOVhOZmdNekM5VlI2dWp5eUFkNklmNnoxbUdJX0FLUUpmMzdVeWVKVzkwV1N6Y1E?oc=5) | google-news-ai |
-| 2 | [Workspace Agents: Build, Use, and Scale in ChatGPT](https://openai.com/academy/workspace-agents) | openai |
-| 3 | [Introducing OpenAI Privacy Filter](https://openai.com/index/introducing-openai-privacy-filter) | openai |
-| 4 | [SUNY Establishes Systemwide AI Policy](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNHNWaG43dHl3WEVXV0FJWjN0MlpRRWsxQzlsTW1IYUlMLUtXZzcyQU03VjZ0WUNvLWotRjZ1aFZTRUM1MldpNnM0ZlBMT1RnVEZ2eGNlVER1UzA3UEczaUhIdXdiZWJBaUxzaVRyMVQ2aUVHSDZ2RTF1RzIxZU5laTdlQ2RLbVNidTlTWnJqbEFMa2IzVTRKUHNvcy1fcnhXaXk0bjBvQS1NdG8?oc=5) | google-news-ai |
-| 5 | [Codex Settings: Configuration Guide](https://openai.com/academy/codex-settings) | openai |
+| 1 | [OpenAI and PwC collaborate to reimagine the office of the CFO](https://openai.com/index/openai-pwc-finance-collaboration) | openai |
+| 2 | [AgentReputation: A Decentralized Agentic AI Reputation Framework](https://arxiv.org/abs/2605.00073) | arxiv-cs-ai |
+| 3 | [TADI: Tool-Augmented Drilling Intelligence via Agentic LLM Orchestration over Heterogeneous Wellsite Data](https://arxiv.org/abs/2605.00060) | arxiv-cs-ai |
+| 4 | [Minimal, Local, Causal Explanations for Jailbreak Success in Large Language Models](https://arxiv.org/abs/2605.00123) | arxiv-cs-ai |
+| 5 | [How OpenAI delivers low-latency voice AI at scale](https://openai.com/index/delivering-low-latency-voice-ai-at-scale) | openai |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
