@@ -1,74 +1,74 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-05-04
+### Top 5 AI Stories · 2026-05-05
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-04 07:20 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-05 07:03 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [SK Group Joins Corporate Korea's Move to Reorganize Work Around AI Agents](https://news.google.com/rss/articles/CBMif0FVX3lxTFA5RlFaakdnUUVZY0hHcUl5MDFpWTFGZjZxcnlsckhkTlViVTNlaHhfQ3N5SHdpZGQwOWYxdVpBQWFmTWdzdVBXT2c4R3MtbmlKOVhOZmdNekM5VlI2dWp5eUFkNklmNnoxbUdJX0FLUUpmMzdVeWVKVzkwV1N6Y1E?oc=5)
+## 1. [OpenAI and PwC collaborate to reimagine the office of the CFO](https://openai.com/index/openai-pwc-finance-collaboration)
 
-**Source:** google-news-ai · ⏱ *0h ago*  
-`ai-agents` `enterprise-adoption` `workflow-reorganization`
+**Source:** openai · ⏱ *10h ago*  
+`agents` `enterprise` `finance` `openai`
 
-SK Group, a leading South Korean conglomerate, is restructuring its operations to integrate AI agents at the core of workflows, joining other major Korean firms in this shift toward agent-driven productivity.
+OpenAI and PwC partner to deploy AI agents that automate enterprise finance workflows, boost forecasting accuracy, strengthen internal controls, and transform the CFO role with agentic AI.
 
-> 💡 **Why it matters:** This signals a massive enterprise pivot to AI agents, validating builder efforts in multi-agent systems. Expect surging demand for reliable, scalable agent orchestration tools that handle complex tasks, integrate with enterprise software, and deliver ROI at chaebol scale. Builders should prioritize stateful agents, error recovery, and tool integrations to capture this market.
+> 💡 **Why it matters:** This high-profile partnership accelerates agentic AI adoption in finance, a high-stakes domain requiring precision and compliance. AI builders gain validated patterns for production-grade agents handling complex workflows, new APIs or tools from OpenAI tailored for enterprises, and proof of ROI that will drive investment in similar systems across industries.
   
-**Related registry entries:** `autogen-04`, `langgraph`
+**Related registry entries:** `autogen-04`
 
 ---
 
-## 2. [Workspace Agents: Build, Use, and Scale in ChatGPT](https://openai.com/academy/workspace-agents)
+## 2. [AgentReputation: A Decentralized Agentic AI Reputation Framework](https://arxiv.org/abs/2605.00073)
 
-**Source:** openai · ⏱ *11d ago*  
-`openai` `ai-agents` `chatgpt` `automation`
+**Source:** arxiv-cs-ai · ⏱ *3h ago*  
+`agents` `decentralized` `reputation` `marketplaces`
 
-OpenAI's guide on creating workspace agents in ChatGPT to automate repeatable workflows, connect external tools, and optimize team collaboration.
+Introduces AgentReputation, a decentralized framework for evaluating agentic AI in marketplaces, tackling issues like strategic optimization, collusion, and metric gaming in tasks such as debugging and auditing.
 
-> 💡 **Why it matters:** Empowers builders to deploy production-grade agents within ChatGPT ecosystem, bridging prototyping to scaling. Key for developing team-scale automations with tool-calling, state management, and multi-agent coordination, accelerating adoption in dev teams and businesses.
+> 💡 **Why it matters:** With agentic AI marketplaces proliferating for software engineering, robust decentralized reputation is key to trust and scalability. Builders get mechanisms to deploy reliable agent selection, prevent manipulation, and scale multi-agent systems without central authorities, foundational for open AI economies.
   
-**Related registry entries:** `langgraph`, `autogen-04`, `model-context-protocol`
+**Related registry entries:** `swe-agent`, `autogpt`
 
 ---
 
-## 3. [Introducing OpenAI Privacy Filter](https://openai.com/index/introducing-openai-privacy-filter)
+## 3. [TADI: Tool-Augmented Drilling Intelligence via Agentic LLM Orchestration over Heterogeneous Wellsite Data](https://arxiv.org/abs/2605.00060)
 
-**Source:** openai · ⏱ *12d ago*  
-`openai` `privacy` `pii-redaction` `open-weight`
+**Source:** arxiv-cs-ai · ⏱ *3h ago*  
+`agents` `tools` `energy` `orchestration`
 
-OpenAI launches Privacy Filter, an open-weight model achieving state-of-the-art accuracy in detecting and redacting personally identifiable information (PII) from text.
+TADI is an agentic AI system orchestrating LLMs with tools over diverse drilling data (reports, WITSML, production), delivering evidence-based insights on the Equinor Volve Field dataset.
 
-> 💡 **Why it matters:** Critical for compliant AI apps handling user data. Builders gain a high-performance, self-hostable PII filter, reducing reliance on external services, enabling on-device privacy, and simplifying GDPR/CCPA adherence in RAG pipelines, chatbots, and data processing tools.
+> 💡 **Why it matters:** Shows agentic LLMs excelling with heterogeneous real-world data in energy ops. Builders learn scalable orchestration patterns for tool-augmented agents in industrial settings, advancing domain-specific AI for high-value sectors like oil and gas.
+  
+**Related registry entries:** `langgraph`, `react-reasoning-acting`
+
+---
+
+## 4. [Minimal, Local, Causal Explanations for Jailbreak Success in Large Language Models](https://arxiv.org/abs/2605.00123)
+
+**Source:** arxiv-cs-ai · ⏱ *3h ago*  
+`safety` `jailbreak` `alignment` `llm`
+
+Presents causal analysis of jailbreak prompts in safety-trained LLMs, offering minimal local explanations to understand and mitigate vulnerabilities for safer autonomous models.
+
+> 💡 **Why it matters:** Jailbreaks threaten agentic and high-stakes AI deployment. This causal framework equips builders with interpretable insights into failure modes, enabling targeted hardening, better alignment techniques, and safer frontier models.
   
 **Related registry entries:** `constitutional-ai`
 
 ---
 
-## 4. [SUNY Establishes Systemwide AI Policy](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNHNWaG43dHl3WEVXV0FJWjN0MlpRRWsxQzlsTW1IYUlMLUtXZzcyQU03VjZ0WUNvLWotRjZ1aFZTRUM1MldpNnM0ZlBMT1RnVEZ2eGNlVER1UzA3UEczaUhIdXdiZWJBaUxzaVRyMVQ2aUVHSDZ2RTF1RzIxZU5laTdlQ2RLbVNidTlTWnJqbEFMa2IzVTRKUHNvcy1fcnhXaXk0bjBvQS1NdG8?oc=5)
+## 5. [How OpenAI delivers low-latency voice AI at scale](https://openai.com/index/delivering-low-latency-voice-ai-at-scale)
 
-**Source:** google-news-ai · ⏱ *0h ago*  
-`ai-policy` `education` `higher-ed` `ethics`
+**Source:** openai · ⏱ *31h ago*  
+`voice` `real-time` `infrastructure` `openai`
 
-State University of New York (SUNY), spanning 64 campuses, implements a unified AI policy addressing usage in teaching, research, and administration.
+OpenAI rebuilt its WebRTC stack for real-time voice AI, achieving low latency, global scalability, and seamless turn-taking in conversational applications.
 
-> 💡 **Why it matters:** Sets precedent for large-scale institutional AI governance. Builders can design compliant edtech tools, research platforms, and agentic tutors aligned with academic standards, opening opportunities in higher ed AI integration and ethical deployment frameworks.
+> 💡 **Why it matters:** Real-time voice is pivotal for natural agent interactions. Builders access battle-tested infra for low-latency multimodal AI, enabling scalable voice agents in customer service, assistants, and beyond.
 
-
----
-
-## 5. [Codex Settings: Configuration Guide](https://openai.com/academy/codex-settings)
-
-**Source:** openai · ⏱ *10d ago*  
-`openai` `codex` `code-generation` `configuration`
-
-OpenAI explains Codex configuration options for personalization, detail levels, permissions, and workflow optimization in code generation tasks.
-
-> 💡 **Why it matters:** Unlocks fine-tuned control over Codex for superior code outputs. Essential for builders crafting IDE plugins, code assistants, and automation scripts, improving accuracy, security, and customization in AI-driven development pipelines.
-  
-**Related registry entries:** `humaneval`, `cursor`
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-05-04 07:20 UTC · [Archive](./)</sub>
+<sub>Generated by ai-pulse-agents · 2026-05-05 07:03 UTC · [Archive](./)</sub>
