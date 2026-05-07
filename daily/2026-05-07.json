@@ -1,0 +1,160 @@
+{
+  "date": "2026-05-07",
+  "generated_at": "2026-05-07T07:17:29.694000+00:00",
+  "generator_version": "1.0.0",
+  "sources_polled": [
+    "openai",
+    "anthropic",
+    "deepmind",
+    "huggingface",
+    "google-news-ai",
+    "arxiv-cs-ai"
+  ],
+  "items": [
+    {
+      "rank": 1,
+      "id": "2026-05-07-001",
+      "title": "Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense",
+      "url": "https://arxiv.org/abs/2605.03034",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-05-07T04:00:00+00:00",
+      "summary": "Presents a tool-mediated LLM architecture for security operations centers to autonomously configure endpoint detection policies under adversarial attacks, delivering formal guarantees absent in prior agentic systems.",
+      "why_it_matters": "Agentic LLMs in high-stakes domains like cybersecurity demand reliability. This work provides verifiable guarantees for decision-making under pressure, enabling builders to deploy autonomous agents in adversarial environments such as finance or infrastructure. It bridges reasoning with tool use for stable control, setting a standard for safe agentic AI.",
+      "suggested_reel_angle": "Autonomous AI defending against hackers with math proofs? Game-changing cyber paper just dropped!",
+      "suggested_long_angle": [
+        "Core architecture and tool mediation",
+        "Formal guarantees under attack",
+        "Applications beyond SOCs"
+      ],
+      "tags": [
+        "agents",
+        "security",
+        "tool-use",
+        "llm-architecture"
+      ],
+      "related_registry_entries": [
+        "react-reasoning-acting",
+        "langgraph"
+      ],
+      "authority_score": 0.8,
+      "virality_score": 0.8468,
+      "recency_hours": 3
+    },
+    {
+      "rank": 2,
+      "id": "2026-05-07-002",
+      "title": "CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing",
+      "url": "https://arxiv.org/abs/2605.02910",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-05-07T04:00:00+00:00",
+      "summary": "Introduces CreativityBench to test LLMs on creative problem-solving by repurposing tools through affordance and attribute reasoning, addressing gaps in current agent evaluations.",
+      "why_it_matters": "Standard benchmarks overlook creativity vital for real-world agents. This enables builders to measure and enhance adaptive tool use, advancing generalist agents that innovate in novel scenarios like robotics or design automation.",
+      "suggested_reel_angle": "Can AI get creative with tools? CreativityBench exposes LLM limits!",
+      "suggested_long_angle": [
+        "Affordance reasoning explained",
+        "Benchmark design and tasks",
+        "Insights for agent improvement"
+      ],
+      "tags": [
+        "benchmark",
+        "agents",
+        "creativity",
+        "tool-use"
+      ],
+      "related_registry_entries": [
+        "toolformer",
+        "react-reasoning-acting"
+      ],
+      "authority_score": 0.8,
+      "virality_score": 0.8468,
+      "recency_hours": 3
+    },
+    {
+      "rank": 3,
+      "id": "2026-05-07-003",
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "source": "huggingface",
+      "source_type": "official_blog",
+      "published_at": "2026-05-06T19:06:55+00:00",
+      "summary": "Outlines upgrades from vLLM V0 to V1, prioritizing correctness in reinforcement learning pipelines before corrections to boost reliability in LLM serving and training.",
+      "why_it_matters": "vLLM powers high-throughput LLM inference. V1s RL focus enhances stability for RLHF and fine-tuning workflows, letting builders scale production-grade deployments with fewer errors and higher efficiency.",
+      "suggested_reel_angle": "vLLM V1 revolutionizes RL: Correctness first for blazing-fast AI serving!",
+      "suggested_long_angle": [
+        "V0 to V1 key upgrades",
+        "RL correctness techniques",
+        "Benchmarks and deployment wins"
+      ],
+      "tags": [
+        "inference",
+        "serving",
+        "vllm",
+        "rlhf"
+      ],
+      "related_registry_entries": [
+        "vllm"
+      ],
+      "authority_score": 0.9,
+      "virality_score": 0.8228,
+      "recency_hours": 12
+    },
+    {
+      "rank": 4,
+      "id": "2026-05-07-004",
+      "title": "Uber uses OpenAI to help people earn smarter and book faster",
+      "url": "https://openai.com/index/uber",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-05-06T00:00:00+00:00",
+      "summary": "Uber leverages OpenAI models for AI assistants and voice features, optimizing driver earnings and rider bookings in a real-time global marketplace.",
+      "why_it_matters": "Demonstrates LLM integration at massive scale in dynamic operations. Builders gain blueprints for agentic features in marketplaces, handling real-time decisions across millions of users.",
+      "suggested_reel_angle": "Uber + OpenAI: Smarter earnings, faster rides - AI in action at scale!",
+      "suggested_long_angle": [
+        "AI assistants breakdown",
+        "Driver and rider benefits",
+        "Scaling real-time AI"
+      ],
+      "tags": [
+        "production",
+        "agents",
+        "openai",
+        "real-time"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 1.0,
+      "virality_score": 0.7634,
+      "recency_hours": 31
+    },
+    {
+      "rank": 5,
+      "id": "2026-05-07-005",
+      "title": "Introducing ChatGPT Futures: Class of 2026",
+      "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-05-06T00:00:00+00:00",
+      "summary": "OpenAI selects 26 student innovators using ChatGPT to build projects, conduct research, and create real-world impact, reshaping AI education and creativity.",
+      "why_it_matters": "Fosters the next wave of AI talent with hands-on resources. Builders and educators can draw inspiration, collaborate, and integrate similar programs to accelerate skill-building in agentic and creative AI.",
+      "suggested_reel_angle": "ChatGPTs elite students: Class of 2026 building tomorrows AI!",
+      "suggested_long_angle": [
+        "Meet the 26 innovators",
+        "Standout projects",
+        "Joining the initiative"
+      ],
+      "tags": [
+        "education",
+        "openai",
+        "community",
+        "agents"
+      ],
+      "related_registry_entries": [
+        "deeplearning-ai-short-courses"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.7634,
+      "recency_hours": 31
+    }
+  ]
+}
