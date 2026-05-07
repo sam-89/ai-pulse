@@ -1,74 +1,74 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-05-05
+### Top 5 AI Stories · 2026-05-07
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-05 07:03 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-07 07:17 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [OpenAI and PwC collaborate to reimagine the office of the CFO](https://openai.com/index/openai-pwc-finance-collaboration)
-
-**Source:** openai · ⏱ *10h ago*  
-`agents` `enterprise` `finance` `openai`
-
-OpenAI and PwC partner to deploy AI agents that automate enterprise finance workflows, boost forecasting accuracy, strengthen internal controls, and transform the CFO role with agentic AI.
-
-> 💡 **Why it matters:** This high-profile partnership accelerates agentic AI adoption in finance, a high-stakes domain requiring precision and compliance. AI builders gain validated patterns for production-grade agents handling complex workflows, new APIs or tools from OpenAI tailored for enterprises, and proof of ROI that will drive investment in similar systems across industries.
-  
-**Related registry entries:** `autogen-04`
-
----
-
-## 2. [AgentReputation: A Decentralized Agentic AI Reputation Framework](https://arxiv.org/abs/2605.00073)
+## 1. [Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense](https://arxiv.org/abs/2605.03034)
 
 **Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`agents` `decentralized` `reputation` `marketplaces`
+`agents` `security` `tool-use` `llm-architecture`
 
-Introduces AgentReputation, a decentralized framework for evaluating agentic AI in marketplaces, tackling issues like strategic optimization, collusion, and metric gaming in tasks such as debugging and auditing.
+Presents a tool-mediated LLM architecture for security operations centers to autonomously configure endpoint detection policies under adversarial attacks, delivering formal guarantees absent in prior agentic systems.
 
-> 💡 **Why it matters:** With agentic AI marketplaces proliferating for software engineering, robust decentralized reputation is key to trust and scalability. Builders get mechanisms to deploy reliable agent selection, prevent manipulation, and scale multi-agent systems without central authorities, foundational for open AI economies.
+> 💡 **Why it matters:** Agentic LLMs in high-stakes domains like cybersecurity demand reliability. This work provides verifiable guarantees for decision-making under pressure, enabling builders to deploy autonomous agents in adversarial environments such as finance or infrastructure. It bridges reasoning with tool use for stable control, setting a standard for safe agentic AI.
   
-**Related registry entries:** `swe-agent`, `autogpt`
+**Related registry entries:** `react-reasoning-acting`, `langgraph`
 
 ---
 
-## 3. [TADI: Tool-Augmented Drilling Intelligence via Agentic LLM Orchestration over Heterogeneous Wellsite Data](https://arxiv.org/abs/2605.00060)
+## 2. [CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing](https://arxiv.org/abs/2605.02910)
 
 **Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`agents` `tools` `energy` `orchestration`
+`benchmark` `agents` `creativity` `tool-use`
 
-TADI is an agentic AI system orchestrating LLMs with tools over diverse drilling data (reports, WITSML, production), delivering evidence-based insights on the Equinor Volve Field dataset.
+Introduces CreativityBench to test LLMs on creative problem-solving by repurposing tools through affordance and attribute reasoning, addressing gaps in current agent evaluations.
 
-> 💡 **Why it matters:** Shows agentic LLMs excelling with heterogeneous real-world data in energy ops. Builders learn scalable orchestration patterns for tool-augmented agents in industrial settings, advancing domain-specific AI for high-value sectors like oil and gas.
+> 💡 **Why it matters:** Standard benchmarks overlook creativity vital for real-world agents. This enables builders to measure and enhance adaptive tool use, advancing generalist agents that innovate in novel scenarios like robotics or design automation.
   
-**Related registry entries:** `langgraph`, `react-reasoning-acting`
+**Related registry entries:** `toolformer`, `react-reasoning-acting`
 
 ---
 
-## 4. [Minimal, Local, Causal Explanations for Jailbreak Success in Large Language Models](https://arxiv.org/abs/2605.00123)
+## 3. [vLLM V0 to V1: Correctness Before Corrections in RL](https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections)
 
-**Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`safety` `jailbreak` `alignment` `llm`
+**Source:** huggingface · ⏱ *12h ago*  
+`inference` `serving` `vllm` `rlhf`
 
-Presents causal analysis of jailbreak prompts in safety-trained LLMs, offering minimal local explanations to understand and mitigate vulnerabilities for safer autonomous models.
+Outlines upgrades from vLLM V0 to V1, prioritizing correctness in reinforcement learning pipelines before corrections to boost reliability in LLM serving and training.
 
-> 💡 **Why it matters:** Jailbreaks threaten agentic and high-stakes AI deployment. This causal framework equips builders with interpretable insights into failure modes, enabling targeted hardening, better alignment techniques, and safer frontier models.
+> 💡 **Why it matters:** vLLM powers high-throughput LLM inference. V1s RL focus enhances stability for RLHF and fine-tuning workflows, letting builders scale production-grade deployments with fewer errors and higher efficiency.
   
-**Related registry entries:** `constitutional-ai`
+**Related registry entries:** `vllm`
 
 ---
 
-## 5. [How OpenAI delivers low-latency voice AI at scale](https://openai.com/index/delivering-low-latency-voice-ai-at-scale)
+## 4. [Uber uses OpenAI to help people earn smarter and book faster](https://openai.com/index/uber)
 
 **Source:** openai · ⏱ *31h ago*  
-`voice` `real-time` `infrastructure` `openai`
+`production` `agents` `openai` `real-time`
 
-OpenAI rebuilt its WebRTC stack for real-time voice AI, achieving low latency, global scalability, and seamless turn-taking in conversational applications.
+Uber leverages OpenAI models for AI assistants and voice features, optimizing driver earnings and rider bookings in a real-time global marketplace.
 
-> 💡 **Why it matters:** Real-time voice is pivotal for natural agent interactions. Builders access battle-tested infra for low-latency multimodal AI, enabling scalable voice agents in customer service, assistants, and beyond.
+> 💡 **Why it matters:** Demonstrates LLM integration at massive scale in dynamic operations. Builders gain blueprints for agentic features in marketplaces, handling real-time decisions across millions of users.
 
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-05-05 07:03 UTC · [Archive](./)</sub>
+## 5. [Introducing ChatGPT Futures: Class of 2026](https://openai.com/index/introducing-chatgpt-futures-class-of-2026)
+
+**Source:** openai · ⏱ *31h ago*  
+`education` `openai` `community` `agents`
+
+OpenAI selects 26 student innovators using ChatGPT to build projects, conduct research, and create real-world impact, reshaping AI education and creativity.
+
+> 💡 **Why it matters:** Fosters the next wave of AI talent with hands-on resources. Builders and educators can draw inspiration, collaborate, and integrate similar programs to accelerate skill-building in agentic and creative AI.
+  
+**Related registry entries:** `deeplearning-ai-short-courses`
+
+---
+
+<sub>Generated by ai-pulse-agents · 2026-05-07 07:17 UTC · [Archive](./)</sub>
