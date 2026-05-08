@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-07",
-  "generated_at": "2026-05-07T07:17:29.694000+00:00",
+  "date": "2026-05-08",
+  "generated_at": "2026-05-08T06:53:04.514367+00:00",
   "generator_version": "1.0.0",
   "sources_polled": [
     "openai",
@@ -13,148 +13,151 @@
   "items": [
     {
       "rank": 1,
-      "id": "2026-05-07-001",
-      "title": "Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense",
-      "url": "https://arxiv.org/abs/2605.03034",
-      "source": "arxiv-cs-ai",
-      "source_type": "research",
-      "published_at": "2026-05-07T04:00:00+00:00",
-      "summary": "Presents a tool-mediated LLM architecture for security operations centers to autonomously configure endpoint detection policies under adversarial attacks, delivering formal guarantees absent in prior agentic systems.",
-      "why_it_matters": "Agentic LLMs in high-stakes domains like cybersecurity demand reliability. This work provides verifiable guarantees for decision-making under pressure, enabling builders to deploy autonomous agents in adversarial environments such as finance or infrastructure. It bridges reasoning with tool use for stable control, setting a standard for safe agentic AI.",
-      "suggested_reel_angle": "Autonomous AI defending against hackers with math proofs? Game-changing cyber paper just dropped!",
-      "suggested_long_angle": [
-        "Core architecture and tool mediation",
-        "Formal guarantees under attack",
-        "Applications beyond SOCs"
-      ],
-      "tags": [
-        "agents",
-        "security",
-        "tool-use",
-        "llm-architecture"
-      ],
-      "related_registry_entries": [
-        "react-reasoning-acting",
-        "langgraph"
-      ],
-      "authority_score": 0.8,
-      "virality_score": 0.8468,
-      "recency_hours": 3
-    },
-    {
-      "rank": 2,
-      "id": "2026-05-07-002",
-      "title": "CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing",
-      "url": "https://arxiv.org/abs/2605.02910",
-      "source": "arxiv-cs-ai",
-      "source_type": "research",
-      "published_at": "2026-05-07T04:00:00+00:00",
-      "summary": "Introduces CreativityBench to test LLMs on creative problem-solving by repurposing tools through affordance and attribute reasoning, addressing gaps in current agent evaluations.",
-      "why_it_matters": "Standard benchmarks overlook creativity vital for real-world agents. This enables builders to measure and enhance adaptive tool use, advancing generalist agents that innovate in novel scenarios like robotics or design automation.",
-      "suggested_reel_angle": "Can AI get creative with tools? CreativityBench exposes LLM limits!",
-      "suggested_long_angle": [
-        "Affordance reasoning explained",
-        "Benchmark design and tasks",
-        "Insights for agent improvement"
-      ],
-      "tags": [
-        "benchmark",
-        "agents",
-        "creativity",
-        "tool-use"
-      ],
-      "related_registry_entries": [
-        "toolformer",
-        "react-reasoning-acting"
-      ],
-      "authority_score": 0.8,
-      "virality_score": 0.8468,
-      "recency_hours": 3
-    },
-    {
-      "rank": 3,
-      "id": "2026-05-07-003",
-      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
-      "source": "huggingface",
-      "source_type": "official_blog",
-      "published_at": "2026-05-06T19:06:55+00:00",
-      "summary": "Outlines upgrades from vLLM V0 to V1, prioritizing correctness in reinforcement learning pipelines before corrections to boost reliability in LLM serving and training.",
-      "why_it_matters": "vLLM powers high-throughput LLM inference. V1s RL focus enhances stability for RLHF and fine-tuning workflows, letting builders scale production-grade deployments with fewer errors and higher efficiency.",
-      "suggested_reel_angle": "vLLM V1 revolutionizes RL: Correctness first for blazing-fast AI serving!",
-      "suggested_long_angle": [
-        "V0 to V1 key upgrades",
-        "RL correctness techniques",
-        "Benchmarks and deployment wins"
-      ],
-      "tags": [
-        "inference",
-        "serving",
-        "vllm",
-        "rlhf"
-      ],
-      "related_registry_entries": [
-        "vllm"
-      ],
-      "authority_score": 0.9,
-      "virality_score": 0.8228,
-      "recency_hours": 12
-    },
-    {
-      "rank": 4,
-      "id": "2026-05-07-004",
-      "title": "Uber uses OpenAI to help people earn smarter and book faster",
-      "url": "https://openai.com/index/uber",
+      "id": "2026-05-08-001",
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
       "source": "openai",
       "source_type": "official_blog",
-      "published_at": "2026-05-06T00:00:00+00:00",
-      "summary": "Uber leverages OpenAI models for AI assistants and voice features, optimizing driver earnings and rider bookings in a real-time global marketplace.",
-      "why_it_matters": "Demonstrates LLM integration at massive scale in dynamic operations. Builders gain blueprints for agentic features in marketplaces, handling real-time decisions across millions of users.",
-      "suggested_reel_angle": "Uber + OpenAI: Smarter earnings, faster rides - AI in action at scale!",
+      "published_at": "2026-05-07T13:00:00+00:00",
+      "summary": "OpenAI launches GPT-5.5 and specialized GPT-5.5-Cyber models integrated with Trusted Access for Cyber. These tools empower verified cybersecurity defenders to accelerate vulnerability research, threat detection, and protection of critical infrastructure using frontier AI capabilities securely.",
+      "why_it_matters": "This marks a pivotal advancement in AI-assisted cybersecurity, providing practitioners with access to GPT-5.5's enhanced reasoning for real-world defense tasks. Builders can now develop secure agentic systems for vuln scanning and incident response, with trusted access mitigating risks like unauthorized data exposure. It sets a standard for enterprise-grade AI in high-stakes domains, potentially reducing response times and bolstering global infrastructure resilience.",
+      "suggested_reel_angle": "OpenAI unleashes GPT-5.5-Cyber: Frontier AI joins the fight against cyber threats!",
       "suggested_long_angle": [
-        "AI assistants breakdown",
-        "Driver and rider benefits",
-        "Scaling real-time AI"
+        "Breakdown of GPT-5.5-Cyber capabilities",
+        "Trusted Access integration for secure workflows",
+        "Real-world impact on vulnerability research"
       ],
       "tags": [
-        "production",
-        "agents",
         "openai",
-        "real-time"
+        "gpt-5.5",
+        "cybersecurity",
+        "model-release",
+        "agents"
       ],
       "related_registry_entries": [],
       "authority_score": 1.0,
-      "virality_score": 0.7634,
-      "recency_hours": 31
+      "virality_score": 0.8448,
+      "recency_hours": 17
+    },
+    {
+      "rank": 2,
+      "id": "2026-05-08-002",
+      "title": "ZAYA1-8B Technical Report: New Reasoning-Focused MoE Model",
+      "url": "https://arxiv.org/abs/2605.05365",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-05-08T04:00:00+00:00",
+      "summary": "Zyphra introduces ZAYA1-8B, a 700M active parameter MoE model using MoE++ architecture. Trained entirely on AMD compute stack, it excels in reasoning tasks with under 1B total parameters, offering efficient inference for developers building high-performance AI applications.",
+      "why_it_matters": "Efficient MoE models like ZAYA1-8B democratize advanced reasoning for resource-constrained environments. AI builders gain a new open-ish alternative to dense models, leveraging AMD's full-stack for scalable training. This advances MoE++ techniques, enabling cost-effective deployment in agents, tools, and edge applications, pushing boundaries on parameter efficiency.",
+      "suggested_reel_angle": "Meet ZAYA1-8B: 700M params crushing reasoning benchmarks on AMD hardware!",
+      "suggested_long_angle": [
+        "MoE++ architecture deep dive",
+        "AMD training stack advantages",
+        "Performance benchmarks and use cases"
+      ],
+      "tags": [
+        "moe",
+        "reasoning",
+        "model-release",
+        "efficient-inference",
+        "zyphra"
+      ],
+      "related_registry_entries": [
+        "deepseek-r2"
+      ],
+      "authority_score": 0.8,
+      "virality_score": 0.8575,
+      "recency_hours": 2
+    },
+    {
+      "rank": 3,
+      "id": "2026-05-08-003",
+      "title": "Advancing Voice Intelligence with New Realtime Models in OpenAI API",
+      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-05-07T10:00:00+00:00",
+      "summary": "OpenAI releases new realtime voice models via API, supporting reasoning, translation, and transcription. These enable developers to build natural, low-latency voice interfaces for applications like assistants, transcription services, and multilingual interactions.",
+      "why_it_matters": "Realtime voice AI unlocks multimodal applications with reasoning over speech, critical for practitioners building conversational agents and voice-first UIs. Integration into APIs lowers barriers for scalable deployment, enhancing accessibility and enabling innovations in telephony, IoT, and customer service with improved latency and intelligence.",
+      "suggested_reel_angle": "OpenAI's new voice models: AI that reasons, translates, and transcribes in realtime!",
+      "suggested_long_angle": [
+        "New voice model features",
+        "API integration guide",
+        "Building voice agents demo"
+      ],
+      "tags": [
+        "openai",
+        "voice",
+        "multimodal",
+        "api",
+        "realtime"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 1.0,
+      "virality_score": 0.8245,
+      "recency_hours": 20
+    },
+    {
+      "rank": 4,
+      "id": "2026-05-08-004",
+      "title": "Parloa Builds Scalable Voice-Driven AI Service Agents with OpenAI",
+      "url": "https://openai.com/index/parloa",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-05-07T11:00:00+00:00",
+      "summary": "Parloa harnesses OpenAI models to create reliable, voice-powered customer service agents. Enterprises can design, simulate, and deploy real-time interactions at scale, improving service efficiency and customer satisfaction.",
+      "why_it_matters": "This showcases production-ready voice agents for enterprise contact centers, guiding builders on integrating LLMs for scalable, human-like conversations. It highlights simulation techniques for reliability, reducing deployment risks and costs, and sets patterns for voice commerce and support automation.",
+      "suggested_reel_angle": "Parloa + OpenAI: Voice agents customers actually love talking to!",
+      "suggested_long_angle": [
+        "Parloa platform overview",
+        "OpenAI model integration",
+        "Enterprise deployment success stories"
+      ],
+      "tags": [
+        "openai",
+        "voice-agents",
+        "enterprise",
+        "customer-service",
+        "simulation"
+      ],
+      "related_registry_entries": [
+        "langgraph",
+        "autogen-04"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.8311,
+      "recency_hours": 19
     },
     {
       "rank": 5,
-      "id": "2026-05-07-005",
-      "title": "Introducing ChatGPT Futures: Class of 2026",
-      "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
-      "source": "openai",
+      "id": "2026-05-08-005",
+      "title": "AlphaEvolve: Gemini-Powered Coding Agent Scaling Impact Across Fields",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "source": "deepmind",
       "source_type": "official_blog",
-      "published_at": "2026-05-06T00:00:00+00:00",
-      "summary": "OpenAI selects 26 student innovators using ChatGPT to build projects, conduct research, and create real-world impact, reshaping AI education and creativity.",
-      "why_it_matters": "Fosters the next wave of AI talent with hands-on resources. Builders and educators can draw inspiration, collaborate, and integrate similar programs to accelerate skill-building in agentic and creative AI.",
-      "suggested_reel_angle": "ChatGPTs elite students: Class of 2026 building tomorrows AI!",
+      "published_at": "2026-05-06T10:43:49+00:00",
+      "summary": "DeepMind's AlphaEvolve uses Gemini to generate algorithms, driving breakthroughs in business, infrastructure, and science. This agentic system automates complex problem-solving, expanding AI's role in diverse domains.",
+      "why_it_matters": "AlphaEvolve demonstrates scalable coding agents for algorithm discovery, empowering builders to automate optimization in non-AI fields. Leveraging Gemini's multimodal strengths, it inspires hybrid agent workflows, accelerating R&D and providing blueprints for custom solvers in engineering and research.",
+      "suggested_reel_angle": "DeepMind's AlphaEvolve: Gemini evolves algorithms for science and business!",
       "suggested_long_angle": [
-        "Meet the 26 innovators",
-        "Standout projects",
-        "Joining the initiative"
+        "How AlphaEvolve works with Gemini",
+        "Applications across industries",
+        "Future of agentic coding"
       ],
       "tags": [
-        "education",
-        "openai",
-        "community",
-        "agents"
+        "deepmind",
+        "gemini",
+        "coding-agent",
+        "algorithms",
+        "multi-domain"
       ],
       "related_registry_entries": [
-        "deeplearning-ai-short-courses"
+        "swe-agent",
+        "gpt-engineer"
       ],
       "authority_score": 1.0,
-      "virality_score": 0.7634,
-      "recency_hours": 31
+      "virality_score": 0.7122,
+      "recency_hours": 44
     }
   ]
 }
