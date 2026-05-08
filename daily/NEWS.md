@@ -1,74 +1,73 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-05-07
+### Top 5 AI Stories · 2026-05-08
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-07 07:17 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-08 06:53 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense](https://arxiv.org/abs/2605.03034)
+## 1. [Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber](https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber)
 
-**Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`agents` `security` `tool-use` `llm-architecture`
+**Source:** openai · ⏱ *17h ago*  
+`openai` `gpt-5.5` `cybersecurity` `model-release` `agents`
 
-Presents a tool-mediated LLM architecture for security operations centers to autonomously configure endpoint detection policies under adversarial attacks, delivering formal guarantees absent in prior agentic systems.
+OpenAI launches GPT-5.5 and specialized GPT-5.5-Cyber models integrated with Trusted Access for Cyber. These tools empower verified cybersecurity defenders to accelerate vulnerability research, threat detection, and protection of critical infrastructure using frontier AI capabilities securely.
 
-> 💡 **Why it matters:** Agentic LLMs in high-stakes domains like cybersecurity demand reliability. This work provides verifiable guarantees for decision-making under pressure, enabling builders to deploy autonomous agents in adversarial environments such as finance or infrastructure. It bridges reasoning with tool use for stable control, setting a standard for safe agentic AI.
+> 💡 **Why it matters:** This marks a pivotal advancement in AI-assisted cybersecurity, providing practitioners with access to GPT-5.5's enhanced reasoning for real-world defense tasks. Builders can now develop secure agentic systems for vuln scanning and incident response, with trusted access mitigating risks like unauthorized data exposure. It sets a standard for enterprise-grade AI in high-stakes domains, potentially reducing response times and bolstering global infrastructure resilience.
+
+
+---
+
+## 2. [ZAYA1-8B Technical Report: New Reasoning-Focused MoE Model](https://arxiv.org/abs/2605.05365)
+
+**Source:** arxiv-cs-ai · ⏱ *2h ago*  
+`moe` `reasoning` `model-release` `efficient-inference` `zyphra`
+
+Zyphra introduces ZAYA1-8B, a 700M active parameter MoE model using MoE++ architecture. Trained entirely on AMD compute stack, it excels in reasoning tasks with under 1B total parameters, offering efficient inference for developers building high-performance AI applications.
+
+> 💡 **Why it matters:** Efficient MoE models like ZAYA1-8B democratize advanced reasoning for resource-constrained environments. AI builders gain a new open-ish alternative to dense models, leveraging AMD's full-stack for scalable training. This advances MoE++ techniques, enabling cost-effective deployment in agents, tools, and edge applications, pushing boundaries on parameter efficiency.
   
-**Related registry entries:** `react-reasoning-acting`, `langgraph`
+**Related registry entries:** `deepseek-r2`
 
 ---
 
-## 2. [CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing](https://arxiv.org/abs/2605.02910)
+## 3. [Advancing Voice Intelligence with New Realtime Models in OpenAI API](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api)
 
-**Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`benchmark` `agents` `creativity` `tool-use`
+**Source:** openai · ⏱ *20h ago*  
+`openai` `voice` `multimodal` `api` `realtime`
 
-Introduces CreativityBench to test LLMs on creative problem-solving by repurposing tools through affordance and attribute reasoning, addressing gaps in current agent evaluations.
+OpenAI releases new realtime voice models via API, supporting reasoning, translation, and transcription. These enable developers to build natural, low-latency voice interfaces for applications like assistants, transcription services, and multilingual interactions.
 
-> 💡 **Why it matters:** Standard benchmarks overlook creativity vital for real-world agents. This enables builders to measure and enhance adaptive tool use, advancing generalist agents that innovate in novel scenarios like robotics or design automation.
+> 💡 **Why it matters:** Realtime voice AI unlocks multimodal applications with reasoning over speech, critical for practitioners building conversational agents and voice-first UIs. Integration into APIs lowers barriers for scalable deployment, enhancing accessibility and enabling innovations in telephony, IoT, and customer service with improved latency and intelligence.
+
+
+---
+
+## 4. [Parloa Builds Scalable Voice-Driven AI Service Agents with OpenAI](https://openai.com/index/parloa)
+
+**Source:** openai · ⏱ *19h ago*  
+`openai` `voice-agents` `enterprise` `customer-service` `simulation`
+
+Parloa harnesses OpenAI models to create reliable, voice-powered customer service agents. Enterprises can design, simulate, and deploy real-time interactions at scale, improving service efficiency and customer satisfaction.
+
+> 💡 **Why it matters:** This showcases production-ready voice agents for enterprise contact centers, guiding builders on integrating LLMs for scalable, human-like conversations. It highlights simulation techniques for reliability, reducing deployment risks and costs, and sets patterns for voice commerce and support automation.
   
-**Related registry entries:** `toolformer`, `react-reasoning-acting`
+**Related registry entries:** `langgraph`, `autogen-04`
 
 ---
 
-## 3. [vLLM V0 to V1: Correctness Before Corrections in RL](https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections)
+## 5. [AlphaEvolve: Gemini-Powered Coding Agent Scaling Impact Across Fields](https://deepmind.google/blog/alphaevolve-impact/)
 
-**Source:** huggingface · ⏱ *12h ago*  
-`inference` `serving` `vllm` `rlhf`
+**Source:** deepmind · ⏱ *44h ago*  
+`deepmind` `gemini` `coding-agent` `algorithms` `multi-domain`
 
-Outlines upgrades from vLLM V0 to V1, prioritizing correctness in reinforcement learning pipelines before corrections to boost reliability in LLM serving and training.
+DeepMind's AlphaEvolve uses Gemini to generate algorithms, driving breakthroughs in business, infrastructure, and science. This agentic system automates complex problem-solving, expanding AI's role in diverse domains.
 
-> 💡 **Why it matters:** vLLM powers high-throughput LLM inference. V1s RL focus enhances stability for RLHF and fine-tuning workflows, letting builders scale production-grade deployments with fewer errors and higher efficiency.
+> 💡 **Why it matters:** AlphaEvolve demonstrates scalable coding agents for algorithm discovery, empowering builders to automate optimization in non-AI fields. Leveraging Gemini's multimodal strengths, it inspires hybrid agent workflows, accelerating R&D and providing blueprints for custom solvers in engineering and research.
   
-**Related registry entries:** `vllm`
+**Related registry entries:** `swe-agent`, `gpt-engineer`
 
 ---
 
-## 4. [Uber uses OpenAI to help people earn smarter and book faster](https://openai.com/index/uber)
-
-**Source:** openai · ⏱ *31h ago*  
-`production` `agents` `openai` `real-time`
-
-Uber leverages OpenAI models for AI assistants and voice features, optimizing driver earnings and rider bookings in a real-time global marketplace.
-
-> 💡 **Why it matters:** Demonstrates LLM integration at massive scale in dynamic operations. Builders gain blueprints for agentic features in marketplaces, handling real-time decisions across millions of users.
-
-
----
-
-## 5. [Introducing ChatGPT Futures: Class of 2026](https://openai.com/index/introducing-chatgpt-futures-class-of-2026)
-
-**Source:** openai · ⏱ *31h ago*  
-`education` `openai` `community` `agents`
-
-OpenAI selects 26 student innovators using ChatGPT to build projects, conduct research, and create real-world impact, reshaping AI education and creativity.
-
-> 💡 **Why it matters:** Fosters the next wave of AI talent with hands-on resources. Builders and educators can draw inspiration, collaborate, and integrate similar programs to accelerate skill-building in agentic and creative AI.
-  
-**Related registry entries:** `deeplearning-ai-short-courses`
-
----
-
-<sub>Generated by ai-pulse-agents · 2026-05-07 07:17 UTC · [Archive](./)</sub>
+<sub>Generated by ai-pulse-agents · 2026-05-08 06:53 UTC · [Archive](./)</sub>
