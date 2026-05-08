@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-05-07*
+## 📰 Today in AI · *2026-05-08*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense](https://arxiv.org/abs/2605.03034) | arxiv-cs-ai |
-| 2 | [CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing](https://arxiv.org/abs/2605.02910) | arxiv-cs-ai |
-| 3 | [vLLM V0 to V1: Correctness Before Corrections in RL](https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections) | huggingface |
-| 4 | [Uber uses OpenAI to help people earn smarter and book faster](https://openai.com/index/uber) | openai |
-| 5 | [Introducing ChatGPT Futures: Class of 2026](https://openai.com/index/introducing-chatgpt-futures-class-of-2026) | openai |
+| 1 | [Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber](https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber) | openai |
+| 2 | [ZAYA1-8B Technical Report: New Reasoning-Focused MoE Model](https://arxiv.org/abs/2605.05365) | arxiv-cs-ai |
+| 3 | [Advancing Voice Intelligence with New Realtime Models in OpenAI API](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api) | openai |
+| 4 | [Parloa Builds Scalable Voice-Driven AI Service Agents with OpenAI](https://openai.com/index/parloa) | openai |
+| 5 | [AlphaEvolve: Gemini-Powered Coding Agent Scaling Impact Across Fields](https://deepmind.google/blog/alphaevolve-impact/) | deepmind |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
