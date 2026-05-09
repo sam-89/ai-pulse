@@ -1,73 +1,72 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-05-08
+### Top 5 AI Stories · 2026-05-09
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-08 06:53 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-09 06:59 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber](https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber)
+## 1. [Running Codex safely at OpenAI](https://openai.com/index/running-codex-safely)
 
-**Source:** openai · ⏱ *17h ago*  
-`openai` `gpt-5.5` `cybersecurity` `model-release` `agents`
+**Source:** openai · ⏱ *18h ago*  
+`openai` `codex` `coding-agents` `safety` `sandboxing`
 
-OpenAI launches GPT-5.5 and specialized GPT-5.5-Cyber models integrated with Trusted Access for Cyber. These tools empower verified cybersecurity defenders to accelerate vulnerability research, threat detection, and protection of critical infrastructure using frontier AI capabilities securely.
+OpenAI outlines secure Codex deployment using sandboxing, human approvals, network policies, and agent telemetry to enable safe coding agent use in production environments.
 
-> 💡 **Why it matters:** This marks a pivotal advancement in AI-assisted cybersecurity, providing practitioners with access to GPT-5.5's enhanced reasoning for real-world defense tasks. Builders can now develop secure agentic systems for vuln scanning and incident response, with trusted access mitigating risks like unauthorized data exposure. It sets a standard for enterprise-grade AI in high-stakes domains, potentially reducing response times and bolstering global infrastructure resilience.
-
-
----
-
-## 2. [ZAYA1-8B Technical Report: New Reasoning-Focused MoE Model](https://arxiv.org/abs/2605.05365)
-
-**Source:** arxiv-cs-ai · ⏱ *2h ago*  
-`moe` `reasoning` `model-release` `efficient-inference` `zyphra`
-
-Zyphra introduces ZAYA1-8B, a 700M active parameter MoE model using MoE++ architecture. Trained entirely on AMD compute stack, it excels in reasoning tasks with under 1B total parameters, offering efficient inference for developers building high-performance AI applications.
-
-> 💡 **Why it matters:** Efficient MoE models like ZAYA1-8B democratize advanced reasoning for resource-constrained environments. AI builders gain a new open-ish alternative to dense models, leveraging AMD's full-stack for scalable training. This advances MoE++ techniques, enabling cost-effective deployment in agents, tools, and edge applications, pushing boundaries on parameter efficiency.
+> 💡 **Why it matters:** Coding agents like Codex promise to transform dev workflows, but security risks like malicious code execution block enterprise adoption. OpenAI's production-grade stack provides builders with proven techniques for isolation, monitoring, and compliance. Essential for integrating agents into CI/CD, IDEs, or internal tools while meeting regs in finance, healthcare, and gov.
   
-**Related registry entries:** `deepseek-r2`
+**Related registry entries:** `aider`, `gpt-engineer`, `swe-agent`
 
 ---
 
-## 3. [Advancing Voice Intelligence with New Realtime Models in OpenAI API](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api)
+## 2. [CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models](https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b)
 
-**Source:** openai · ⏱ *20h ago*  
-`openai` `voice` `multimodal` `api` `realtime`
+**Source:** huggingface · ⏱ *13h ago*  
+`huggingface` `cybersecurity` `small-models` `local-ai` `defensive`
 
-OpenAI releases new realtime voice models via API, supporting reasoning, translation, and transcription. These enable developers to build natural, low-latency voice interfaces for applications like assistants, transcription services, and multilingual interactions.
+Hugging Face Lablab-ai and AMD hackathon release CyberSecQwen-4B: a 4B param model optimized for defensive cybersecurity tasks, runnable locally for privacy and low latency.
 
-> 💡 **Why it matters:** Realtime voice AI unlocks multimodal applications with reasoning over speech, critical for practitioners building conversational agents and voice-first UIs. Integration into APIs lowers barriers for scalable deployment, enhancing accessibility and enabling innovations in telephony, IoT, and customer service with improved latency and intelligence.
+> 💡 **Why it matters:** AI cyber threats demand equally sharp defenses. Small, specialized models like this beat generalists in threat hunting and anomaly detection without cloud dependency. Builders gain a fine-tunable base for custom SIEM integrations, endpoint agents, or red-team tools, democratizing elite cyber AI on laptops.
 
 
 ---
 
-## 4. [Parloa Builds Scalable Voice-Driven AI Service Agents with OpenAI](https://openai.com/index/parloa)
+## 3. [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo)
 
-**Source:** openai · ⏱ *19h ago*  
-`openai` `voice-agents` `enterprise` `customer-service` `simulation`
+**Source:** huggingface · ⏱ *14h ago*  
+`huggingface` `moe` `pretraining` `allenai` `modularity`
 
-Parloa harnesses OpenAI models to create reliable, voice-powered customer service agents. Enterprises can design, simulate, and deploy real-time interactions at scale, improving service efficiency and customer satisfaction.
+AllenAI's EMO method pretrains Mixture-of-Experts models to develop natural modularity, boosting efficiency, specialization, and interpretability.
 
-> 💡 **Why it matters:** This showcases production-ready voice agents for enterprise contact centers, guiding builders on integrating LLMs for scalable, human-like conversations. It highlights simulation techniques for reliability, reducing deployment risks and costs, and sets patterns for voice commerce and support automation.
+> 💡 **Why it matters:** MoE scales parameters cheaply but struggles with expert routing and bloat. EMO's emergent modularity emerges during pretraining, cutting costs and improving debugging. Builders training domain-specific MoEs save compute and gain modular designs for easier fine-tuning and deployment.
+
+
+---
+
+## 4. [Testing ads in ChatGPT](https://openai.com/index/testing-ads-in-chatgpt)
+
+**Source:** openai · ⏱ *2d ago*  
+`openai` `chatgpt` `monetization` `ads` `free-tier`
+
+OpenAI tests labeled ads in ChatGPT: independent of responses, privacy protected, user-controllable, to fund free access amid compute costs.
+
+> 💡 **Why it matters:** Sustains free tier critical for prototyping and education. Builders watch for UX changes, API pricing ripple effects, and ad-free premium incentives. Reveals OpenAI's balancing act between accessibility and $100B+ infra bills, influencing all AI product strategies.
+
+
+---
+
+## 5. [Introducing Trusted Contact in ChatGPT](https://openai.com/index/introducing-trusted-contact-in-chatgpt)
+
+**Source:** openai · ⏱ *2d ago*  
+`openai` `chatgpt` `safety` `mental-health` `alerts`
+
+Optional ChatGPT feature detects self-harm risks in chats and alerts a trusted contact, with robust privacy and opt-in controls.
+
+> 💡 **Why it matters:** Sets new safety benchmark for conversational AI handling sensitive topics. Builders of therapy bots, hotlines, or social apps can implement similar detection-alert flows. Advances responsible AI, reducing liability while building trust in high-stakes deployments.
   
-**Related registry entries:** `langgraph`, `autogen-04`
+**Related registry entries:** `constitutional-ai`
 
 ---
 
-## 5. [AlphaEvolve: Gemini-Powered Coding Agent Scaling Impact Across Fields](https://deepmind.google/blog/alphaevolve-impact/)
-
-**Source:** deepmind · ⏱ *44h ago*  
-`deepmind` `gemini` `coding-agent` `algorithms` `multi-domain`
-
-DeepMind's AlphaEvolve uses Gemini to generate algorithms, driving breakthroughs in business, infrastructure, and science. This agentic system automates complex problem-solving, expanding AI's role in diverse domains.
-
-> 💡 **Why it matters:** AlphaEvolve demonstrates scalable coding agents for algorithm discovery, empowering builders to automate optimization in non-AI fields. Leveraging Gemini's multimodal strengths, it inspires hybrid agent workflows, accelerating R&D and providing blueprints for custom solvers in engineering and research.
-  
-**Related registry entries:** `swe-agent`, `gpt-engineer`
-
----
-
-<sub>Generated by ai-pulse-agents · 2026-05-08 06:53 UTC · [Archive](./)</sub>
+<sub>Generated by ai-pulse-agents · 2026-05-09 06:59 UTC · [Archive](./)</sub>
