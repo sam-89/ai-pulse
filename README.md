@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-05-08*
+## 📰 Today in AI · *2026-05-09*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber](https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber) | openai |
-| 2 | [ZAYA1-8B Technical Report: New Reasoning-Focused MoE Model](https://arxiv.org/abs/2605.05365) | arxiv-cs-ai |
-| 3 | [Advancing Voice Intelligence with New Realtime Models in OpenAI API](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api) | openai |
-| 4 | [Parloa Builds Scalable Voice-Driven AI Service Agents with OpenAI](https://openai.com/index/parloa) | openai |
-| 5 | [AlphaEvolve: Gemini-Powered Coding Agent Scaling Impact Across Fields](https://deepmind.google/blog/alphaevolve-impact/) | deepmind |
+| 1 | [Running Codex safely at OpenAI](https://openai.com/index/running-codex-safely) | openai |
+| 2 | [CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models](https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b) | huggingface |
+| 3 | [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo) | huggingface |
+| 4 | [Testing ads in ChatGPT](https://openai.com/index/testing-ads-in-chatgpt) | openai |
+| 5 | [Introducing Trusted Contact in ChatGPT](https://openai.com/index/introducing-trusted-contact-in-chatgpt) | openai |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
