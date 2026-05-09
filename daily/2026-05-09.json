@@ -1,0 +1,161 @@
+{
+  "date": "2026-05-09",
+  "generated_at": "2026-05-09T06:59:34.432903+00:00",
+  "generator_version": "1.0.0",
+  "sources_polled": [
+    "openai",
+    "anthropic",
+    "deepmind",
+    "huggingface",
+    "google-news-ai",
+    "arxiv-cs-ai"
+  ],
+  "items": [
+    {
+      "rank": 1,
+      "id": "2026-05-09-001",
+      "title": "Running Codex safely at OpenAI",
+      "url": "https://openai.com/index/running-codex-safely",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-05-08T12:30:00+00:00",
+      "summary": "OpenAI outlines secure Codex deployment using sandboxing, human approvals, network policies, and agent telemetry to enable safe coding agent use in production environments.",
+      "why_it_matters": "Coding agents like Codex promise to transform dev workflows, but security risks like malicious code execution block enterprise adoption. OpenAI's production-grade stack provides builders with proven techniques for isolation, monitoring, and compliance. Essential for integrating agents into CI/CD, IDEs, or internal tools while meeting regs in finance, healthcare, and gov.",
+      "suggested_reel_angle": "OpenAI cracks the code: Run powerful AI coders without blowing up your security!",
+      "suggested_long_angle": [
+        "Security hurdles for code agents",
+        "OpenAI's layered defenses unpacked",
+        "Adopt these tactics in your stack"
+      ],
+      "tags": [
+        "openai",
+        "codex",
+        "coding-agents",
+        "safety",
+        "sandboxing"
+      ],
+      "related_registry_entries": [
+        "aider",
+        "gpt-engineer",
+        "swe-agent"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.8378,
+      "recency_hours": 18
+    },
+    {
+      "rank": 2,
+      "id": "2026-05-09-002",
+      "title": "CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models",
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
+      "source": "huggingface",
+      "source_type": "official_blog",
+      "published_at": "2026-05-08T17:41:05+00:00",
+      "summary": "Hugging Face Lablab-ai and AMD hackathon release CyberSecQwen-4B: a 4B param model optimized for defensive cybersecurity tasks, runnable locally for privacy and low latency.",
+      "why_it_matters": "AI cyber threats demand equally sharp defenses. Small, specialized models like this beat generalists in threat hunting and anomaly detection without cloud dependency. Builders gain a fine-tunable base for custom SIEM integrations, endpoint agents, or red-team tools, democratizing elite cyber AI on laptops.",
+      "suggested_reel_angle": "4B param beast defends your network - runs offline!",
+      "suggested_long_angle": [
+        "Why small models win in cyber",
+        "CyberSecQwen capabilities",
+        "Local deployment guide"
+      ],
+      "tags": [
+        "huggingface",
+        "cybersecurity",
+        "small-models",
+        "local-ai",
+        "defensive"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 0.9,
+      "virality_score": 0.8148,
+      "recency_hours": 13
+    },
+    {
+      "rank": 3,
+      "id": "2026-05-09-003",
+      "title": "EMO: Pretraining mixture of experts for emergent modularity",
+      "url": "https://huggingface.co/blog/allenai/emo",
+      "source": "huggingface",
+      "source_type": "official_blog",
+      "published_at": "2026-05-08T16:03:50+00:00",
+      "summary": "AllenAI's EMO method pretrains Mixture-of-Experts models to develop natural modularity, boosting efficiency, specialization, and interpretability.",
+      "why_it_matters": "MoE scales parameters cheaply but struggles with expert routing and bloat. EMO's emergent modularity emerges during pretraining, cutting costs and improving debugging. Builders training domain-specific MoEs save compute and gain modular designs for easier fine-tuning and deployment.",
+      "suggested_reel_angle": "MoE models that specialize themselves - revolutionary!",
+      "suggested_long_angle": [
+        "MoE pain points",
+        "EMO pretraining magic",
+        "Scale your models smarter"
+      ],
+      "tags": [
+        "huggingface",
+        "moe",
+        "pretraining",
+        "allenai",
+        "modularity"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 0.9,
+      "virality_score": 0.807,
+      "recency_hours": 14
+    },
+    {
+      "rank": 4,
+      "id": "2026-05-09-004",
+      "title": "Testing ads in ChatGPT",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-05-07T00:00:00+00:00",
+      "summary": "OpenAI tests labeled ads in ChatGPT: independent of responses, privacy protected, user-controllable, to fund free access amid compute costs.",
+      "why_it_matters": "Sustains free tier critical for prototyping and education. Builders watch for UX changes, API pricing ripple effects, and ad-free premium incentives. Reveals OpenAI's balancing act between accessibility and $100B+ infra bills, influencing all AI product strategies.",
+      "suggested_reel_angle": "Ads invade ChatGPT - survival mode for free users?",
+      "suggested_long_angle": [
+        "Ad design and safeguards",
+        "OpenAI's money crunch",
+        "Pivot your AI biz model"
+      ],
+      "tags": [
+        "openai",
+        "chatgpt",
+        "monetization",
+        "ads",
+        "free-tier"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 1.0,
+      "virality_score": 0.6841,
+      "recency_hours": 54
+    },
+    {
+      "rank": 5,
+      "id": "2026-05-09-005",
+      "title": "Introducing Trusted Contact in ChatGPT",
+      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-05-07T00:00:00+00:00",
+      "summary": "Optional ChatGPT feature detects self-harm risks in chats and alerts a trusted contact, with robust privacy and opt-in controls.",
+      "why_it_matters": "Sets new safety benchmark for conversational AI handling sensitive topics. Builders of therapy bots, hotlines, or social apps can implement similar detection-alert flows. Advances responsible AI, reducing liability while building trust in high-stakes deployments.",
+      "suggested_reel_angle": "ChatGPT now saves lives with secret alerts!",
+      "suggested_long_angle": [
+        "Self-harm detection tech",
+        "Balancing privacy and intervention",
+        "Safety patterns for your agents"
+      ],
+      "tags": [
+        "openai",
+        "chatgpt",
+        "safety",
+        "mental-health",
+        "alerts"
+      ],
+      "related_registry_entries": [
+        "constitutional-ai"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.6841,
+      "recency_hours": 54
+    }
+  ]
+}
