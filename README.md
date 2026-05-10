@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-05-09*
+## 📰 Today in AI · *2026-05-10*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [Running Codex safely at OpenAI](https://openai.com/index/running-codex-safely) | openai |
-| 2 | [CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models](https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b) | huggingface |
-| 3 | [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo) | huggingface |
-| 4 | [Testing ads in ChatGPT](https://openai.com/index/testing-ads-in-chatgpt) | openai |
-| 5 | [Introducing Trusted Contact in ChatGPT](https://openai.com/index/introducing-trusted-contact-in-chatgpt) | openai |
+| 1 | [OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support](https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper) | huggingface |
+| 2 | [Simplex rethinks software development with Codex](https://openai.com/index/simplex) | openai |
+| 3 | [How Chinese developers bypass restrictions to access top US AI models](https://news.google.com/rss/articles/CBMizgFBVV95cUxPWXU2THpScnp3a3E2OF9PWnZTYktWSUpQbUxLU3lfOHFzdTV1T1ZHRWl1VmsyYTI4ZHhISGx3a0pWTlhZaEdyYzN2cTFyVVN0aUNTMEdYYzBSbE5SQUFOcE0tbFNFbnVhdU13MHVNRE1rWVRTb3UxNGVjdnlPWmQ0WDhPbTV0dklKNmx4SXJqeFl2b0NIOEVqNU1lSFZzOGVEZXFWXzBwbXRMOExCbk1ZbUlPWjNoV1ZZcXFweHFjLWhrTTNjZ0h0SzNMd1AzQdIBzgFBVV95cUxOR2ZjRUFiWldvWkx6aGdCMjNHdktxZFlmYkViblZ4NW1ZQ05LU1JrRnpjZlF6V3F4N0RDVUZ4UE9rZFhSdWs5ZnlMOFZTaVpvODRRaHNWYmRaWUdjU0dsY3JtU0RaZ3BuWjBtaWRjSDZ1UDdqNHFreXQtQ3FuekVJdnl6b3Juam9WZlRYaDhNcjZHSU9Ib2plVmRLTXlmMXpPQjVzOG1UcEVLNU1aVGU2aXhBX0FlOGpuX3JteDg3V1NXa3pOYzJGeTF5V0ZlZw?oc=5) | google-news-ai |
+| 4 | [How frontier firms are pulling ahead](https://openai.com/index/introducing-b2b-signals) | openai |
+| 5 | [Adding Benchmaxxer Repellant to the Open ASR Leaderboard](https://huggingface.co/blog/open-asr-leaderboard-private-data) | huggingface |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
