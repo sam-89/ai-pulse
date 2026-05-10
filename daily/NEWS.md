@@ -1,72 +1,74 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-05-09
+### Top 5 AI Stories · 2026-05-10
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-09 06:59 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-10 07:10 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [Running Codex safely at OpenAI](https://openai.com/index/running-codex-safely)
-
-**Source:** openai · ⏱ *18h ago*  
-`openai` `codex` `coding-agents` `safety` `sandboxing`
-
-OpenAI outlines secure Codex deployment using sandboxing, human approvals, network policies, and agent telemetry to enable safe coding agent use in production environments.
-
-> 💡 **Why it matters:** Coding agents like Codex promise to transform dev workflows, but security risks like malicious code execution block enterprise adoption. OpenAI's production-grade stack provides builders with proven techniques for isolation, monitoring, and compliance. Essential for integrating agents into CI/CD, IDEs, or internal tools while meeting regs in finance, healthcare, and gov.
-  
-**Related registry entries:** `aider`, `gpt-engineer`, `swe-agent`
-
----
-
-## 2. [CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models](https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b)
+## 1. [OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support](https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper)
 
 **Source:** huggingface · ⏱ *13h ago*  
-`huggingface` `cybersecurity` `small-models` `local-ai` `defensive`
+`multi-agent` `healthcare-ai` `privacy-preserving` `oncology`
 
-Hugging Face Lablab-ai and AMD hackathon release CyberSecQwen-4B: a 4B param model optimized for defensive cybersecurity tasks, runnable locally for privacy and low latency.
+OncoAgent introduces a dual-tier multi-agent system for oncology clinical decision support. It enables privacy-preserving AI assistance in cancer treatment planning, developed from a Hugging Face hackathon. Agents collaborate to analyze data and recommend decisions without exposing sensitive patient information.
 
-> 💡 **Why it matters:** AI cyber threats demand equally sharp defenses. Small, specialized models like this beat generalists in threat hunting and anomaly detection without cloud dependency. Builders gain a fine-tunable base for custom SIEM integrations, endpoint agents, or red-team tools, democratizing elite cyber AI on laptops.
-
-
----
-
-## 3. [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo)
-
-**Source:** huggingface · ⏱ *14h ago*  
-`huggingface` `moe` `pretraining` `allenai` `modularity`
-
-AllenAI's EMO method pretrains Mixture-of-Experts models to develop natural modularity, boosting efficiency, specialization, and interpretability.
-
-> 💡 **Why it matters:** MoE scales parameters cheaply but struggles with expert routing and bloat. EMO's emergent modularity emerges during pretraining, cutting costs and improving debugging. Builders training domain-specific MoEs save compute and gain modular designs for easier fine-tuning and deployment.
-
-
----
-
-## 4. [Testing ads in ChatGPT](https://openai.com/index/testing-ads-in-chatgpt)
-
-**Source:** openai · ⏱ *2d ago*  
-`openai` `chatgpt` `monetization` `ads` `free-tier`
-
-OpenAI tests labeled ads in ChatGPT: independent of responses, privacy protected, user-controllable, to fund free access amid compute costs.
-
-> 💡 **Why it matters:** Sustains free tier critical for prototyping and education. Builders watch for UX changes, API pricing ripple effects, and ad-free premium incentives. Reveals OpenAI's balancing act between accessibility and $100B+ infra bills, influencing all AI product strategies.
-
-
----
-
-## 5. [Introducing Trusted Contact in ChatGPT](https://openai.com/index/introducing-trusted-contact-in-chatgpt)
-
-**Source:** openai · ⏱ *2d ago*  
-`openai` `chatgpt` `safety` `mental-health` `alerts`
-
-Optional ChatGPT feature detects self-harm risks in chats and alerts a trusted contact, with robust privacy and opt-in controls.
-
-> 💡 **Why it matters:** Sets new safety benchmark for conversational AI handling sensitive topics. Builders of therapy bots, hotlines, or social apps can implement similar detection-alert flows. Advances responsible AI, reducing liability while building trust in high-stakes deployments.
+> 💡 **Why it matters:** AI builders in healthcare gain a blueprint for multi-agent systems handling sensitive data. Demonstrates privacy techniques like federated learning or differential privacy in agent workflows, scalable to clinical use. Accelerates adoption of agentic AI in regulated domains, with open paper for replication and extension.
   
-**Related registry entries:** `constitutional-ai`
+**Related registry entries:** `autogen-04`, `langgraph`
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-05-09 06:59 UTC · [Archive](./)</sub>
+## 2. [Simplex rethinks software development with Codex](https://openai.com/index/simplex)
+
+**Source:** openai · ⏱ *3d ago*  
+`codex` `software-engineering` `enterprise-ai` `agentic-workflows`
+
+Simplex leverages ChatGPT Enterprise and Codex to streamline software design, building, and testing. Achieves major time reductions and scales AI-driven workflows for enterprise development teams.
+
+> 💡 **Why it matters:** Highlights practical Codex integration for agentic coding, with quantifiable productivity gains. AI builders can adopt similar setups to automate dev pipelines, scale agent workflows, and compete in AI-accelerated software engineering. OpenAI case study provides implementation insights.
+  
+**Related registry entries:** `cursor`, `aider`, `gpt-engineer`
+
+---
+
+## 3. [How Chinese developers bypass restrictions to access top US AI models](https://news.google.com/rss/articles/CBMizgFBVV95cUxPWXU2THpScnp3a3E2OF9PWnZTYktWSUpQbUxLU3lfOHFzdTV1T1ZHRWl1VmsyYTI4ZHhISGx3a0pWTlhZaEdyYzN2cTFyVVN0aUNTMEdYYzBSbE5SQUFOcE0tbFNFbnVhdU13MHVNRE1rWVRTb3UxNGVjdnlPWmQ0WDhPbTV0dklKNmx4SXJqeFl2b0NIOEVqNU1lSFZzOGVEZXFWXzBwbXRMOExCbk1ZbUlPWjNoV1ZZcXFweHFjLWhrTTNjZ0h0SzNMd1AzQdIBzgFBVV95cUxOR2ZjRUFiWldvWkx6aGdCMjNHdktxZFlmYkViblZ4NW1ZQ05LU1JrRnpjZlF6V3F4N0RDVUZ4UE9rZFhSdWs5ZnlMOFZTaVpvODRRaHNWYmRaWUdjU0dsY3JtU0RaZ3BuWjBtaWRjSDZ1UDdqNHFreXQtQ3FuekVJdnl6b3Juam9WZlRYaDhNcjZHSU9Ib2plVmRLTXlmMXpPQjVzOG1UcEVLNU1aVGU2aXhBX0FlOGpuX3JteDg3V1NXa3pOYzJGeTF5V0ZlZw?oc=5)
+
+**Source:** google-news-ai · ⏱ *0h ago*  
+`geopolitics` `ai-access` `export-controls` `china-us`
+
+South China Morning Post reports on techniques Chinese devs use to circumvent US export controls on advanced AI models like those from OpenAI and Anthropic, enabling access despite restrictions.
+
+> 💡 **Why it matters:** Reveals enforcement gaps in AI geopolitics, impacting model distribution strategies. Builders must anticipate global access patterns, enhance controls, or design region-agnostic alternatives. Signals rising competition and need for robust compliance in AI tooling.
+
+
+---
+
+## 4. [How frontier firms are pulling ahead](https://openai.com/index/introducing-b2b-signals)
+
+**Source:** openai · ⏱ *4d ago*  
+`enterprise-ai` `b2b` `codex` `agentic`
+
+OpenAI's B2B Signals research details how leading enterprises scale AI adoption, using Codex-powered agents to gain competitive edges in workflows and operations.
+
+> 💡 **Why it matters:** Provides data-driven playbook for enterprise AI scaling. Builders learn to prioritize agentic systems like Codex for moats, track adoption benchmarks, and integrate deeply. Essential for B2B AI product development and staying ahead of laggards.
+  
+**Related registry entries:** `langsmith`, `weights-and-biases`
+
+---
+
+## 5. [Adding Benchmaxxer Repellant to the Open ASR Leaderboard](https://huggingface.co/blog/open-asr-leaderboard-private-data)
+
+**Source:** huggingface · ⏱ *4d ago*  
+`asr` `benchmark` `leaderboard` `speech-ai`
+
+Hugging Face updates Open ASR Leaderboard with private data to repel benchmark contamination, ensuring fairer evaluations of automatic speech recognition models.
+
+> 💡 **Why it matters:** Combats overfitting to public evals, improving leaderboard reliability for speech AI. Builders get truer model comparisons, refine training to generalize, and trust rankings for production deployment decisions.
+  
+**Related registry entries:** `mmlu`, `humaneval`
+
+---
+
+<sub>Generated by ai-pulse-agents · 2026-05-10 07:10 UTC · [Archive](./)</sub>
