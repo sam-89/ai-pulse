@@ -1,74 +1,74 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-05-10
+### Top 5 AI Stories · 2026-05-11
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-10 07:10 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-11 07:33 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support](https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper)
+## 1. [How enterprises are scaling AI](https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai)
 
-**Source:** huggingface · ⏱ *13h ago*  
-`multi-agent` `healthcare-ai` `privacy-preserving` `oncology`
+**Source:** openai · ⏱ *0h ago*  
+`openai` `enterprise` `scaling` `governance`
 
-OncoAgent introduces a dual-tier multi-agent system for oncology clinical decision support. It enables privacy-preserving AI assistance in cancer treatment planning, developed from a Hugging Face hackathon. Agents collaborate to analyze data and recommend decisions without exposing sensitive patient information.
+OpenAI details enterprise AI scaling from initial experiments to sustained impact, emphasizing trust-building, governance frameworks, workflow integration, and maintaining quality at scale for production deployments.
 
-> 💡 **Why it matters:** AI builders in healthcare gain a blueprint for multi-agent systems handling sensitive data. Demonstrates privacy techniques like federated learning or differential privacy in agent workflows, scalable to clinical use. Accelerates adoption of agentic AI in regulated domains, with open paper for replication and extension.
+> 💡 **Why it matters:** AI builders gain actionable strategies from OpenAI on overcoming scaling hurdles like governance and workflows, enabling faster enterprise adoption and compounding ROI. Critical for leaders transitioning pilots to enterprise-grade systems with reliability and compliance.
+
+
+---
+
+## 2. [OpenAI Campus Network: Student club interest form](https://openai.com/index/openai-campus-network-student-club-interest-form)
+
+**Source:** openai · ⏱ *0h ago*  
+`openai` `community` `education` `students`
+
+OpenAI launches Campus Network to unite global student AI clubs, providing exclusive tools, event support, and resources to foster AI-powered campus communities and hands-on projects.
+
+> 💡 **Why it matters:** Empowers future AI builders with direct OpenAI access, accelerating talent pipelines through clubs, tools, and events. Builders can engage students early, prototype campus apps, and build ecosystems for innovation.
+  
+**Related registry entries:** `deeplearning-ai-short-courses`
+
+---
+
+## 3. [GraphDC: A Divide-and-Conquer Multi-Agent System for Scalable Graph Algorithm Reasoning](https://arxiv.org/abs/2605.06671)
+
+**Source:** arxiv-cs-ai · ⏱ *3h ago*  
+`research` `multi-agent` `graphs` `reasoning`
+
+GraphDC introduces a multi-agent divide-and-conquer framework for LLMs to tackle complex graph algorithms, enabling systematic multi-step reasoning on large-scale graphs where single LLMs fail.
+
+> 💡 **Why it matters:** Breakthrough for graph reasoning, a LLM weak spot. Builders can implement multi-agent systems for topology-heavy tasks like networks or molecules, scaling to real-world graph sizes with better accuracy.
   
 **Related registry entries:** `autogen-04`, `langgraph`
 
 ---
 
-## 2. [Simplex rethinks software development with Codex](https://openai.com/index/simplex)
+## 4. [MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X](https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck)
 
-**Source:** openai · ⏱ *3d ago*  
-`codex` `software-engineering` `enterprise-ai` `agentic-workflows`
+**Source:** huggingface · ⏱ *12h ago*  
+`multi-agent` `manufacturing` `hardware` `huggingface`
 
-Simplex leverages ChatGPT Enterprise and Codex to streamline software design, building, and testing. Achieves major time reductions and scales AI-driven workflows for enterprise development teams.
+Hackathon project deploys multi-agent system on AMD MI300X GPUs for CNC manufacturability checks, integrating AI agents for design validation, simulation, and optimization in hardware workflows.
 
-> 💡 **Why it matters:** Highlights practical Codex integration for agentic coding, with quantifiable productivity gains. AI builders can adopt similar setups to automate dev pipelines, scale agent workflows, and compete in AI-accelerated software engineering. OpenAI case study provides implementation insights.
+> 💡 **Why it matters:** Proves multi-agent AI viability in manufacturing with high-perf hardware. Builders get blueprint for agentic production tools, leveraging AMD GPUs for real-time checks and bridging AI with physical fabrication.
   
-**Related registry entries:** `cursor`, `aider`, `gpt-engineer`
+**Related registry entries:** `autogen-04`
 
 ---
 
-## 3. [How Chinese developers bypass restrictions to access top US AI models](https://news.google.com/rss/articles/CBMizgFBVV95cUxPWXU2THpScnp3a3E2OF9PWnZTYktWSUpQbUxLU3lfOHFzdTV1T1ZHRWl1VmsyYTI4ZHhISGx3a0pWTlhZaEdyYzN2cTFyVVN0aUNTMEdYYzBSbE5SQUFOcE0tbFNFbnVhdU13MHVNRE1rWVRTb3UxNGVjdnlPWmQ0WDhPbTV0dklKNmx4SXJqeFl2b0NIOEVqNU1lSFZzOGVEZXFWXzBwbXRMOExCbk1ZbUlPWjNoV1ZZcXFweHFjLWhrTTNjZ0h0SzNMd1AzQdIBzgFBVV95cUxOR2ZjRUFiWldvWkx6aGdCMjNHdktxZFlmYkViblZ4NW1ZQ05LU1JrRnpjZlF6V3F4N0RDVUZ4UE9rZFhSdWs5ZnlMOFZTaVpvODRRaHNWYmRaWUdjU0dsY3JtU0RaZ3BuWjBtaWRjSDZ1UDdqNHFreXQtQ3FuekVJdnl6b3Juam9WZlRYaDhNcjZHSU9Ib2plVmRLTXlmMXpPQjVzOG1UcEVLNU1aVGU2aXhBX0FlOGpuX3JteDg3V1NXa3pOYzJGeTF5V0ZlZw?oc=5)
+## 5. [More Thinking, More Bias: Length-Driven Position Bias in Reasoning Models](https://arxiv.org/abs/2605.06672)
 
-**Source:** google-news-ai · ⏱ *0h ago*  
-`geopolitics` `ai-access` `export-controls` `china-us`
+**Source:** arxiv-cs-ai · ⏱ *3h ago*  
+`research` `bias` `reasoning` `chain-of-thought`
 
-South China Morning Post reports on techniques Chinese devs use to circumvent US export controls on advanced AI models like those from OpenAI and Anthropic, enabling access despite restrictions.
+Research shows reasoning models like DeepSeek-R1 exhibit increasing position bias in multiple-choice QA as chain-of-thought length grows, challenging assumptions about longer reasoning reducing heuristics.
 
-> 💡 **Why it matters:** Reveals enforcement gaps in AI geopolitics, impacting model distribution strategies. Builders must anticipate global access patterns, enhance controls, or design region-agnostic alternatives. Signals rising competition and need for robust compliance in AI tooling.
-
-
----
-
-## 4. [How frontier firms are pulling ahead](https://openai.com/index/introducing-b2b-signals)
-
-**Source:** openai · ⏱ *4d ago*  
-`enterprise-ai` `b2b` `codex` `agentic`
-
-OpenAI's B2B Signals research details how leading enterprises scale AI adoption, using Codex-powered agents to gain competitive edges in workflows and operations.
-
-> 💡 **Why it matters:** Provides data-driven playbook for enterprise AI scaling. Builders learn to prioritize agentic systems like Codex for moats, track adoption benchmarks, and integrate deeply. Essential for B2B AI product development and staying ahead of laggards.
+> 💡 **Why it matters:** Exposes flaw in CoT prompting: more steps amplify biases. Essential for model trainers and prompt engineers to mitigate via debiasing or eval tweaks, improving reliability in reasoning tasks.
   
-**Related registry entries:** `langsmith`, `weights-and-biases`
+**Related registry entries:** `chain-of-thought-prompting`
 
 ---
 
-## 5. [Adding Benchmaxxer Repellant to the Open ASR Leaderboard](https://huggingface.co/blog/open-asr-leaderboard-private-data)
-
-**Source:** huggingface · ⏱ *4d ago*  
-`asr` `benchmark` `leaderboard` `speech-ai`
-
-Hugging Face updates Open ASR Leaderboard with private data to repel benchmark contamination, ensuring fairer evaluations of automatic speech recognition models.
-
-> 💡 **Why it matters:** Combats overfitting to public evals, improving leaderboard reliability for speech AI. Builders get truer model comparisons, refine training to generalize, and trust rankings for production deployment decisions.
-  
-**Related registry entries:** `mmlu`, `humaneval`
-
----
-
-<sub>Generated by ai-pulse-agents · 2026-05-10 07:10 UTC · [Archive](./)</sub>
+<sub>Generated by ai-pulse-agents · 2026-05-11 07:33 UTC · [Archive](./)</sub>
