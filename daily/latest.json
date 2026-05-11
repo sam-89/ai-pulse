@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-10",
-  "generated_at": "2026-05-10T07:10:21.271524+00:00",
+  "date": "2026-05-11",
+  "generated_at": "2026-05-11T07:33:42.037896+00:00",
   "generator_version": "1.0.0",
   "sources_polled": [
     "openai",
@@ -13,151 +13,147 @@
   "items": [
     {
       "rank": 1,
-      "id": "2026-05-10-001",
-      "title": "OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support",
-      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
-      "source": "huggingface",
+      "id": "2026-05-11-001",
+      "title": "How enterprises are scaling AI",
+      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "source": "openai",
       "source_type": "official_blog",
-      "published_at": "2026-05-09T18:09:28+00:00",
-      "summary": "OncoAgent introduces a dual-tier multi-agent system for oncology clinical decision support. It enables privacy-preserving AI assistance in cancer treatment planning, developed from a Hugging Face hackathon. Agents collaborate to analyze data and recommend decisions without exposing sensitive patient information.",
-      "why_it_matters": "AI builders in healthcare gain a blueprint for multi-agent systems handling sensitive data. Demonstrates privacy techniques like federated learning or differential privacy in agent workflows, scalable to clinical use. Accelerates adoption of agentic AI in regulated domains, with open paper for replication and extension.",
-      "suggested_reel_angle": "Privacy-first AI agents revolutionizing cancer care! Hackathon breakthrough with OncoAgent.",
+      "published_at": "2026-05-11T10:00:00+00:00",
+      "summary": "OpenAI details enterprise AI scaling from initial experiments to sustained impact, emphasizing trust-building, governance frameworks, workflow integration, and maintaining quality at scale for production deployments.",
+      "why_it_matters": "AI builders gain actionable strategies from OpenAI on overcoming scaling hurdles like governance and workflows, enabling faster enterprise adoption and compounding ROI. Critical for leaders transitioning pilots to enterprise-grade systems with reliability and compliance.",
+      "suggested_reel_angle": "OpenAI reveals enterprise AI scaling secrets: trust, governance, workflows. From experiments to impact!",
       "suggested_long_angle": [
-        "Dual-tier agent architecture explained",
-        "Privacy safeguards in oncology AI",
-        "From hackathon to clinical impact"
+        "Building Trust and Governance",
+        "Designing Scalable Workflows",
+        "Ensuring Quality at Scale"
       ],
       "tags": [
+        "openai",
+        "enterprise",
+        "scaling",
+        "governance"
+      ],
+      "related_registry_entries": [],
+      "authority_score": 1.0,
+      "virality_score": 1.0,
+      "recency_hours": 0
+    },
+    {
+      "rank": 2,
+      "id": "2026-05-11-002",
+      "title": "OpenAI Campus Network: Student club interest form",
+      "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-05-11T10:00:00+00:00",
+      "summary": "OpenAI launches Campus Network to unite global student AI clubs, providing exclusive tools, event support, and resources to foster AI-powered campus communities and hands-on projects.",
+      "why_it_matters": "Empowers future AI builders with direct OpenAI access, accelerating talent pipelines through clubs, tools, and events. Builders can engage students early, prototype campus apps, and build ecosystems for innovation.",
+      "suggested_reel_angle": "OpenAI Campus Network: Free AI tools and events for student clubs worldwide!",
+      "suggested_long_angle": [
+        "Connecting Global Student Clubs",
+        "Exclusive AI Tool Access",
+        "Hosting Campus AI Events"
+      ],
+      "tags": [
+        "openai",
+        "community",
+        "education",
+        "students"
+      ],
+      "related_registry_entries": [
+        "deeplearning-ai-short-courses"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 1.0,
+      "recency_hours": 0
+    },
+    {
+      "rank": 3,
+      "id": "2026-05-11-003",
+      "title": "GraphDC: A Divide-and-Conquer Multi-Agent System for Scalable Graph Algorithm Reasoning",
+      "url": "https://arxiv.org/abs/2605.06671",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-05-11T04:00:00+00:00",
+      "summary": "GraphDC introduces a multi-agent divide-and-conquer framework for LLMs to tackle complex graph algorithms, enabling systematic multi-step reasoning on large-scale graphs where single LLMs fail.",
+      "why_it_matters": "Breakthrough for graph reasoning, a LLM weak spot. Builders can implement multi-agent systems for topology-heavy tasks like networks or molecules, scaling to real-world graph sizes with better accuracy.",
+      "suggested_reel_angle": "GraphDC: Multi-agents make LLMs graph reasoning pros on huge datasets!",
+      "suggested_long_angle": [
+        "LLM Limits on Graphs",
+        "Divide-and-Conquer Multi-Agents",
+        "Scaling to Large Graphs"
+      ],
+      "tags": [
+        "research",
         "multi-agent",
-        "healthcare-ai",
-        "privacy-preserving",
-        "oncology"
+        "graphs",
+        "reasoning"
       ],
       "related_registry_entries": [
         "autogen-04",
         "langgraph"
       ],
-      "authority_score": 0.9,
-      "virality_score": 0.8148,
-      "recency_hours": 13
-    },
-    {
-      "rank": 2,
-      "id": "2026-05-10-002",
-      "title": "Simplex rethinks software development with Codex",
-      "url": "https://openai.com/index/simplex",
-      "source": "openai",
-      "source_type": "official_blog",
-      "published_at": "2026-05-07T00:00:00+00:00",
-      "summary": "Simplex leverages ChatGPT Enterprise and Codex to streamline software design, building, and testing. Achieves major time reductions and scales AI-driven workflows for enterprise development teams.",
-      "why_it_matters": "Highlights practical Codex integration for agentic coding, with quantifiable productivity gains. AI builders can adopt similar setups to automate dev pipelines, scale agent workflows, and compete in AI-accelerated software engineering. OpenAI case study provides implementation insights.",
-      "suggested_reel_angle": "Slash dev time with Codex: Simplex's AI revolution!",
-      "suggested_long_angle": [
-        "Codex-powered dev workflows",
-        "Enterprise scaling strategies",
-        "Real metrics on time savings"
-      ],
-      "tags": [
-        "codex",
-        "software-engineering",
-        "enterprise-ai",
-        "agentic-workflows"
-      ],
-      "related_registry_entries": [
-        "cursor",
-        "aider",
-        "gpt-engineer"
-      ],
-      "authority_score": 1.0,
-      "virality_score": 0.6408,
-      "recency_hours": 79
-    },
-    {
-      "rank": 3,
-      "id": "2026-05-10-003",
-      "title": "How Chinese developers bypass restrictions to access top US AI models",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWXU2THpScnp3a3E2OF9PWnZTYktWSUpQbUxLU3lfOHFzdTV1T1ZHRWl1VmsyYTI4ZHhISGx3a0pWTlhZaEdyYzN2cTFyVVN0aUNTMEdYYzBSbE5SQUFOcE0tbFNFbnVhdU13MHVNRE1rWVRTb3UxNGVjdnlPWmQ0WDhPbTV0dklKNmx4SXJqeFl2b0NIOEVqNU1lSFZzOGVEZXFWXzBwbXRMOExCbk1ZbUlPWjNoV1ZZcXFweHFjLWhrTTNjZ0h0SzNMd1AzQdIBzgFBVV95cUxOR2ZjRUFiWldvWkx6aGdCMjNHdktxZFlmYkViblZ4NW1ZQ05LU1JrRnpjZlF6V3F4N0RDVUZ4UE9rZFhSdWs5ZnlMOFZTaVpvODRRaHNWYmRaWUdjU0dsY3JtU0RaZ3BuWjBtaWRjSDZ1UDdqNHFreXQtQ3FuekVJdnl6b3Juam9WZlRYaDhNcjZHSU9Ib2plVmRLTXlmMXpPQjVzOG1UcEVLNU1aVGU2aXhBX0FlOGpuX3JteDg3V1NXa3pOYzJGeTF5V0ZlZw?oc=5",
-      "source": "google-news-ai",
-      "source_type": "news_aggregator",
-      "published_at": "2026-05-10T07:00:05+00:00",
-      "summary": "South China Morning Post reports on techniques Chinese devs use to circumvent US export controls on advanced AI models like those from OpenAI and Anthropic, enabling access despite restrictions.",
-      "why_it_matters": "Reveals enforcement gaps in AI geopolitics, impacting model distribution strategies. Builders must anticipate global access patterns, enhance controls, or design region-agnostic alternatives. Signals rising competition and need for robust compliance in AI tooling.",
-      "suggested_reel_angle": "Chinese devs hack US AI bans: What's next for global access?",
-      "suggested_long_angle": [
-        "Bypass methods exposed",
-        "Geopolitical implications for AI",
-        "Lessons for model providers"
-      ],
-      "tags": [
-        "geopolitics",
-        "ai-access",
-        "export-controls",
-        "china-us"
-      ],
-      "related_registry_entries": [],
-      "authority_score": 0.6,
-      "virality_score": 0.76,
-      "recency_hours": 0
+      "authority_score": 0.8,
+      "virality_score": 0.8468,
+      "recency_hours": 3
     },
     {
       "rank": 4,
-      "id": "2026-05-10-004",
-      "title": "How frontier firms are pulling ahead",
-      "url": "https://openai.com/index/introducing-b2b-signals",
-      "source": "openai",
+      "id": "2026-05-11-004",
+      "title": "MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X",
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck",
+      "source": "huggingface",
       "source_type": "official_blog",
-      "published_at": "2026-05-06T00:00:00+00:00",
-      "summary": "OpenAI's B2B Signals research details how leading enterprises scale AI adoption, using Codex-powered agents to gain competitive edges in workflows and operations.",
-      "why_it_matters": "Provides data-driven playbook for enterprise AI scaling. Builders learn to prioritize agentic systems like Codex for moats, track adoption benchmarks, and integrate deeply. Essential for B2B AI product development and staying ahead of laggards.",
-      "suggested_reel_angle": "Frontier firms dominate AI: OpenAI's B2B secrets revealed!",
+      "published_at": "2026-05-10T18:44:11+00:00",
+      "summary": "Hackathon project deploys multi-agent system on AMD MI300X GPUs for CNC manufacturability checks, integrating AI agents for design validation, simulation, and optimization in hardware workflows.",
+      "why_it_matters": "Proves multi-agent AI viability in manufacturing with high-perf hardware. Builders get blueprint for agentic production tools, leveraging AMD GPUs for real-time checks and bridging AI with physical fabrication.",
+      "suggested_reel_angle": "Multi-agent AI on AMD MI300X revolutionizes CNC manufacturing checks!",
       "suggested_long_angle": [
-        "Key signals of AI leadership",
-        "Codex agent scaling",
-        "Building competitive moats"
+        "Multi-Agent CNC Workflow",
+        "AMD MI300X Integration",
+        "Hackathon to Production"
       ],
       "tags": [
-        "enterprise-ai",
-        "b2b",
-        "codex",
-        "agentic"
+        "multi-agent",
+        "manufacturing",
+        "hardware",
+        "huggingface"
       ],
       "related_registry_entries": [
-        "langsmith",
-        "weights-and-biases"
+        "autogen-04"
       ],
-      "authority_score": 1.0,
-      "virality_score": 0.6204,
-      "recency_hours": 103
+      "authority_score": 0.9,
+      "virality_score": 0.8228,
+      "recency_hours": 12
     },
     {
       "rank": 5,
-      "id": "2026-05-10-005",
-      "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
-      "source": "huggingface",
-      "source_type": "official_blog",
-      "published_at": "2026-05-06T00:00:00+00:00",
-      "summary": "Hugging Face updates Open ASR Leaderboard with private data to repel benchmark contamination, ensuring fairer evaluations of automatic speech recognition models.",
-      "why_it_matters": "Combats overfitting to public evals, improving leaderboard reliability for speech AI. Builders get truer model comparisons, refine training to generalize, and trust rankings for production deployment decisions.",
-      "suggested_reel_angle": "ASR leaderboard gets anti-cheat: No more benchmaxxing!",
+      "id": "2026-05-11-005",
+      "title": "More Thinking, More Bias: Length-Driven Position Bias in Reasoning Models",
+      "url": "https://arxiv.org/abs/2605.06672",
+      "source": "arxiv-cs-ai",
+      "source_type": "research",
+      "published_at": "2026-05-11T04:00:00+00:00",
+      "summary": "Research shows reasoning models like DeepSeek-R1 exhibit increasing position bias in multiple-choice QA as chain-of-thought length grows, challenging assumptions about longer reasoning reducing heuristics.",
+      "why_it_matters": "Exposes flaw in CoT prompting: more steps amplify biases. Essential for model trainers and prompt engineers to mitigate via debiasing or eval tweaks, improving reliability in reasoning tasks.",
+      "suggested_reel_angle": "Shocking: Longer AI reasoning boosts bias, not fixes it! New arXiv find.",
       "suggested_long_angle": [
-        "Private data repellant mechanics",
-        "Impact on ASR rankings",
-        "Better evals for speech AI"
+        "Position Bias in CoT",
+        "Evidence from DeepSeek-R1",
+        "Fixes for Reasoning Models"
       ],
       "tags": [
-        "asr",
-        "benchmark",
-        "leaderboard",
-        "speech-ai"
+        "research",
+        "bias",
+        "reasoning",
+        "chain-of-thought"
       ],
       "related_registry_entries": [
-        "mmlu",
-        "humaneval"
+        "chain-of-thought-prompting"
       ],
-      "authority_score": 0.9,
-      "virality_score": 0.5604,
-      "recency_hours": 103
+      "authority_score": 0.8,
+      "virality_score": 0.8468,
+      "recency_hours": 3
     }
   ]
 }
