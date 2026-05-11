@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-05-10*
+## 📰 Today in AI · *2026-05-11*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support](https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper) | huggingface |
-| 2 | [Simplex rethinks software development with Codex](https://openai.com/index/simplex) | openai |
-| 3 | [How Chinese developers bypass restrictions to access top US AI models](https://news.google.com/rss/articles/CBMizgFBVV95cUxPWXU2THpScnp3a3E2OF9PWnZTYktWSUpQbUxLU3lfOHFzdTV1T1ZHRWl1VmsyYTI4ZHhISGx3a0pWTlhZaEdyYzN2cTFyVVN0aUNTMEdYYzBSbE5SQUFOcE0tbFNFbnVhdU13MHVNRE1rWVRTb3UxNGVjdnlPWmQ0WDhPbTV0dklKNmx4SXJqeFl2b0NIOEVqNU1lSFZzOGVEZXFWXzBwbXRMOExCbk1ZbUlPWjNoV1ZZcXFweHFjLWhrTTNjZ0h0SzNMd1AzQdIBzgFBVV95cUxOR2ZjRUFiWldvWkx6aGdCMjNHdktxZFlmYkViblZ4NW1ZQ05LU1JrRnpjZlF6V3F4N0RDVUZ4UE9rZFhSdWs5ZnlMOFZTaVpvODRRaHNWYmRaWUdjU0dsY3JtU0RaZ3BuWjBtaWRjSDZ1UDdqNHFreXQtQ3FuekVJdnl6b3Juam9WZlRYaDhNcjZHSU9Ib2plVmRLTXlmMXpPQjVzOG1UcEVLNU1aVGU2aXhBX0FlOGpuX3JteDg3V1NXa3pOYzJGeTF5V0ZlZw?oc=5) | google-news-ai |
-| 4 | [How frontier firms are pulling ahead](https://openai.com/index/introducing-b2b-signals) | openai |
-| 5 | [Adding Benchmaxxer Repellant to the Open ASR Leaderboard](https://huggingface.co/blog/open-asr-leaderboard-private-data) | huggingface |
+| 1 | [How enterprises are scaling AI](https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai) | openai |
+| 2 | [OpenAI Campus Network: Student club interest form](https://openai.com/index/openai-campus-network-student-club-interest-form) | openai |
+| 3 | [GraphDC: A Divide-and-Conquer Multi-Agent System for Scalable Graph Algorithm Reasoning](https://arxiv.org/abs/2605.06671) | arxiv-cs-ai |
+| 4 | [MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X](https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck) | huggingface |
+| 5 | [More Thinking, More Bias: Length-Driven Position Bias in Reasoning Models](https://arxiv.org/abs/2605.06672) | arxiv-cs-ai |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
