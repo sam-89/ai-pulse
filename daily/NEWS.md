@@ -1,74 +1,74 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-05-11
+### Top 5 AI Stories · 2026-05-12
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-11 07:33 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-12 07:16 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [How enterprises are scaling AI](https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai)
+## 1. [OpenAI launches DeployCo to help businesses build around intelligence](https://openai.com/index/openai-launches-the-deployment-company)
 
-**Source:** openai · ⏱ *0h ago*  
-`openai` `enterprise` `scaling` `governance`
+**Source:** openai · ⏱ *25h ago*  
+`openai` `enterprise` `deployment` `production`
 
-OpenAI details enterprise AI scaling from initial experiments to sustained impact, emphasizing trust-building, governance frameworks, workflow integration, and maintaining quality at scale for production deployments.
+OpenAI has launched DeployCo, a new enterprise-focused company designed to help organizations deploy frontier AI models into production. It emphasizes turning AI capabilities into measurable business impact through scalable deployment tools and services.
 
-> 💡 **Why it matters:** AI builders gain actionable strategies from OpenAI on overcoming scaling hurdles like governance and workflows, enabling faster enterprise adoption and compounding ROI. Critical for leaders transitioning pilots to enterprise-grade systems with reliability and compliance.
-
-
----
-
-## 2. [OpenAI Campus Network: Student club interest form](https://openai.com/index/openai-campus-network-student-club-interest-form)
-
-**Source:** openai · ⏱ *0h ago*  
-`openai` `community` `education` `students`
-
-OpenAI launches Campus Network to unite global student AI clubs, providing exclusive tools, event support, and resources to foster AI-powered campus communities and hands-on projects.
-
-> 💡 **Why it matters:** Empowers future AI builders with direct OpenAI access, accelerating talent pipelines through clubs, tools, and events. Builders can engage students early, prototype campus apps, and build ecosystems for innovation.
+> 💡 **Why it matters:** This move signals OpenAI's push into enterprise AI infrastructure, providing builders with production-ready solutions for integrating frontier models. It lowers barriers for non-experts to operationalize AI, potentially standardizing deployment patterns and accelerating ROI-driven adoption across industries. For AI practitioners, it means new APIs, orchestration tools, and best practices tailored for business-scale inference and agentic workflows.
   
-**Related registry entries:** `deeplearning-ai-short-courses`
+**Related registry entries:** `langgraph`, `autogen-04`
 
 ---
 
-## 3. [GraphDC: A Divide-and-Conquer Multi-Agent System for Scalable Graph Algorithm Reasoning](https://arxiv.org/abs/2605.06671)
+## 2. [How ChatGPT adoption broadened in early 2026](https://openai.com/signals/research/2026q1-update)
+
+**Source:** openai · ⏱ *16h ago*  
+`openai` `chatgpt` `adoption` `mainstream`
+
+ChatGPT saw surging adoption in Q1 2026, with the fastest growth among users over 35 and more balanced gender distribution, indicating AI tools are reaching a broader mainstream audience beyond early tech adopters.
+
+> 💡 **Why it matters:** Demographic shifts reveal maturing AI usage patterns, guiding builders on user needs like intuitive interfaces for older users and diverse applications. This data informs product design, marketing, and scaling strategies, highlighting opportunities in sectors like education, healthcare, and professional services where mainstream adoption drives demand for custom integrations and fine-tuned models.
+
+
+---
+
+## 3. [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks)
+
+**Source:** huggingface · ⏱ *7h ago*  
+`huggingface` `aws` `training` `inference` `infrastructure`
+
+Hugging Face introduces modular building blocks on AWS for efficient training and inference of foundation models, streamlining cloud-based workflows for scaling large AI systems.
+
+> 💡 **Why it matters:** These tools democratize access to high-performance FM development on AWS, offering optimized components for data prep, training loops, and serving. Builders gain cost-effective, scalable infrastructure without deep cloud expertise, fostering faster experimentation and deployment of custom models in production environments.
+  
+**Related registry entries:** `vllm`, `weights-and-biases`
+
+---
+
+## 4. [Where Reliability Lives in Vision-Language Models: A Mechanistic Study of Attention, Hidden States, and Causal Circuits](https://arxiv.org/abs/2605.08200)
 
 **Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`research` `multi-agent` `graphs` `reasoning`
+`vlm` `interpretability` `research` `reliability` `mechanistic`
 
-GraphDC introduces a multi-agent divide-and-conquer framework for LLMs to tackle complex graph algorithms, enabling systematic multi-step reasoning on large-scale graphs where single LLMs fail.
+This arXiv paper conducts a mechanistic analysis of VLMs (LLaVA-1.5, PaliGemma, Qwen2-VL), testing the assumption that sharp attention correlates with confident, reliable outputs. It explores attention maps, hidden states, and causal circuits for trustworthiness insights.
 
-> 💡 **Why it matters:** Breakthrough for graph reasoning, a LLM weak spot. Builders can implement multi-agent systems for topology-heavy tasks like networks or molecules, scaling to real-world graph sizes with better accuracy.
+> 💡 **Why it matters:** Interpretability is crucial for deploying VLMs safely. Findings challenge intuitions, helping builders debug reliability issues, design better training objectives, and build trust metrics. This advances VLM engineering toward production-grade vision-language applications like robotics and medical imaging.
   
-**Related registry entries:** `autogen-04`, `langgraph`
+**Related registry entries:** `gemini-2-5-pro`
 
 ---
 
-## 4. [MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X](https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck)
-
-**Source:** huggingface · ⏱ *12h ago*  
-`multi-agent` `manufacturing` `hardware` `huggingface`
-
-Hackathon project deploys multi-agent system on AMD MI300X GPUs for CNC manufacturability checks, integrating AI agents for design validation, simulation, and optimization in hardware workflows.
-
-> 💡 **Why it matters:** Proves multi-agent AI viability in manufacturing with high-perf hardware. Builders get blueprint for agentic production tools, leveraging AMD GPUs for real-time checks and bridging AI with physical fabrication.
-  
-**Related registry entries:** `autogen-04`
-
----
-
-## 5. [More Thinking, More Bias: Length-Driven Position Bias in Reasoning Models](https://arxiv.org/abs/2605.06672)
+## 5. [Auto-Rubric as Reward: From Implicit Preferences to Explicit Multimodal Generative Criteria](https://arxiv.org/abs/2605.08354)
 
 **Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`research` `bias` `reasoning` `chain-of-thought`
+`alignment` `rlhf` `multimodal` `reward-model` `research`
 
-Research shows reasoning models like DeepSeek-R1 exhibit increasing position bias in multiple-choice QA as chain-of-thought length grows, challenging assumptions about longer reasoning reducing heuristics.
+New research introduces Auto-Rubric, generating explicit, multi-dimensional rubrics from human preferences as reward signals for aligning multimodal generative models, mitigating reward hacking in RLHF.
 
-> 💡 **Why it matters:** Exposes flaw in CoT prompting: more steps amplify biases. Essential for model trainers and prompt engineers to mitigate via debiasing or eval tweaks, improving reliability in reasoning tasks.
+> 💡 **Why it matters:** Current RLHF collapses complex judgments into scalars, risking misalignment. Auto-Rubric preserves structure for compositional evaluation, enabling robust alignment of image/video/text generators. Builders can implement this for safer, more controllable multimodal AI in creative and decision-making tools.
   
-**Related registry entries:** `chain-of-thought-prompting`
+**Related registry entries:** `constitutional-ai`, `lmsys-chatbot-arena`
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-05-11 07:33 UTC · [Archive](./)</sub>
+<sub>Generated by ai-pulse-agents · 2026-05-12 07:16 UTC · [Archive](./)</sub>
