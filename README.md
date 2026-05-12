@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-05-11*
+## 📰 Today in AI · *2026-05-12*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [How enterprises are scaling AI](https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai) | openai |
-| 2 | [OpenAI Campus Network: Student club interest form](https://openai.com/index/openai-campus-network-student-club-interest-form) | openai |
-| 3 | [GraphDC: A Divide-and-Conquer Multi-Agent System for Scalable Graph Algorithm Reasoning](https://arxiv.org/abs/2605.06671) | arxiv-cs-ai |
-| 4 | [MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X](https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck) | huggingface |
-| 5 | [More Thinking, More Bias: Length-Driven Position Bias in Reasoning Models](https://arxiv.org/abs/2605.06672) | arxiv-cs-ai |
+| 1 | [OpenAI launches DeployCo to help businesses build around intelligence](https://openai.com/index/openai-launches-the-deployment-company) | openai |
+| 2 | [How ChatGPT adoption broadened in early 2026](https://openai.com/signals/research/2026q1-update) | openai |
+| 3 | [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks) | huggingface |
+| 4 | [Where Reliability Lives in Vision-Language Models: A Mechanistic Study of Attention, Hidden States, and Causal Circuits](https://arxiv.org/abs/2605.08200) | arxiv-cs-ai |
+| 5 | [Auto-Rubric as Reward: From Implicit Preferences to Explicit Multimodal Generative Criteria](https://arxiv.org/abs/2605.08354) | arxiv-cs-ai |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
