@@ -1,74 +1,73 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-05-12
+### Top 5 AI Stories · 2026-05-13
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-12 07:16 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-13 07:22 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [OpenAI launches DeployCo to help businesses build around intelligence](https://openai.com/index/openai-launches-the-deployment-company)
+## 1. [How NVIDIA engineers and researchers build with Codex](https://openai.com/index/nvidia)
 
-**Source:** openai · ⏱ *25h ago*  
-`openai` `enterprise` `deployment` `production`
+**Source:** openai · ⏱ *31h ago*  
+`codex` `gpt` `nvidia` `code-generation` `production`
 
-OpenAI has launched DeployCo, a new enterprise-focused company designed to help organizations deploy frontier AI models into production. It emphasizes turning AI capabilities into measurable business impact through scalable deployment tools and services.
+NVIDIA teams leverage Codex powered by GPT-5.5 to rapidly develop production systems and transform research prototypes into executable experiments. Highlights real-world applications at a leading AI hardware firm.
 
-> 💡 **Why it matters:** This move signals OpenAI's push into enterprise AI infrastructure, providing builders with production-ready solutions for integrating frontier models. It lowers barriers for non-experts to operationalize AI, potentially standardizing deployment patterns and accelerating ROI-driven adoption across industries. For AI practitioners, it means new APIs, orchestration tools, and best practices tailored for business-scale inference and agentic workflows.
+> 💡 **Why it matters:** This showcases how elite engineering teams integrate advanced code generation models into their workflows for accelerated innovation. For AI builders, it offers blueprints for using similar tools to bridge research and production, potentially with GPT-5.5-level models. Emphasizes efficiency gains in model development and deployment at scale.
   
-**Related registry entries:** `langgraph`, `autogen-04`
+**Related registry entries:** `cursor`, `aider`, `gpt-engineer`, `humaneval`
 
 ---
 
-## 2. [How ChatGPT adoption broadened in early 2026](https://openai.com/signals/research/2026q1-update)
+## 2. [What Parameter Golf taught us about AI-assisted research](https://openai.com/index/what-parameter-golf-taught-us)
+
+**Source:** openai · ⏱ *31h ago*  
+`ai-research` `coding-agents` `quantization` `model-design` `community`
+
+OpenAI's Parameter Golf event gathered over 1,000 participants submitting 2,000+ entries to push boundaries in AI-assisted ML research, coding agents, quantization techniques, and constrained model architectures.
+
+> 💡 **Why it matters:** Provides actionable insights into leveraging AI agents for model optimization under parameter limits. Highlights emerging trends in automated research, quantization breakthroughs, and agentic coding. Essential for builders aiming to create efficient, innovative models without massive compute.
+  
+**Related registry entries:** `gpt-engineer`, `swe-agent`, `aider`, `langgraph`
+
+---
+
+## 3. [How finance teams use Codex](https://openai.com/academy/how-finance-teams-use-codex)
 
 **Source:** openai · ⏱ *16h ago*  
-`openai` `chatgpt` `adoption` `mainstream`
+`codex` `finance` `automation` `enterprise` `openai`
 
-ChatGPT saw surging adoption in Q1 2026, with the fastest growth among users over 35 and more balanced gender distribution, indicating AI tools are reaching a broader mainstream audience beyond early tech adopters.
+Explore practical applications of Codex in finance: automating monthly business reviews (MBRs), reporting packs, variance bridges, model checks, and planning scenarios directly from real-world inputs.
 
-> 💡 **Why it matters:** Demographic shifts reveal maturing AI usage patterns, guiding builders on user needs like intuitive interfaces for older users and diverse applications. This data informs product design, marketing, and scaling strategies, highlighting opportunities in sectors like education, healthcare, and professional services where mainstream adoption drives demand for custom integrations and fine-tuned models.
-
-
----
-
-## 3. [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks)
-
-**Source:** huggingface · ⏱ *7h ago*  
-`huggingface` `aws` `training` `inference` `infrastructure`
-
-Hugging Face introduces modular building blocks on AWS for efficient training and inference of foundation models, streamlining cloud-based workflows for scaling large AI systems.
-
-> 💡 **Why it matters:** These tools democratize access to high-performance FM development on AWS, offering optimized components for data prep, training loops, and serving. Builders gain cost-effective, scalable infrastructure without deep cloud expertise, fostering faster experimentation and deployment of custom models in production environments.
+> 💡 **Why it matters:** Offers concrete examples of code-gen AI transforming tedious finance tasks into automated pipelines. AI builders can adapt these techniques for other data-intensive domains, demonstrating clear business value and integration strategies for enterprise tools.
   
-**Related registry entries:** `vllm`, `weights-and-biases`
+**Related registry entries:** `humaneval`
 
 ---
 
-## 4. [Where Reliability Lives in Vision-Language Models: A Mechanistic Study of Attention, Hidden States, and Causal Circuits](https://arxiv.org/abs/2605.08200)
+## 4. [On Distinguishing Capability Elicitation from Capability Creation in Post-Training: A Free-Energy Perspective](https://arxiv.org/abs/2605.08368)
 
 **Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`vlm` `interpretability` `research` `reliability` `mechanistic`
+`post-training` `sft` `rl` `capabilities` `alignment` `llm`
 
-This arXiv paper conducts a mechanistic analysis of VLMs (LLaVA-1.5, PaliGemma, Qwen2-VL), testing the assumption that sharp attention correlates with confident, reliable outputs. It explores attention maps, hidden states, and causal circuits for trustworthiness insights.
+New paper reframes post-training debates: Does SFT/RL merely elicit preexisting behaviors in pretrained LLMs or create genuinely new capabilities? Uses free-energy principle to differentiate.
 
-> 💡 **Why it matters:** Interpretability is crucial for deploying VLMs safely. Findings challenge intuitions, helping builders debug reliability issues, design better training objectives, and build trust metrics. This advances VLM engineering toward production-grade vision-language applications like robotics and medical imaging.
-  
-**Related registry entries:** `gemini-2-5-pro`
+> 💡 **Why it matters:** Crucial for AI developers fine-tuning models - understand if your post-training boosts latent abilities or introduces novel risks/behaviors. Informs safer, more predictable scaling and alignment strategies. Grounded in physics-inspired framework for rigorous analysis.
+
 
 ---
 
-## 5. [Auto-Rubric as Reward: From Implicit Preferences to Explicit Multimodal Generative Criteria](https://arxiv.org/abs/2605.08354)
+## 5. [Embeddings for Preferences, Not Semantics](https://arxiv.org/abs/2605.08360)
 
 **Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`alignment` `rlhf` `multimodal` `reward-model` `research`
+`embeddings` `preferences` `fairness` `decision-making` `llm`
 
-New research introduces Auto-Rubric, generating explicit, multi-dimensional rubrics from human preferences as reward signals for aligning multimodal generative models, mitigating reward hacking in RLHF.
+Introduces preference embeddings for free-form text opinions, enabling vector-space methods like facility location and fair clustering for collective decision-making in AI systems.
 
-> 💡 **Why it matters:** Current RLHF collapses complex judgments into scalars, risking misalignment. Auto-Rubric preserves structure for compositional evaluation, enabling robust alignment of image/video/text generators. Builders can implement this for safer, more controllable multimodal AI in creative and decision-making tools.
-  
-**Related registry entries:** `constitutional-ai`, `lmsys-chatbot-arena`
+> 💡 **Why it matters:** Enables AI builders to aggregate diverse textual preferences fairly, bypassing semantic embedding pitfalls. Applications in AI-driven voting, recommendation, and group choice systems. Merges classic optimization with modern LLMs for robust social AI tools.
+
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-05-12 07:16 UTC · [Archive](./)</sub>
+<sub>Generated by ai-pulse-agents · 2026-05-13 07:22 UTC · [Archive](./)</sub>
