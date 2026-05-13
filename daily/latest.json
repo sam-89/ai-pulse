@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-12",
-  "generated_at": "2026-05-12T07:16:08.070626+00:00",
+  "date": "2026-05-13",
+  "generated_at": "2026-05-13T07:22:01.417521+00:00",
   "generator_version": "1.0.0",
   "sources_polled": [
     "openai",
@@ -13,149 +13,153 @@
   "items": [
     {
       "rank": 1,
-      "id": "2026-05-12-001",
-      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
-      "url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "id": "2026-05-13-001",
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "url": "https://openai.com/index/nvidia",
       "source": "openai",
       "source_type": "official_blog",
-      "published_at": "2026-05-11T06:00:00+00:00",
-      "summary": "OpenAI has launched DeployCo, a new enterprise-focused company designed to help organizations deploy frontier AI models into production. It emphasizes turning AI capabilities into measurable business impact through scalable deployment tools and services.",
-      "why_it_matters": "This move signals OpenAI's push into enterprise AI infrastructure, providing builders with production-ready solutions for integrating frontier models. It lowers barriers for non-experts to operationalize AI, potentially standardizing deployment patterns and accelerating ROI-driven adoption across industries. For AI practitioners, it means new APIs, orchestration tools, and best practices tailored for business-scale inference and agentic workflows.",
-      "suggested_reel_angle": "OpenAI drops DeployCo: the enterprise AI deployment powerhouse! Turn frontier models into business wins. \ud83d\ude80",
+      "published_at": "2026-05-12T00:00:00+00:00",
+      "summary": "NVIDIA teams leverage Codex powered by GPT-5.5 to rapidly develop production systems and transform research prototypes into executable experiments. Highlights real-world applications at a leading AI hardware firm.",
+      "why_it_matters": "This showcases how elite engineering teams integrate advanced code generation models into their workflows for accelerated innovation. For AI builders, it offers blueprints for using similar tools to bridge research and production, potentially with GPT-5.5-level models. Emphasizes efficiency gains in model development and deployment at scale.",
+      "suggested_reel_angle": "NVIDIA ships AI faster with Codex + GPT-5.5: From idea to prod in a flash!",
       "suggested_long_angle": [
-        "DeployCo's mission and OpenAI backing",
-        "Core tools for production AI",
-        "Why enterprises need this now"
+        "NVIDIA's Codex workflow",
+        "GPT-5.5 integration insights",
+        "Lessons for your builds"
       ],
       "tags": [
-        "openai",
-        "enterprise",
-        "deployment",
+        "codex",
+        "gpt",
+        "nvidia",
+        "code-generation",
         "production"
       ],
       "related_registry_entries": [
-        "langgraph",
-        "autogen-04"
+        "cursor",
+        "aider",
+        "gpt-engineer",
+        "humaneval"
       ],
       "authority_score": 1.0,
-      "virality_score": 0.7943,
-      "recency_hours": 25
+      "virality_score": 0.7634,
+      "recency_hours": 31
     },
     {
       "rank": 2,
-      "id": "2026-05-12-002",
-      "title": "How ChatGPT adoption broadened in early 2026",
-      "url": "https://openai.com/signals/research/2026q1-update",
+      "id": "2026-05-13-002",
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "url": "https://openai.com/index/what-parameter-golf-taught-us",
       "source": "openai",
       "source_type": "official_blog",
-      "published_at": "2026-05-11T15:00:00+00:00",
-      "summary": "ChatGPT saw surging adoption in Q1 2026, with the fastest growth among users over 35 and more balanced gender distribution, indicating AI tools are reaching a broader mainstream audience beyond early tech adopters.",
-      "why_it_matters": "Demographic shifts reveal maturing AI usage patterns, guiding builders on user needs like intuitive interfaces for older users and diverse applications. This data informs product design, marketing, and scaling strategies, highlighting opportunities in sectors like education, healthcare, and professional services where mainstream adoption drives demand for custom integrations and fine-tuned models.",
-      "suggested_reel_angle": "ChatGPT explodes among 35+ users in 2026! AI goes fully mainstream. \ud83d\udcc8",
+      "published_at": "2026-05-12T00:00:00+00:00",
+      "summary": "OpenAI's Parameter Golf event gathered over 1,000 participants submitting 2,000+ entries to push boundaries in AI-assisted ML research, coding agents, quantization techniques, and constrained model architectures.",
+      "why_it_matters": "Provides actionable insights into leveraging AI agents for model optimization under parameter limits. Highlights emerging trends in automated research, quantization breakthroughs, and agentic coding. Essential for builders aiming to create efficient, innovative models without massive compute.",
+      "suggested_reel_angle": "Parameter Golf: 1000+ AI devs compete, uncover secrets to smarter, smaller models!",
       "suggested_long_angle": [
-        "Q1 adoption metrics breakdown",
-        "Key demographic changes",
-        "Opportunities for AI builders"
+        "Event highlights and submissions",
+        "Breakthroughs in agents and quant",
+        "Takeaways for AI research"
       ],
       "tags": [
-        "openai",
-        "chatgpt",
-        "adoption",
-        "mainstream"
+        "ai-research",
+        "coding-agents",
+        "quantization",
+        "model-design",
+        "community"
       ],
-      "related_registry_entries": [],
+      "related_registry_entries": [
+        "gpt-engineer",
+        "swe-agent",
+        "aider",
+        "langgraph"
+      ],
+      "authority_score": 1.0,
+      "virality_score": 0.7634,
+      "recency_hours": 31
+    },
+    {
+      "rank": 3,
+      "id": "2026-05-13-003",
+      "title": "How finance teams use Codex",
+      "url": "https://openai.com/academy/how-finance-teams-use-codex",
+      "source": "openai",
+      "source_type": "official_blog",
+      "published_at": "2026-05-12T15:00:00+00:00",
+      "summary": "Explore practical applications of Codex in finance: automating monthly business reviews (MBRs), reporting packs, variance bridges, model checks, and planning scenarios directly from real-world inputs.",
+      "why_it_matters": "Offers concrete examples of code-gen AI transforming tedious finance tasks into automated pipelines. AI builders can adapt these techniques for other data-intensive domains, demonstrating clear business value and integration strategies for enterprise tools.",
+      "suggested_reel_angle": "Codex automates finance drudgery: Build reports and models from raw data instantly!",
+      "suggested_long_angle": [
+        "Key finance automations",
+        "Real-world examples",
+        "Implementation tips"
+      ],
+      "tags": [
+        "codex",
+        "finance",
+        "automation",
+        "enterprise",
+        "openai"
+      ],
+      "related_registry_entries": [
+        "humaneval"
+      ],
       "authority_score": 1.0,
       "virality_score": 0.852,
       "recency_hours": 16
     },
     {
-      "rank": 3,
-      "id": "2026-05-12-003",
-      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
-      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
-      "source": "huggingface",
-      "source_type": "official_blog",
-      "published_at": "2026-05-11T23:18:26+00:00",
-      "summary": "Hugging Face introduces modular building blocks on AWS for efficient training and inference of foundation models, streamlining cloud-based workflows for scaling large AI systems.",
-      "why_it_matters": "These tools democratize access to high-performance FM development on AWS, offering optimized components for data prep, training loops, and serving. Builders gain cost-effective, scalable infrastructure without deep cloud expertise, fostering faster experimentation and deployment of custom models in production environments.",
-      "suggested_reel_angle": "AWS + Hugging Face unlock easy foundation model training! Scale your AI effortlessly. \u2601\ufe0f",
-      "suggested_long_angle": [
-        "Overview of training blocks",
-        "Inference optimizations",
-        "Hands-on AWS integration"
-      ],
-      "tags": [
-        "huggingface",
-        "aws",
-        "training",
-        "inference",
-        "infrastructure"
-      ],
-      "related_registry_entries": [
-        "vllm",
-        "weights-and-biases"
-      ],
-      "authority_score": 0.9,
-      "virality_score": 0.8668,
-      "recency_hours": 7
-    },
-    {
       "rank": 4,
-      "id": "2026-05-12-004",
-      "title": "Where Reliability Lives in Vision-Language Models: A Mechanistic Study of Attention, Hidden States, and Causal Circuits",
-      "url": "https://arxiv.org/abs/2605.08200",
+      "id": "2026-05-13-004",
+      "title": "On Distinguishing Capability Elicitation from Capability Creation in Post-Training: A Free-Energy Perspective",
+      "url": "https://arxiv.org/abs/2605.08368",
       "source": "arxiv-cs-ai",
       "source_type": "research",
-      "published_at": "2026-05-12T04:00:00+00:00",
-      "summary": "This arXiv paper conducts a mechanistic analysis of VLMs (LLaVA-1.5, PaliGemma, Qwen2-VL), testing the assumption that sharp attention correlates with confident, reliable outputs. It explores attention maps, hidden states, and causal circuits for trustworthiness insights.",
-      "why_it_matters": "Interpretability is crucial for deploying VLMs safely. Findings challenge intuitions, helping builders debug reliability issues, design better training objectives, and build trust metrics. This advances VLM engineering toward production-grade vision-language applications like robotics and medical imaging.",
-      "suggested_reel_angle": "Sharp attention = reliable VLM? Groundbreaking study reveals the truth! \ud83d\udd0d",
+      "published_at": "2026-05-13T04:00:00+00:00",
+      "summary": "New paper reframes post-training debates: Does SFT/RL merely elicit preexisting behaviors in pretrained LLMs or create genuinely new capabilities? Uses free-energy principle to differentiate.",
+      "why_it_matters": "Crucial for AI developers fine-tuning models - understand if your post-training boosts latent abilities or introduces novel risks/behaviors. Informs safer, more predictable scaling and alignment strategies. Grounded in physics-inspired framework for rigorous analysis.",
+      "suggested_reel_angle": "Elicit or Create? Groundbreaking paper reveals truth about LLM fine-tuning!",
       "suggested_long_angle": [
-        "Testing attention-confidence myth",
-        "Mechanistic findings in VLMs",
-        "Takeaways for model builders"
+        "Elicitation vs creation defined",
+        "Free-energy framework",
+        "Post-training implications"
       ],
       "tags": [
-        "vlm",
-        "interpretability",
-        "research",
-        "reliability",
-        "mechanistic"
+        "post-training",
+        "sft",
+        "rl",
+        "capabilities",
+        "alignment",
+        "llm"
       ],
-      "related_registry_entries": [
-        "gemini-2-5-pro"
-      ],
+      "related_registry_entries": [],
       "authority_score": 0.8,
       "virality_score": 0.8468,
       "recency_hours": 3
     },
     {
       "rank": 5,
-      "id": "2026-05-12-005",
-      "title": "Auto-Rubric as Reward: From Implicit Preferences to Explicit Multimodal Generative Criteria",
-      "url": "https://arxiv.org/abs/2605.08354",
+      "id": "2026-05-13-005",
+      "title": "Embeddings for Preferences, Not Semantics",
+      "url": "https://arxiv.org/abs/2605.08360",
       "source": "arxiv-cs-ai",
       "source_type": "research",
-      "published_at": "2026-05-12T04:00:00+00:00",
-      "summary": "New research introduces Auto-Rubric, generating explicit, multi-dimensional rubrics from human preferences as reward signals for aligning multimodal generative models, mitigating reward hacking in RLHF.",
-      "why_it_matters": "Current RLHF collapses complex judgments into scalars, risking misalignment. Auto-Rubric preserves structure for compositional evaluation, enabling robust alignment of image/video/text generators. Builders can implement this for safer, more controllable multimodal AI in creative and decision-making tools.",
-      "suggested_reel_angle": "End reward hacking in multimodal AI with Auto-Rubric! Smarter alignment ahead. \ud83d\udee1\ufe0f",
+      "published_at": "2026-05-13T04:00:00+00:00",
+      "summary": "Introduces preference embeddings for free-form text opinions, enabling vector-space methods like facility location and fair clustering for collective decision-making in AI systems.",
+      "why_it_matters": "Enables AI builders to aggregate diverse textual preferences fairly, bypassing semantic embedding pitfalls. Applications in AI-driven voting, recommendation, and group choice systems. Merges classic optimization with modern LLMs for robust social AI tools.",
+      "suggested_reel_angle": "Embed preferences, not words: Revolutionize AI group decisions!",
       "suggested_long_angle": [
-        "RLHF limitations exposed",
-        "How Auto-Rubric works",
-        "Benchmark results and code"
+        "Limits of semantic embeddings",
+        "Preference embedding technique",
+        "Real-world decision apps"
       ],
       "tags": [
-        "alignment",
-        "rlhf",
-        "multimodal",
-        "reward-model",
-        "research"
+        "embeddings",
+        "preferences",
+        "fairness",
+        "decision-making",
+        "llm"
       ],
-      "related_registry_entries": [
-        "constitutional-ai",
-        "lmsys-chatbot-arena"
-      ],
+      "related_registry_entries": [],
       "authority_score": 0.8,
       "virality_score": 0.8468,
       "recency_hours": 3
