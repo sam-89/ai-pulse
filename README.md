@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-05-12*
+## 📰 Today in AI · *2026-05-13*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [OpenAI launches DeployCo to help businesses build around intelligence](https://openai.com/index/openai-launches-the-deployment-company) | openai |
-| 2 | [How ChatGPT adoption broadened in early 2026](https://openai.com/signals/research/2026q1-update) | openai |
-| 3 | [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks) | huggingface |
-| 4 | [Where Reliability Lives in Vision-Language Models: A Mechanistic Study of Attention, Hidden States, and Causal Circuits](https://arxiv.org/abs/2605.08200) | arxiv-cs-ai |
-| 5 | [Auto-Rubric as Reward: From Implicit Preferences to Explicit Multimodal Generative Criteria](https://arxiv.org/abs/2605.08354) | arxiv-cs-ai |
+| 1 | [How NVIDIA engineers and researchers build with Codex](https://openai.com/index/nvidia) | openai |
+| 2 | [What Parameter Golf taught us about AI-assisted research](https://openai.com/index/what-parameter-golf-taught-us) | openai |
+| 3 | [How finance teams use Codex](https://openai.com/academy/how-finance-teams-use-codex) | openai |
+| 4 | [On Distinguishing Capability Elicitation from Capability Creation in Post-Training: A Free-Energy Perspective](https://arxiv.org/abs/2605.08368) | arxiv-cs-ai |
+| 5 | [Embeddings for Preferences, Not Semantics](https://arxiv.org/abs/2605.08360) | arxiv-cs-ai |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
