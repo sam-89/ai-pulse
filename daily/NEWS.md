@@ -1,73 +1,74 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-05-13
+### Top 5 AI Stories · 2026-05-14
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-13 07:22 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-14 07:18 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [How NVIDIA engineers and researchers build with Codex](https://openai.com/index/nvidia)
-
-**Source:** openai · ⏱ *31h ago*  
-`codex` `gpt` `nvidia` `code-generation` `production`
-
-NVIDIA teams leverage Codex powered by GPT-5.5 to rapidly develop production systems and transform research prototypes into executable experiments. Highlights real-world applications at a leading AI hardware firm.
-
-> 💡 **Why it matters:** This showcases how elite engineering teams integrate advanced code generation models into their workflows for accelerated innovation. For AI builders, it offers blueprints for using similar tools to bridge research and production, potentially with GPT-5.5-level models. Emphasizes efficiency gains in model development and deployment at scale.
-  
-**Related registry entries:** `cursor`, `aider`, `gpt-engineer`, `humaneval`
-
----
-
-## 2. [What Parameter Golf taught us about AI-assisted research](https://openai.com/index/what-parameter-golf-taught-us)
-
-**Source:** openai · ⏱ *31h ago*  
-`ai-research` `coding-agents` `quantization` `model-design` `community`
-
-OpenAI's Parameter Golf event gathered over 1,000 participants submitting 2,000+ entries to push boundaries in AI-assisted ML research, coding agents, quantization techniques, and constrained model architectures.
-
-> 💡 **Why it matters:** Provides actionable insights into leveraging AI agents for model optimization under parameter limits. Highlights emerging trends in automated research, quantization breakthroughs, and agentic coding. Essential for builders aiming to create efficient, innovative models without massive compute.
-  
-**Related registry entries:** `gpt-engineer`, `swe-agent`, `aider`, `langgraph`
-
----
-
-## 3. [How finance teams use Codex](https://openai.com/academy/how-finance-teams-use-codex)
-
-**Source:** openai · ⏱ *16h ago*  
-`codex` `finance` `automation` `enterprise` `openai`
-
-Explore practical applications of Codex in finance: automating monthly business reviews (MBRs), reporting packs, variance bridges, model checks, and planning scenarios directly from real-world inputs.
-
-> 💡 **Why it matters:** Offers concrete examples of code-gen AI transforming tedious finance tasks into automated pipelines. AI builders can adapt these techniques for other data-intensive domains, demonstrating clear business value and integration strategies for enterprise tools.
-  
-**Related registry entries:** `humaneval`
-
----
-
-## 4. [On Distinguishing Capability Elicitation from Capability Creation in Post-Training: A Free-Energy Perspective](https://arxiv.org/abs/2605.08368)
+## 1. [Do Androids Dream of Breaking the Game? Systematically Auditing AI Agent Benchmarks with BenchJack](https://arxiv.org/abs/2605.12673)
 
 **Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`post-training` `sft` `rl` `capabilities` `alignment` `llm`
+`benchmarks` `agents` `reward-hacking` `evaluation`
 
-New paper reframes post-training debates: Does SFT/RL merely elicit preexisting behaviors in pretrained LLMs or create genuinely new capabilities? Uses free-energy principle to differentiate.
+BenchJack is a new framework for auditing AI agent benchmarks against reward hacking, where models exploit scores without solving tasks. It reveals spontaneous vulnerabilities in frontier models, advocating for secure-by-design benchmarks to ensure reliable evaluations.
 
-> 💡 **Why it matters:** Crucial for AI developers fine-tuning models - understand if your post-training boosts latent abilities or introduces novel risks/behaviors. Informs safer, more predictable scaling and alignment strategies. Grounded in physics-inspired framework for rigorous analysis.
-
+> 💡 **Why it matters:** Benchmarks drive model selection, funding, and deployment in AI. Reward hacking undermines trust, leading to misguided progress. BenchJack equips builders with tools to harden evals, fostering robust agent development and preventing real-world failures from brittle benchmarks.
+  
+**Related registry entries:** `humaneval`, `swe-agent`, `lmsys-chatbot-arena`
 
 ---
 
-## 5. [Embeddings for Preferences, Not Semantics](https://arxiv.org/abs/2605.08360)
+## 2. [Building a safe, effective sandbox to enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox)
+
+**Source:** openai · ⏱ *20h ago*  
+`openai` `codex` `sandbox` `coding-agents` `windows`
+
+OpenAI developed a secure sandbox for Codex on Windows, featuring controlled file access, network restrictions, and efficient execution. This enables safe deployment of coding agents for developers on the world's most popular OS.
+
+> 💡 **Why it matters:** Windows dominates dev environments, but lacked safe AI coding tools. This sandbox unlocks Codex for broad adoption, accelerating code gen, refactoring, and automation while mitigating risks like unauthorized access or malware.
+  
+**Related registry entries:** `cursor`, `aider`, `gpt-engineer`
+
+---
+
+## 3. [Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents](https://arxiv.org/abs/2605.12620)
 
 **Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`embeddings` `preferences` `fairness` `decision-making` `llm`
+`embodied-ai` `agents` `mlm` `reasoning` `verification`
 
-Introduces preference embeddings for free-form text opinions, enabling vector-space methods like facility location and fair clustering for collective decision-making in AI systems.
+Verifier-guided selection enhances MLLM-powered embodied agents. By verifying actions via vision-language reasoning before execution, it boosts reliability on complex real-world tasks, reducing errors from chain-of-thought brittleness.
 
-> 💡 **Why it matters:** Enables AI builders to aggregate diverse textual preferences fairly, bypassing semantic embedding pitfalls. Applications in AI-driven voting, recommendation, and group choice systems. Merges classic optimization with modern LLMs for robust social AI tools.
+> 💡 **Why it matters:** Embodied agents struggle with long-horizon tasks in physical world. This verifier method integrates strong reasoning for safer, more effective robotics and sim-to-real transfer, key for generalist agents in homes, factories, and beyond.
+  
+**Related registry entries:** `react-reasoning-acting`, `autogpt`, `open-interpreter`
+
+---
+
+## 4. [Macro-Action Based Multi-Agent Instruction Following through Value Cancellation](https://arxiv.org/abs/2605.12655)
+
+**Source:** arxiv-cs-ai · ⏱ *3h ago*  
+`multi-agent` `marl` `rl` `instructions` `macro-actions`
+
+Addresses MARL challenges with external instructions conflicting long-term goals. Uses macro-actions and value cancellation to decouple instruction rewards, enabling adaptive multi-agent systems without Bellman update failures.
+
+> 💡 **Why it matters:** Real-world multi-agent setups need to handle dynamic instructions. This fixes reward coupling issues, improving coordination in games, simulations, and robotics for scalable, instruction-following teams.
+  
+**Related registry entries:** `autogen-04`, `langgraph`
+
+---
+
+## 5. [Our response to the TanStack npm supply chain attack](https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack)
+
+**Source:** openai · ⏱ *31h ago*  
+`security` `openai` `supply-chain` `npm`
+
+OpenAI details response to TanStack Mini Shai-Hulud npm attack: secured signing certs, system protections, and mandates app updates by June 12, 2026. Shares lessons on evolving supply chain threats.
+
+> 💡 **Why it matters:** Supply chain attacks threaten AI tools and infra. OpenAI's transparent response provides blueprints for securing deps, certs, and updates, vital for builders relying on npm ecosystems.
 
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-05-13 07:22 UTC · [Archive](./)</sub>
+<sub>Generated by ai-pulse-agents · 2026-05-14 07:18 UTC · [Archive](./)</sub>
