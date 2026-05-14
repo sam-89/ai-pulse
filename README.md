@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-05-13*
+## 📰 Today in AI · *2026-05-14*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [How NVIDIA engineers and researchers build with Codex](https://openai.com/index/nvidia) | openai |
-| 2 | [What Parameter Golf taught us about AI-assisted research](https://openai.com/index/what-parameter-golf-taught-us) | openai |
-| 3 | [How finance teams use Codex](https://openai.com/academy/how-finance-teams-use-codex) | openai |
-| 4 | [On Distinguishing Capability Elicitation from Capability Creation in Post-Training: A Free-Energy Perspective](https://arxiv.org/abs/2605.08368) | arxiv-cs-ai |
-| 5 | [Embeddings for Preferences, Not Semantics](https://arxiv.org/abs/2605.08360) | arxiv-cs-ai |
+| 1 | [Do Androids Dream of Breaking the Game? Systematically Auditing AI Agent Benchmarks with BenchJack](https://arxiv.org/abs/2605.12673) | arxiv-cs-ai |
+| 2 | [Building a safe, effective sandbox to enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox) | openai |
+| 3 | [Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents](https://arxiv.org/abs/2605.12620) | arxiv-cs-ai |
+| 4 | [Macro-Action Based Multi-Agent Instruction Following through Value Cancellation](https://arxiv.org/abs/2605.12655) | arxiv-cs-ai |
+| 5 | [Our response to the TanStack npm supply chain attack](https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack) | openai |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
