@@ -33,15 +33,15 @@ Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-05-14*
+## 📰 Today in AI · *2026-05-15*
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | [Do Androids Dream of Breaking the Game? Systematically Auditing AI Agent Benchmarks with BenchJack](https://arxiv.org/abs/2605.12673) | arxiv-cs-ai |
-| 2 | [Building a safe, effective sandbox to enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox) | openai |
-| 3 | [Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents](https://arxiv.org/abs/2605.12620) | arxiv-cs-ai |
-| 4 | [Macro-Action Based Multi-Agent Instruction Following through Value Cancellation](https://arxiv.org/abs/2605.12655) | arxiv-cs-ai |
-| 5 | [Our response to the TanStack npm supply chain attack](https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack) | openai |
+| 1 | [Sea's View on the Future of Agentic Software Development with Codex](https://openai.com/index/sea-david-chen) | openai |
+| 2 | [Work with Codex from Anywhere](https://openai.com/index/work-with-codex-from-anywhere) | openai |
+| 3 | [GraphBit: A Graph-based Agentic Framework for Non-Linear Agent Orchestration](https://arxiv.org/abs/2605.13848) | arxiv-cs-ai |
+| 4 | [A Two-Dimensional Framework for AI Agent Design Patterns: Cognitive Function and Execution Topology](https://arxiv.org/abs/2605.13850) | arxiv-cs-ai |
+| 5 | [Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context, Best Sub-100M Retrieval Quality](https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2) | huggingface |
 
 *[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
 
