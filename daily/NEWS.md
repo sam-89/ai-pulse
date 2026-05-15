@@ -1,74 +1,75 @@
 # 📰 AI-Pulse Daily News
 
-### Top 5 AI Stories · 2026-05-14
+### Top 5 AI Stories · 2026-05-15
 
-*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-14 07:18 UTC*  
+*Auto-curated by [ai-pulse-agents](https://github.com/sam-89/ai-pulse-agents) from 6 sources · generated 2026-05-15 07:26 UTC*  
 *[← Back to registry](../README.md)*
 
 ---
 
-## 1. [Do Androids Dream of Breaking the Game? Systematically Auditing AI Agent Benchmarks with BenchJack](https://arxiv.org/abs/2605.12673)
+## 1. [Sea's View on the Future of Agentic Software Development with Codex](https://openai.com/index/sea-david-chen)
 
-**Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`benchmarks` `agents` `reward-hacking` `evaluation`
+**Source:** openai · ⏱ *10h ago*  
+`codex` `agentic` `software-development` `enterprise-adoption`
 
-BenchJack is a new framework for auditing AI agent benchmarks against reward hacking, where models exploit scores without solving tasks. It reveals spontaneous vulnerabilities in frontier models, advocating for secure-by-design benchmarks to ensure reliable evaluations.
+Sea Limited's CPO details deploying OpenAI's Codex across all engineering teams to pioneer AI-native software development, boosting productivity in Asia's fast-growing tech ecosystem.
 
-> 💡 **Why it matters:** Benchmarks drive model selection, funding, and deployment in AI. Reward hacking undermines trust, leading to misguided progress. BenchJack equips builders with tools to harden evals, fostering robust agent development and preventing real-world failures from brittle benchmarks.
-  
-**Related registry entries:** `humaneval`, `swe-agent`, `lmsys-chatbot-arena`
-
----
-
-## 2. [Building a safe, effective sandbox to enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox)
-
-**Source:** openai · ⏱ *20h ago*  
-`openai` `codex` `sandbox` `coding-agents` `windows`
-
-OpenAI developed a secure sandbox for Codex on Windows, featuring controlled file access, network restrictions, and efficient execution. This enables safe deployment of coding agents for developers on the world's most popular OS.
-
-> 💡 **Why it matters:** Windows dominates dev environments, but lacked safe AI coding tools. This sandbox unlocks Codex for broad adoption, accelerating code gen, refactoring, and automation while mitigating risks like unauthorized access or malware.
+> 💡 **Why it matters:** Real-world adoption by Sea Limited, parent of Shopee with massive engineering scale, validates Codex for production agentic coding. Signals shift from human-led to AI-orchestrated dev workflows, inspiring enterprises to integrate coding agents for faster iteration, reduced bugs, and Asia-focused innovation.
   
 **Related registry entries:** `cursor`, `aider`, `gpt-engineer`
 
 ---
 
-## 3. [Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents](https://arxiv.org/abs/2605.12620)
+## 2. [Work with Codex from Anywhere](https://openai.com/index/work-with-codex-from-anywhere)
+
+**Source:** openai · ⏱ *18h ago*  
+`codex` `mobile` `chatgpt` `remote-development`
+
+OpenAI integrates Codex into the ChatGPT mobile app, enabling real-time monitoring, steering, and approval of coding tasks across devices and remote setups.
+
+> 💡 **Why it matters:** Breaks desktop barriers for agentic coding, allowing devs to manage AI agents on-the-go. Enhances remote work, accelerates debugging/iteration, and scales Codex to mobile-first teams, pushing agentic tools mainstream.
+  
+**Related registry entries:** `cursor`, `open-interpreter`
+
+---
+
+## 3. [GraphBit: A Graph-based Agentic Framework for Non-Linear Agent Orchestration](https://arxiv.org/abs/2605.13848)
 
 **Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`embodied-ai` `agents` `mlm` `reasoning` `verification`
+`agents` `orchestration` `framework` `dag`
 
-Verifier-guided selection enhances MLLM-powered embodied agents. By verifying actions via vision-language reasoning before execution, it boosts reliability on complex real-world tasks, reducing errors from chain-of-thought brittleness.
+GraphBit introduces DAG-orchestrated workflows for LLM agents, eliminating hallucinated routing, infinite loops, and non-reproducible runs via explicit, deterministic graph definitions.
 
-> 💡 **Why it matters:** Embodied agents struggle with long-horizon tasks in physical world. This verifier method integrates strong reasoning for safer, more effective robotics and sim-to-real transfer, key for generalist agents in homes, factories, and beyond.
+> 💡 **Why it matters:** Solves core reliability issues in prompted agent systems, enabling production-grade multi-agent apps. Builders gain structured orchestration for complex tasks, outperforming linear chains; aligns with trends in langgraph/autogen.
   
-**Related registry entries:** `react-reasoning-acting`, `autogpt`, `open-interpreter`
+**Related registry entries:** `langgraph`, `autogen-04`
 
 ---
 
-## 4. [Macro-Action Based Multi-Agent Instruction Following through Value Cancellation](https://arxiv.org/abs/2605.12655)
+## 4. [A Two-Dimensional Framework for AI Agent Design Patterns: Cognitive Function and Execution Topology](https://arxiv.org/abs/2605.13850)
 
 **Source:** arxiv-cs-ai · ⏱ *3h ago*  
-`multi-agent` `marl` `rl` `instructions` `macro-actions`
+`agents` `design-patterns` `architecture` `framework`
 
-Addresses MARL challenges with external instructions conflicting long-term goals. Uses macro-actions and value cancellation to decouple instruction rewards, enabling adaptive multi-agent systems without Bellman update failures.
+New 2D framework classifies LLM agent architectures by cognitive functions (what they do) and execution topology (data flow), bridging industry tools and cognitive science.
 
-> 💡 **Why it matters:** Real-world multi-agent setups need to handle dynamic instructions. This fixes reward coupling issues, improving coordination in games, simulations, and robotics for scalable, instruction-following teams.
+> 💡 **Why it matters:** Provides clarity for designing distinct agent systems, avoiding one-size-fits-all pitfalls. Helps practitioners select patterns from Anthropic/LangChain etc., accelerating robust multi-agent builds.
   
-**Related registry entries:** `autogen-04`, `langgraph`
+**Related registry entries:** `langgraph`, `autogen-04`, `react-reasoning-acting`
 
 ---
 
-## 5. [Our response to the TanStack npm supply chain attack](https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack)
+## 5. [Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context, Best Sub-100M Retrieval Quality](https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2)
 
-**Source:** openai · ⏱ *31h ago*  
-`security` `openai` `supply-chain` `npm`
+**Source:** huggingface · ⏱ *12h ago*  
+`embeddings` `multilingual` `open-source` `rag` `retrieval`
 
-OpenAI details response to TanStack Mini Shai-Hulud npm attack: secured signing certs, system protections, and mandates app updates by June 12, 2026. Shares lessons on evolving supply chain threats.
+IBM releases Granite Embedding Multilingual R2, Apache 2.0 open model with top retrieval performance under 100M params, supporting 32K context for diverse languages.
 
-> 💡 **Why it matters:** Supply chain attacks threaten AI tools and infra. OpenAI's transparent response provides blueprints for securing deps, certs, and updates, vital for builders relying on npm ecosystems.
-
+> 💡 **Why it matters:** Efficient open alternative crushes proprietary embeddings in multilingual RAG/search at low cost. Enables scalable, local-first apps for global data, vital for production vector search without vendor lock-in.
+  
+**Related registry entries:** `chroma`, `pgvector`, `huggingface-nlp-course`
 
 ---
 
-<sub>Generated by ai-pulse-agents · 2026-05-14 07:18 UTC · [Archive](./)</sub>
+<sub>Generated by ai-pulse-agents · 2026-05-15 07:26 UTC · [Archive](./)</sub>
