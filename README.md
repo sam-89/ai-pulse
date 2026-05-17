@@ -5,12 +5,12 @@
 ### The structured, high-density AI resource repository for 2026
 
 [![GitHub Stars](https://img.shields.io/github/stars/sam-89/ai-pulse?style=flat-square&color=gold)](https://github.com/sam-89/ai-pulse/stargazers)
-[![Last Updated](https://img.shields.io/badge/updated-2026-04-19-blue?style=flat-square)](https://github.com/sam-89/ai-pulse/commits/main)
+[![Last Updated](https://img.shields.io/badge/updated-2026-05-17-blue?style=flat-square)](https://github.com/sam-89/ai-pulse/commits/main)
 [![Entries](https://img.shields.io/badge/entries-43-green?style=flat-square)](https://github.com/sam-89/ai-pulse/tree/main/registry)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 
 *Not just a list — a living, structured database of the AI ecosystem.*
-*Auto-updated every 2 days by AI agents. Every entry is scored, curated, and validated before it lands here.*
+*Updated weekly. Every entry is curated, not scraped.*
 
 [🗺️ Learning Paths](#learning-paths) · [🧠 LLMs](#llms) · [🤖 Agent Frameworks](#agent-frameworks) · [🔌 MCP Servers](#mcp-servers) · [📄 Papers](#papers) · [🤝 Contribute](CONTRIBUTING.md)
 
@@ -25,25 +25,18 @@
 Most "Awesome AI" lists are link dumps. AI-Pulse is a **structured registry**:
 
 - 📋 **JSON schema** — every entry has consistent fields (pricing, maturity, curator note)
-- 🤖 **Agent-updated every 2 days** — autonomous pipeline fetches, scores, and promotes new tools automatically
+- 🤖 **Weekly auto-updates** — GitHub Actions + AI scraper finds new tools every Monday
 - 🗺️ **Role-based learning paths** — not just links, but curated journeys
-- 💬 **Curator notes** — an LLM insight on *why* each entry matters, seeded by community suggestions
-- ✅ **Scored, not scraped** — every entry passes a 0–10 LLM quality gate before reaching the registry
+- 💬 **Curator notes** — a human insight on *why* each entry matters
+- ✅ **Human reviewed** — all entries pass a quality gate before merging
 
 ---
 
 <!-- NEWS:START -->
-## 📰 Today in AI · *2026-05-15*
+## 📰 Today in AI
 
-| # | Story | Source |
-|---|-------|--------|
-| 1 | [Sea's View on the Future of Agentic Software Development with Codex](https://openai.com/index/sea-david-chen) | openai |
-| 2 | [Work with Codex from Anywhere](https://openai.com/index/work-with-codex-from-anywhere) | openai |
-| 3 | [GraphBit: A Graph-based Agentic Framework for Non-Linear Agent Orchestration](https://arxiv.org/abs/2605.13848) | arxiv-cs-ai |
-| 4 | [A Two-Dimensional Framework for AI Agent Design Patterns: Cognitive Function and Execution Topology](https://arxiv.org/abs/2605.13850) | arxiv-cs-ai |
-| 5 | [Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context, Best Sub-100M Retrieval Quality](https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2) | huggingface |
-
-*[Full summaries & why-it-matters →](daily/NEWS.md)* · *[Archive](daily/)*
+> 📡 *Daily digest not yet generated — updates every day at 06:14 UTC.*
+> [View archive →](daily/)
 
 <!-- NEWS:END -->
 
@@ -533,7 +526,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add entries, suggest learning 
 | 🤖 Agent Frameworks & Orchestration | 4 |
 | 🔌 MCP Servers | 4 |
 
-*Last compiled: 2026-04-19 by build_readme.py*
+*Last compiled: 2026-05-17 by build_readme.py*
 
 ---
 
