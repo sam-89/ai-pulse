@@ -5,7 +5,7 @@
 ### The structured, high-density AI resource repository for 2026
 
 [![GitHub Stars](https://img.shields.io/github/stars/sam-89/ai-pulse?style=flat-square&color=gold)](https://github.com/sam-89/ai-pulse/stargazers)
-[![Last Updated](https://img.shields.io/badge/updated-2026-05-17-blue?style=flat-square)](https://github.com/sam-89/ai-pulse/commits/main)
+[![Last Updated](https://img.shields.io/badge/updated-2026-05-21-blue?style=flat-square)](https://github.com/sam-89/ai-pulse/commits/main)
 [![Entries](https://img.shields.io/badge/entries-43-green?style=flat-square)](https://github.com/sam-89/ai-pulse/tree/main/registry)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 
@@ -526,7 +526,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add entries, suggest learning 
 | 🤖 Agent Frameworks & Orchestration | 4 |
 | 🔌 MCP Servers | 4 |
 
-*Last compiled: 2026-05-17 by build_readme.py*
+*Last compiled: 2026-05-21 by build_readme.py*
 
 ---
 
